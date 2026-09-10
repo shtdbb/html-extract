@@ -74,7 +74,7 @@ def _parse_model_time(raw: str):
     mon = "|".join(_EN_MONTH) + "|sept|" + "|".join(m[:3] for m in _EN_MONTH)
     m = re.search(
         rf"(?:(\d{{1,2}})(?:st|nd|rd|th)?\s+)?({mon})\.?\s*(\d{{1,2}})?(?:st|nd|rd|th)?,?\s*(\d{{4}})"
-        rf"(?:\s+(\d{{1,2}}):(\d{{2}})(?::(\d{{2}}))?\s*([AP]M)\.?)?",
+        rf"(?:[\s/|–-]+(\d{{1,2}}):(\d{{2}})(?::(\d{{2}}))?(?:\s*([AP]M)\.?)?)?",
         s, re.I)
     if not m:
         return None
@@ -91,7 +91,7 @@ def _parse_model_time(raw: str):
         key = mon_s.rstrip(".").lower()
         month = _EN_MONTH[full.get(key, full[key[:3]])]
     if hh is not None:
-        h = int(hh) % 12 + (12 if ap and ap.upper() == "PM" else 0)
+        h = int(hh) if ap is None else int(hh) % 12 + (12 if ap.upper() == "PM" else 0)
         tpart = f"{h:02d}:{mm}:{ss or '00'}"
     else:
         tpart = "XX:XX:XX"
@@ -105,7 +105,7 @@ _DATE_CAND = re.compile(
     r"|\b(?:\d{1,2}(?:st|nd|rd|th)?\s+)?(?:Jan(?:uary)?|Feb(?:ruary)?|Mar(?:ch)?|"
     r"Apr(?:il)?|May|Jun(?:e)?|Jul(?:y)?|Aug(?:ust)?|Sep(?:t|tember)?|"
     r"Oct(?:ober)?|Nov(?:ember)?|Dec(?:ember)?)\.?\s+\d{1,2}(?:st|nd|rd|th)?"
-    r",?\s+\d{4}(?:\s+\d{1,2}:\d{2}(?::\d{2})?\s*[AP]M\.?)?"
+    r",?\s+\d{4}(?:[\s/|–-]+\d{1,2}:\d{2}(?::\d{2})?(?:\s*[AP]M\.?)?)?"
     r"|\b(?:Jan(?:uary)?|Feb(?:ruary)?|Mar(?:ch)?|Apr(?:il)?|May|Jun(?:e)?|"
     r"Jul(?:y)?|Aug(?:ust)?|Sep(?:t|tember)?|Oct(?:ober)?|Nov(?:ember)?|"
     r"Dec(?:ember)?)\.?\s+\d{4}", re.I)
