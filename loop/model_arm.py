@@ -149,7 +149,111 @@ def needs_model(rec, final_fields=frozenset()) -> bool:
         return True
     if "publish_time" not in final_fields and rec.get("publish_time") is None:
         return True
+    # v13：正文缺失/过薄（<300 字）或臃肿（>6000 字）——route-D 容器裁决
+    # 【v13.1 回滚：见下方 ROUTE_D_ENABLED 注释】
+    if _ROUTE_D_ENABLED and (
+            not rec.get("content_text") or len(rec["content_text"]) < 300
+            or len(rec["content_text"]) > 6000):
+        return True
     return False
+
+
+# v13 实验负结果（ISPRAS 实证，已回滚）：「正文薄=抽取失败」的前提不成立——
+# gov_ai×2 为 242/330 字的真短讯（v12 得分 1.00/0.85），route-D 用更大容器
+# 扩写后反降至 0.18/0.22；臃肿门控（oup 15K 字壳）因正文碎成逐段 <p> 无
+# 单一可选容器而未产生任何采纳。全程 0 正收益、2 页负收益。
+# 教训记入迭代日志；代码保留备查，ROUTE_D_ENABLED=False 彻底旁路。
+# 该问题（段落级取舍）正是分类头 IE 模型的适用场景，见训练方案设计。
+_ROUTE_D_ENABLED = False
+
+
+# ---------------------------------------------------------------------------
+# v13：正文 route-D——模型只做「选容器」，值从 DOM 取（无幻觉通道）。
+# 候选块由规则侧按文本量枚举并给出预览，模型回答编号；
+# 采纳前过结构核验（长度、链接密度、相对现值的增量）。
+# ---------------------------------------------------------------------------
+
+CONTENT_PROMPT_TMPL = (
+    "以下是一个网页中按文本量排序的候选内容块，每个块给出编号与开头预览。"
+    "哪个块最可能是新闻/文章正文本身（不含导航、侧栏推荐、页脚、评论区）？"
+    "只输出 JSON：{{\"content_block\": 编号}}；都不合适则 {{\"content_block\": null}}。\n\n"
+    "{previews}\n"
+)
+
+
+def _content_candidates(soup, limit=8, min_len=300):
+    """按文本量枚举候选正文容器（去重：外层与已留内层文本量 ≥85% 重叠则弃）。
+    标签白名单含 p——oup 书评页的正文就是单个 1301 字 <p class=chapter-para>，
+    ≥300 字门槛天然过滤普通短段落。"""
+    cands = []
+    for el in soup.find_all(["article", "div", "section", "main", "p"]):
+        ln = len(el.get_text(strip=True))
+        if ln >= min_len:
+            cands.append((el, ln))
+    cands.sort(key=lambda x: -x[1])
+    keep = []
+    for el, ln in cands:
+        if any(k[0] in el.parents and ln > 0.85 * k[1] for k in keep):
+            continue
+        keep.append((el, ln))
+        if len(keep) >= limit:
+            break
+    return keep
+
+
+def _link_density(el) -> float:
+    txt = len(el.get_text(strip=True))
+    if txt == 0:
+        return 1.0
+    lt = sum(len(a.get_text(strip=True)) for a in el.find_all("a"))
+    return lt / txt
+
+
+def model_content_route_d(rec, soup, site):
+    """正文 route-D：模型选容器编号，正文从该 DOM 节点装配（无幻觉通道）。
+    触发（needs_model 已保证二者其一）：
+      thin  —— 现值 <300 字（缺失/过薄），采纳要求新值更长且 ≥300 字；
+      bloat —— 现值 >6000 字（traf 拖入整站壳的典型信号，oup 15K 字案例），
+               采纳要求新值 ≥300 字且显著更短（<80% 现值）。
+    共同结构核验：候选容器链接密度 <0.5。"""
+    cur_len = len(rec.get("content_text") or "")
+    thin = cur_len < 300
+    bloat = cur_len > 6000
+    if not (thin or bloat):
+        return False
+    cands = _content_candidates(soup)
+    if not cands:
+        return False
+    previews = []
+    for i, (el, ln) in enumerate(cands):
+        head = re.sub(r"\s+", " ", el.get_text(" ", strip=True))[:100]
+        previews.append(f"[{i}] （{ln}字）{head}")
+    out = ollama_client.generate(
+        CONTENT_PROMPT_TMPL.format(previews="\n".join(previews)),
+        num_predict=60)
+    if not isinstance(out, dict):
+        return False
+    idx = out.get("content_block")
+    if not isinstance(idx, int) or isinstance(idx, bool) \
+            or not (0 <= idx < len(cands)):
+        return False
+    el, ln = cands[idx]
+    if ln < 300 or _link_density(el) >= 0.5:
+        return False
+    if thin and ln <= cur_len:
+        return False
+    if bloat and ln >= 0.8 * cur_len:
+        return False
+    from site_rules import assemble_container
+    text, md, images, cflags = assemble_container(el)
+    if not text or len(text) < 300:
+        return False
+    rec["content_text"], rec["content_md"] = text, md
+    rec["images"] = images
+    rec["conversion_flags"] = cflags
+    rec["provenance"]["content_text"] = \
+        f"model:qwen2.5-7b(route-D:container#{idx},DOM取值无幻觉通道)"
+    return True
 
 
 def model_fallback(rec, soup, site, final_fields=frozenset()):
@@ -161,30 +265,37 @@ def model_fallback(rec, soup, site, final_fields=frozenset()):
     if not needs_model(rec, final_fields):
         return []
     ollama_client.note_page()
-    page_text = _visible_text(soup)
-    norm_page = _norm(page_text)
-    out = ollama_client.generate(PROMPT_TMPL.format(text=page_text))
-    if not isinstance(out, dict):
-        return []
-
     filled = []
 
-    # --- title：仅当缺失或弱来源（裸 <title>），且模型值可在页内核验 ---
+    # 字段级门控：三字段均有值时跳过字段抽取调用（v13 起正文 route-D
+    # 独立触发，不再连带浪费一次字段生成）
     weak_title = "title" not in final_fields and (
         not rec.get("title")
         or rec.get("provenance", {}).get("title") in WEAK_TITLE_PROV)
-    mt = out.get("title")
-    if weak_title and isinstance(mt, str) and 4 <= len(mt.strip()) <= 200:
-        mt = mt.strip()
-        if _norm(mt) in norm_page:
-            rec["title"] = mt
-            rec["provenance"]["title"] = "model:qwen2.5-7b(verified:in-page)"
-            filled.append("title")
+    need_authors = "authors" not in final_fields and not rec.get("authors")
+    need_publish = "publish_time" not in final_fields \
+        and rec.get("publish_time") is None
+    out = None
+    if weak_title or need_authors or need_publish:
+        page_text = _visible_text(soup)
+        norm_page = _norm(page_text)
+        out = ollama_client.generate(PROMPT_TMPL.format(text=page_text))
+        if not isinstance(out, dict):
+            out = None
+
+    if out is not None and weak_title:
+        mt = out.get("title")
+        if isinstance(mt, str) and 4 <= len(mt.strip()) <= 200:
+            mt = mt.strip()
+            if _norm(mt) in norm_page:
+                rec["title"] = mt
+                rec["provenance"]["title"] = "model:qwen2.5-7b(verified:in-page)"
+                filled.append("title")
 
     # --- authors：仅当为空；每个名字须①页内可核验 ②过与规则层相同的
     # 媒体名/站名过滤 ③署名位置核验（独立署名行——「朱先生」类受访者
     # 在句中提及被此拦截，v10 首跑误填案例） ---
-    if "authors" not in final_fields and not rec.get("authors"):
+    if need_authors and out is not None:
         from extract import (_is_media_name, _author_en_category,
                              _is_standalone_byline)  # 运行期已加载
         stem = site.split(".")[0].lower()
@@ -218,7 +329,7 @@ def model_fallback(rec, soup, site, final_fields=frozenset()):
     # ①摘录原样在页（verbatim），或②模型改了写法（如补零 ISO）但页面
     # 存在等价日期的其他写法（bna_bh：v12 页内核验误杀正确值后的放宽，
     # 仍要求日期本身页内可证，幻觉日期依然拒收） ---
-    if "publish_time" not in final_fields and rec.get("publish_time") is None:
+    if need_publish and out is not None:
         mp = out.get("publish_time")
         if isinstance(mp, str) and mp.strip():
             pt = _parse_model_time(mp.strip())
@@ -228,5 +339,9 @@ def model_fallback(rec, soup, site, final_fields=frozenset()):
                 rec["provenance"]["publish_time"] = \
                     f"model:qwen2.5-7b(verified:parseable|{mp.strip()[:40]})"
                 filled.append("publish_time")
+
+    # --- v13：正文 route-D【已回滚：_ROUTE_D_ENABLED=False，负结果见上】 ---
+    if _ROUTE_D_ENABLED and model_content_route_d(rec, soup, site):
+        filled.append("content")
 
     return filled
