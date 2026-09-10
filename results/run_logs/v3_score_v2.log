@@ -1,0 +1,5 @@
+页数 85（参评字段评分 84，应拒识 1）
+title_exact=0.8860759493670886  authors_f1=0.5990990990990991  content_f1=0.9276657167071501  rejection=1.0
+publish_time=0.5362318840579711  confusion=10  tz={'match': 31, 'missing': 23, 'mismatch': 4, 'gold_absent': 0}
+update_time=1.0  confusion=10  tz={'match': 27, 'missing': 0, 'mismatch': 0, 'gold_absent': 0}
+已写出 results/v3_scores_v2.json

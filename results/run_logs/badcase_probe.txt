@@ -1,0 +1,55 @@
+=== title 失分 ===
+people__01 ok sim=0.86 | pred: '国家发展改革委有关负责人解读《关于重要工业品低价无序竞争成本核算有关事项的通知》--经济·科技--人民网' | gold: '国家发展改革委有关负责人解读《关于重要工业品低价无序竞争成本核算有关事项的通知》' | prov: trafilatura:document.title
+people__02 ok sim=0.62 | pred: '央行将开展隔夜逆回购操作--经济·科技--人民网' | gold: '央行将开展隔夜逆回购操作' | prov: trafilatura:document.title
+people__03 ok sim=0.79 | pred: '金融监管总局：大力整治“价格战”“高息高返”等行为--经济·科技--人民网' | gold: '金融监管总局：大力整治“价格战”“高息高返”等行为' | prov: trafilatura:document.title
+people__04 ok sim=0.79 | pred: '证监会谈惩防财务造假：“惩防治”并举“行民刑”协同--经济·科技--人民网' | gold: '证监会谈惩防财务造假：“惩防治”并举“行民刑”协同' | prov: trafilatura:document.title
+people__05 ok sim=0.79 | pred: '两部门部署做好重要工业品低价无序竞争成本核算工作--经济·科技--人民网' | gold: '两部门部署做好重要工业品低价无序竞争成本核算工作' | prov: trafilatura:document.title
+people__06 ok sim=0.74 | pred: '《金融强国建设“十五五”规划》正式出台--经济·科技--人民网' | gold: '《金融强国建设“十五五”规划》正式出台' | prov: trafilatura:document.title
+cnblogs__03 ok sim=0.00 | pred: '.NET 11 RC1 发布：拿到&quot;准生证&quot;，生产环境可以上了！' | gold: '自由、创新、研究、探索' | prov: json-ld:headline
+cnblogs__04 ok sim=0.00 | pred: '写给 C++ 工程师的 OpenClaw.NET 上手指南：用你熟悉的 C++ 思维，跑起一个生产级 AI Agent | gold: '自由、创新、研究、探索' | prov: json-ld:headline
+cnblogs__07 ok sim=0.00 | pred: '从产品碳足迹到气象预测：以电解铝为例理解绿电与电力交易' | gold: '茴香饺子、' | prov: json-ld:headline
+=== authors 失分 ===
+news_cn__09 ok 0.33 | pred: ['钱中兵（责任编辑）'] | gold: ['魏玉坤', '谢希瑶', '申铖', '王雨萧', '钱中兵（责任编辑）'] | prov: //span[contains(@class,"editor")]【责任编辑:X】
+chinadaily__07 false_fill 0.00 | pred: ['贺霞婷'] | gold: None | prov: meta:author
+sina__01 ok 0.67 | pred: ['财经头条作者库', '石秀珍（责任编辑）'] | gold: ['石秀珍（责任编辑）'] | prov: trafilatura:document.author+署名扫描:责任编辑
+sina__02 false_fill 0.00 | pred: ['澎湃新闻'] | gold: None | prov: meta:article:author
+sina__03 false_fill 0.00 | pred: ['市场资讯'] | gold: None | prov: meta:article:author
+sina__04 ok 0.00 | pred: ['澎湃新闻'] | gold: ['计思敏'] | prov: meta:article:author
+sina__05 ok 0.40 | pred: ['市场资讯', '郝欣煜（责任编辑）'] | gold: ['郝欣煜（责任编辑）', '周松清', '韩迅'] | prov: meta:article:author+署名扫描:责任编辑
+sina__06 ok 0.67 | pred: ['市场资讯', '朱赫楠（责任编辑）'] | gold: ['朱赫楠（责任编辑）'] | prov: meta:article:author+署名扫描:责任编辑
+sohu__01 miss 0.00 | pred: None | gold: ['王灿'] | prov: None
+sohu__03 miss 0.00 | pred: None | gold: ['张彦宗'] | prov: None
+sohu__04 miss 0.00 | pred: None | gold: ['钟庆辉（责任编辑）'] | prov: None
+sohu__06 miss 0.00 | pred: None | gold: ['钟庆辉（责任编辑）'] | prov: None
+ifeng__01 false_fill 0.00 | pred: ['观察者网'] | gold: None | prov: json-ld:author
+ifeng__02 ok 0.00 | pred: ['红星新闻'] | gold: ['江龙'] | prov: json-ld:author
+ifeng__03 false_fill 0.00 | pred: ['凤凰网综合'] | gold: None | prov: json-ld:author
+ifeng__04 ok 0.00 | pred: ['央视新闻'] | gold: ['张玥', '石玥'] | prov: json-ld:author
+ifeng__05 ok 0.00 | pred: ['中国新闻周刊'] | gold: ['郑宇'] | prov: json-ld:author
+chinanews__04 ok 0.50 | pred: ['胡寒笑'] | gold: ['阚枫', '高萌', '胡寒笑（编辑）'] | prov: 署名扫描:作者+署名扫描:编辑+署名扫描:责任编辑
+chinanews__05 ok 0.67 | pred: ['胡寒笑'] | gold: ['胡寒笑（编辑）', '薛伟（摄影）'] | prov: 署名扫描:作者+署名扫描:编辑+署名扫描:责任编辑
+cnblogs__07 ok 0.00 | pred: ['茴香饺子'] | gold: ['茴香饺子、'] | prov: json-ld:author
+segmentfault__04 miss 0.00 | pred: None | gold: ['OceanBase技术站'] | prov: json-ld:author
+=== publish 失分 ===
+cnblogs__01 false_fill  | pred: 2025-12-09 08:56:XX | gold: None | prov: dom:byline扫描[#post-date]
+cnblogs__02 false_fill  | pred: 2026-09-07 10:41:XX | gold: None | prov: dom:byline扫描[#post-date]
+cnblogs__03 false_fill  | pred: 2026-09-10 07:13:XX | gold: None | prov: dom:byline扫描[#post-date]
+cnblogs__04 false_fill  | pred: 2026-09-10 21:37:XX | gold: None | prov: dom:byline扫描[#post-date]
+cnblogs__05 false_fill  | pred: 2026-09-10 21:00:XX | gold: None | prov: dom:byline扫描[#post-date]
+cnblogs__06 false_fill  | pred: 2026-09-10 20:17:XX | gold: None | prov: dom:byline扫描[#post-date]
+cnblogs__07 false_fill  | pred: 2026-09-10 20:03:XX | gold: None | prov: dom:byline扫描[#post-date]
+=== content 低分 (<0.85) ===
+sina__02 ok f1=0.74 lcs=0.75 dup=0.06 num=0.88 para=0.44 | plen 263 glen 181 | prov: trafilatura:bare_extraction.body树装配([[IM
+ifeng__01 ok f1=0.84 lcs=0.84 dup=0.12 num=0.88 para=0.94 | plen 1050 glen 800 | prov: trafilatura:bare_extraction.body树装配([[IM
+ifeng__04 ok f1=0.70 lcs=0.71 dup=0.20 num=0.46 para=0.33 | plen 172 glen 108 | prov: trafilatura:bare_extraction.body树装配([[IM
+chinanews__01 ok f1=0.35 lcs=0.36 dup=0.45 num=0.15 para=0.05 | plen 401 glen 82 | prov: trafilatura:bare_extraction.body树装配([[IM
+chinanews__02 ok f1=0.38 lcs=0.40 dup=0.44 num=0.13 para=0.12 | plen 412 glen 96 | prov: trafilatura:bare_extraction.body树装配([[IM
+chinanews__03 ok f1=0.77 lcs=0.77 dup=0.34 num=0.15 para=0.30 | plen 816 glen 497 | prov: trafilatura:bare_extraction.body树装配([[IM
+chinanews__05 ok f1=0.46 lcs=0.45 dup=0.41 num=0.10 para=0.12 | plen 504 glen 150 | prov: trafilatura:bare_extraction.body树装配([[IM
+chinanews__06 ok f1=0.52 lcs=0.52 dup=0.39 num=0.16 para=0.08 | plen 494 glen 164 | prov: trafilatura:bare_extraction.body树装配([[IM
+people__02 ok f1=0.68 lcs=0.68 dup=0.20 num=0.59 para=0.10 | plen 472 glen 230 | prov: trafilatura:bare_extraction.body树装配([[IM
+people__03 ok f1=0.85 lcs=0.85 dup=0.16 num=0.40 para=0.20 | plen 904 glen 647 | prov: trafilatura:bare_extraction.body树装配([[IM
+people__04 ok f1=0.80 lcs=0.80 dup=0.14 num=0.55 para=0.20 | plen 728 glen 471 | prov: trafilatura:bare_extraction.body树装配([[IM
+people__05 ok f1=0.81 lcs=0.82 dup=0.21 num=0.35 para=0.15 | plen 752 glen 498 | prov: trafilatura:bare_extraction.body树装配([[IM
+people__06 ok f1=0.83 lcs=0.84 dup=0.21 num=0.52 para=0.18 | plen 807 glen 558 | prov: trafilatura:bare_extraction.body树装配([[IM
+=== update 失分 ===

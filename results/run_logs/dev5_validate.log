@@ -1,0 +1,8 @@
+/Users/shtdbb/Documents/kimi/Workspaces/网页解析/html-extract/scripts/dev5_validate.py:81: DeprecationWarning: "as_dict" will be removed, use the .as_dict() method instead
+  doc = trafilatura.bare_extraction(
+written /Users/shtdbb/Documents/kimi/Workspaces/网页解析/html-extract/results/dev5_validation.json
+news_cn    traf     4.5ms title='新华社评出2025年国内十大新闻' len=3917 | read     5.4ms len=3987
+chinadaily traf     6.6ms title='More patient policy framework ' len=5845 | read    14.7ms len=5976
+sina       traf    14.1ms title='新浪财经与中国上市公司协会达成战略合作共筑网络清朗空间 共建' len=885 | read    12.1ms len=690
+gov_cn     traf     4.9ms title='李强主持召开国务院常务会议 进一步部署防汛抗洪救灾工作等__' len=62 | read     3.4ms len=19
+cnblogs    traf     3.7ms title='感谢艾思科蓝成为博客园赞助商' len=983 | read     6.3ms len=1006

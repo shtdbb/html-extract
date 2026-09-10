@@ -1,0 +1,395 @@
+### gmw__01 | https://politics.gmw.cn/2026-09/10/content_38993755.htm
+enc used=UTF-8 declared=UTF-8 detected=utf-8 | body_text_len=3432
+title_tag: 秦兵马俑发掘保护开启新模式
+_光明网
+h1: 全部导航
+h1: 秦兵马俑发掘保护开启新模式
+meta: {"author": ["宫辞"], "publishdate": ["2026-09-10"]}
+byline: 来源：新华网2026-09-10 09:30
+ 
+ 
+ 
+ 
+ 
+ 
+ X
+link_density=0.05 | n_links=64 | n_img=47 | n_video=0
+TRAF title: 秦兵马俑发掘保护开启新模式
+TRAF author: None | date: 2026-09-10
+TRAF text len=3798 head: 				点击右上角⏎![](http://img.gmw.cn/pic/mgmw/iconshare.png) 微信好友⏎				⏎![](http://img.gmw.cn/pic/mgmw/pen
+
+### gmw__02 | https://politics.gmw.cn/2026-09/10/content_38993700.htm
+enc used=UTF-8 declared=UTF-8 detected=utf-8 | body_text_len=2298
+title_tag: 多彩活动迎接教师节
+_光明网
+h1: 全部导航
+h1: 多彩活动迎接教师节
+meta: {"author": ["宫辞"], "publishdate": ["2026-09-10"]}
+byline: 来源：新华网2026-09-10 09:24
+ 
+ 
+ 
+ 
+ 
+ 
+ X
+link_density=0.07 | n_links=64 | n_img=38 | n_video=0
+TRAF title: 多彩活动迎接教师节
+TRAF author: None | date: 2026-09-10
+TRAF text len=1608 head: 				点击右上角⏎![](http://img.gmw.cn/pic/mgmw/iconshare.png) 微信好友⏎				⏎![](http://img.gmw.cn/pic/mgmw/pen
+
+### gmw__03 | https://politics.gmw.cn/2026-09/10/content_38993703.htm
+enc used=UTF-8 declared=UTF-8 detected=utf-8 | body_text_len=2374
+title_tag: 江苏太仓：世界最大直径高铁盾构机“领航号”完成二次始发
+_光明网
+h1: 全部导航
+h1: 江苏太仓：世界最大直径高铁盾构机“领航号”完成二次始发
+meta: {"author": ["宫辞"], "publishdate": ["2026-09-10"]}
+byline: 来源：新华网2026-09-10 09:25
+ 
+ 
+ 
+ 
+ 
+ 
+ X
+link_density=0.07 | n_links=64 | n_img=35 | n_video=0
+TRAF title: 江苏太仓：世界最大直径高铁盾构机“领航号”完成二次始发
+TRAF author: None | date: 2026-09-10
+TRAF text len=1219 head: 				点击右上角⏎![](http://img.gmw.cn/pic/mgmw/iconshare.png) 微信好友⏎				⏎![](http://img.gmw.cn/pic/mgmw/pen
+
+### gmw__04 | https://politics.gmw.cn/2026-09/10/content_38993578.htm
+enc used=UTF-8 declared=UTF-8 detected=utf-8 | body_text_len=2846
+title_tag: 探访服贸会年度主题专区展及主宾国展区
+_光明网
+h1: 全部导航
+h1: 探访服贸会年度主题专区展及主宾国展区
+meta: {"author": ["袁晴"], "publishdate": ["2026-09-10"]}
+byline: 来源：新华网2026-09-10 09:02
+ 
+ 
+ 
+ 
+ 
+ 
+ X
+link_density=0.06 | n_links=64 | n_img=48 | n_video=0
+TRAF title: 探访服贸会年度主题专区展及主宾国展区
+TRAF author: None | date: 2026-09-10
+TRAF text len=3526 head:     ![探访服贸会年度主题专区展及主宾国展区](https://imgpolitics.gmw.cn/attachement/png/site2/20260910/dc9710678f2c4107
+
+### stdaily__01 | https://www.stdaily.com/web/2026-09/10/content_578722.html
+enc used=utf-8 declared=utf-8 detected=utf-8 | body_text_len=4834
+title_tag: 习近平将赴印度出席金砖国家领导人第十八次会晤
+h1: 习近平将赴印度出席金砖国家领导人第十八次会晤
+byline: 2026-09-10 18:09:48
+ 来源:
+ 
+ 新华网
+ 
+ 点击数： || 来源: || 责任编辑：王倩
+link_density=0.15 | n_links=107 | n_img=19 | n_video=0
+TRAF title: 习近平将赴印度出席金砖国家领导人第十八次会晤
+TRAF author: None | date: 2026-09-10
+TRAF text len=274 head: 新华社快讯：应印度共和国总理莫迪邀请，国家主席习近平将于9月12日至13日赴印度新德里出席金砖国家领导人第十八次会晤。⏎相关稿件：⏎封面新闻丨第40个教师节，致敬这些良师益友⏎亮点纷呈 氛围感拉满！2
+
+### stdaily__02 | https://www.stdaily.com/web/2026-09/10/content_578854.html
+enc used=utf-8 declared=utf-8 detected=utf-8 | body_text_len=8329
+title_tag: 习近平主席赴印度出席金砖国家领导人第十八次会晤前瞻
+h1: 习近平主席赴印度出席金砖国家领导人第十八次会晤前瞻
+byline: 2026-09-10 21:31:42
+ 来源:
+ 
+ 新华社
+ 
+ 点击数： || 来源: || 责任编辑：王倩
+link_density=0.09 | n_links=107 | n_img=30 | n_video=0
+TRAF title: 习近平主席赴印度出席金砖国家领导人第十八次会晤前瞻
+TRAF author: None | date: 2026-09-10
+TRAF text len=4643 head: ![](https://www.stdaily.com/web/2026-09/10/578854_73449261-d7b5-4abf-a9b4-8ca7783d95bccopy.jpg)⏎应印度共
+
+### stdaily__03 | https://www.stdaily.com/web/2026-09/10/content_578853.html
+enc used=utf-8 declared=utf-8 detected=utf-8 | body_text_len=4929
+title_tag: 习近平主席深刻阐述“金砖合作”
+h1: 习近平主席深刻阐述“金砖合作”
+byline: 2026-09-10 21:31:06
+ 来源:
+ 
+ 新华社
+ 
+ 点击数： || 来源: || 责任编辑：王倩
+link_density=0.15 | n_links=107 | n_img=32 | n_video=0
+TRAF title: 习近平主席深刻阐述“金砖合作”
+TRAF author: None | date: 2026-09-10
+TRAF text len=381 head: 应印度共和国总理莫迪邀请，国家主席习近平将于9月12日至13日赴印度新德里出席金砖国家领导人第十八次会晤。⏎2013年以来，习近平主席多次主持或出席金砖国家领导人会晤，在多个场合就深化金砖国家在各领域
+
+### en_people__01 | http://en.people.cn/n3/2026/0909/c90000-20497865.html
+enc used=UTF-8 declared=UTF-8 detected=utf-8 | body_text_len=3651
+title_tag: Xi extends Teachers' Day greetings, urges nurturing capable youth for national rejuvenation - People's Daily Online
+h1: Xi extends Teachers' Day greetings, urges nurturing capable youth for national rejuvenation
+meta: {"author": ["F_400991"], "publishdate": ["2026-09-09"], "source": ["source：Xinhua"]}
+link_density=0.25 | n_links=66 | n_img=10 | n_video=0
+TRAF title: Xi extends Teachers' Day greetings, urges nurturing capable youth for national rejuvenation
+TRAF author: None | date: 2026-09-09
+TRAF text len=2548 head: ![](/img/FOREIGN/2021/02/313100/source/imgs/logo.png) ⏎![](/img/FOREIGN/2021/02/313100/source/imgs/t
+
+### en_people__02 | https://en.people.cn/n3/2026/0910/c90000-20497876.html
+enc used=UTF-8 declared=UTF-8 detected=utf-8 | body_text_len=5417
+title_tag: Global Services, Shared Prosperity: 2026 CIFTIS opened in Beijing - People's Daily Online
+h1: Global Services, Shared Prosperity: 2026 CIFTIS opened in Beijing
+meta: {"author": ["F_400991"], "publishdate": ["2026-09-10"], "source": ["source：Xinhua"]}
+link_density=0.16 | n_links=66 | n_img=21 | n_video=0
+TRAF title: Global Services, Shared Prosperity: 2026 CIFTIS opened in Beijing
+TRAF author: None | date: 2026-09-10
+TRAF text len=5082 head: ![](/img/FOREIGN/2021/02/313100/source/imgs/logo.png) ⏎![](/img/FOREIGN/2021/02/313100/source/imgs/t
+
+### en_people__03 | https://en.people.cn/n3/2026/0910/c90000-20497882.html
+enc used=UTF-8 declared=UTF-8 detected=utf-8 | body_text_len=4632
+title_tag: A glimpse of revolutionary sites of China's Long March in Ruijin, Jiangxi - People's Daily Online
+h1: A glimpse of revolutionary sites of China's Long March in Ruijin, Jiangxi
+meta: {"author": ["F_400991"], "publishdate": ["2026-09-10"], "source": ["source：Xinhua"]}
+link_density=0.21 | n_links=66 | n_img=16 | n_video=0
+TRAF title: A glimpse of revolutionary sites of China's Long March in Ruijin, Jiangxi
+TRAF author: None | date: 2026-09-10
+TRAF text len=3878 head: ![](/img/FOREIGN/2021/02/313100/source/imgs/logo.png) ⏎![](/img/FOREIGN/2021/02/313100/source/imgs/t
+
+### en_people__04 | https://en.people.cn/n3/2026/0910/c90000-20497977.html
+enc used=UTF-8 declared=UTF-8 detected=utf-8 | body_text_len=5416
+title_tag: Polished lacquerware well inherited in N China's Shanxi - People's Daily Online
+h1: Polished lacquerware well inherited in N China's Shanxi
+meta: {"author": ["F_126"], "publishdate": ["2026-09-10"], "source": ["source：People's Daily Online Original"]}
+link_density=0.23 | n_links=71 | n_img=16 | n_video=0
+TRAF title: Polished lacquerware well inherited in N China's Shanxi
+TRAF author: None | date: 2026-09-10
+TRAF text len=4366 head: ![](/img/FOREIGN/2021/02/313100/source/imgs/logo.png) ⏎![](/img/FOREIGN/2021/02/313100/source/imgs/t
+
+### csdn__01 | https://blog.csdn.net/blogdevteam/article/details/126135357
+enc used=utf-8 declared=utf-8 detected=utf-8 | body_text_len=34231
+title_tag: CSDN帐号管理规范_csdn账号怎么禁止发评论-CSDN博客
+og:title: CSDN帐号管理规范_csdn账号怎么禁止发评论-CSDN博客
+h1: CSDN帐号管理规范
+meta: {"article:published_time": ["2022-08-03T10:43:30+08:00"], "article:modified_time": ["2025-11-05T11:20:02+08:00"]}
+jsonld: {"@context": "https://ziyuan.baidu.com/contexts/cambrian.jsonld", "@id": "https://blog.csdn.net/blogdevteam/article/details/126135357", "appid": "1638831770136827", "pubDate": "2022-08-03T10:22:33", "title": "CSDN帐号管理规范_csdn账号怎么禁止发评论-CSDN博客", "upDate": "2022-08-03T10:43:30"}
+link_density=0.21 | n_links=296 | n_img=274 | n_video=0
+TRAF title: CSDN帐号管理规范_csdn账号怎么禁止发评论-CSDN博客
+TRAF author: 成就一亿技术人 | date: 2022-08-03
+TRAF text len=4228 head: 第一章、概述⏎1、目的⏎为保障北京创新乐知网络技术有限公司及其关联公司（以下简称“CSDN”）业务健康可持续发展，维护CSDN正常运营秩序，规范CSDN帐号的使用者（以下简称“用户”）行为，保障产品用
+
+### csdn__02 | https://blog.csdn.net/blogdevteam/article/details/90369522
+enc used=utf-8 declared=utf-8 detected=utf-8 | body_text_len=31369
+title_tag: 版权申诉指引_csdn文章如何举报-CSDN博客
+og:title: 版权申诉指引_csdn文章如何举报-CSDN博客
+h1: 版权申诉指引
+meta: {"article:published_time": ["2019-05-20T09:49:42+08:00"], "article:modified_time": ["2026-04-27T15:56:53+08:00"]}
+jsonld: {"@context": "https://ziyuan.baidu.com/contexts/cambrian.jsonld", "@id": "https://blog.csdn.net/blogdevteam/article/details/90369522", "appid": "1638831770136827", "pubDate": "2019-05-20T09:49:42", "title": "版权申诉指引_csdn文章如何举报-CSDN博客", "upDate": "2019-05-20T09:49:42"}
+link_density=0.24 | n_links=296 | n_img=274 | n_video=0
+TRAF title: 版权申诉指引_csdn文章如何举报-CSDN博客
+TRAF author: 成就一亿技术人 | date: 2019-05-20
+TRAF text len=946 head: CSDN社区做为开发者彼此分享和交换知识的 IT 资源共享平台，高度重视所有知识的产权保护，欢迎大家及时对侵权内容进行申诉/举报。⏎版权保护及侵权投诉处理指引⏎一、总则⏎CSDN高度重视知识产权与版权
+
+### csdn__03 | https://blog.csdn.net/jiemashizhen/article/details/161585456
+enc used=utf-8 declared=utf-8 detected=utf-8 | body_text_len=26645
+title_tag: 程序人生：失业数月-CSDN博客
+og:title: 程序人生：失业数月-CSDN博客
+h1: 程序人生：失业数月
+meta: {"article:published_time": ["2026-06-01T11:46:13+08:00"], "article:modified_time": ["2026-06-01T11:46:14+08:00"]}
+jsonld: {"image": "https://img-bss.csdnimg.cn/202112131616291007.png", "keywords": "程序人生", "@type": "Article", "author": [{"@type": "Person", "name": "静静地躺着", "url": "https://blog.csdn.net/jiemashizhen"}], "inLanguage": "zh-CN", "description": "文章浏览阅读872次，点赞9次，收藏2次。由于我的热爱，所以二十多年来一直在坚持学习，写写感兴趣的程序，工作之余也阅读了很多编程相关的著作，思考犯下的错误还有将来改进的方法。有时我真的好奇，现在的年轻人还有人热爱编程吗，这种热
+jsonld: {"@context": "https://ziyuan.baidu.com/contexts/cambrian.jsonld", "@id": "https://blog.csdn.net/jiemashizhen/article/details/161585456", "appid": "1638831770136827", "pubDate": "2026-06-01T10:55:57", "title": "程序人生：失业数月-CSDN博客", "upDate": "2026-06-01T11:46:13"}
+link_density=0.18 | n_links=234 | n_img=192 | n_video=0
+TRAF title: 程序人生：失业数月-CSDN博客
+TRAF author: 静静地躺着 | date: 2026-06-01
+TRAF text len=542 head: 一转眼，我已经失业好几个月了，现在的就业形式确实不好。⏎一方面现在经济不好，各家公司的日子都不好过。⏎另一方面AI的日趋强大，让软件工程师的需求也逐步变少。⏎而国内的就业环境也在不断的恶化，对于很多公
+
+### csdn__04 | https://blog.csdn.net/2403_88415275/article/details/156515782
+enc used=utf-8 declared=utf-8 detected=utf-8 | body_text_len=37460
+title_tag: 程序人生-Hello’s P2P-CSDN博客
+og:title: 程序人生-Hello’s P2P-CSDN博客
+h1: 程序人生-Hello’s P2P
+meta: {"article:published_time": ["2026-01-03T12:33:45+08:00"], "article:modified_time": ["2026-01-03T12:34:11+08:00"]}
+jsonld: {"image": "https://img-bss.csdnimg.cn/202112131616291007.png", "keywords": "linux,ubuntu,c语言", "@type": "Article", "author": [{"@type": "Person", "name": "只想恰口饭", "url": "https://blog.csdn.net/2403_88415275"}], "inLanguage": "zh-CN", "description": "文章浏览阅读1.3k次，点赞30次，收藏24次。P2P：即Program to Process，指hello.c源程序经过预处理（Pre-processing）、编译（Compiling）、汇编（As
+jsonld: {"@context": "https://ziyuan.baidu.com/contexts/cambrian.jsonld", "@id": "https://blog.csdn.net/2403_88415275/article/details/156515782", "appid": "1638831770136827", "pubDate": "2026-01-02T17:04:06", "title": "程序人生-Hello&rsquo;s P2P-CSDN博客", "upDate": "2026-01-03T12:33:45"}
+link_density=0.06 | n_links=195 | n_img=117 | n_video=0
+TRAF title: 程序人生-Hello’s P2P-CSDN博客
+TRAF author: 只想恰口饭 | date: 2026-01-03
+TRAF text len=22136 head: ![](https://i-blog.csdnimg.cn/direct/7f134210e9f649c6b4fd28ea22333003.png)⏎计算机系统原理⏎大作业⏎题 目 程序人生-Hell
+
+### csdn__05 | https://blog.csdn.net/universsky2015/article/details/147964772
+enc used=utf-8 declared=utf-8 detected=Windows-1254 | body_text_len=27268
+title_tag: 程序人生：巧用类比思维开启职业生涯学习成长新境界_编程需要类比推理吗-CSDN博客
+og:title: 程序人生：巧用类比思维开启职业生涯学习成长新境界_编程需要类比推理吗-CSDN博客
+h1: 程序人生：巧用类比思维开启职业生涯学习成长新境界
+meta: {"article:published_time": ["2025-05-14T22:40:24+08:00"], "article:modified_time": ["2025-05-14T22:41:22+08:00"]}
+jsonld: {"image": "https://i-blog.csdnimg.cn/blog_migrate/tags/56cf613040f3c32672febdac7b86ba0e.png", "keywords": "程序人生,学习,职场和发展,ai", "@type": "Article", "author": [{"@type": "Person", "name": "光剑AI", "url": "https://blog.csdn.net/universsky2015"}], "inLanguage": "zh-CN", "description": "文章浏览阅读1.1k次，点赞20次，收藏16次。在当今竞争激烈的编程领域，程序员需要不断学习和成长，以适应快速变化的技术环境。类比思维作为
+jsonld: {"@context": "https://ziyuan.baidu.com/contexts/cambrian.jsonld", "@id": "https://blog.csdn.net/universsky2015/article/details/147964772", "appid": "1638831770136827", "pubDate": "2025-05-14T22:40:24", "title": "程序人生：巧用类比思维开启职业生涯学习成长新境界_编程需要类比推理吗-CSDN博客", "upDate": "2025-05-14T22:40:24"}
+byline: 优质创作者: 人工智能技术领域
+ 
+ 
+ 
+ 领域专家: 后端开发技术领域 || 优质创作者: 人工智能技术领域
+link_density=0.23 | n_links=209 | n_img=141 | n_video=0
+TRAF title: 程序人生：巧用类比思维开启职业生涯学习成长新境界_编程需要类比推理吗-CSDN博客
+TRAF author: 光剑Ai | date: 2025-05-14
+TRAF text len=601 head: 程序人生：巧用类比思维开启职业生涯学习成长新境界⏎ ⏎ 关键词：程序人生、类比思维、职业生涯、学习成长、编程技巧⏎ ⏎ 摘要：本文围绕程序人生中类比思维的运用展开，深入剖析了类比思维在程序员职业生涯学
+
+### devto__01 | https://dev.to/kenwalger/the-verification-bottleneck-in-ai-generated-software-3p7l
+enc used=utf-8 declared=utf-8 detected=MacRoman | body_text_len=84281
+title_tag: The Verification Bottleneck in AI-Generated Software - DEV Community
+og:title: The Verification Bottleneck in AI-Generated Software
+twitter:title: The Verification Bottleneck in AI-Generated Software
+h1: The Verification Bottleneck in AI-Generated Software
+jsonld: {"@context": "http://schema.org", "@type": "Article", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://dev.to/kenwalger/the-verification-bottleneck-in-ai-generated-software-3p7l"}, "url": "https://dev.to/kenwalger/the-verification-bottleneck-in-ai-generated-software-3p7l", "image": ["https://media2.dev.to/dynamic/image/width=1080,height=108
+time_el: [{"datetime": "2026-09-09T14:32:00Z", "text": "Sep 9"}, {"datetime": "2026-06-20T23:08:03Z", "text": "Jun 20, 2026"}, {"datetime": "2026-09-09T15:10:37Z", "text": "Sep 9"}, {"datetime": "2017-04-07T22:01:03Z", "text": "Apr 7, 2017"}]
+link_density=0.02 | n_links=170 | n_img=59 | n_video=0
+TRAF title: The Verification Bottleneck in AI-Generated Software
+TRAF author: Ken W Alger | date: 2026-09-09
+TRAF text len=25037 head: AI can generate code faster than ever. That doesn't mean we're shipping correct software faster.⏎Rec
+
+### devto__02 | https://dev.to/nyaomaru/learn-trapping-rain-water-top-k-frequent-and-selection-sort-with-step-by-step-visualization-in-dsa-1flg
+enc used=utf-8 declared=utf-8 detected=MacRoman | body_text_len=255138
+title_tag: Learn Trapping Rain Water, Top K Frequent and Selection Sort with Step-by-Step Visualization in DSA View View 👀👀 - DEV C
+og:title: Learn Trapping Rain Water, Top K Frequent and Selection Sort with Step-by-Step Visualization in DSA View View 👀👀
+twitter:title: Learn Trapping Rain Water, Top K Frequent and Selection Sort with Step-by-Step Visualization in DSA View View 👀👀
+h1: Learn Trapping Rain Water, Top K Frequent and Selection Sort with Step-by-Step Visualization in DSA View View 👀👀
+h1: DSA View View
+jsonld: {"@context": "http://schema.org", "@type": "Article", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://dev.to/nyaomaru/learn-trapping-rain-water-top-k-frequent-and-selection-sort-with-step-by-step-visualization-in-dsa-1flg"}, "url": "https://dev.to/nyaomaru/learn-trapping-rain-water-top-k-frequent-and-selection-sort-with-step-by-step-visual
+time_el: [{"datetime": "2026-09-09T12:48:25Z", "text": "Sep 9"}, {"datetime": "2026-07-15T12:04:25Z", "text": "Jul 15"}, {"datetime": "2026-08-19T14:43:44Z", "text": "Aug 19"}, {"datetime": "2026-08-26T14:18:19Z", "text": "Aug 26"}]
+link_density=0.01 | n_links=218 | n_img=70 | n_video=0
+TRAF title: Learn Trapping Rain Water, Top K Frequent and Selection Sort with Step-by-Step Visualization in DSA View View 👀👀
+TRAF author: Nyaomaru | date: 2026-09-09
+TRAF text len=17629 head: Hoi hoi!⏎I’m @nyaomaru, a frontend engineer who has been obsessed with ramen lately. 😸🍜⏎Have you use
+
+### mdn__01 | https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements
+enc used=UTF-8 declared=UTF-8 detected=utf-8 | body_text_len=85922
+title_tag: HTML elements reference - HTML | MDN
+h1: HTML elements reference
+time_el: [{"datetime": "2026-09-08T18:53:00.000Z", "text": "Sep 8, 2026"}]
+link_density=0.08 | n_links=676 | n_img=0 | n_video=0
+TRAF title: HTML elements reference
+TRAF author: None | date: 2026-09-08
+TRAF text len=29003 head: HTML elements reference⏎This page lists all the HTML elements, which are created using tags.⏎They ar
+
+### mdn__02 | https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Global_attributes
+enc used=UTF-8 declared=UTF-8 detected=utf-8 | body_text_len=72020
+title_tag: Global attributes - HTML | MDN
+h1: Global attributes
+time_el: [{"datetime": "2026-08-26T20:00:43.000Z", "text": "Aug 26, 2026"}]
+link_density=0.11 | n_links=639 | n_img=0 | n_video=0
+TRAF title: Global attributes
+TRAF author: None | date: 2026-08-26
+TRAF text len=11685 head: Global attributes⏎Global attributes are attributes common to all HTML elements; they can be used on 
+
+### mdn__03 | https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Attributes
+enc used=UTF-8 declared=UTF-8 detected=utf-8 | body_text_len=79164
+title_tag: HTML attribute reference - HTML | MDN
+h1: HTML attribute reference
+time_el: [{"datetime": "2026-06-12T02:13:54.000Z", "text": "Jun 12, 2026"}]
+link_density=0.10 | n_links=857 | n_img=0 | n_video=0
+TRAF title: HTML attribute reference
+TRAF author: None | date: 2026-06-12
+TRAF text len=20750 head: HTML attribute reference⏎Elements in HTML have attributes; these are additional values that configur
+
+### mslearn__01 | https://learn.microsoft.com/en-us/azure/app-service/quickstart-python
+enc used=utf-8 declared=utf-8 detected=utf-8 | body_text_len=30360
+title_tag: Quickstart: Deploy a Python (Django, Flask, or FastAPI) web app to Azure - Azure App Service | Microsoft Learn
+og:title: Quickstart: Deploy a Python (Django, Flask, or FastAPI) web app to Azure - Azure App Service
+h1: Quickstart: Deploy a Python (Django, Flask, or FastAPI) web app to Azure App Service
+meta: {"author": ["msangapu-msft"]}
+link_density=0.06 | n_links=151 | n_img=36 | n_video=0
+TRAF title: Quickstart: Deploy a Python (Django, Flask, or FastAPI) web app to Azure - Azure App Service
+TRAF author: None | date: 2026-07-27
+TRAF text len=11543 head: Note⏎Access to this page requires authorization. You can try signing in or changing directories.⏎Acc
+
+### mslearn__02 | https://learn.microsoft.com/en-us/azure/storage/blobs/storage-quickstart-blobs-python
+enc used=utf-8 declared=utf-8 detected=utf-8 | body_text_len=25383
+title_tag: Quickstart: Azure Blob Storage with Python - Azure Storage | Microsoft Learn
+og:title: Quickstart: Azure Blob Storage with Python - Azure Storage
+h1: Quickstart: Azure Blob Storage client library for Python
+meta: {"author": ["stevenmatthew"]}
+link_density=0.07 | n_links=88 | n_img=5 | n_video=0
+TRAF title: Quickstart: Azure Blob Storage with Python - Azure Storage
+TRAF author: Authenticate; Authorize Access | date: 2026-05-15
+TRAF text len=18174 head: Note⏎Access to this page requires authorization. You can try signing in or changing directories.⏎Acc
+
+### mslearn__03 | https://learn.microsoft.com/en-us/azure/azure-functions/functions-get-started
+enc used=utf-8 declared=utf-8 detected=ascii | body_text_len=5688
+title_tag: Get Started with Azure Functions | Microsoft Learn
+og:title: Get Started with Azure Functions
+h1: Get started with Azure Functions
+meta: {"author": ["ggailey777"]}
+link_density=0.32 | n_links=75 | n_img=1 | n_video=0
+TRAF title: Get Started with Azure Functions
+TRAF author: None | date: 2026-06-03
+TRAF text len=2195 head: Note⏎Access to this page requires authorization. You can try signing in or changing directories.⏎Acc
+
+### netease__01 | https://www.163.com/dy/article/L6EUVQ7I05346RC6.html
+enc used=utf-8 declared=None detected=utf-8 | body_text_len=15394
+title_tag: AI海报｜今天，写一张明信片寄给老师|ai海报_网易订阅
+og:title: AI海报｜今天，写一张明信片寄给老师
+h1: AI海报｜今天，写一张明信片寄给老师
+meta: {"author": ["网易"], "article:published_time": ["2026-09-10T08:13:38+08:00"]}
+byline: 2026-09-10 08:13:38 来源: 新华社
+ 北京
+ 
+ 
+ 举报 || 教师节当天，孩子直接背着锦旗送给老师，拍摄者：锦旗是家长对教师的最高褒奖
+ 氧气周末 2026-09-10 18:46:07
+ 
+ 
+ 
+ 
+ 0
+ 
+ 
+ 跟贴 0
+link_density=0.19 | n_links=303 | n_img=71 | n_video=0
+TRAF title: AI海报｜今天，写一张明信片寄给老师
+TRAF author: None | date: 2026-09-10
+TRAF text len=1374 head: 教师，一份神圣的职业⏎满含辛勤与奉献⏎他们坚守三尺讲台，陪伴我们成长⏎手执一盏智慧灯火，照亮我们前行之路⏎在第42个教师节到来之际⏎我们用AI定格师生相处的瞬间⏎用一张张明信片⏎诉说对老师们的尊重与感
+
+### netease__02 | https://www.163.com/dy/article/L6D1GLLV05346RC6.html
+enc used=utf-8 declared=None detected=utf-8 | body_text_len=15464
+title_tag: 致敬三尺讲台上那个平凡而有光的你|足球_网易订阅
+og:title: 致敬三尺讲台上那个平凡而有光的你
+h1: 致敬三尺讲台上那个平凡而有光的你
+meta: {"author": ["网易"], "article:published_time": ["2026-09-09T14:19:19+08:00"]}
+byline: 2026-09-09 14:19:19 来源: 新华社
+ 北京
+ 
+ 
+ 举报
+link_density=0.18 | n_links=303 | n_img=73 | n_video=1
+TRAF title: 致敬三尺讲台上那个平凡而有光的你
+TRAF author: None | date: 2026-09-09
+TRAF text len=1868 head: 2026年9月10日⏎第42个教师节⏎有人扎根乡野绿茵⏎以足球温暖留守童心⏎![](https://nimg.ws.126.net/?url=http%3A%2F%2Fdingyue.ws.126.n
+
+### netease__03 | https://www.163.com/dy/article/L6D507OV05346RC6.html
+enc used=utf-8 declared=None detected=utf-8 | body_text_len=15668
+title_tag: 新华视点｜多彩实践绘就乡村振兴新图景|梯田|岚皋县|三都县|宣威市_网易订阅
+og:title: 新华视点｜多彩实践绘就乡村振兴新图景
+h1: 新华视点｜多彩实践绘就乡村振兴新图景
+meta: {"author": ["网易"], "article:published_time": ["2026-09-09T15:20:15+08:00"]}
+byline: 2026-09-09 15:20:15 来源: 新华社
+ 北京
+ 
+ 
+ 举报
+link_density=0.18 | n_links=303 | n_img=71 | n_video=1
+TRAF title: 新华视点｜多彩实践绘就乡村振兴新图景
+TRAF author: None | date: 2026-09-09
+TRAF text len=1659 head: 金秋时节，各地立足资源禀赋，围绕产业发展、农旅融合、民生改善探索多元路径，以务实举措绘就乡村振兴新图景。⏎![](https://nimg.ws.126.net/?url=http%3A%2F%2Fd
+
+### netease__04 | https://www.163.com/dy/article/L69KESMP0530QRMB.html
+enc used=utf-8 declared=None detected=utf-8 | body_text_len=15968
+title_tag: “我们更加珍惜未来的生活”（在现场·特别报道）|安置点|吉隆县|乡干部|格桑曲珍_网易订阅
+og:title: “我们更加珍惜未来的生活”（在现场·特别报道）
+h1: “我们更加珍惜未来的生活”（在现场·特别报道）
+meta: {"author": ["网易"], "article:published_time": ["2026-09-08T06:33:26+08:00"]}
+byline: 2026-09-08 06:33:26 来源: 人民资讯
+ 北京
+ 
+ 
+ 举报
+link_density=0.17 | n_links=303 | n_img=65 | n_video=0
+TRAF title: “我们更加珍惜未来的生活”（在现场·特别报道）
+TRAF author: None | date: 2026-09-08
+TRAF text len=1118 head: 本文转自：人民日报⏎“我们更加珍惜未来的生活”（在现场·特别报道）⏎——吉隆转移安置群众返乡见闻⏎本报记者 琼达卓嘎 徐驭尧⏎天还没亮透，安置点里已经忙起来了。⏎早上8点左右，西藏吉隆县萨勒乡色琼村乡

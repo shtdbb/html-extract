@@ -1,0 +1,5 @@
+页数 28（参评字段评分 20，应拒识 8）
+title_exact=0.65  authors_f1=0.4857142857142857  content_f1=0.7204609818374464  rejection=0.0
+publish_time=0.3333333333333333  confusion=0  tz={'match': 5, 'missing': 10, 'mismatch': 0, 'gold_absent': 0}
+update_time=0.2727272727272727  confusion=0  tz={'match': 3, 'missing': 5, 'mismatch': 0, 'gold_absent': 3}
+已写出 results/test_v4_scores.json

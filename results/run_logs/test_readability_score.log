@@ -1,0 +1,5 @@
+页数 28（参评字段评分 20，应拒识 8）
+title_exact=0.15  authors_f1=0.16666666666666666  content_f1=0.8474836119898626  rejection=0.0
+publish_time=0.0  confusion=0  tz={'match': 0, 'missing': 15, 'mismatch': 0, 'gold_absent': 0}
+update_time=0.0  confusion=0  tz={'match': 0, 'missing': 8, 'mismatch': 0, 'gold_absent': 3}
+已写出 results/test_readability_scores.json

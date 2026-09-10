@@ -1,0 +1,709 @@
+### sina__01 | https://finance.sina.com.cn/stock/roll/2026-08-11/doc-inimxvum4228316.shtml
+enc used=utf-8 declared=utf-8 detected=utf-8 | body_text_len=30366
+title_tag: 新浪财经与中国上市公司协会达成战略合作共筑网络清朗空间 共建上市公司服务新生态_新浪财经_新浪网
+og:title: 新浪财经与中国上市公司协会达成战略合作共筑网络清朗空间 共建上市公司服务新生态
+h1: 新浪财经与中国上市公司协会达成战略合作共筑网络清朗空间 共建上市公司服务新生态
+meta: {"article:published_time": ["2026-08-11T17:30:01+08:00"]}
+byline: 责任编辑：石秀珍 SF183
+link_density=0.06 | n_links=261 | n_img=12 | n_video=0
+TRAF title: 新浪财经与中国上市公司协会达成战略合作共筑网络清朗空间 共建上市公司服务新生态
+TRAF author: 财经头条作者库 | date: 2026-08-11
+TRAF text len=1043 head: 炒股就看金麒麟分析师研报，权威，专业，及时，全面，助您挖掘潜力主题机会！⏎近日，新浪财经与中国上市公司协会在北京签署战略合作协议。双方将建立常态化沟通机制，充分发挥各自优势，在可持续发展生态建设、共建
+
+### sina__02 | https://finance.sina.com.cn/jjxw/2026-09-10/doc-iniriaew8663773.shtml
+enc used=utf-8 declared=utf-8 detected=utf-8 | body_text_len=29807
+title_tag: 宇树科技股价早盘持续下挫，一度跌破500元_新浪财经_新浪网
+og:title: 宇树科技股价早盘持续下挫，一度跌破500元
+h1: 宇树科技股价早盘持续下挫，一度跌破500元
+meta: {"article:published_time": ["2026-09-10T11:11:08+08:00"]}
+link_density=0.07 | n_links=259 | n_img=13 | n_video=0
+TRAF title: 宇树科技股价早盘持续下挫，一度跌破500元
+TRAF author: 财经头条作者库 | date: 2026-09-10
+TRAF text len=643 head: 9月10日，宇树科技股价早盘持续下挫，一度跌破500元，创上市以来新低，随后有所反弹。截至发稿，报502.21元，跌2.28%。⏎8月19日，宇树科技正式登陆A股，上市首日开盘报1100元/股，涨62
+
+### sina__03 | https://finance.sina.com.cn/stock/relnews/2026-09-10/doc-iniriaey5393216.shtml
+enc used=utf-8 declared=utf-8 detected=utf-8 | body_text_len=32213
+title_tag: 中微公司三股东套现62亿，中报17亿利润靠卖股票和资产，外延发展平台化的烦恼_新浪财经_新浪网
+og:title: 中微公司三股东套现62亿，中报17亿利润靠卖股票和资产，外延发展平台化的烦恼
+h1: 中微公司三股东套现62亿，中报17亿利润靠卖股票和资产，外延发展平台化的烦恼
+meta: {"article:published_time": ["2026-09-10T10:23:56+08:00"]}
+link_density=0.06 | n_links=262 | n_img=19 | n_video=0
+TRAF title: 中微公司三股东套现62亿，中报17亿利润靠卖股票和资产，外延发展平台化的烦恼
+TRAF author: 财经头条作者库 | date: 2026-09-10
+TRAF text len=3175 head: 来源：国际投行研究报告⏎✍️ 凌通社大白话导读：⏎上周凌通社写了半导体设备的行业研究，半导体设备14家中报扫描：有人营收暴增95%，有人利润翻13倍，却连现金都收不回来⏎今天单篇聚焦中微公司，成立于2
+
+### sina__04 | https://finance.sina.com.cn/jjxw/2026-09-10/doc-inirihny2989784.shtml
+enc used=utf-8 declared=utf-8 detected=utf-8 | body_text_len=31048
+title_tag: 青山纸业一发明专利终审宣告无效：尚未投入规模化生产应用，已全额计提减值准备_新浪财经_新浪网
+og:title: 青山纸业一发明专利终审宣告无效：尚未投入规模化生产应用，已全额计提减值准备
+h1: 青山纸业一发明专利终审宣告无效：尚未投入规模化生产应用，已全额计提减值准备
+meta: {"article:published_time": ["2026-09-10T11:55:12+08:00"]}
+link_density=0.06 | n_links=262 | n_img=13 | n_video=0
+TRAF title: 青山纸业一发明专利终审宣告无效：尚未投入规模化生产应用，已全额计提减值准备
+TRAF author: 财经头条作者库 | date: 2026-09-10
+TRAF text len=1479 head: 9月10日开盘，青山纸业开盘震荡走低，截至发稿报3.8元/股，跌幅3.55%。⏎此前一晚，福建省青山纸业股份有限公司（青山纸业，600103.SH）发布诉讼进展公告，披露公司一项发明专利权无效宣告行政
+
+### sina__05 | https://finance.sina.com.cn/stock/bxjj/2026-09-10/doc-inirihny3002232.shtml
+enc used=utf-8 declared=utf-8 detected=utf-8 | body_text_len=36282
+title_tag: 揭秘*ST高科控制权之争：前董事长被刑事立案，或因未竞拍东阳150亩土地_新浪财经_新浪网
+og:title: 揭秘*ST高科控制权之争：前董事长被刑事立案，或因未竞拍东阳150亩土地
+h1: 揭秘*ST高科控制权之争：前董事长被刑事立案，或因未竞拍东阳150亩土地
+meta: {"article:published_time": ["2026-09-10T12:47:09+08:00"]}
+byline: 责任编辑：郝欣煜
+link_density=0.06 | n_links=267 | n_img=20 | n_video=0
+TRAF title: 揭秘*ST高科控制权之争：前董事长被刑事立案，或因未竞拍东阳150亩土地
+TRAF author: 财经头条作者库 | date: 2026-09-10
+TRAF text len=7392 head: 本文来源：时代周报 作者：周松清 韩迅⏎谁也没想到因为一块地会引发*ST高科（600730.SH）控制权的争夺。⏎8月31日下午，时代周报记者在武汉中信泰富大厦见到了*ST高科原董事长曹龙，他既是收购
+
+### sina__06 | https://finance.sina.com.cn/money/nmetal/hjzx/2026-09-10/doc-inirihny7811668.shtml
+enc used=utf-8 declared=utf-8 detected=utf-8 | body_text_len=32617
+title_tag: 8月资金疯狂涌入黄金ETF，凸显黄金对冲全球主权债务风险的价值_新浪财经_新浪网
+og:title: 8月资金疯狂涌入黄金ETF，凸显黄金对冲全球主权债务风险的价值
+h1: 8月资金疯狂涌入黄金ETF，凸显黄金对冲全球主权债务风险的价值
+meta: {"article:published_time": ["2026-09-10T11:34:10+08:00"]}
+byline: 责任编辑：朱赫楠
+link_density=0.06 | n_links=270 | n_img=21 | n_video=0
+TRAF title: 8月资金疯狂涌入黄金ETF，凸显黄金对冲全球主权债务风险的价值
+TRAF author: 财经头条作者库 | date: 2026-09-10
+TRAF text len=2394 head: 		⏎![](http://n.sinaimg.cn/finance/770/w640h130/20240312/9be9-7bcc77500b41e587aee5a856fe9849e2.png) 
+
+### sohu__01 | https://www.sohu.com/a/1074393816_121284943?scm=10001.691_14-200000.0.0-0-0-0-0.
+enc used=utf-8 declared=utf-8 detected=utf-8 | body_text_len=4461
+title_tag: 广州一住宅拍卖，起拍价比评估价高110万元，法院相关工作人员回应_平台_截图_房屋
+og:title: 广州一住宅拍卖，起拍价比评估价高110万元，法院相关工作人员回应
+h1: 广州一住宅拍卖，起拍价比评估价高110万元，法院相关工作人员回应
+h1: 极目新闻
+h1: 广州一住宅拍卖，起拍价比评估价高110万元，法院相关工作人员回应
+link_density=0.02 | n_links=17 | n_img=4 | n_video=0
+TRAF title: 广州一住宅拍卖，起拍价比评估价高110万元，法院相关工作人员回应
+TRAF author: None | date: 2026-09-10
+TRAF text len=489 head: 极目新闻记者 王灿⏎近日，广州市白云区的一套住宅在法拍平台挂拍，评估价为181万元，起拍价却设为293万元，高出房屋评估价110多万元，引来网友关注。⏎法拍平台截图⏎9月10日，极目新闻记者在京东司法
+
+### sohu__02 | https://www.sohu.com/a/1074312305_116237?scm=10001.691_14-200000.0.0-0-0-0-0.
+enc used=utf-8 declared=utf-8 detected=utf-8 | body_text_len=4996
+title_tag: 男子教师节给40多位老师发祝福短信后被停机 运营商：证明号码系本人使用可恢复_诈骗_用户_系统
+og:title: 男子教师节给40多位老师发祝福短信后被停机 运营商：证明号码系本人使用可恢复
+h1: 男子教师节给40多位老师发祝福短信后被停机 运营商：证明号码系本人使用可恢复
+h1: 红星新闻
+h1: 男子教师节给40多位老师发祝福短信后被停机 运营商：证明号码系本人使用可恢复
+link_density=0.01 | n_links=17 | n_img=4 | n_video=0
+TRAF title: 男子教师节给40多位老师发祝福短信后被停机 运营商：证明号码系本人使用可恢复
+TRAF author: None | date: 2026-09-10
+TRAF text len=1014 head: 9月10日，湖北的朱先生向红星新闻记者反映，当日上午，他向自己求学期间的数十位老师分别发送了教师节祝福短信。上午11时许，运营商突然发来短信，提示其号码异常被停机，朱先生去营业厅核验后才得以恢复。⏎▲
+
+### sohu__03 | https://www.sohu.com/a/1074290431_665455?scm=10001.691_14-200000.0.0-0-0-0-0.
+enc used=utf-8 declared=utf-8 detected=utf-8 | body_text_len=5246
+title_tag: 买断运龄捐近百万救灾，刘翔的问题还是没答案_安置_上海体育局_退役
+og:title: 买断运龄捐近百万救灾，刘翔的问题还是没答案
+h1: 买断运龄捐近百万救灾，刘翔的问题还是没答案
+h1: 狐度
+h1: 买断运龄捐近百万救灾，刘翔的问题还是没答案
+link_density=0.01 | n_links=17 | n_img=3 | n_video=0
+TRAF title: 买断运龄捐近百万救灾，刘翔的问题还是没答案
+TRAF author: None | date: 2026-09-10
+TRAF text len=1497 head: 文| 张彦宗⏎9月10日，刘翔在微博摊牌，“等不到官方结果了，还是我来说吧”。他透露9月1日买断运龄，获安置费49.4万元。从2015年4月7日至今，所有工资补助等共计982935元，已捐给西藏泥石流
+
+### sohu__04 | https://www.sohu.com/a/1074332968_267106?edtsign=F762C2FFDCE8D5006FBF43D1F43CAF769E69BE83&edtcode=7l1qGClIU%2Fep9oAfqs2zVA%3D%3D&scm=10001.286_14-200000.0.0-0-0-0-0.&code=command&_f=index_cpc_1_0
+enc used=utf-8 declared=utf-8 detected=utf-8 | body_text_len=4036
+title_tag: 习近平对山东青岛市北海造船厂一货轮火灾事故作出重要指示_李强_工作_重特大
+og:title: 习近平对山东青岛市北海造船厂一货轮火灾事故作出重要指示
+h1: 习近平对山东青岛市北海造船厂一货轮火灾事故作出重要指示
+h1: 新华社
+h1: 习近平对山东青岛市北海造船厂一货轮火灾事故作出重要指示
+link_density=0.02 | n_links=17 | n_img=1 | n_video=0
+TRAF title: 习近平对山东青岛市北海造船厂一货轮火灾事故作出重要指示
+TRAF author: None | date: 2026-09-10
+TRAF text len=521 head: 原标题：习近平对山东青岛市北海造船厂一货轮火灾事故作出重要指示强调⏎深入排查整治各类火灾隐患 落实落细防范措施⏎坚决遏制重特大事故发生⏎李强作出批示⏎新华社北京9月10日电 9月10日11时15分许，
+
+### sohu__05 | https://www.sohu.com/a/1074358196_267106?edtsign=2B5ED44F411C1D7FEF996CEB2ABE44E46882BC67&edtcode=7l1qGClIU%2Fep9oAfqs2zVA%3D%3D&scm=10001.286_14-200000.0.0-0-0-0-0.&code=command&_f=index_cpc_1_0
+enc used=utf-8 declared=utf-8 detected=utf-8 | body_text_len=3735
+title_tag: 习近平将赴印度出席金砖国家领导人第十八次会晤_印度共和国_莫迪_北京
+og:title: 习近平将赴印度出席金砖国家领导人第十八次会晤
+h1: 习近平将赴印度出席金砖国家领导人第十八次会晤
+h1: 新华社
+h1: 习近平将赴印度出席金砖国家领导人第十八次会晤
+link_density=0.02 | n_links=17 | n_img=2 | n_video=0
+TRAF title: 习近平将赴印度出席金砖国家领导人第十八次会晤
+TRAF author: None | date: 2026-09-10
+TRAF text len=103 head: 新华社北京9月10日电 外交部发言人9月10日宣布：应印度共和国总理莫迪邀请，国家主席习近平将于9月12日至13日赴印度新德里出席金砖国家领导人第十八次会晤。返回搜狐，查看更多 责任编辑：钟庆辉 UN
+
+### sohu__06 | https://www.sohu.com/a/1074368689_429139?edtsign=A3A2104FB02909D1F15785F0A361DB2638515B1F&edtcode=7l1qGClIU%2Fep9oAfqs2zVA%3D%3D&scm=10001.286_14-200000.0.0-0-0-0-0.&code=command&_f=index_cpc_1_0
+enc used=utf-8 declared=utf-8 detected=utf-8 | body_text_len=3622
+title_tag: 拾光纪·“我还能记住他们的样子”，总书记心系人民教师_习近平_全国_到来之际
+og:title: 拾光纪·“我还能记住他们的样子”，总书记心系人民教师
+h1: 拾光纪·“我还能记住他们的样子”，总书记心系人民教师
+h1: 拾光纪·“我还能记住他们的样子”，总书记心系人民教师
+byline: 2026-09-10 18:27 
+ 
+ 来源:
+ 人民日报客户端
+ 
+ 发布于：北京市
+link_density=0.02 | n_links=14 | n_img=0 | n_video=0
+TRAF title: 拾光纪·“我还能记住他们的样子”，总书记心系人民教师
+TRAF author: None | date: 2026-09-10
+TRAF text len=168 head: “我们从小学到大学都有过不少的老师，我还能记住他们的样子”，习近平总书记对人民教师有着深厚情怀。“长期以来，全国广大教师认真贯彻党的教育方针，躬耕教坛、传道授业，为党和国家事业发展作出了重要贡献。”在
+
+### ifeng__01 | https://news.ifeng.com/c/8wJVOS2esyy
+enc used=utf-8 declared=utf-8 detected=utf-8 | body_text_len=1406
+title_tag: 冰岛准备永久停止捕鲸，压力给到挪威和日本_凤凰网
+og:title: 冰岛准备永久停止捕鲸，压力给到挪威和日本
+h1: 冰岛准备永久停止捕鲸，压力给到挪威和日本
+meta: {"article:published_time": ["2026-09-10T23:57:47+08:00"], "article:modified_time": ["2026-09-10T23:59:27+08:00"]}
+jsonld: {"@context": "https://schema.org", "@graph": [{"@type": "NewsArticle", "@id": "https://news.ifeng.com/c/8wJVOS2esyy#article", "url": "https://news.ifeng.com/c/8wJVOS2esyy", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://news.ifeng.com/c/8wJVOS2esyy"}, "headline": "冰岛准备永久停止捕鲸，压力给到挪威和日本", "description": "路透社9月10日消息，冰岛政府将于明年2月向议会提交一项禁止捕鲸的法案。
+time_el: [{"datetime": "2026-09-10T23:57:47+08:00", "text": "2026年09月10日 23:57:47"}, {"datetime": "2026-09-10T23:59:27+08:00", "text": "Updated 2026年09月10日 23:59:27"}]
+link_density=0.06 | n_links=33 | n_img=6 | n_video=0
+TRAF title: 冰岛准备永久停止捕鲸，压力给到挪威和日本
+TRAF author: None | date: 2026-09-10
+TRAF text len=1496 head: 冰岛准备永久停止捕鲸，压力给到挪威和日本⏎![](https://d.ifengimg.com/q100/img1.ugc.ifeng.com/newugc/20200405/16/wemedia/8
+
+### ifeng__02 | https://news.ifeng.com/c/8wJZYLKbvIH
+enc used=utf-8 declared=utf-8 detected=utf-8 | body_text_len=4241
+title_tag: 女子被毒蛇咬伤身亡，养蛇场负责人：无法证明蛇来自我这儿，最多补偿2万元_凤凰网
+og:title: 女子被毒蛇咬伤身亡，养蛇场负责人：无法证明蛇来自我这儿，最多补偿2万元
+h1: 女子被毒蛇咬伤身亡，养蛇场负责人：无法证明蛇来自我这儿，最多补偿2万元
+meta: {"article:published_time": ["2026-09-10T23:54:03+08:00"], "article:modified_time": ["2026-09-10T23:55:46+08:00"]}
+jsonld: {"@context": "https://schema.org", "@graph": [{"@type": "NewsArticle", "@id": "https://news.ifeng.com/c/8wJZYLKbvIH#article", "url": "https://news.ifeng.com/c/8wJZYLKbvIH", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://news.ifeng.com/c/8wJZYLKbvIH"}, "headline": "女子被毒蛇咬伤身亡，养蛇场负责人：无法证明蛇来自我这儿，最多补偿2万元", "description": "张天鸿认为，李某属于无证养殖毒蛇，本身未依
+time_el: [{"datetime": "2026-09-10T23:54:03+08:00", "text": "2026年09月10日 23:54:03"}, {"datetime": "2026-09-10T23:55:46+08:00", "text": "Updated 2026年09月10日 23:55:46"}]
+link_density=0.02 | n_links=33 | n_img=18 | n_video=0
+TRAF title: 女子被毒蛇咬伤身亡，养蛇场负责人：无法证明蛇来自我这儿，最多补偿2万元
+TRAF author: None | date: 2026-09-10
+TRAF text len=5746 head: 女子被毒蛇咬伤身亡，养蛇场负责人：无法证明蛇来自我这儿，最多补偿2万元⏎![](http://d.ifengimg.com/q100/img1.ugc.ifeng.com/newugc/2019031
+
+### ifeng__03 | https://news.ifeng.com/c/8vkUL3aoVho
+enc used=utf-8 declared=utf-8 detected=utf-8 | body_text_len=2696
+title_tag: 平安半年报超预期！净利润大增36%，中期分红涨幅创四年新高，“服务+” 利好兑现_凤凰网
+og:title: 平安半年报超预期！净利润大增36%，中期分红涨幅创四年新高，“服务+” 利好兑现
+h1: 平安半年报超预期！净利润大增36%，中期分红涨幅创四年新高，“服务+” 利好兑现
+meta: {"article:published_time": ["2026-08-20T19:08:58+08:00"]}
+jsonld: {"@context": "https://schema.org", "@graph": [{"@type": "NewsArticle", "@id": "https://news.ifeng.com/c/8vkUL3aoVho#article", "url": "https://news.ifeng.com/c/8vkUL3aoVho", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://news.ifeng.com/c/8vkUL3aoVho"}, "headline": "平安半年报超预期！净利润大增36%，中期分红涨幅创四年新高，“服务+” 利好兑现", "description": "使用医养服务的客户加保率提升5.
+time_el: [{"datetime": "2026-08-20T19:08:58+08:00", "text": "2026年08月20日 19:08:58"}]
+link_density=0.03 | n_links=33 | n_img=3 | n_video=0
+TRAF title: 平安半年报超预期！净利润大增36%，中期分红涨幅创四年新高，“服务+” 利好兑现
+TRAF author: None | date: 2026-08-20
+TRAF text len=2565 head: 平安半年报超预期！净利润大增36%，中期分红涨幅创四年新高，“服务+” 利好兑现⏎![](https://x0.ifengimg.com/ucms/2020_47/67AD8301179E08324B
+
+### ifeng__04 | https://news.ifeng.com/c/8wJZw7qn5d4
+enc used=utf-8 declared=utf-8 detected=utf-8 | body_text_len=447
+title_tag: 尼泊尔泥石流灾害已致1382人遇难_凤凰网
+og:title: 尼泊尔泥石流灾害已致1382人遇难
+h1: 尼泊尔泥石流灾害已致1382人遇难
+meta: {"article:published_time": ["2026-09-10T22:09:59+08:00"], "article:modified_time": ["2026-09-10T22:27:23+08:00"]}
+jsonld: {"@context": "https://schema.org", "@graph": [{"@type": "NewsArticle", "@id": "https://news.ifeng.com/c/8wJZw7qn5d4#article", "url": "https://news.ifeng.com/c/8wJZw7qn5d4", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://news.ifeng.com/c/8wJZw7qn5d4"}, "headline": "尼泊尔泥石流灾害已致1382人遇难", "description": "根据尼泊尔警方公布的最新数据，截至当地时间9月10日17时，该国泥石流灾害已致
+time_el: [{"datetime": "2026-09-10T22:09:59+08:00", "text": "2026年09月10日 22:09:59"}, {"datetime": "2026-09-10T22:27:23+08:00", "text": "Updated 2026年09月10日 22:27:23"}]
+link_density=0.19 | n_links=32 | n_img=3 | n_video=0
+TRAF title: 尼泊尔泥石流灾害已致1382人遇难
+TRAF author: None | date: 2026-09-10
+TRAF text len=172 head: 尼泊尔泥石流灾害已致1382人遇难央视新闻2026年09月10日 22:09:59 来自北京市Updated 2026年09月10日 22:27:23根据尼泊尔警方公布的最新数据，截至当地时间9月10
+
+### ifeng__05 | https://news.ifeng.com/c/8wJYTzyERwB
+enc used=utf-8 declared=utf-8 detected=utf-8 | body_text_len=3020
+title_tag: 燃油车卖不动，加油站怎么办？_凤凰网
+og:title: 燃油车卖不动，加油站怎么办？
+h1: 燃油车卖不动，加油站怎么办？
+meta: {"article:published_time": ["2026-09-10T22:05:55+08:00"], "article:modified_time": ["2026-09-10T22:19:51+08:00"]}
+jsonld: {"@context": "https://schema.org", "@graph": [{"@type": "NewsArticle", "@id": "https://news.ifeng.com/c/8wJYTzyERwB#article", "url": "https://news.ifeng.com/c/8wJYTzyERwB", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://news.ifeng.com/c/8wJYTzyERwB"}, "headline": "燃油车卖不动，加油站怎么办？", "description": "在销量榜单之上，昔日牢牢占据销量榜单主流位置的燃油车，如今已被新能源汽车全面赶超。"
+time_el: [{"datetime": "2026-09-10T22:05:55+08:00", "text": "2026年09月10日 22:05:55"}, {"datetime": "2026-09-10T22:19:51+08:00", "text": "Updated 2026年09月10日 22:19:51"}]
+link_density=0.03 | n_links=33 | n_img=5 | n_video=0
+TRAF title: 燃油车卖不动，加油站怎么办？
+TRAF author: None | date: 2026-09-10
+TRAF text len=3023 head: 燃油车卖不动，加油站怎么办？⏎![](http://p2.ifengimg.com/ifengimcp/pic/20161116/1de13d5e3f9a81822fa3_size11_w200_h2
+
+### caixin__01 | https://www.caixin.com/2026-09-10/102483739.html
+enc used=utf-8 declared=utf-8 detected=Windows-1254 | body_text_len=13991
+title_tag: 出险房企境外强制可转债备案遇阻 监管口径待厘清_财新网_财新网
+og:title: 出险房企境外强制可转债备案遇阻 监管口径待厘清
+twitter:title: 出险房企境外强制可转债备案遇阻 监管口径待厘清
+h1: 出险房企境外强制可转债备案遇阻 监管口径待厘清
+link_density=0.11 | n_links=153 | n_img=25 | n_video=0
+TRAF title: 出险房企境外强制可转债备案遇阻 监管口径待厘清
+TRAF author: 作者：王婧 | date: 2026-09-10
+TRAF text len=255 head: 【财新网】过去两年，强制可转换债券逐渐成为多家出险房企境外债务重组的重要工具。多名知情人士向财新确认，最近几周，部分出险房企提交的强制可转换债券（Mandatory Convertible Bonds
+
+### caixin__02 | https://www.caixin.com/2026-09-10/102483722.html
+enc used=utf-8 declared=utf-8 detected=Windows-1254 | body_text_len=13997
+title_tag: 律商联讯调研中国内地律师：99%在用AI 超6成担忧数据及“幻觉”风险_财新网_财新网
+og:title: 律商联讯调研中国内地律师：99%在用AI 超6成担忧数据及“幻觉”风险
+twitter:title: 律商联讯调研中国内地律师：99%在用AI 超6成担忧数据及“幻觉”风险
+h1: 律商联讯调研中国内地律师：99%在用AI 超6成担忧数据及“幻觉”风险
+link_density=0.11 | n_links=155 | n_img=25 | n_video=0
+TRAF title: 律商联讯调研中国内地律师：99%在用AI 超6成担忧数据及“幻觉”风险
+TRAF author: 作者：杜知航 | date: 2026-09-10
+TRAF text len=262 head: 【财新网】9月10日，法律数据库公司律商联讯（Lexis Nexis）发布报告，对中国内地411名受访者的调查显示，99%的受访者在工作中使用通用AI或专业法律AI工具。⏎过去三年，律商联讯每年都调查
+
+### caixin__03 | https://www.caixin.com/2026-09-10/102483720.html
+enc used=utf-8 declared=utf-8 detected=Windows-1254 | body_text_len=13676
+title_tag: 林行止：一支健笔书写香港半世纪｜讣闻_财新网_财新网
+og:title: 林行止：一支健笔书写香港半世纪｜讣闻
+twitter:title: 林行止：一支健笔书写香港半世纪｜讣闻
+h1: 林行止：一支健笔书写香港半世纪｜讣闻
+link_density=0.10 | n_links=149 | n_img=25 | n_video=0
+TRAF title: 林行止：一支健笔书写香港半世纪｜讣闻
+TRAF author: 作者：文思敏 | date: 2026-09-10
+TRAF text len=273 head: 【财新网】9月6日，香港《信报》创办人林行止在家人陪同下离世，享年86岁。林行止曾长期撰写政经评论，直至2021年宣布停笔，在香港报界有“第一健笔”之称。⏎林行止原名林山木，于1940年出生于广东澄海
+
+### caixin__04 | https://finance.caixin.com/2026-09-10/102483714.html
+enc used=utf-8 declared=utf-8 detected=Windows-1254 | body_text_len=14731
+title_tag: 外汇局李斌：通过对外投资将经常账户顺差运用到全球_金融频道_财新网
+og:title: 外汇局李斌：通过对外投资将经常账户顺差运用到全球
+twitter:title: 外汇局李斌：通过对外投资将经常账户顺差运用到全球
+h1: 外汇局李斌：通过对外投资将经常账户顺差运用到全球
+link_density=0.10 | n_links=152 | n_img=25 | n_video=0
+TRAF title: 外汇局李斌：通过对外投资将经常账户顺差运用到全球
+TRAF author: 作者：王石玉 | date: 2026-09-10
+TRAF text len=1384 head: 【财新网】过去多年，中国因出口强劲积累了不少经常账户顺差，在全球失衡的国际讨论中受到关注。⏎2026年9月10日，在国务院新闻办公室举行的“开局起步‘十五五’”系列主题新闻发布会上，国家外汇管理局新闻
+
+### caixin__05 | https://finance.caixin.com/2026-09-10/102483697.html
+enc used=utf-8 declared=utf-8 detected=Windows-1254 | body_text_len=14734
+title_tag: 桥水私募遭抢购 销售渠道各显神通_金融频道_财新网
+og:title: 桥水私募遭抢购 销售渠道各显神通
+twitter:title: 桥水私募遭抢购 销售渠道各显神通
+h1: 桥水私募遭抢购 销售渠道各显神通
+link_density=0.10 | n_links=155 | n_img=25 | n_video=0
+TRAF title: 桥水私募遭抢购 销售渠道各显神通
+TRAF author: 作者：韩宇航 | date: 2026-09-10
+TRAF text len=1367 head: 【财新网】伴随QDII额度打开，业绩突出、一份难求的桥水中国旗下私募产品近日再次开启申购。根据代销渠道招商银行APP信息，桥水中国旗下的多只产品华润创意择优桥云系列的产品即将于9月11日开始9月18日
+
+### chinanews__01 | https://www.chinanews.com.cn/gn/2026/09-10/10694201.shtml
+enc used=UTF-8 declared=UTF-8 detected=utf-8 | body_text_len=11279
+title_tag: 习近平将赴印度出席金砖国家领导人第十八次会晤-中新网
+h1: 习近平将赴印度出席金砖国家领导人第十八次会晤
+h1: 习近平将赴印度出席金砖国家领导人第十八次会晤
+meta: {"author": ["chinanews"]}
+byline: 2026年09月10日 19:22 来源：中国新闻网
+ 
+ 
+ 大字体
+ 
+ 
+ 小字体
+ 
+ 
+ 
+ 
+ 分享到：
+link_density=0.19 | n_links=330 | n_img=70 | n_video=0
+TRAF title: 习近平将赴印度出席金砖国家领导人第十八次会晤
+TRAF author: 作者：胡寒笑 | date: 2026-09-10
+TRAF text len=1362 head: 习近平将赴印度出席金砖国家领导人第十八次会晤⏎![](https://www.chinanews.com.cn/fileftp/2025/02/2025-02-24/U947P4T47D55186F2
+
+### chinanews__02 | https://www.chinanews.com.cn/gn/2026/09-10/10694211.shtml
+enc used=UTF-8 declared=UTF-8 detected=utf-8 | body_text_len=11516
+title_tag: 习言道｜一图读懂“金砖”-中新网
+h1: 习言道｜一图读懂“金砖”
+h1: 习言道｜一图读懂“金砖”
+meta: {"author": ["chinanews"]}
+byline: 2026年09月10日 19:51 来源：中国新闻网
+ 
+ 
+ 大字体
+ 
+ 
+ 小字体
+ 
+ 
+ 
+ 
+ 分享到：
+link_density=0.19 | n_links=337 | n_img=78 | n_video=0
+TRAF title: 习言道｜一图读懂“金砖”
+TRAF author: 作者：胡寒笑 | date: 2026-09-10
+TRAF text len=1456 head: 习言道｜一图读懂“金砖”⏎![](https://www.chinanews.com.cn/fileftp/2025/02/2025-02-24/U947P4T47D55186F24532DT2025
+
+### chinanews__03 | https://www.chinanews.com.cn/gn/2026/09-10/10694077.shtml
+enc used=UTF-8 declared=UTF-8 detected=utf-8 | body_text_len=11716
+title_tag: 习近平对山东青岛市北海造船厂一货轮火灾事故作出重要指示-中新网
+h1: 习近平对山东青岛市北海造船厂一货轮火灾事故作出重要指示
+h1: 习近平对山东青岛市北海造船厂一货轮火灾事故作出重要指示
+meta: {"author": ["chinanews"]}
+byline: 2026年09月10日 17:00 来源：新华社
+ 
+ 
+ 大字体
+ 
+ 
+ 小字体
+ 
+ 
+ 
+ 
+ 分享到：
+link_density=0.18 | n_links=328 | n_img=70 | n_video=0
+TRAF title: 习近平对山东青岛市北海造船厂一货轮火灾事故作出重要指示
+TRAF author: 作者：胡寒笑 | date: 2026-09-10
+TRAF text len=1782 head: 习近平对山东青岛市北海造船厂一货轮火灾事故作出重要指示⏎![](https://www.chinanews.com.cn/fileftp/2025/02/2025-02-24/U947P4T47D55
+
+### chinanews__04 | https://www.chinanews.com.cn/gn/2026/09-10/10693717.shtml
+enc used=UTF-8 declared=UTF-8 detected=utf-8 | body_text_len=12673
+title_tag: 习言道｜习近平忆老师严格要求：现在回想起来，终生受益-中新网
+h1: 习言道｜习近平忆老师严格要求：现在回想起来，终生受益
+h1: 习言道｜习近平忆老师严格要求：现在回想起来，终生受益
+meta: {"author": ["chinanews"]}
+byline: 2026年09月10日 09:19 来源：中国新闻网
+ 
+ 
+ 大字体
+ 
+ 
+ 小字体
+ 
+ 
+ 
+ 
+ 分享到：
+link_density=0.17 | n_links=338 | n_img=78 | n_video=0
+TRAF title: 习言道｜习近平忆老师严格要求：现在回想起来，终生受益
+TRAF author: 作者：胡寒笑 | date: 2026-09-10
+TRAF text len=2554 head: 习言道｜习近平忆老师严格要求：现在回想起来，终生受益⏎![](https://www.chinanews.com.cn/fileftp/2025/02/2025-02-24/U947P4T47D551
+
+### chinanews__05 | https://www.chinanews.com.cn/gn/2026/09-10/10693986.shtml
+enc used=UTF-8 declared=UTF-8 detected=utf-8 | body_text_len=13146
+title_tag: 外交部：中美双方就年内元首互动安排保持着沟通-中新网
+h1: 外交部：中美双方就年内元首互动安排保持着沟通
+h1: 外交部：中美双方就年内元首互动安排保持着沟通
+meta: {"author": ["chinanews"]}
+byline: 2026年09月10日 15:20 来源：中国新闻网
+ 
+ 
+ 大字体
+ 
+ 
+ 小字体
+ 
+ 
+ 
+ 
+ 分享到： || 来源：中国新闻网
+link_density=0.16 | n_links=332 | n_img=72 | n_video=0
+TRAF title: 外交部：中美双方就年内元首互动安排保持着沟通
+TRAF author: 作者：胡寒笑 | date: 2026-09-10
+TRAF text len=1605 head: 外交部：中美双方就年内元首互动安排保持着沟通⏎![](https://www.chinanews.com.cn/fileftp/2025/02/2025-02-24/U947P4T47D55186F2
+
+### chinanews__06 | https://www.chinanews.com.cn/gn/2026/09-10/10694170.shtml
+enc used=UTF-8 declared=UTF-8 detected=utf-8 | body_text_len=11375
+title_tag: 2026年APEC工商领导人峰会举办时间确定-中新网
+h1: 2026年APEC工商领导人峰会举办时间确定
+h1: 2026年APEC工商领导人峰会举办时间确定
+meta: {"author": ["chinanews"]}
+byline: 2026年09月10日 18:53 来源：央视新闻客户端
+ 
+ 
+ 大字体
+ 
+ 
+ 小字体
+ 
+ 
+ 
+ 
+ 分享到：
+link_density=0.18 | n_links=329 | n_img=71 | n_video=0
+TRAF title: 2026年APEC工商领导人峰会举办时间确定
+TRAF author: 作者：胡寒笑 | date: 2026-09-10
+TRAF text len=1504 head: 2026年APEC工商领导人峰会举办时间确定⏎![](https://www.chinanews.com.cn/fileftp/2025/02/2025-02-24/U947P4T47D55186F2
+
+### people__01 | http://finance.people.com.cn/n1/2026/0910/c1004-40796418.html
+enc used=UTF-8 declared=UTF-8 detected=utf-8 | body_text_len=7331
+title_tag: 国家发展改革委有关负责人解读《关于重要工业品低价无序竞争成本核算有关事项的通知》--经济·科技--人民网
+h1: 国家发展改革委有关负责人解读《关于重要工业品低价无序竞争成本核算有关事项的通知》
+meta: {"author": ["1464"], "publishdate": ["2026-09-10"], "source": ["来源：新华社"]}
+link_density=0.14 | n_links=221 | n_img=78 | n_video=0
+TRAF title: 国家发展改革委有关负责人解读《关于重要工业品低价无序竞争成本核算有关事项的通知》--经济·科技--人民网
+TRAF author: None | date: 2026-09-10
+TRAF text len=2485 head: ![人民网 人民网](/img/2020wbc/imgs/logo.png) ⏎国家发展改革委有关负责人解读《关于重要工业品低价无序竞争成本核算有关事项的通知》⏎![](https://cdn2-ap
+
+### people__02 | http://finance.people.com.cn/n1/2026/0910/c1004-40796408.html
+enc used=UTF-8 declared=UTF-8 detected=utf-8 | body_text_len=5946
+title_tag: 央行将开展隔夜逆回购操作--经济·科技--人民网
+h1: 央行将开展隔夜逆回购操作
+meta: {"author": ["1464"], "publishdate": ["2026-09-10"], "source": ["来源：新华社"]}
+link_density=0.18 | n_links=221 | n_img=78 | n_video=0
+TRAF title: 央行将开展隔夜逆回购操作--经济·科技--人民网
+TRAF author: None | date: 2026-09-10
+TRAF text len=1312 head: ![人民网 人民网](/img/2020wbc/imgs/logo.png) ⏎央行将开展隔夜逆回购操作⏎					2026年09月10日20:54 | 来源：新华社⏎![](https://cdn2
+
+### people__03 | http://finance.people.com.cn/n1/2026/0910/c1004-40796402.html
+enc used=UTF-8 declared=UTF-8 detected=utf-8 | body_text_len=6394
+title_tag: 金融监管总局：大力整治“价格战”“高息高返”等行为--经济·科技--人民网
+h1: 金融监管总局：大力整治“价格战”“高息高返”等行为
+meta: {"author": ["1478"], "publishdate": ["2026-09-10"], "source": ["来源：人民网 原创稿"]}
+link_density=0.17 | n_links=221 | n_img=79 | n_video=0
+TRAF title: 金融监管总局：大力整治“价格战”“高息高返”等行为--经济·科技--人民网
+TRAF author: None | date: 2026-09-10
+TRAF text len=1811 head: ![人民网 人民网](/img/2020wbc/imgs/logo.png) ⏎金融监管总局：大力整治“价格战”“高息高返”等行为⏎					2026年09月10日20:30 | 来源：人民网⏎![]
+
+### people__04 | http://finance.people.com.cn/n1/2026/0910/c1004-40796401.html
+enc used=UTF-8 declared=UTF-8 detected=utf-8 | body_text_len=6218
+title_tag: 证监会谈惩防财务造假：“惩防治”并举“行民刑”协同--经济·科技--人民网
+h1: 证监会谈惩防财务造假：“惩防治”并举“行民刑”协同
+meta: {"author": ["1478"], "publishdate": ["2026-09-10"], "source": ["来源：人民网 原创稿"]}
+link_density=0.17 | n_links=221 | n_img=79 | n_video=0
+TRAF title: 证监会谈惩防财务造假：“惩防治”并举“行民刑”协同--经济·科技--人民网
+TRAF author: None | date: 2026-09-10
+TRAF text len=1633 head: ![人民网 人民网](/img/2020wbc/imgs/logo.png) ⏎证监会谈惩防财务造假：“惩防治”并举“行民刑”协同⏎					2026年09月10日20:30 | 来源：人民网⏎![]
+
+### people__05 | http://finance.people.com.cn/n1/2026/0910/c1004-40796398.html
+enc used=UTF-8 declared=UTF-8 detected=utf-8 | body_text_len=6250
+title_tag: 两部门部署做好重要工业品低价无序竞争成本核算工作--经济·科技--人民网
+h1: 两部门部署做好重要工业品低价无序竞争成本核算工作
+meta: {"author": ["1464"], "publishdate": ["2026-09-10"], "source": ["来源：新华社"]}
+link_density=0.17 | n_links=221 | n_img=78 | n_video=0
+TRAF title: 两部门部署做好重要工业品低价无序竞争成本核算工作--经济·科技--人民网
+TRAF author: None | date: 2026-09-10
+TRAF text len=1592 head: ![人民网 人民网](/img/2020wbc/imgs/logo.png) ⏎两部门部署做好重要工业品低价无序竞争成本核算工作⏎					2026年09月10日20:14 | 来源：新华社⏎![](
+
+### people__06 | http://finance.people.com.cn/n1/2026/0910/c1004-40796380.html
+enc used=UTF-8 declared=UTF-8 detected=utf-8 | body_text_len=6295
+title_tag: 《金融强国建设“十五五”规划》正式出台--经济·科技--人民网
+h1: 《金融强国建设“十五五”规划》正式出台
+meta: {"author": ["1464"], "publishdate": ["2026-09-10"], "source": ["来源：新华社"]}
+link_density=0.17 | n_links=221 | n_img=78 | n_video=0
+TRAF title: 《金融强国建设“十五五”规划》正式出台--经济·科技--人民网
+TRAF author: None | date: 2026-09-10
+TRAF text len=1647 head: ![人民网 人民网](/img/2020wbc/imgs/logo.png) ⏎《金融强国建设“十五五”规划》正式出台⏎					2026年09月10日18:55 | 来源：新华社⏎![](https
+
+### cnblogs__01 | https://www.cnblogs.com/cmt/p/19316348
+enc used=utf-8 declared=utf-8 detected=utf-8 | body_text_len=2837
+title_tag: 感谢艾思科蓝成为博客园赞助商 - 博客园团队 - 博客园
+h1: 感谢艾思科蓝成为博客园赞助商
+jsonld: {"@context": "https://schema.org", "@type": "BlogPosting", "@id": "https://www.cnblogs.com/cmt/p/19316348", "headline": "感谢艾思科蓝成为博客园赞助商", "description": "在2025年岁末临近之际，园子又添惊喜，迎来一家新的赞助商——艾思科蓝。 非常感谢艾思科蓝的赞助！ 以下是艾思科蓝的介绍： 艾思科蓝(AiScholar)，立足科研领域的连接者，致力于探索“人工智能&#x2B;科研学术”的深度结合，打造 Al for Science 的科研服务新范式，在学术交流、科研论文、机", "image": [], "author": {"@type": "Pers
+link_density=0.08 | n_links=51 | n_img=18 | n_video=0
+TRAF title: 感谢艾思科蓝成为博客园赞助商
+TRAF author: 博客园团队 | date: 2025-12-09
+TRAF text len=1620 head: 感谢艾思科蓝成为博客园赞助商⏎在2025年岁末临近之际，园子又添惊喜，迎来一家新的赞助商——艾思科蓝。⏎非常感谢艾思科蓝的赞助！⏎以下是艾思科蓝的介绍：⏎艾思科蓝(AiScholar)，立足科研领域的
+
+### cnblogs__02 | https://www.cnblogs.com/HaiJun-Aion/p/22870343
+enc used=utf-8 declared=utf-8 detected=utf-8 | body_text_len=6624
+title_tag: AI 越来越强，为什么打工人反而越来越累、越来越内耗了？ - 程序员海军 - 博客园
+h1: AI 越来越强，为什么打工人反而越来越累、越来越内耗了？
+h1: AI 越来越强，打工人怎么反而越来越累了？
+jsonld: {"@context": "https://schema.org", "@type": "BlogPosting", "@id": "https://www.cnblogs.com/HaiJun-Aion/p/22870343", "headline": "AI 越来越强，为什么打工人反而越来越累、越来越内耗了？", "description": "AI 越来越强，打工人怎么反而越来越累了？ 最近一直都很忙，忙公司里的 AI 项目，也忙着在几个任务之间来回切换。公众号有段时间没更新了，好久没坐下来跟大家聊聊工作之外的感受。 从生成式 AI 在国内热起来算起，我接触 AI 已经两年多了。这两年我和至少几十位深度使用 AI 的开发者、产品经理、独立", "image": [], "author"
+link_density=0.02 | n_links=42 | n_img=21 | n_video=0
+TRAF title: AI 越来越强，为什么打工人反而越来越累、越来越内耗了？
+TRAF author: 程序员海军 | date: 2026-09-07
+TRAF text len=5716 head: AI 越来越强，为什么打工人反而越来越累、越来越内耗了？⏎AI 越来越强，打工人怎么反而越来越累了？⏎最近一直都很忙，忙公司里的 AI 项目，也忙着在几个任务之间来回切换。公众号有段时间没更新了，好久
+
+### cnblogs__03 | https://www.cnblogs.com/shanyou/p/22904825
+enc used=utf-8 declared=utf-8 detected=utf-8 | body_text_len=8228
+title_tag: .NET 11 RC1 发布：拿到"准生证"，生产环境可以上了！ - 张善友 - 博客园
+h1: 自由、创新、研究、探索
+h1: .NET 11 RC1 发布：拿到"准生证"，生产环境可以上了！
+jsonld: {"@context": "https://schema.org", "@type": "BlogPosting", "@id": "https://www.cnblogs.com/shanyou/p/22904825", "headline": ".NET 11 RC1 发布：拿到&amp;quot;准生证&amp;quot;，生产环境可以上了！", "description": "微软正式发布了 .NET 11 的第一个候选发布版本（Release Candidate 1）。 和之前的 Preview 不同，RC1 附带了 go-live 支持许可证——这意味着你可以放心地把它用在生产环境，遇到问题能获得官方支持。按照惯例，接下来就是 RC2，然后 11 月正式 GA。作为 ", "im
+link_density=0.03 | n_links=42 | n_img=16 | n_video=0
+TRAF title: .NET 11 RC1 发布：拿到&quot;准生证&quot;，生产环境可以上了！
+TRAF author: 张善友 | date: 2026-09-10
+TRAF text len=5966 head: .NET 11 RC1 发布：拿到"准生证"，生产环境可以上了！⏎微软正式发布了 .NET 11 的第一个候选发布版本（Release Candidate 1）。⏎和之前的 Preview 不同，RC
+
+### cnblogs__04 | https://www.cnblogs.com/shanyou/p/22851086
+enc used=utf-8 declared=utf-8 detected=Windows-1254 | body_text_len=12319
+title_tag: 写给 C++ 工程师的 OpenClaw.NET 上手指南：用你熟悉的 C++ 思维，跑起一个生产级 AI Agent - 张善友 - 博客园
+h1: 自由、创新、研究、探索
+h1: 写给 C++ 工程师的 OpenClaw.NET 上手指南：用你熟悉的 C++ 思维，跑起一个生产级 AI Agent
+jsonld: {"@context": "https://schema.org", "@type": "BlogPosting", "@id": "https://www.cnblogs.com/shanyou/p/22851086", "headline": "写给 C&#x2B;&#x2B; 工程师的 OpenClaw.NET 上手指南：用你熟悉的 C&#x2B;&#x2B; 思维，跑起一个生产级 AI Agent", "description": "编译出单文件原生二进制、没有头文件、async 不用手写状态机、内存安全但不用和借用检查器格斗——一个 C&#x2B;&#x2B; 工程师视角下的 .NET AI Agent 运行时。 为什么写这篇 如果你是 C&#x2B;&#x2B; 工程师，你的世界
+link_density=0.02 | n_links=43 | n_img=15 | n_video=0
+TRAF title: 写给 C++ 工程师的 OpenClaw.NET 上手指南：用你熟悉的 C++ 思维，跑起一个生产级 AI Agent
+TRAF author: 张善友 | date: 2026-09-10
+TRAF text len=10355 head: 写给 C++ 工程师的 OpenClaw.NET 上手指南：用你熟悉的 C++ 思维，跑起一个生产级 AI Agent⏎编译出单文件原生二进制、没有头文件、async 不用手写状态机、内存安全但不用和
+
+### cnblogs__05 | https://www.cnblogs.com/rossiXYZ/p/22864251
+enc used=utf-8 declared=utf-8 detected=utf-8 | body_text_len=17575
+title_tag: [Agent Memory / 强化学习] MemPO源码学习笔记 ---（1）--- 总体 - 罗西的思考 - 博客园
+h1: [Agent Memory / 强化学习] MemPO源码学习笔记 ---（1）--- 总体
+h1: [Agent Memory / 强化学习] MemPO源码学习笔记 ---（1）--- 总体
+jsonld: {"@context": "https://schema.org", "@type": "BlogPosting", "@id": "https://www.cnblogs.com/rossiXYZ/p/22864251", "headline": "[Agent Memory / 强化学习] MemPO源码学习笔记 ---（1）--- 总体", "description": "[Agent Memory / 强化学习] MemPO源码学习笔记 （1） 总体 目录[Agent Memory / 强化学习] MemPO源码学习笔记 （1） 总体0x00 概要0x01 基础 &amp; 背景1.1 用RL训练记忆系统的要点1.2 主要难点1.3 主要思路1.4 RL训练方案1.4.1 ", "i
+link_density=0.05 | n_links=99 | n_img=28 | n_video=0
+TRAF title: [Agent Memory / 强化学习] MemPO源码学习笔记 ---（1）--- 总体
+TRAF author: 罗西的思考 | date: 2026-09-10
+TRAF text len=17867 head: [Agent Memory / 强化学习] MemPO源码学习笔记 ---（1）--- 总体⏎[Agent Memory / 强化学习] MemPO源码学习笔记 ---（1）--- 总体⏎0x00 概
+
+### cnblogs__06 | https://www.cnblogs.com/lvwangshuOI/p/22926243
+enc used=utf-8 declared=utf-8 detected=utf-8 | body_text_len=40379
+title_tag: 图论：LCA、树的直径、树的重心、二分图与 Tarjan 缩点 - lvwangshu - 博客园
+h1: 图论：LCA、树的直径、树的重心、二分图与 Tarjan 缩点
+h1: 图论：LCA、树的直径、树的重心、二分图与 Tarjan 缩点
+jsonld: {"@context": "https://schema.org", "@type": "BlogPosting", "@id": "https://www.cnblogs.com/lvwangshuOI/p/22926243", "headline": "图论：LCA、树的直径、树的重心、二分图与 Tarjan 缩点", "description": "图论：LCA、树的直径、树的重心、二分图与 Tarjan 缩点 目录 一、最近公共祖先（LCA） 1. 树上倍增法 2. DFS 序求 LCA（O(1) 查询） 二、树的直径 1. 两次 DFS 法 2. 树形 DP 法 三、树的重心 定义 性质 求法 四、二分图 定义与判定 二分图匹配 五、Tar", "image": [], "auth
+link_density=0.01 | n_links=60 | n_img=13 | n_video=0
+TRAF title: 图论：LCA、树的直径、树的重心、二分图与 Tarjan 缩点
+TRAF author: Lvwangshu | date: 2026-09-10
+TRAF text len=12259 head: 图论：LCA、树的直径、树的重心、二分图与 Tarjan 缩点⏎图论：LCA、树的直径、树的重心、二分图与 Tarjan 缩点⏎目录⏎一、最近公共祖先（LCA）⏎给定一棵有根树，若节点 \(z\) 既
+
+### cnblogs__07 | https://www.cnblogs.com/hxjz/p/22893914
+enc used=utf-8 declared=utf-8 detected=utf-8 | body_text_len=5732
+title_tag: 从产品碳足迹到气象预测：以电解铝为例理解绿电与电力交易 - 茴香饺子、 - 博客园
+h1: 茴香饺子、
+h1: 从产品碳足迹到气象预测：以电解铝为例理解绿电与电力交易
+jsonld: {"@context": "https://schema.org", "@type": "BlogPosting", "@id": "https://www.cnblogs.com/hxjz/p/22893914", "headline": "从产品碳足迹到气象预测：以电解铝为例理解绿电与电力交易", "description": "减碳和低碳是人类的在环境保护上的目标，碳达峰和碳中和是对应的实现策略，欧盟是最早立法和推进这一策略的经济体。来公司半年多了，做了很多相关的项目，今天把气象、功率预测、电力交易、碳足迹相关的内容整理梳理了一遍，特记录一篇笔记。本篇内容均是基于个人对业务需求理解整理而成。如有理解不到位的地方，欢迎各位老", "image": [], "author": {"@typ
+link_density=0.03 | n_links=42 | n_img=13 | n_video=0
+TRAF title: 从产品碳足迹到气象预测：以电解铝为例理解绿电与电力交易
+TRAF author: 茴香饺子 | date: 2026-09-10
+TRAF text len=4050 head: 从产品碳足迹到气象预测：以电解铝为例理解绿电与电力交易⏎减碳和低碳是人类的在环境保护上的目标，碳达峰和碳中和是对应的实现策略，欧盟是最早立法和推进这一策略的经济体。来公司半年多了，做了很多相关的项目，
+
+### segmentfault__01 | https://segmentfault.com/a/1190000047933033
+enc used=utf-8 declared=utf-8 detected=Windows-1254 | body_text_len=16731
+title_tag: 人工智能 - 当代码实现不再是瓶颈：技术领导者的「上下文治理」与协作演进 - MindMux 中文博客 - SegmentFault 思否
+twitter:title: 当代码实现不再是瓶颈：技术领导者的「上下文治理」与协作演进
+h1: 当代码实现不再是瓶颈：技术领导者的「上下文治理」与协作演进
+jsonld: {"@context": "https://schema.org", "@type": "Article", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://google.com/article"}, "name": "当代码实现不再是瓶颈：技术领导者的「上下文治理」与协作演进", "headline": "当代码实现不再是瓶颈：技术领导者的「上下文治理」与协作演进", "image": "https://static.segmentfault.com/main_site_next/prodtouch-icon.png", "datePublished": "2026-06-28T03:07:37.000Z", "dateMo
+time_el: [{"datetime": "2026-06-28T03:07:37.000Z", "text": "6 月 28 日"}, {"datetime": "2026-06-28T03:07:37.000Z", "text": "发布于 6 月 28 日"}]
+link_density=0.04 | n_links=42 | n_img=25 | n_video=0
+TRAF title: 当代码实现不再是瓶颈：技术领导者的「上下文治理」与协作演进
+TRAF author: MindMux | date: 2026-06-28
+TRAF text len=4378 head: 作者：祁宁（@Joyqi），MindMux.ai 联合创始人兼CTO、SegmentFault 创始人前CTO，Apache Answer PMC 主席。⏎背景：本文整理自作者在全球技术领导者峰会 G
+
+### segmentfault__02 | https://segmentfault.com/a/1190000048282567
+enc used=utf-8 declared=utf-8 detected=utf-8 | body_text_len=15812
+title_tag: 网络 - 定时抓 Google 搜索结果的脚本突然全变中文？排查下来是出口 IP 被 Google「送中」 - 个人文章 - SegmentFault 思否
+twitter:title: 定时抓 Google 搜索结果的脚本突然全变中文？排查下来是出口 IP 被 Google「送中」
+h1: 定时抓 Google 搜索结果的脚本突然全变中文？排查下来是出口 IP 被 Google「送中」
+jsonld: {"@context": "https://schema.org", "@type": "Article", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://google.com/article"}, "name": "定时抓 Google 搜索结果的脚本突然全变中文？排查下来是出口 IP 被 Google「送中」", "headline": "定时抓 Google 搜索结果的脚本突然全变中文？排查下来是出口 IP 被 Google「送中」", "image": "https://static.segmentfault.com/main_site_next/prodtouch-icon.png", "datePublished
+time_el: [{"datetime": "2026-09-08T09:57:50.000Z", "text": "9 月 8 日"}, {"datetime": "2026-09-08T09:57:50.000Z", "text": "发布于 9 月 8 日"}]
+link_density=0.04 | n_links=34 | n_img=10 | n_video=0
+TRAF title: 定时抓 Google 搜索结果的脚本突然全变中文？排查下来是出口 IP 被 Google「送中」
+TRAF author: 请求又超时了 | date: 2026-09-08
+TRAF text len=6967 head: 有个每天跑的小任务，去抓 Google 搜索结果监控几个关键词排名。前一周都正常，某天早上看日志，抓回来的页面全是中文、还夹着验证码。机器出口 IP 查出来明明是美西，Google 却按中国区给我返回
+
+### segmentfault__03 | https://segmentfault.com/a/1190000048276630
+enc used=utf-8 declared=utf-8 detected=Windows-1254 | body_text_len=19362
+title_tag: 人工智能 - 【大模型应用开发】微调全景与 LoRA —— 让大模型学会你的"方言" - AI技术讲解 - SegmentFault 思否
+twitter:title: 【大模型应用开发】微调全景与 LoRA —— 让大模型学会你的"方言"
+h1: 【大模型应用开发】微调全景与 LoRA —— 让大模型学会你的"方言"
+jsonld: {"@context": "https://schema.org", "@type": "Article", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://google.com/article"}, "name": "【大模型应用开发】微调全景与 LoRA —— 让大模型学会你的\"方言\"", "headline": "【大模型应用开发】微调全景与 LoRA —— 让大模型学会你的\"方言\"", "image": "/img/bVdqI7q?spec=cover", "datePublished": "2026-09-06T04:04:10.000Z", "dateModified": "2026-09-06T04:04
+time_el: [{"datetime": "2026-09-06T04:04:10.000Z", "text": "9 月 6 日"}, {"datetime": "2026-09-06T04:04:10.000Z", "text": "发布于 9 月 6 日"}]
+link_density=0.04 | n_links=43 | n_img=11 | n_video=0
+TRAF title: 【大模型应用开发】微调全景与 LoRA —— 让大模型学会你的"方言"
+TRAF author: 悟空聊Ai | date: 2026-09-06
+TRAF text len=7757 head: 19.1 先搞清楚：到底什么时候需要微调？⏎第 13 课讲过训练三阶段（预训练 → SFT → RLHF）。但那是在"造模型"的层面。对你这样的应用开发者来说，问题往往是另一个：⏎"我的场景有独特风格
+
+### segmentfault__04 | https://segmentfault.com/a/1190000048280818
+enc used=utf-8 declared=utf-8 detected=utf-8 | body_text_len=14348
+title_tag: 数据库 - 如何构建有记忆的AI角色？快看Livo的Agent系统设计解析 - OceanBase技术站 - SegmentFault 思否
+twitter:title: 如何构建有记忆的AI角色？快看Livo的Agent系统设计解析
+h1: 如何构建有记忆的AI角色？快看Livo的Agent系统设计解析
+jsonld: {"@context": "https://schema.org", "@type": "Article", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://google.com/article"}, "name": "如何构建有记忆的AI角色？快看Livo的Agent系统设计解析", "headline": "如何构建有记忆的AI角色？快看Livo的Agent系统设计解析", "image": "https://static.segmentfault.com/main_site_next/prodtouch-icon.png", "datePublished": "2026-09-08T02:51:04.000Z", "da
+time_el: [{"datetime": "2026-09-08T02:51:04.000Z", "text": "9 月 8 日"}, {"datetime": "2026-09-08T02:51:04.000Z", "text": "发布于 9 月 8 日"}]
+link_density=0.05 | n_links=37 | n_img=17 | n_video=0
+TRAF title: 如何构建有记忆的AI角色？快看Livo的Agent系统设计解析
+TRAF author: OceanBase技术站 | date: 2026-09-08
+TRAF text len=3136 head: 《DB大咖说》第 28 期来啦⏎AI 浪潮来袭，对内容创作平台而言，是机遇还是挑战？答案或许取决于我们如何真正用好AI技术。⏎快看漫画，作为国内领先的漫画平台，正在给出自己的答案——推出旗下产品 Li
+
+### segmentfault__05 | https://segmentfault.com/a/1190000048280364
+enc used=utf-8 declared=utf-8 detected=utf-8 | body_text_len=24330
+title_tag: 知识 - Access 窗体也能响应式：窗口大小变了，控件自动跟着调 - access开发 - SegmentFault 思否
+twitter:title: Access 窗体也能响应式：窗口大小变了，控件自动跟着调
+h1: Access 窗体也能响应式：窗口大小变了，控件自动跟着调
+jsonld: {"@context": "https://schema.org", "@type": "Article", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://google.com/article"}, "name": "Access 窗体也能响应式：窗口大小变了，控件自动跟着调", "headline": "Access 窗体也能响应式：窗口大小变了，控件自动跟着调", "image": "/img/bVdqJ5H?spec=cover", "datePublished": "2026-09-08T00:57:22.000Z", "dateModified": "2026-09-08T00:57:22.000Z", "url"
+time_el: [{"datetime": "2026-09-08T00:57:22.000Z", "text": "9 月 8 日"}, {"datetime": "2026-09-08T00:57:22.000Z", "text": "发布于 9 月 8 日"}]
+link_density=0.03 | n_links=39 | n_img=13 | n_video=0
+TRAF title: Access 窗体也能响应式：窗口大小变了，控件自动跟着调
+TRAF author: Access开发 | date: 2026-09-08
+TRAF text len=16243 head: 摘要： 前端框架的响应式布局在 Access 里也能做到——窗体尺寸变化时，控件自动调整位置和大小，不会出现控件被遮挡、留白太多、错位等问题。本文给出完整实现方案 + 可直接复制的 VBA 代码。ac
+
+### python_docs__01 | https://docs.python.org/3/tutorial/appetite.html
+enc used=utf-8 declared=utf-8 detected=utf-8 | body_text_len=6831
+title_tag: 1. Whetting Your Appetite — Python 3.14.7 documentation
+og:title: 1. Whetting Your Appetite
+h1: 1. Whetting Your Appetite¶
+link_density=0.06 | n_links=33 | n_img=3 | n_video=0
+TRAF title: 1. Whetting Your Appetite
+TRAF author: None | date: 2026-09-10
+TRAF text len=4406 head: 1. Whetting Your Appetite¶⏎If you do much work on computers, eventually you find that there’s some t
+
+### python_docs__02 | https://docs.python.org/3/library/index.html
+enc used=utf-8 declared=utf-8 detected=utf-8 | body_text_len=15931
+title_tag: The Python Standard Library — Python 3.14.7 documentation
+og:title: The Python Standard Library
+h1: The Python Standard Library¶
+link_density=0.76 | n_links=352 | n_img=3 | n_video=0
+TRAF title: The Python Standard Library
+TRAF author: None | date: 2026-09-10
+TRAF text len=3247 head:             ⏎  ⏎The Python Standard Library⏎While The Python Language Reference describes the exact 
+
+### python_docs__03 | https://docs.python.org/3/tutorial/interpreter.html
+enc used=utf-8 declared=utf-8 detected=utf-8 | body_text_len=8640
+title_tag: 2. Using the Python Interpreter — Python 3.14.7 documentation
+og:title: 2. Using the Python Interpreter
+h1: 2. Using the Python Interpreter¶
+link_density=0.12 | n_links=67 | n_img=3 | n_video=0
+TRAF title: 2. Using the Python Interpreter
+TRAF author: None | date: 2024-04-04
+TRAF text len=5554 head: 2. Using the Python Interpreter¶⏎2.1. Invoking the Interpreter¶⏎The Python interpreter is usually in
+
+### python_docs__04 | https://docs.python.org/3/tutorial/introduction.html
+enc used=utf-8 declared=utf-8 detected=utf-8 | body_text_len=19633
+title_tag: 3. An Informal Introduction to Python — Python 3.14.7 documentation
+og:title: 3. An Informal Introduction to Python
+h1: 3. An Informal Introduction to Python¶
+link_density=0.06 | n_links=86 | n_img=3 | n_video=0
+TRAF title: 3. An Informal Introduction to Python
+TRAF author: None | date: 2025-09-16
+TRAF text len=16533 head: 3. An Informal Introduction to Python¶⏎In the following examples, input and output are distinguished
+
+### python_docs__05 | https://docs.python.org/3/tutorial/controlflow.html
+enc used=utf-8 declared=utf-8 detected=utf-8 | body_text_len=38491
+title_tag: 4. More Control Flow Tools — Python 3.14.7 documentation
+og:title: 4. More Control Flow Tools
+h1: 4. More Control Flow Tools¶
+link_density=0.06 | n_links=168 | n_img=3 | n_video=0
+TRAF title: 4. More Control Flow Tools
+TRAF author: None | date: 2026-09-10
+TRAF text len=35499 head: 4. More Control Flow Tools¶⏎As well as the while statement just introduced, Python uses a few more⏎t
+
+### github_blog__01 | https://github.blog/ai-and-ml/generative-ai/how-ai-code-generation-works/
+enc used=UTF-8 declared=UTF-8 detected=utf-8 | body_text_len=33334
+title_tag: How AI code generation works - The GitHub Blog
+og:title: How AI code generation works
+h1: How AI code generation works
+meta: {"author": ["Jeimy Ruiz"], "article:published_time": ["2024-02-22T18:32:28+00:00"], "article:modified_time": ["2024-05-14T18:29:02+00:00"]}
+jsonld: {"@context": "https://schema.org", "headline": "How AI code generation works", "author": {"@type": "Person", "name": "Jeimy Ruiz"}, "datePublished": "2024-02-22T10:32:28-08:00", "abstract": "Explore the capabilities and benefits of AI code generation, and how it can improve the developer experience for your enterprise.", "mainEntityOfPage": {"@type
+jsonld: {"@context": "https://schema.org", "headline": "How AI code generation works", "author": {"@type": "Person", "name": "Jeimy Ruiz"}, "datePublished": "2024-02-22T10:32:28-08:00", "abstract": "Explore the capabilities and benefits of AI code generation, and how it can improve the developer experience for your enterprise.", "mainEntityOfPage": {"@type
+jsonld: {"@context": "https://schema.org", "@graph": [{"@type": "Article", "@id": "https://github.blog/ai-and-ml/generative-ai/how-ai-code-generation-works/#article", "isPartOf": {"@id": "https://github.blog/ai-and-ml/generative-ai/how-ai-code-generation-works/"}, "author": [{"@id": "https://github.blog/#/schema/person/254d6e0f5288fd51a2b0081edcd5fe0b"}], 
+time_el: [{"datetime": "2024-02-22", "text": "February 22, 2024"}, {"datetime": "2024-05-14", "text": "Updated May 14, 2024"}]
+link_density=0.14 | n_links=243 | n_img=17 | n_video=0
+TRAF title: How AI code generation works
+TRAF author: Jeimy Ruiz | date: 2024-02-22
+TRAF text len=15688 head: 	⏎Generative AI coding tools are changing software production for enterprises. Not just for their co
+
+### github_blog__02 | https://github.blog/ai-and-ml/llms/unlocking-the-power-of-unstructured-data-with-rag/
+enc used=UTF-8 declared=UTF-8 detected=Windows-1252 | body_text_len=30658
+title_tag: Unlocking the power of unstructured data with RAG - The GitHub Blog
+og:title: Unlocking the power of unstructured data with RAG
+h1: Unlocking the power of unstructured data with RAG
+meta: {"author": ["Nicole Choi"], "article:published_time": ["2024-06-13T16:00:28+00:00"], "article:modified_time": ["2024-07-23T13:14:10+00:00"]}
+jsonld: {"@context": "https://schema.org", "headline": "Unlocking the power of unstructured data with RAG", "author": {"@type": "Person", "name": "Nicole Choi"}, "datePublished": "2024-06-13T09:00:28-07:00", "abstract": "Unstructured data holds valuable information about codebases, organizational best practices, and customer feedback. Here are some ways yo
+jsonld: {"@context": "https://schema.org", "headline": "Unlocking the power of unstructured data with RAG", "author": {"@type": "Person", "name": "Nicole Choi"}, "datePublished": "2024-06-13T09:00:28-07:00", "abstract": "Unstructured data holds valuable information about codebases, organizational best practices, and customer feedback. Here are some ways yo
+jsonld: {"@context": "https://schema.org", "@graph": [{"@type": "Article", "@id": "https://github.blog/ai-and-ml/llms/unlocking-the-power-of-unstructured-data-with-rag/#article", "isPartOf": {"@id": "https://github.blog/ai-and-ml/llms/unlocking-the-power-of-unstructured-data-with-rag/"}, "author": [{"@id": "https://github.blog/#/schema/person/8a8cb984893a6
+time_el: [{"datetime": "2024-06-13", "text": "June 13, 2024"}, {"datetime": "2024-07-23", "text": "Updated July 23, 2024"}]
+link_density=0.14 | n_links=221 | n_img=16 | n_video=0
+TRAF title: Unlocking the power of unstructured data with RAG
+TRAF author: Nicole Choi | date: 2024-06-13
+TRAF text len=14121 head: Unlocking the power of unstructured data with RAG⏎Unstructured data holds valuable information about
+
+### github_blog__03 | https://github.blog/ai-and-ml/github-copilot/project-hydrafusion-frontier-quality-via-multi-model-orchestration/
+enc used=UTF-8 declared=UTF-8 detected=utf-8 | body_text_len=441001
+title_tag: Project HydraFusion: Frontier quality via multi-model orchestration - The GitHub Blog
+og:title: Project HydraFusion: Frontier quality via multi-model orchestration
+h1: Project HydraFusion: Frontier quality via multi-model orchestration
+meta: {"author": ["GitHub Staff"], "article:published_time": ["2026-09-04T16:04:14+00:00"], "article:modified_time": ["2026-09-04T18:31:57+00:00"]}
+jsonld: {"@context": "https://schema.org", "headline": "Project HydraFusion: Frontier quality via multi-model orchestration", "author": {"@type": "Person", "name": "GitHub Staff"}, "datePublished": "2026-09-04T09:04:14-07:00", "abstract": "In controlled offline evaluations, HydraFusion’s selective coding workflows matched or exceeded the evaluated Opus 5 b
+jsonld: {"@context": "https://schema.org", "headline": "Project HydraFusion: Frontier quality via multi-model orchestration", "author": {"@type": "Person", "name": "GitHub Staff"}, "datePublished": "2026-09-04T09:04:14-07:00", "abstract": "In controlled offline evaluations, HydraFusion’s selective coding workflows matched or exceeded the evaluated Opus 5 b
+jsonld: {"@context": "https://schema.org", "@graph": [{"@type": "Article", "@id": "https://github.blog/ai-and-ml/github-copilot/project-hydrafusion-frontier-quality-via-multi-model-orchestration/#article", "isPartOf": {"@id": "https://github.blog/ai-and-ml/github-copilot/project-hydrafusion-frontier-quality-via-multi-model-orchestration/"}, "author": [{"@i
+time_el: [{"datetime": "2026-09-04", "text": "September 4, 2026"}]
+link_density=0.01 | n_links=215 | n_img=22 | n_video=0
+TRAF title: Project HydraFusion: Frontier quality via multi-model orchestration
+TRAF author: GitHub Staff | date: 2026-09-04
+TRAF text len=10578 head: GitHub Staff⏎GitHub is the world's best developer experience and the only AI-powered platform with s
+
+### github_blog__04 | https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-run-several-agents-at-once/
+enc used=UTF-8 declared=UTF-8 detected=utf-8 | body_text_len=19836
+title_tag: GitHub Copilot app for Beginners: Run several agents at once - The GitHub Blog
+og:title: GitHub Copilot app for Beginners: Run several agents at once
+h1: GitHub Copilot app for Beginners: Run several agents at once
+meta: {"author": ["Kayla Cinnamon"], "article:published_time": ["2026-09-03T16:00:00+00:00"]}
+jsonld: {"@context": "https://schema.org", "headline": "GitHub Copilot app for Beginners: Run several agents at once", "author": {"@type": "Person", "name": "Kayla Cinnamon"}, "datePublished": "2026-09-03T09:00:00-07:00", "abstract": "Learn how to run parallel agents in the GitHub Copilot app, and experience the moment it stops feeling scary and starts fee
+jsonld: {"@context": "https://schema.org", "headline": "GitHub Copilot app for Beginners: Run several agents at once", "author": {"@type": "Person", "name": "Kayla Cinnamon"}, "datePublished": "2026-09-03T09:00:00-07:00", "abstract": "Learn how to run parallel agents in the GitHub Copilot app, and experience the moment it stops feeling scary and starts fee
+jsonld: {"@context": "https://schema.org", "@graph": [{"@type": "Article", "@id": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-run-several-agents-at-once/#article", "isPartOf": {"@id": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-run-several-agents-at-once/"}, "author": [{"@id": "https://g
+time_el: [{"datetime": "2026-09-03", "text": "September 3, 2026"}]
+link_density=0.18 | n_links=205 | n_img=16 | n_video=0
+TRAF title: GitHub Copilot app for Beginners: Run several agents at once
+TRAF author: Kayla Cinnamon | date: 2026-09-03
+TRAF text len=3095 head: Start using the GitHub Copilot app >⏎Kayla Cinnamon⏎Senior AI Developer Tools Advocate⏎Learn how to 

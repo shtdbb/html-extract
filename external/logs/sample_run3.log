@@ -1,0 +1,22 @@
+[03:00:06] start: target 30 sites x 2 pages, url=https://nextcloud.ispras.ru/public.php/webdav/en.json
+[03:00:08] connected, status=200, total_len=2813329162
+[03:00:10] site#1 '24.kg' keep=False took=0 pages_total=0 streamed=2MB rate=0.5MB/s
+[03:00:13] site#2 'aap.com.au' keep=False took=0 pages_total=0 streamed=4MB rate=0.6MB/s
+[03:00:28] site#3 'abc.net.au' keep=False took=0 pages_total=0 streamed=46MB rate=2.2MB/s
+[03:00:35] site#5 'oup.com' keep=False took=0 pages_total=0 streamed=64MB rate=2.2MB/s
+[03:00:43] site#10 'akipress.com' keep=False took=0 pages_total=0 streamed=81MB rate=2.2MB/s
+[03:01:14] site#15 'newzimbabwe.com' keep=False took=0 pages_total=0 streamed=172MB rate=2.5MB/s
+[03:01:24] site#20 'aviationweek.com' keep=False took=0 pages_total=0 streamed=199MB rate=2.6MB/s
+[03:01:33] site#25 'bbc.co.uk' keep=False took=0 pages_total=0 streamed=223MB rate=2.6MB/s
+[03:01:43] site#30 'bnionline.net' keep=False took=0 pages_total=0 streamed=252MB rate=2.6MB/s
+[03:02:01] site#35 'canada.ca' keep=False took=0 pages_total=0 streamed=307MB rate=2.7MB/s
+[03:02:14] site#40 'chinadaily.com.cn' keep=False took=0 pages_total=0 streamed=341MB rate=2.7MB/s
+[03:02:52] site#45 'crisisgroup.org' keep=False took=0 pages_total=0 streamed=455MB rate=2.7MB/s
+[03:02:59] site#50 'belgium.be' keep=False took=0 pages_total=0 streamed=469MB rate=2.7MB/s
+[03:03:07] site#55 'elysee.fr' keep=True took=2 pages_total=10 streamed=505MB rate=2.8MB/s
+[03:03:23] site#60 'mee.gov.cn' keep=True took=2 pages_total=20 streamed=560MB rate=2.9MB/s
+[03:03:27] site#65 'people.cn' keep=True took=2 pages_total=30 streamed=574MB rate=2.9MB/s
+[03:03:34] site#70 'fiji.gov.fj' keep=True took=2 pages_total=40 streamed=604MB rate=2.9MB/s
+[03:03:43] site#75 'foreign.gov.bb' keep=True took=2 pages_total=50 streamed=658MB rate=3.0MB/s
+[03:03:46] site#80 'gov.ai' keep=True took=2 pages_total=60 streamed=671MB rate=3.1MB/s
+[03:03:46] done: sites_seen=80 sites_kept=30 pages=60 streamed=671MB elapsed=220s -> external/ispras_sample_en.jsonl

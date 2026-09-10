@@ -1,0 +1,6 @@
+[02:52:49] start: target 3 sites x 2 pages, url=https://nextcloud.ispras.ru/public.php/webdav/en.json
+[02:52:54] connected, status=200, total_len=2813329162
+[02:52:56] site#1 '24.kg' took=2 pages_total=2 streamed=2MB rate=0.3MB/s
+[02:52:57] site#2 'aap.com.au' took=2 pages_total=4 streamed=4MB rate=0.5MB/s
+[02:53:11] site#3 'abc.net.au' took=2 pages_total=6 streamed=46MB rate=2.1MB/s
+[02:53:11] done: sites=3 pages=6 streamed=46MB elapsed=22s -> /tmp/ispras_test.jsonl

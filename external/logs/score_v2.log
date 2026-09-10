@@ -1,0 +1,5 @@
+页数 160（参评字段评分 160，应拒识 0）
+title_exact=0.6375  authors_f1=0.26843971631205676  content_f1=0.7605993634071848  rejection=None
+publish_time=0.2922077922077922  confusion=0  tz={'match': 4, 'missing': 6, 'mismatch': 2, 'gold_absent': 132}
+update_time=0.017241379310344827  confusion=0  tz={'match': 0, 'missing': 0, 'mismatch': 0, 'gold_absent': 8}
+已写出 external/ispras_scores_v2.json

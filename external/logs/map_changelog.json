@@ -1,0 +1,158 @@
+[
+ {
+  "kind": "title_multi",
+  "msg": "ispras__abc_net_au__19903fa0: 2 个 title 节点已 ' ' 连接"
+ },
+ {
+  "kind": "date_regex_fallback",
+  "msg": "ispras__admin_ch__a424a770: 段落噪声中正则兜底取 2023-11-30 'Bern, 30.11.2023 - Switzerland and Oman '"
+ },
+ {
+  "kind": "date_regex_fallback",
+  "msg": "ispras__admin_ch__e8385637: 段落噪声中正则兜底取 2023-11-21 'Bern, 21.11.2023 - On Tuesday 21 Novembe'"
+ },
+ {
+  "kind": "title_multi",
+  "msg": "ispras__auswaertiges-amt_de__ba77cc79: 3 个 title 节点已 ' ' 连接"
+ },
+ {
+  "kind": "date_ambiguous_numeric",
+  "msg": "ispras__auswaertiges-amt_de__5de67d80: 数字日期顺序不可判，按 month-first 解析 '10.01.2024 - Article'"
+ },
+ {
+  "kind": "date_no_year",
+  "msg": "ispras__bbc_co_uk__5000ec0a: 缺年份，XXXX 占位 '13 February'"
+ },
+ {
+  "kind": "date_unparseable",
+  "msg": "ispras__bloomberg_com__e6c64500: 非英文月份 '18 марта 2024 г. at 20:30 GMT+3'"
+ },
+ {
+  "kind": "date_unparseable",
+  "msg": "ispras__bloomberg_com__dd5f8868: 非英文月份 '18 марта 2024 г. at 20:09 GMT+3'"
+ },
+ {
+  "kind": "date_multi",
+  "msg": "ispras__bna_bh__46021c2d: 2 个 date 节点，publish 取首个"
+ },
+ {
+  "kind": "date_multi",
+  "msg": "ispras__bna_bh__ffe5c7bf: 2 个 date 节点，publish 取首个"
+ },
+ {
+  "kind": "date_as_update",
+  "msg": "ispras__channelstv_com__1672110e: 'Updated' 标注归入 update_time: 'Updated May 13, 2024'"
+ },
+ {
+  "kind": "date_as_update",
+  "msg": "ispras__channelstv_com__15094ee3: 'Updated' 标注归入 update_time: 'Updated May 20, 2024'"
+ },
+ {
+  "kind": "date_as_update",
+  "msg": "ispras__chinadaily_com_cn__49384184: 'Updated' 标注归入 update_time: 'By ZHU WENQIAN | chinadaily.com.cn | Updated: 2024-02-01 17:24'"
+ },
+ {
+  "kind": "date_as_update",
+  "msg": "ispras__chinadaily_com_cn__f369de1f: 'Updated' 标注归入 update_time: 'By Wang Zhuoqiong | chinadaily.com.cn | Updated: 2024-02-01 15:22'"
+ },
+ {
+  "kind": "date_unparseable",
+  "msg": "ispras__confidencial_digital__1afd28d5: dateutil 失败 '27 de junio 2024'"
+ },
+ {
+  "kind": "date_unparseable",
+  "msg": "ispras__confidencial_digital__50c38bc7: dateutil 失败 '24 de junio 2024'"
+ },
+ {
+  "kind": "title_multi",
+  "msg": "ispras__eastwestcenter_org__3dc60b38: 2 个 title 节点已 ' ' 连接"
+ },
+ {
+  "kind": "title_multi",
+  "msg": "ispras__eastwestcenter_org__edf4347b: 2 个 title 节点已 ' ' 连接"
+ },
+ {
+  "kind": "date_unparseable",
+  "msg": "ispras__ahram_org_eg__4231fc70: dateutil 失败 'Ahram Online'"
+ },
+ {
+  "kind": "date_multi",
+  "msg": "ispras__ahram_org_eg__4231fc70: 2 个 date 节点，publish 取首个"
+ },
+ {
+  "kind": "date_unparseable",
+  "msg": "ispras__ahram_org_eg__76c27ecd: dateutil 失败 'Aya Salah'"
+ },
+ {
+  "kind": "date_multi",
+  "msg": "ispras__ahram_org_eg__76c27ecd: 2 个 date 节点，publish 取首个"
+ },
+ {
+  "kind": "date_ambiguous_numeric",
+  "msg": "ispras__cctv_com__2f60c110: 数字日期顺序不可判，按 month-first 解析 'Source:CCTV.com 09-11-23 05:03 Updated BJT'"
+ },
+ {
+  "kind": "date_no_year",
+  "msg": "ispras__cctv_com__2f60c110: 缺年份，XXXX 占位 'Source:CCTV.com 09-11-23 05:03 Updated BJT'"
+ },
+ {
+  "kind": "date_ambiguous_numeric",
+  "msg": "ispras__cctv_com__3673284a: 数字日期顺序不可判，按 month-first 解析 'Source:Xinhua 10-11-23 10:56 Updated BJT'"
+ },
+ {
+  "kind": "date_no_year",
+  "msg": "ispras__cctv_com__3673284a: 缺年份，XXXX 占位 'Source:Xinhua 10-11-23 10:56 Updated BJT'"
+ },
+ {
+  "kind": "date_as_update",
+  "msg": "ispras__www_gov_cn__2f0e0a40: 'Updated' 标注归入 update_time: 'Updated: January 25, 2024 21:08'"
+ },
+ {
+  "kind": "date_as_update",
+  "msg": "ispras__www_gov_cn__a73eea83: 'Updated' 标注归入 update_time: 'Updated: October 4, 2023 07:40'"
+ },
+ {
+  "kind": "date_ambiguous_numeric",
+  "msg": "ispras__stm_dk__53908c8f: 数字日期顺序不可判，按 month-first 解析 '01.01.19'"
+ },
+ {
+  "kind": "date_no_year",
+  "msg": "ispras__stm_dk__53908c8f: 缺年份，XXXX 占位 '01.01.19'"
+ },
+ {
+  "kind": "date_ambiguous_numeric",
+  "msg": "ispras__stm_dk__6914fae7: 数字日期顺序不可判，按 month-first 解析 '03.10.17'"
+ },
+ {
+  "kind": "date_no_year",
+  "msg": "ispras__stm_dk__6914fae7: 缺年份，XXXX 占位 '03.10.17'"
+ },
+ {
+  "kind": "date_multi",
+  "msg": "ispras__gmw_cn__ba51702c: 3 个 date 节点，publish 取首个"
+ },
+ {
+  "kind": "date_multi",
+  "msg": "ispras__gmw_cn__b051f586: 3 个 date 节点，publish 取首个"
+ },
+ {
+  "kind": "date_as_update",
+  "msg": "ispras__qstheory_cn__1096a494: 'Updated' 标注归入 update_time: 'Updated: 2023-08-28'"
+ },
+ {
+  "kind": "date_as_update",
+  "msg": "ispras__qstheory_cn__5397b17a: 'Updated' 标注归入 update_time: 'Updated: 2023-08-28'"
+ },
+ {
+  "kind": "date_ambiguous_numeric",
+  "msg": "ispras__euronews_com__411c74a1: 数字日期顺序不可判，按 month-first 解析 '03/06/2023 - 7:00 GMT+2'"
+ },
+ {
+  "kind": "date_ambiguous_numeric",
+  "msg": "ispras__fijivillage_com__2cf521dc: 数字日期顺序不可判，按 month-first 解析 'Thursday 02/05/2024'"
+ },
+ {
+  "kind": "date_ambiguous_numeric",
+  "msg": "ispras__fijivillage_com__a674edd7: 数字日期顺序不可判，按 month-first 解析 'Thursday 02/05/2024'"
+ }
+]

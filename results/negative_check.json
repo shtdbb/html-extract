@@ -1,0 +1,64 @@
+{
+  "note": "negative 4 页不在 gold 内（会话1遗留的未标注缺口），不参与评分；此处单独核对拒识行为。",
+  "expect": "全部返回空记录/rejected（均为频道列表页）",
+  "v4": [
+    {
+      "id": "people_list__01",
+      "rejected": true,
+      "empty_record": true,
+      "route": "refused:list_page:long_link_share=0.88,n=138",
+      "correct_refusal": true
+    },
+    {
+      "id": "sohu_list__01",
+      "rejected": true,
+      "empty_record": true,
+      "route": "refused:list_page:long_link_share=0.76,n=43",
+      "correct_refusal": true
+    },
+    {
+      "id": "sina_list__01",
+      "rejected": false,
+      "empty_record": false,
+      "route": "metadata+trafilatura",
+      "correct_refusal": false
+    },
+    {
+      "id": "chinanews_list__01",
+      "rejected": true,
+      "empty_record": true,
+      "route": "refused:list_page:long_link_share=0.58,n=149",
+      "correct_refusal": true
+    }
+  ],
+  "readability": [
+    {
+      "id": "people_list__01",
+      "rejected": false,
+      "empty_record": false,
+      "route": "readability-lxml",
+      "correct_refusal": false
+    },
+    {
+      "id": "sohu_list__01",
+      "rejected": false,
+      "empty_record": false,
+      "route": "readability-lxml",
+      "correct_refusal": false
+    },
+    {
+      "id": "sina_list__01",
+      "rejected": false,
+      "empty_record": false,
+      "route": "readability-lxml",
+      "correct_refusal": false
+    },
+    {
+      "id": "chinanews_list__01",
+      "rejected": false,
+      "empty_record": false,
+      "route": "readability-lxml",
+      "correct_refusal": false
+    }
+  ]
+}

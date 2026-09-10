@@ -1,0 +1,1025 @@
+{
+  "version": "v2",
+  "spec": "eval_spec_v2.md（冻结）",
+  "n_pages": 28,
+  "pred_parse_errors": [],
+  "time_fields": [
+    "publish_time",
+    "update_time"
+  ],
+  "overall": {
+    "n_pages": 28,
+    "n_scored": 20,
+    "title_exact": 0.15,
+    "title_sim": 0.7957469410039977,
+    "title_detail": {
+      "n": 20,
+      "correct_empty": 0,
+      "false_fill": 0,
+      "miss": 0
+    },
+    "authors_f1": 0.16666666666666666,
+    "authors_false_fill_rate": 0.6666666666666666,
+    "authors_miss_rate": 0.7142857142857143,
+    "authors_detail": {
+      "n": 18,
+      "correct_empty": 2,
+      "false_fill": 4,
+      "miss": 10,
+      "gold_empty_pages": 6,
+      "gold_present_pages": 14
+    },
+    "time": {
+      "publish_time": {
+        "score": 0.0,
+        "n": 15,
+        "confusion": 0,
+        "correct_empty": 5,
+        "false_fill": 0,
+        "miss": 15,
+        "gold_all_xx": 0,
+        "tz": {
+          "match": 0,
+          "missing": 15,
+          "mismatch": 0,
+          "gold_absent": 0
+        },
+        "false_fill_rate": 0.0
+      },
+      "update_time": {
+        "score": 0.0,
+        "n": 11,
+        "confusion": 0,
+        "correct_empty": 9,
+        "false_fill": 0,
+        "miss": 11,
+        "gold_all_xx": 0,
+        "tz": {
+          "match": 0,
+          "missing": 8,
+          "mismatch": 0,
+          "gold_absent": 3
+        },
+        "false_fill_rate": 0.0
+      }
+    },
+    "publish_time_score": 0.0,
+    "update_time_score": 0.0,
+    "content_f1": 0.8474836119898626,
+    "lcs_f1": 0.850288351232882,
+    "dup_ratio": 0.4252593912703593,
+    "num_f1": 0.7614710187880669,
+    "para_ratio": 0.7198147638703757,
+    "content_detail": {
+      "n": 20,
+      "correct_empty": 0,
+      "false_fill": 0,
+      "miss": 0
+    },
+    "rejection_accuracy": 0.0,
+    "rejection_detail": {
+      "n": 8,
+      "correct": 0,
+      "badcases": [
+        "gmw__01",
+        "gmw__02",
+        "gmw__03",
+        "gmw__04",
+        "mdn__01",
+        "netease__01",
+        "netease__02",
+        "netease__03"
+      ]
+    }
+  },
+  "by_dataset": {
+    "test": {
+      "n_pages": 28,
+      "n_scored": 20,
+      "title_exact": 0.15,
+      "title_sim": 0.7957469410039977,
+      "title_detail": {
+        "n": 20,
+        "correct_empty": 0,
+        "false_fill": 0,
+        "miss": 0
+      },
+      "authors_f1": 0.16666666666666666,
+      "authors_false_fill_rate": 0.6666666666666666,
+      "authors_miss_rate": 0.7142857142857143,
+      "authors_detail": {
+        "n": 18,
+        "correct_empty": 2,
+        "false_fill": 4,
+        "miss": 10,
+        "gold_empty_pages": 6,
+        "gold_present_pages": 14
+      },
+      "time": {
+        "publish_time": {
+          "score": 0.0,
+          "n": 15,
+          "confusion": 0,
+          "correct_empty": 5,
+          "false_fill": 0,
+          "miss": 15,
+          "gold_all_xx": 0,
+          "tz": {
+            "match": 0,
+            "missing": 15,
+            "mismatch": 0,
+            "gold_absent": 0
+          },
+          "false_fill_rate": 0.0
+        },
+        "update_time": {
+          "score": 0.0,
+          "n": 11,
+          "confusion": 0,
+          "correct_empty": 9,
+          "false_fill": 0,
+          "miss": 11,
+          "gold_all_xx": 0,
+          "tz": {
+            "match": 0,
+            "missing": 8,
+            "mismatch": 0,
+            "gold_absent": 3
+          },
+          "false_fill_rate": 0.0
+        }
+      },
+      "publish_time_score": 0.0,
+      "update_time_score": 0.0,
+      "content_f1": 0.8474836119898626,
+      "lcs_f1": 0.850288351232882,
+      "dup_ratio": 0.4252593912703593,
+      "num_f1": 0.7614710187880669,
+      "para_ratio": 0.7198147638703757,
+      "content_detail": {
+        "n": 20,
+        "correct_empty": 0,
+        "false_fill": 0,
+        "miss": 0
+      },
+      "rejection_accuracy": 0.0,
+      "rejection_detail": {
+        "n": 8,
+        "correct": 0,
+        "badcases": [
+          "gmw__01",
+          "gmw__02",
+          "gmw__03",
+          "gmw__04",
+          "mdn__01",
+          "netease__01",
+          "netease__02",
+          "netease__03"
+        ]
+      }
+    }
+  },
+  "by_site": {
+    "csdn": {
+      "n_pages": 5,
+      "n_scored": 5,
+      "title_exact": 0.0,
+      "title_sim": 0.5831963340160062,
+      "title_detail": {
+        "n": 5,
+        "correct_empty": 0,
+        "false_fill": 0,
+        "miss": 0
+      },
+      "authors_f1": 0.0,
+      "authors_false_fill_rate": null,
+      "authors_miss_rate": 1.0,
+      "authors_detail": {
+        "n": 5,
+        "correct_empty": 0,
+        "false_fill": 0,
+        "miss": 5,
+        "gold_empty_pages": 0,
+        "gold_present_pages": 5
+      },
+      "time": {
+        "publish_time": {
+          "score": 0.0,
+          "n": 5,
+          "confusion": 0,
+          "correct_empty": 0,
+          "false_fill": 0,
+          "miss": 5,
+          "gold_all_xx": 0,
+          "tz": {
+            "match": 0,
+            "missing": 5,
+            "mismatch": 0,
+            "gold_absent": 0
+          },
+          "false_fill_rate": null
+        },
+        "update_time": {
+          "score": 0.0,
+          "n": 5,
+          "confusion": 0,
+          "correct_empty": 0,
+          "false_fill": 0,
+          "miss": 5,
+          "gold_all_xx": 0,
+          "tz": {
+            "match": 0,
+            "missing": 5,
+            "mismatch": 0,
+            "gold_absent": 0
+          },
+          "false_fill_rate": null
+        }
+      },
+      "publish_time_score": 0.0,
+      "update_time_score": 0.0,
+      "content_f1": 0.9955189549907709,
+      "lcs_f1": 0.9967687895738095,
+      "dup_ratio": 0.19792717369525917,
+      "num_f1": 0.9869074492099322,
+      "para_ratio": 0.9568612653948321,
+      "content_detail": {
+        "n": 5,
+        "correct_empty": 0,
+        "false_fill": 0,
+        "miss": 0
+      },
+      "rejection_accuracy": null,
+      "rejection_detail": {
+        "n": 0,
+        "correct": 0,
+        "badcases": []
+      }
+    },
+    "devto": {
+      "n_pages": 2,
+      "n_scored": 2,
+      "title_exact": 0.0,
+      "title_sim": 0.9042298873005805,
+      "title_detail": {
+        "n": 2,
+        "correct_empty": 0,
+        "false_fill": 0,
+        "miss": 0
+      },
+      "authors_f1": 0.0,
+      "authors_false_fill_rate": null,
+      "authors_miss_rate": 1.0,
+      "authors_detail": {
+        "n": 2,
+        "correct_empty": 0,
+        "false_fill": 0,
+        "miss": 2,
+        "gold_empty_pages": 0,
+        "gold_present_pages": 2
+      },
+      "time": {
+        "publish_time": {
+          "score": 0.0,
+          "n": 2,
+          "confusion": 0,
+          "correct_empty": 0,
+          "false_fill": 0,
+          "miss": 2,
+          "gold_all_xx": 0,
+          "tz": {
+            "match": 0,
+            "missing": 2,
+            "mismatch": 0,
+            "gold_absent": 0
+          },
+          "false_fill_rate": null
+        },
+        "update_time": {
+          "score": 0.0,
+          "n": 1,
+          "confusion": 0,
+          "correct_empty": 1,
+          "false_fill": 0,
+          "miss": 1,
+          "gold_all_xx": 0,
+          "tz": {
+            "match": 0,
+            "missing": 1,
+            "mismatch": 0,
+            "gold_absent": 0
+          },
+          "false_fill_rate": 0.0
+        }
+      },
+      "publish_time_score": 0.0,
+      "update_time_score": 0.0,
+      "content_f1": 0.9085443611339707,
+      "lcs_f1": 0.9158897099558068,
+      "dup_ratio": 0.7735375174153609,
+      "num_f1": 0.9177540529853697,
+      "para_ratio": 0.6926962702659532,
+      "content_detail": {
+        "n": 2,
+        "correct_empty": 0,
+        "false_fill": 0,
+        "miss": 0
+      },
+      "rejection_accuracy": null,
+      "rejection_detail": {
+        "n": 0,
+        "correct": 0,
+        "badcases": []
+      }
+    },
+    "en_people": {
+      "n_pages": 4,
+      "n_scored": 4,
+      "title_exact": 0.0,
+      "title_sim": 0.8527722277722277,
+      "title_detail": {
+        "n": 4,
+        "correct_empty": 0,
+        "false_fill": 0,
+        "miss": 0
+      },
+      "authors_f1": 0.0,
+      "authors_false_fill_rate": 1.0,
+      "authors_miss_rate": null,
+      "authors_detail": {
+        "n": 4,
+        "correct_empty": 0,
+        "false_fill": 4,
+        "miss": 0,
+        "gold_empty_pages": 4,
+        "gold_present_pages": 0
+      },
+      "time": {
+        "publish_time": {
+          "score": 0.0,
+          "n": 4,
+          "confusion": 0,
+          "correct_empty": 0,
+          "false_fill": 0,
+          "miss": 4,
+          "gold_all_xx": 0,
+          "tz": {
+            "match": 0,
+            "missing": 4,
+            "mismatch": 0,
+            "gold_absent": 0
+          },
+          "false_fill_rate": null
+        },
+        "update_time": {
+          "score": null,
+          "n": 0,
+          "confusion": 0,
+          "correct_empty": 4,
+          "false_fill": 0,
+          "miss": 0,
+          "gold_all_xx": 0,
+          "tz": {
+            "match": 0,
+            "missing": 0,
+            "mismatch": 0,
+            "gold_absent": 0
+          },
+          "false_fill_rate": 0.0
+        }
+      },
+      "publish_time_score": 0.0,
+      "update_time_score": null,
+      "content_f1": 0.9663465856740365,
+      "lcs_f1": 0.9721506405982226,
+      "dup_ratio": 0.5950223426663176,
+      "num_f1": 0.7277783421373425,
+      "para_ratio": 0.8096833721833723,
+      "content_detail": {
+        "n": 4,
+        "correct_empty": 0,
+        "false_fill": 0,
+        "miss": 0
+      },
+      "rejection_accuracy": null,
+      "rejection_detail": {
+        "n": 0,
+        "correct": 0,
+        "badcases": []
+      }
+    },
+    "gmw": {
+      "n_pages": 4,
+      "n_scored": 0,
+      "title_exact": null,
+      "title_sim": null,
+      "title_detail": {
+        "n": 0,
+        "correct_empty": 0,
+        "false_fill": 0,
+        "miss": 0
+      },
+      "authors_f1": null,
+      "authors_false_fill_rate": null,
+      "authors_miss_rate": null,
+      "authors_detail": {
+        "n": 0,
+        "correct_empty": 0,
+        "false_fill": 0,
+        "miss": 0,
+        "gold_empty_pages": 0,
+        "gold_present_pages": 0
+      },
+      "time": {},
+      "content_f1": null,
+      "lcs_f1": null,
+      "dup_ratio": null,
+      "num_f1": null,
+      "para_ratio": null,
+      "content_detail": {
+        "n": 0,
+        "correct_empty": 0,
+        "false_fill": 0,
+        "miss": 0
+      },
+      "rejection_accuracy": 0.0,
+      "rejection_detail": {
+        "n": 4,
+        "correct": 0,
+        "badcases": [
+          "gmw__01",
+          "gmw__02",
+          "gmw__03",
+          "gmw__04"
+        ]
+      }
+    },
+    "mdn": {
+      "n_pages": 3,
+      "n_scored": 2,
+      "title_exact": 0.0,
+      "title_sim": 0.7865416436845009,
+      "title_detail": {
+        "n": 2,
+        "correct_empty": 0,
+        "false_fill": 0,
+        "miss": 0
+      },
+      "authors_f1": null,
+      "authors_false_fill_rate": 0.0,
+      "authors_miss_rate": null,
+      "authors_detail": {
+        "n": 0,
+        "correct_empty": 2,
+        "false_fill": 0,
+        "miss": 0,
+        "gold_empty_pages": 2,
+        "gold_present_pages": 0
+      },
+      "time": {
+        "publish_time": {
+          "score": null,
+          "n": 0,
+          "confusion": 0,
+          "correct_empty": 2,
+          "false_fill": 0,
+          "miss": 0,
+          "gold_all_xx": 0,
+          "tz": {
+            "match": 0,
+            "missing": 0,
+            "mismatch": 0,
+            "gold_absent": 0
+          },
+          "false_fill_rate": 0.0
+        },
+        "update_time": {
+          "score": 0.0,
+          "n": 2,
+          "confusion": 0,
+          "correct_empty": 0,
+          "false_fill": 0,
+          "miss": 2,
+          "gold_all_xx": 0,
+          "tz": {
+            "match": 0,
+            "missing": 2,
+            "mismatch": 0,
+            "gold_absent": 0
+          },
+          "false_fill_rate": null
+        }
+      },
+      "publish_time_score": null,
+      "update_time_score": 0.0,
+      "content_f1": 0.8398166205012121,
+      "lcs_f1": 0.8303891175052538,
+      "dup_ratio": 0.7614929960405098,
+      "num_f1": 0.5714285714285715,
+      "para_ratio": 0.7655773269834136,
+      "content_detail": {
+        "n": 2,
+        "correct_empty": 0,
+        "false_fill": 0,
+        "miss": 0
+      },
+      "rejection_accuracy": 0.0,
+      "rejection_detail": {
+        "n": 1,
+        "correct": 0,
+        "badcases": [
+          "mdn__01"
+        ]
+      }
+    },
+    "mslearn": {
+      "n_pages": 3,
+      "n_scored": 3,
+      "title_exact": 0.0,
+      "title_sim": 0.8500250589802828,
+      "title_detail": {
+        "n": 3,
+        "correct_empty": 0,
+        "false_fill": 0,
+        "miss": 0
+      },
+      "authors_f1": 1.0,
+      "authors_false_fill_rate": null,
+      "authors_miss_rate": 0.0,
+      "authors_detail": {
+        "n": 3,
+        "correct_empty": 0,
+        "false_fill": 0,
+        "miss": 0,
+        "gold_empty_pages": 0,
+        "gold_present_pages": 3
+      },
+      "time": {
+        "publish_time": {
+          "score": null,
+          "n": 0,
+          "confusion": 0,
+          "correct_empty": 3,
+          "false_fill": 0,
+          "miss": 0,
+          "gold_all_xx": 0,
+          "tz": {
+            "match": 0,
+            "missing": 0,
+            "mismatch": 0,
+            "gold_absent": 0
+          },
+          "false_fill_rate": 0.0
+        },
+        "update_time": {
+          "score": 0.0,
+          "n": 3,
+          "confusion": 0,
+          "correct_empty": 0,
+          "false_fill": 0,
+          "miss": 3,
+          "gold_all_xx": 0,
+          "tz": {
+            "match": 0,
+            "missing": 0,
+            "mismatch": 0,
+            "gold_absent": 3
+          },
+          "false_fill_rate": null
+        }
+      },
+      "publish_time_score": null,
+      "update_time_score": 0.0,
+      "content_f1": 0.48337149036251087,
+      "lcs_f1": 0.4854688435008831,
+      "dup_ratio": 0.5140102676340176,
+      "num_f1": 0.6630434782608696,
+      "para_ratio": 0.41492405899185564,
+      "content_detail": {
+        "n": 3,
+        "correct_empty": 0,
+        "false_fill": 0,
+        "miss": 0
+      },
+      "rejection_accuracy": null,
+      "rejection_detail": {
+        "n": 0,
+        "correct": 0,
+        "badcases": []
+      }
+    },
+    "netease": {
+      "n_pages": 4,
+      "n_scored": 1,
+      "title_exact": 0.0,
+      "title_sim": 0.65625,
+      "title_detail": {
+        "n": 1,
+        "correct_empty": 0,
+        "false_fill": 0,
+        "miss": 0
+      },
+      "authors_f1": 0.0,
+      "authors_false_fill_rate": null,
+      "authors_miss_rate": 0.0,
+      "authors_detail": {
+        "n": 1,
+        "correct_empty": 0,
+        "false_fill": 0,
+        "miss": 0,
+        "gold_empty_pages": 0,
+        "gold_present_pages": 1
+      },
+      "time": {
+        "publish_time": {
+          "score": 0.0,
+          "n": 1,
+          "confusion": 0,
+          "correct_empty": 0,
+          "false_fill": 0,
+          "miss": 1,
+          "gold_all_xx": 0,
+          "tz": {
+            "match": 0,
+            "missing": 1,
+            "mismatch": 0,
+            "gold_absent": 0
+          },
+          "false_fill_rate": null
+        },
+        "update_time": {
+          "score": null,
+          "n": 0,
+          "confusion": 0,
+          "correct_empty": 1,
+          "false_fill": 0,
+          "miss": 0,
+          "gold_all_xx": 0,
+          "tz": {
+            "match": 0,
+            "missing": 0,
+            "mismatch": 0,
+            "gold_absent": 0
+          },
+          "false_fill_rate": 0.0
+        }
+      },
+      "publish_time_score": 0.0,
+      "update_time_score": null,
+      "content_f1": 0.872057318321392,
+      "lcs_f1": 0.8723186925434117,
+      "dup_ratio": 0.07622504537205081,
+      "num_f1": 0.6153846153846153,
+      "para_ratio": 0.6666666666666666,
+      "content_detail": {
+        "n": 1,
+        "correct_empty": 0,
+        "false_fill": 0,
+        "miss": 0
+      },
+      "rejection_accuracy": 0.0,
+      "rejection_detail": {
+        "n": 3,
+        "correct": 0,
+        "badcases": [
+          "netease__01",
+          "netease__02",
+          "netease__03"
+        ]
+      }
+    },
+    "stdaily": {
+      "n_pages": 3,
+      "n_scored": 3,
+      "title_exact": 1.0,
+      "title_sim": 1.0,
+      "title_detail": {
+        "n": 3,
+        "correct_empty": 0,
+        "false_fill": 0,
+        "miss": 0
+      },
+      "authors_f1": 0.0,
+      "authors_false_fill_rate": null,
+      "authors_miss_rate": 1.0,
+      "authors_detail": {
+        "n": 3,
+        "correct_empty": 0,
+        "false_fill": 0,
+        "miss": 3,
+        "gold_empty_pages": 0,
+        "gold_present_pages": 3
+      },
+      "time": {
+        "publish_time": {
+          "score": 0.0,
+          "n": 3,
+          "confusion": 0,
+          "correct_empty": 0,
+          "false_fill": 0,
+          "miss": 3,
+          "gold_all_xx": 0,
+          "tz": {
+            "match": 0,
+            "missing": 3,
+            "mismatch": 0,
+            "gold_absent": 0
+          },
+          "false_fill_rate": null
+        },
+        "update_time": {
+          "score": null,
+          "n": 0,
+          "confusion": 0,
+          "correct_empty": 3,
+          "false_fill": 0,
+          "miss": 0,
+          "gold_all_xx": 0,
+          "tz": {
+            "match": 0,
+            "missing": 0,
+            "mismatch": 0,
+            "gold_absent": 0
+          },
+          "false_fill_rate": 0.0
+        }
+      },
+      "publish_time_score": 0.0,
+      "update_time_score": null,
+      "content_f1": 0.7625991231559862,
+      "lcs_f1": 0.7706792121425065,
+      "dup_ratio": 0.14904857035992458,
+      "num_f1": 0.5674873072133346,
+      "para_ratio": 0.5150898078529658,
+      "content_detail": {
+        "n": 3,
+        "correct_empty": 0,
+        "false_fill": 0,
+        "miss": 0
+      },
+      "rejection_accuracy": null,
+      "rejection_detail": {
+        "n": 0,
+        "correct": 0,
+        "badcases": []
+      }
+    }
+  },
+  "by_route": {
+    "test": {
+      "n_pages": 28,
+      "n_scored": 20,
+      "title_exact": 0.15,
+      "title_sim": 0.7957469410039977,
+      "title_detail": {
+        "n": 20,
+        "correct_empty": 0,
+        "false_fill": 0,
+        "miss": 0
+      },
+      "authors_f1": 0.16666666666666666,
+      "authors_false_fill_rate": 0.6666666666666666,
+      "authors_miss_rate": 0.7142857142857143,
+      "authors_detail": {
+        "n": 18,
+        "correct_empty": 2,
+        "false_fill": 4,
+        "miss": 10,
+        "gold_empty_pages": 6,
+        "gold_present_pages": 14
+      },
+      "time": {
+        "publish_time": {
+          "score": 0.0,
+          "n": 15,
+          "confusion": 0,
+          "correct_empty": 5,
+          "false_fill": 0,
+          "miss": 15,
+          "gold_all_xx": 0,
+          "tz": {
+            "match": 0,
+            "missing": 15,
+            "mismatch": 0,
+            "gold_absent": 0
+          },
+          "false_fill_rate": 0.0
+        },
+        "update_time": {
+          "score": 0.0,
+          "n": 11,
+          "confusion": 0,
+          "correct_empty": 9,
+          "false_fill": 0,
+          "miss": 11,
+          "gold_all_xx": 0,
+          "tz": {
+            "match": 0,
+            "missing": 8,
+            "mismatch": 0,
+            "gold_absent": 3
+          },
+          "false_fill_rate": 0.0
+        }
+      },
+      "publish_time_score": 0.0,
+      "update_time_score": 0.0,
+      "content_f1": 0.8474836119898626,
+      "lcs_f1": 0.850288351232882,
+      "dup_ratio": 0.4252593912703593,
+      "num_f1": 0.7614710187880669,
+      "para_ratio": 0.7198147638703757,
+      "content_detail": {
+        "n": 20,
+        "correct_empty": 0,
+        "false_fill": 0,
+        "miss": 0
+      },
+      "rejection_accuracy": 0.0,
+      "rejection_detail": {
+        "n": 8,
+        "correct": 0,
+        "badcases": [
+          "gmw__01",
+          "gmw__02",
+          "gmw__03",
+          "gmw__04",
+          "mdn__01",
+          "netease__01",
+          "netease__02",
+          "netease__03"
+        ]
+      }
+    }
+  },
+  "by_content_structure": {
+    "list_page": {
+      "n_pages": 1,
+      "n_scored": 0,
+      "title_exact": null,
+      "title_sim": null,
+      "title_detail": {
+        "n": 0,
+        "correct_empty": 0,
+        "false_fill": 0,
+        "miss": 0
+      },
+      "authors_f1": null,
+      "authors_false_fill_rate": null,
+      "authors_miss_rate": null,
+      "authors_detail": {
+        "n": 0,
+        "correct_empty": 0,
+        "false_fill": 0,
+        "miss": 0,
+        "gold_empty_pages": 0,
+        "gold_present_pages": 0
+      },
+      "time": {},
+      "content_f1": null,
+      "lcs_f1": null,
+      "dup_ratio": null,
+      "num_f1": null,
+      "para_ratio": null,
+      "content_detail": {
+        "n": 0,
+        "correct_empty": 0,
+        "false_fill": 0,
+        "miss": 0
+      },
+      "rejection_accuracy": 0.0,
+      "rejection_detail": {
+        "n": 1,
+        "correct": 0,
+        "badcases": [
+          "mdn__01"
+        ]
+      }
+    },
+    "photo_set": {
+      "n_pages": 7,
+      "n_scored": 0,
+      "title_exact": null,
+      "title_sim": null,
+      "title_detail": {
+        "n": 0,
+        "correct_empty": 0,
+        "false_fill": 0,
+        "miss": 0
+      },
+      "authors_f1": null,
+      "authors_false_fill_rate": null,
+      "authors_miss_rate": null,
+      "authors_detail": {
+        "n": 0,
+        "correct_empty": 0,
+        "false_fill": 0,
+        "miss": 0,
+        "gold_empty_pages": 0,
+        "gold_present_pages": 0
+      },
+      "time": {},
+      "content_f1": null,
+      "lcs_f1": null,
+      "dup_ratio": null,
+      "num_f1": null,
+      "para_ratio": null,
+      "content_detail": {
+        "n": 0,
+        "correct_empty": 0,
+        "false_fill": 0,
+        "miss": 0
+      },
+      "rejection_accuracy": 0.0,
+      "rejection_detail": {
+        "n": 7,
+        "correct": 0,
+        "badcases": [
+          "gmw__01",
+          "gmw__02",
+          "gmw__03",
+          "gmw__04",
+          "netease__01",
+          "netease__02",
+          "netease__03"
+        ]
+      }
+    },
+    "single": {
+      "n_pages": 20,
+      "n_scored": 20,
+      "title_exact": 0.15,
+      "title_sim": 0.7957469410039977,
+      "title_detail": {
+        "n": 20,
+        "correct_empty": 0,
+        "false_fill": 0,
+        "miss": 0
+      },
+      "authors_f1": 0.16666666666666666,
+      "authors_false_fill_rate": 0.6666666666666666,
+      "authors_miss_rate": 0.7142857142857143,
+      "authors_detail": {
+        "n": 18,
+        "correct_empty": 2,
+        "false_fill": 4,
+        "miss": 10,
+        "gold_empty_pages": 6,
+        "gold_present_pages": 14
+      },
+      "time": {
+        "publish_time": {
+          "score": 0.0,
+          "n": 15,
+          "confusion": 0,
+          "correct_empty": 5,
+          "false_fill": 0,
+          "miss": 15,
+          "gold_all_xx": 0,
+          "tz": {
+            "match": 0,
+            "missing": 15,
+            "mismatch": 0,
+            "gold_absent": 0
+          },
+          "false_fill_rate": 0.0
+        },
+        "update_time": {
+          "score": 0.0,
+          "n": 11,
+          "confusion": 0,
+          "correct_empty": 9,
+          "false_fill": 0,
+          "miss": 11,
+          "gold_all_xx": 0,
+          "tz": {
+            "match": 0,
+            "missing": 8,
+            "mismatch": 0,
+            "gold_absent": 3
+          },
+          "false_fill_rate": 0.0
+        }
+      },
+      "publish_time_score": 0.0,
+      "update_time_score": 0.0,
+      "content_f1": 0.8474836119898626,
+      "lcs_f1": 0.850288351232882,
+      "dup_ratio": 0.4252593912703593,
+      "num_f1": 0.7614710187880669,
+      "para_ratio": 0.7198147638703757,
+      "content_detail": {
+        "n": 20,
+        "correct_empty": 0,
+        "false_fill": 0,
+        "miss": 0
+      },
+      "rejection_accuracy": null,
+      "rejection_detail": {
+        "n": 0,
+        "correct": 0,
+        "badcases": []
+      }
+    }
+  }
+}

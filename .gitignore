@@ -1,0 +1,13 @@
+# 环境与缓存
+venv/
+__pycache__/
+*.pyc
+.DS_Store
+
+# 大体量原始数据（不入版本库；可由采集脚本/索引重建，哈希见 dataset_index.jsonl）
+data/html/
+external/html/
+external/ispras_sample_en.jsonl
+
+# ollama 模型等本地资源
+*.gguf

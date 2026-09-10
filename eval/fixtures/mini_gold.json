@@ -1,0 +1,29 @@
+{
+  "pages": [
+    {
+      "id": "p1", "dataset": "dev", "site": "news_cn", "route": "fixed",
+      "content_structure": "single", "page_condition": "ok",
+      "title": "美联储宣布加息",
+      "authors": ["张三"],
+      "publish_time": {"value": "2024-03-21 08:30:00", "utc_offset": "+08:00"},
+      "update_time": {"value": "2024-03-22 10:00:00", "utc_offset": "+08:00"},
+      "content_text": "第一段正文。\n第二段含数字 42。"
+    },
+    {
+      "id": "p2", "dataset": "dev", "site": "example_com", "route": "generic",
+      "content_structure": "single", "page_condition": "ok",
+      "title": "美联储宣布加息",
+      "authors": ["张三", "李四"],
+      "publish_time": {"value": "2024-03-21", "utc_offset": null},
+      "update_time": null,
+      "content_text": "abcdefgh"
+    },
+    {
+      "id": "p3", "dataset": "dev", "site": "example_com", "route": "generic",
+      "content_structure": "list_page", "page_condition": "ok",
+      "title": null, "authors": null,
+      "publish_time": null, "update_time": null,
+      "content_text": null
+    }
+  ]
+}

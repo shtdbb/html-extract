@@ -1,0 +1,403 @@
+{
+ "meta": {
+  "purpose": "dev5 冒烟验证：安装/API/返回值/四字段映射/单页耗时/bytes 自检编码",
+  "samples": [
+   {
+    "site": "news_cn",
+    "path": "data/html/fixed/news_cn__01.html"
+   },
+   {
+    "site": "chinadaily",
+    "path": "data/html/fixed/chinadaily__01.html"
+   },
+   {
+    "site": "sina",
+    "path": "data/html/generic/sina__01.html"
+   },
+   {
+    "site": "gov_cn",
+    "path": "data/html/fixed/gov_cn__01.html"
+   },
+   {
+    "site": "cnblogs",
+    "path": "data/html/generic/cnblogs__01.html"
+   }
+  ],
+  "note_sina_gbk": "实测发现 dev 集 sina 6 页 encoding_declared 全部为 utf-8，不存在真实 GBK 页；GBK 行为用合成转码样本验证（sina__01 → gbk 字节 + meta charset=gb2312）。"
+ },
+ "library_check": {
+  "trafilatura": "2.2.0",
+  "readability_lxml": "0.9",
+  "trafilatura_bare_extraction_accepts_bytes": true
+ },
+ "pages": [
+  {
+   "site": "news_cn",
+   "path": "data/html/fixed/news_cn__01.html",
+   "bytes": 22092,
+   "encoding": {
+    "declared": "utf-8",
+    "detected": "utf-8",
+    "used": "utf-8"
+   },
+   "trafilatura": {
+    "error": null,
+    "elapsed_ms_runs": [
+     6.9,
+     4.5,
+     4.3
+    ],
+    "elapsed_ms_median": 4.5,
+    "return_type": "dict",
+    "four_field_mapping": {
+     "title": "新华社评出2025年国内十大新闻",
+     "authors_raw": null,
+     "publish_time_raw": "2025-12-29",
+     "content_text_len": 3917,
+     "content_text_head": "新华社北京12月29日电 新华社评出2025年国内十大新闻（按事件发生时间先后为序）\n1.全党扎实开展深入贯彻中央八项规定精神学习教育 推进作风建设常态化长效化\n2025年6月5日，江苏省南通市崇川区狼山镇街道的党员干部参观以中央八项规定精神为主题的廉政展馆。新华社发（许丛军 摄）\n自2025年全国两会后，深入贯彻中央八项规定精神学习教育在全党扎实开展，这是习近平总书记亲自谋划的今年党建工作重点任",
+     "other_keys": [
+      "body",
+      "categories",
+      "comments",
+      "commentsbody",
+      "description",
+      "filedate",
+      "fingerprint",
+      "hostname",
+      "id",
+      "image",
+      "language",
+      "license",
+      "pagetype",
+      "raw_text",
+      "sitename",
+      "tags",
+      "url"
+     ]
+    }
+   },
+   "readability": {
+    "error": null,
+    "elapsed_ms_runs": [
+     9.3,
+     5.4,
+     5.2
+    ],
+    "elapsed_ms_median": 5.4,
+    "output": {
+     "title": "新华社评出2025年国内十大新闻-新华网",
+     "short_title": "新华社评出2025年国内十大新闻-新华网",
+     "author": "[no-author]",
+     "summary_is_html": true,
+     "content_text_len": 3987,
+     "content_text_head": "新华社北京12月29日电 \n新华社评出2025年国内十大新闻（按事件发生时间先后为序）\n　　1.全党扎实开展深入贯彻中央八项规定精神学习教育 推进作风建设常态化长效化\n  2025年6月5日，江苏省南通市崇川区狼山镇街道的党员干部参观以中央八项规定精神为主题的廉政展馆。新华社发（许丛军 摄）\n　　自2025年全国两会后，深入贯彻中央八项规定精神学习教育在全党扎实开展，这是习近平总书记亲自谋划的今年"
+    }
+   }
+  },
+  {
+   "site": "chinadaily",
+   "path": "data/html/fixed/chinadaily__01.html",
+   "bytes": 58433,
+   "encoding": {
+    "declared": "utf-8",
+    "detected": "utf-8",
+    "used": "utf-8"
+   },
+   "trafilatura": {
+    "error": null,
+    "elapsed_ms_runs": [
+     7.6,
+     6.6,
+     6.6
+    ],
+    "elapsed_ms_median": 6.6,
+    "return_type": "dict",
+    "four_field_mapping": {
+     "title": "More patient policy framework for China's economy",
+     "authors_raw": "Luo Zhiheng",
+     "publish_time_raw": "2026-08-03",
+     "content_text_len": 5845,
+     "content_text_head": "More patient policy framework for China's economy\nChina's economy can no longer be described simply as either strong or weak. Its defining characteristic is a structural transition accompanied by grow",
+     "other_keys": [
+      "body",
+      "categories",
+      "comments",
+      "commentsbody",
+      "description",
+      "filedate",
+      "fingerprint",
+      "hostname",
+      "id",
+      "image",
+      "language",
+      "license",
+      "pagetype",
+      "raw_text",
+      "sitename",
+      "tags",
+      "url"
+     ]
+    }
+   },
+   "readability": {
+    "error": null,
+    "elapsed_ms_runs": [
+     15.0,
+     14.7,
+     14.7
+    ],
+    "elapsed_ms_median": 14.7,
+    "output": {
+     "title": "More patient policy framework for China's economy - Chinadaily.com.cn",
+     "short_title": "More patient policy framework for China's economy",
+     "author": "闫星周",
+     "summary_is_html": true,
+     "content_text_len": 5976,
+     "content_text_head": "An aerial drone photo taken on May 17, 2026 shows a view of the Longtan Container Terminal at Nanjing Port, East China's Jiangsu province. [Photo/Xinhua] \n \n\n\n\n\nChina's economy can no longer be descri"
+    }
+   }
+  },
+  {
+   "site": "sina",
+   "path": "data/html/generic/sina__01.html",
+   "bytes": 99081,
+   "encoding": {
+    "declared": "utf-8",
+    "detected": "utf-8",
+    "used": "utf-8"
+   },
+   "trafilatura": {
+    "error": null,
+    "elapsed_ms_runs": [
+     14.7,
+     14.1,
+     14.1
+    ],
+    "elapsed_ms_median": 14.1,
+    "return_type": "dict",
+    "four_field_mapping": {
+     "title": "新浪财经与中国上市公司协会达成战略合作共筑网络清朗空间 共建上市公司服务新生态",
+     "authors_raw": "财经头条作者库",
+     "publish_time_raw": "2026-08-11",
+     "content_text_len": 885,
+     "content_text_head": "炒股就看金麒麟分析师研报，权威，专业，及时，全面，助您挖掘潜力主题机会！\n近日，新浪财经与中国上市公司协会在北京签署战略合作协议。双方将建立常态化沟通机制，充分发挥各自优势，在可持续发展生态建设、共建上市公司权威发声渠道等领域开展务实合作，为上市公司提供更加专业、更加高效的服务支撑，助力上市公司高质量发展。\n在可持续发展生态建设方面，双方将通过资源共享与活动联动，携手推动上市公司可持续发展实践与传",
+     "other_keys": [
+      "body",
+      "categories",
+      "comments",
+      "commentsbody",
+      "description",
+      "filedate",
+      "fingerprint",
+      "hostname",
+      "id",
+      "image",
+      "language",
+      "license",
+      "pagetype",
+      "raw_text",
+      "sitename",
+      "tags",
+      "url"
+     ]
+    }
+   },
+   "readability": {
+    "error": null,
+    "elapsed_ms_runs": [
+     12.4,
+     11.9,
+     12.1
+    ],
+    "elapsed_ms_median": 12.1,
+    "output": {
+     "title": "新浪财经与中国上市公司协会达成战略合作共筑网络清朗空间 共建上市公司服务新生态_新浪财经_新浪网",
+     "short_title": "新浪财经与中国上市公司协会达成战略合作共筑网络清朗空间 共建上市公司服务新生态",
+     "author": "[no-author]",
+     "summary_is_html": true,
+     "content_text_len": 690,
+     "content_text_head": "炒股就看\n金麒麟分析师研报\n，权威，专业，及时，全面，助您挖掘潜力主题机会！\n \n　　近日，新浪财经与中国上市公司协会在北京签署战略合作协议。双方将建立常态化沟通机制，充分发挥各自优势，在可持续发展生态建设、共建上市公司权威发声渠道等领域开展务实合作，为上市公司提供更加专业、更加高效的服务支撑，助力上市公司高质量发展。\n\n\n　　在可持续发展生态建设方面，双方将通过资源共享与活动联动，携手推动上市公"
+    }
+   }
+  },
+  {
+   "site": "gov_cn",
+   "path": "data/html/fixed/gov_cn__01.html",
+   "bytes": 24956,
+   "encoding": {
+    "declared": "utf-8",
+    "detected": "utf-8",
+    "used": "utf-8"
+   },
+   "trafilatura": {
+    "error": null,
+    "elapsed_ms_runs": [
+     48.7,
+     4.2,
+     4.9
+    ],
+    "elapsed_ms_median": 4.9,
+    "return_type": "dict",
+    "four_field_mapping": {
+     "title": "李强主持召开国务院常务会议 进一步部署防汛抗洪救灾工作等__中国政府网",
+     "authors_raw": null,
+     "publish_time_raw": "2026-07-10",
+     "content_text_len": 62,
+     "content_text_head": "首页\n|\n简\n|\n繁\n|\nEN\n|\n登录\n个人中心\n退出\n|\n邮箱\n|\n无障碍\nEN\nhttps://www.gov.cn/",
+     "other_keys": [
+      "body",
+      "categories",
+      "comments",
+      "commentsbody",
+      "description",
+      "filedate",
+      "fingerprint",
+      "hostname",
+      "id",
+      "image",
+      "language",
+      "license",
+      "pagetype",
+      "raw_text",
+      "sitename",
+      "tags",
+      "url"
+     ]
+    }
+   },
+   "readability": {
+    "error": null,
+    "elapsed_ms_runs": [
+     3.7,
+     3.4,
+     3.4
+    ],
+    "elapsed_ms_median": 3.4,
+    "output": {
+     "title": "李强主持召开国务院常务会议 进一步部署防汛抗洪救灾工作等__中国政府网",
+     "short_title": "李强主持召开国务院常务会议 进一步部署防汛抗洪救灾工作等__中国政府网",
+     "author": "沙鹏程",
+     "summary_is_html": true,
+     "content_text_len": 19,
+     "content_text_head": "https://www.gov.cn/"
+    }
+   }
+  },
+  {
+   "site": "cnblogs",
+   "path": "data/html/generic/cnblogs__01.html",
+   "bytes": 24047,
+   "encoding": {
+    "declared": "utf-8",
+    "detected": "utf-8",
+    "used": "utf-8"
+   },
+   "trafilatura": {
+    "error": null,
+    "elapsed_ms_runs": [
+     6.5,
+     3.5,
+     3.7
+    ],
+    "elapsed_ms_median": 3.7,
+    "return_type": "dict",
+    "four_field_mapping": {
+     "title": "感谢艾思科蓝成为博客园赞助商",
+     "authors_raw": "博客园团队",
+     "publish_time_raw": "2025-12-09",
+     "content_text_len": 983,
+     "content_text_head": "感谢艾思科蓝成为博客园赞助商\n在2025年岁末临近之际，园子又添惊喜，迎来一家新的赞助商——艾思科蓝。\n非常感谢艾思科蓝的赞助！\n以下是艾思科蓝的介绍：\n艾思科蓝(AiScholar)，立足科研领域的连接者，致力于探索“人工智能+科研学术”的深度结合，打造 Al for Science 的科研服务新范式，在学术交流、科研论文、机构科研提升、成果转化等领域为客户提供全过程数字化、智能化解决方案与专业",
+     "other_keys": [
+      "body",
+      "categories",
+      "comments",
+      "commentsbody",
+      "description",
+      "filedate",
+      "fingerprint",
+      "hostname",
+      "id",
+      "image",
+      "language",
+      "license",
+      "pagetype",
+      "raw_text",
+      "sitename",
+      "tags",
+      "url"
+     ]
+    }
+   },
+   "readability": {
+    "error": null,
+    "elapsed_ms_runs": [
+     6.3,
+     5.6,
+     6.3
+    ],
+    "elapsed_ms_median": 6.3,
+    "output": {
+     "title": "感谢艾思科蓝成为博客园赞助商 - 博客园团队 - 博客园",
+     "short_title": "感谢艾思科蓝成为博客园赞助商",
+     "author": "[no-author]",
+     "summary_is_html": true,
+     "content_text_len": 1006,
+     "content_text_head": "在2025年岁末临近之际，园子又添惊喜，迎来一家新的赞助商——\n艾思科蓝\n。\n\n\n非常感谢艾思科蓝的赞助！\n\n\n以下是艾思科蓝的介绍：\n\n\n艾思科蓝\n(AiScholar)，立足科研领域的连接者，致力于探索“人工智能+科研学术”的深度结合，打造 Al for Science 的科研服务新范式，在学术交流、科研论文、机构科研提升、成果转化等领域为客户提供全过程数字化、智能化解决方案与专业服务，推进科"
+    }
+   }
+  }
+ ],
+ "sina_gbk_bytes_test": {
+  "note": "合成样本：sina__01 文本转 gb18030 字节、meta 声明改 gb2312；调用方不解码，直接传 bytes。",
+  "bytes": 95222,
+  "chardet_on_bytes": {
+   "encoding": "GB2312",
+   "confidence": 0.99,
+   "language": "Chinese"
+  },
+  "trafilatura": {
+   "error": null,
+   "elapsed_ms": 15.8,
+   "four_field_mapping": {
+    "title": "���˲ƾ����й����й�˾Э����ս�Ժ��������������ʿռ� �������й�˾��������̬",
+    "authors_raw": "�ƾ�Ͷ",
+    "publish_time_raw": "2026-08-11",
+    "content_text_len": 1156,
+    "content_text_head": "�������ɾͿ����������ʦ�б���Ȩ����רҵ����ʱ��ȫ�棬�����ھ�Ǳ��������ᣡ\n�������գ����˲ƾ����й����й�˾Э���ڱ���ǩ��ս�Ժ���Э�顣˫����������̬����ͨ���ƣ���ַ��Ӹ������ƣ��ڿɳ�����չ��̬���衢�������й�˾Ȩ����������������չ��ʵ������Ϊ���й",
+    "other_keys": [
+     "body",
+     "categories",
+     "comments",
+     "commentsbody",
+     "description",
+     "filedate",
+     "fingerprint",
+     "hostname",
+     "id",
+     "image",
+     "language",
+     "license",
+     "pagetype",
+     "raw_text",
+     "sitename",
+     "tags",
+     "url"
+    ]
+   },
+   "mojibake_in_title": true
+  },
+  "readability": {
+   "error": null,
+   "elapsed_ms": 14.2,
+   "output": {
+    "title": "新浪财经与中国上市公司协会达成战略合作共筑网络清朗空间 共建上市公司服务新生态_新浪财经_新浪网",
+    "short_title": "新浪财经与中国上市公司协会达成战略合作共筑网络清朗空间 共建上市公司服务新生态",
+    "author": "[no-author]",
+    "summary_is_html": true,
+    "content_text_len": 690,
+    "content_text_head": "炒股就看\n金麒麟分析师研报\n，权威，专业，及时，全面，助您挖掘潜力主题机会！\n \n　　近日，新浪财经与中国上市公司协会在北京签署战略合作协议。双方将建立常态化沟通机制，充分发挥各自优势，在可持续发展生态建设、共建上市公司权威发声渠道等领域开展务实合作，为上市公司提供更加专业、更加高效的服务支撑，助力上市公司高质量发展。\n\n\n　　在可持续发展生态建设方面，双方将通过资源共享与活动联动，携手推动上市公"
+   },
+   "mojibake_in_title": false
+  }
+ }
+}

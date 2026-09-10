@@ -1,0 +1,206 @@
+{
+  "version": "v1（历史口径，仅对照用）",
+  "n_pages": 3,
+  "pred_parse_errors": [],
+  "time_fields": [
+    "publish_time",
+    "update_time"
+  ],
+  "overall": {
+    "n_pages": 3,
+    "n_scored": 2,
+    "title": 0.5,
+    "authors": 0.8333333333333333,
+    "content": 0.8333333333333333,
+    "title_n": 2,
+    "authors_n": 2,
+    "content_n": 2,
+    "publish_time": 1.0,
+    "publish_time_n": 2,
+    "update_time": 1.0,
+    "update_time_n": 1,
+    "rejection_accuracy": 1.0,
+    "rejection_detail": {
+      "n": 1,
+      "correct": 1,
+      "badcases": []
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 1.0,
+      "authors": 1.0,
+      "time": {
+        "publish_time": 1.0,
+        "update_time": 1.0
+      },
+      "content": 1.0
+    },
+    {
+      "id": "p2",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 0.0,
+      "authors": 0.6666666666666666,
+      "time": {
+        "publish_time": 1.0,
+        "update_time": null
+      },
+      "content": 0.6666666666666666
+    },
+    {
+      "id": "p3",
+      "rejection": {
+        "should": true,
+        "correct": true
+      }
+    }
+  ],
+  "by_dataset": {
+    "dev": {
+      "n_pages": 3,
+      "n_scored": 2,
+      "title": 0.5,
+      "authors": 0.8333333333333333,
+      "content": 0.8333333333333333,
+      "title_n": 2,
+      "authors_n": 2,
+      "content_n": 2,
+      "publish_time": 1.0,
+      "publish_time_n": 2,
+      "update_time": 1.0,
+      "update_time_n": 1,
+      "rejection_accuracy": 1.0,
+      "rejection_detail": {
+        "n": 1,
+        "correct": 1,
+        "badcases": []
+      }
+    }
+  },
+  "by_site": {
+    "example_com": {
+      "n_pages": 2,
+      "n_scored": 1,
+      "title": 0.0,
+      "authors": 0.6666666666666666,
+      "content": 0.6666666666666666,
+      "title_n": 1,
+      "authors_n": 1,
+      "content_n": 1,
+      "publish_time": 1.0,
+      "publish_time_n": 1,
+      "rejection_accuracy": 1.0,
+      "rejection_detail": {
+        "n": 1,
+        "correct": 1,
+        "badcases": []
+      }
+    },
+    "news_cn": {
+      "n_pages": 1,
+      "n_scored": 1,
+      "title": 1.0,
+      "authors": 1.0,
+      "content": 1.0,
+      "title_n": 1,
+      "authors_n": 1,
+      "content_n": 1,
+      "publish_time": 1.0,
+      "publish_time_n": 1,
+      "update_time": 1.0,
+      "update_time_n": 1,
+      "rejection_accuracy": null,
+      "rejection_detail": {
+        "n": 0,
+        "correct": 0,
+        "badcases": []
+      }
+    }
+  },
+  "by_route": {
+    "fixed": {
+      "n_pages": 1,
+      "n_scored": 1,
+      "title": 1.0,
+      "authors": 1.0,
+      "content": 1.0,
+      "title_n": 1,
+      "authors_n": 1,
+      "content_n": 1,
+      "publish_time": 1.0,
+      "publish_time_n": 1,
+      "update_time": 1.0,
+      "update_time_n": 1,
+      "rejection_accuracy": null,
+      "rejection_detail": {
+        "n": 0,
+        "correct": 0,
+        "badcases": []
+      }
+    },
+    "generic": {
+      "n_pages": 2,
+      "n_scored": 1,
+      "title": 0.0,
+      "authors": 0.6666666666666666,
+      "content": 0.6666666666666666,
+      "title_n": 1,
+      "authors_n": 1,
+      "content_n": 1,
+      "publish_time": 1.0,
+      "publish_time_n": 1,
+      "rejection_accuracy": 1.0,
+      "rejection_detail": {
+        "n": 1,
+        "correct": 1,
+        "badcases": []
+      }
+    }
+  },
+  "by_content_structure": {
+    "list_page": {
+      "n_pages": 1,
+      "n_scored": 0,
+      "title": null,
+      "authors": null,
+      "content": null,
+      "title_n": 0,
+      "authors_n": 0,
+      "content_n": 0,
+      "rejection_accuracy": 1.0,
+      "rejection_detail": {
+        "n": 1,
+        "correct": 1,
+        "badcases": []
+      }
+    },
+    "single": {
+      "n_pages": 2,
+      "n_scored": 2,
+      "title": 0.5,
+      "authors": 0.8333333333333333,
+      "content": 0.8333333333333333,
+      "title_n": 2,
+      "authors_n": 2,
+      "content_n": 2,
+      "publish_time": 1.0,
+      "publish_time_n": 2,
+      "update_time": 1.0,
+      "update_time_n": 1,
+      "rejection_accuracy": null,
+      "rejection_detail": {
+        "n": 0,
+        "correct": 0,
+        "badcases": []
+      }
+    }
+  }
+}

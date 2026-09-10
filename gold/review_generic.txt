@@ -1,0 +1,356 @@
+wrote gold_generic.json: 55 records; errors: []
+============== sina__01 
+ title: 新浪财经与中国上市公司协会达成战略合作共筑网络清朗空间 共建上市公司服务新生态
+ authors: ['石秀珍（责任编辑）'] | publisher: 新浪财经
+ pub: {'value': '2026-08-11 17:30:01', 'utc_offset': '+08:00', 'utc_offset_source': None} | upd: None
+ len: 639 | imgs: 1 | flags: []
+ head: 近日，新浪财经与中国上市公司协会在北京签署战略合作协议。双方将建立常态化沟通机制，充分发挥各自优势，在可持续发展生态建设、共建上市公司权威发
+ tail: 方面的合作共识，切实维护信息传播秩序、净化信息传播环境，为资本市场高质量发展创造有利条件。⏎[[IMG_1]]⏎责任编辑：石秀珍 SF183
+============== sina__02 
+ title: 宇树科技股价早盘持续下挫，一度跌破500元
+ authors: None | publisher: 澎湃新闻
+ pub: {'value': '2026-09-10 11:11:08', 'utc_offset': '+08:00', 'utc_offset_source': None} | upd: None
+ len: 181 | imgs: 2 | flags: []
+ head: 9月10日，宇树科技股价早盘持续下挫，一度跌破500元，创上市以来新低，随后有所反弹。截至发稿，报502.21元，跌2.28%。⏎8月19日
+ tail: 窄，收盘每股股价845元，市值超3400亿元。此后，宇树科技股价在震荡中下跌，目前已较高点“腰斩”。⏎[[IMG_1]]⏎[[IMG_2]]
+============== sina__03 
+ title: 中微公司三股东套现62亿，中报17亿利润靠卖股票和资产，外延发展平台化的烦恼
+ authors: None | publisher: 国际投行研究报告
+ pub: {'value': '2026-09-10 10:23:56', 'utc_offset': '+08:00', 'utc_offset_source': None} | upd: None
+ len: 2361 | imgs: 7 | flags: []
+ head: 来源：国际投行研究报告⏎✍️ 凌通社大白话导读：⏎上周凌通社写了半导体设备的行业研究，半导体设备14家中报扫描：有人营收暴增95%，有人利润
+ tail: 示未来收益。数据来源：中微公司2026年半年度报告、减持结果公告、2026年8月投资者关系活动记录表、Wind金融终端。⏎[[IMG_7]]
+============== sina__04 
+ title: 青山纸业一发明专利终审宣告无效：尚未投入规模化生产应用，已全额计提减值准备
+ authors: ['计思敏'] | publisher: 澎湃新闻
+ pub: {'value': '2026-09-10 11:55:12', 'utc_offset': '+08:00', 'utc_offset_source': None} | upd: None
+ len: 1261 | imgs: 1 | flags: []
+ head: 9月10日开盘，青山纸业开盘震荡走低，截至发稿报3.8元/股，跌幅3.55%。⏎此前一晚，福建省青山纸业股份有限公司（青山纸业，600103
+ tail: 实现营业收入12.3亿元，同比上升1.9%；归母净利润为4022.98万元，同比下降28.26%。⏎澎湃新闻记者 计思敏⏎[[IMG_1]]
+============== sina__05 
+ title: 揭秘*ST高科控制权之争：前董事长被刑事立案，或因未竞拍东阳150亩土地
+ authors: ['郝欣煜（责任编辑）', '周松清', '韩迅'] | publisher: 时代周报
+ pub: {'value': '2026-09-10 12:47:09', 'utc_offset': '+08:00', 'utc_offset_source': None} | upd: None
+ len: 6372 | imgs: 8 | flags: []
+ head: 本文来源：时代周报 作者：周松清 韩迅⏎谁也没想到因为一块地会引发*ST高科（600730.SH）控制权的争夺。⏎8月31日下午，时代周报记
+ tail: 在东阳市公安局接报案大厅拍摄的照片。⏎*ST高科的控股权纠纷和半导体项目进展，时代周报记者将继续关注。⏎[[IMG_8]]⏎责任编辑：郝欣煜
+============== sina__06 
+ title: 8月资金疯狂涌入黄金ETF，凸显黄金对冲全球主权债务风险的价值
+ authors: ['朱赫楠（责任编辑）'] | publisher: 汇通财经
+ pub: {'value': '2026-09-10 11:34:10', 'utc_offset': '+08:00', 'utc_offset_source': None} | upd: None
+ len: 1653 | imgs: 7 | flags: []
+ head: [[IMG_1]]⏎[[IMG_2]]⏎文章来源：汇通财经⏎即便市场不断传出9月即将加息的预警信号，8月黄金的价格表现，充分展现出贵金属对冲
+ tail: 来源：易汇通北京时间9月10日11：31 现货黄金 报 4410.84 美元/盎司⏎[[IMG_6]]⏎[[IMG_7]]⏎责任编辑：朱赫楠
+============== sohu__01 
+ title: 广州一住宅拍卖，起拍价比评估价高110万元，法院相关工作人员回应
+ authors: ['王灿'] | publisher: 极目新闻
+ pub: {'value': '2026-09-10 19:32:XX', 'utc_offset': '+08:00', 'utc_offset_source': 'inferred_site_locale'} | upd: None
+ len: 510 | imgs: 3 | flags: []
+ head: 极目新闻记者 王灿⏎近日，广州市白云区的一套住宅在法拍平台挂拍，评估价为181万元，起拍价却设为293万元，高出房屋评估价110多万元，引来
+ tail: 格。在法拍中有时起拍价高于评估价，是为了覆盖债权金额。该工作人员表示，这套住宅仅拍卖一次，不会再次在法拍平台拍卖或变卖。⏎（来源：极目新闻）
+============== sohu__02 
+ title: 男子教师节给40多位老师发祝福短信后被停机 运营商：证明号码系本人使用可恢复
+ authors: None | publisher: 红星新闻
+ pub: {'value': '2026-09-10 16:08:XX', 'utc_offset': '+08:00', 'utc_offset_source': 'inferred_site_locale'} | upd: None
+ len: 1035 | imgs: 3 | flags: []
+ head: 9月10日，湖北的朱先生向红星新闻记者反映，当日上午，他向自己求学期间的数十位老师分别发送了教师节祝福短信。上午11时许，运营商突然发来短信
+ tail: ，运营商负有保障通信畅通的义务。依据相关法律，运营商可以对异常号码采取核验、限制功能，但处置应当区分风险等级，直接停机会给普通用户增加负担。
+============== sohu__03 
+ title: 买断运龄捐近百万救灾，刘翔的问题还是没答案
+ authors: ['张彦宗'] | publisher: 狐度
+ pub: {'value': '2026-09-10 15:26:XX', 'utc_offset': '+08:00', 'utc_offset_source': 'inferred_site_locale'} | upd: None
+ len: 1508 | imgs: 2 | flags: []
+ head: 文| 张彦宗⏎9月10日，刘翔在微博摊牌，“等不到官方结果了，还是我来说吧”。他透露9月1日买断运龄，获安置费49.4万元。从2015年4月
+ tail: 言，也不只是说给上海市体育局听的，而是把这个事当成一个公共问题传达给社会，让社会知道、成为人们的问题意识。但愿这些问题，未来能有更好的答案。
+============== sohu__04 
+ title: 习近平对山东青岛市北海造船厂一货轮火灾事故作出重要指示
+ authors: ['钟庆辉（责任编辑）'] | publisher: 新华社
+ pub: {'value': '2026-09-10 17:00:XX', 'utc_offset': '+08:00', 'utc_offset_source': 'inferred_site_locale'} | upd: None
+ len: 512 | imgs: 0 | flags: []
+ head: 原标题：习近平对山东青岛市北海造船厂一货轮火灾事故作出重要指示强调⏎深入排查整治各类火灾隐患 落实落细防范措施⏎坚决遏制重特大事故发生⏎李强
+ tail: 强要求，应急管理部已派出工作组赶赴现场指导。山东省已组织力量全力做好现场处置等工作。目前，各项工作正在进行中。⏎责任编辑：钟庆辉 UN660
+============== sohu__05 
+ title: 习近平将赴印度出席金砖国家领导人第十八次会晤
+ authors: ['钟庆辉（责任编辑）'] | publisher: 新华社
+ pub: {'value': '2026-09-10 18:02:XX', 'utc_offset': '+08:00', 'utc_offset_source': 'inferred_site_locale'} | upd: None
+ len: 104 | imgs: 1 | flags: []
+ head: [[IMG_1]]⏎新华社北京9月10日电 外交部发言人9月10日宣布：应印度共和国总理莫迪邀请，国家主席习近平将于9月12日至13日赴印度
+ tail: 布：应印度共和国总理莫迪邀请，国家主席习近平将于9月12日至13日赴印度新德里出席金砖国家领导人第十八次会晤。⏎责任编辑：钟庆辉 UN660
+============== sohu__06 
+ title: 拾光纪·“我还能记住他们的样子”，总书记心系人民教师
+ authors: ['钟庆辉（责任编辑）'] | publisher: 人民日报客户端
+ pub: {'value': '2026-09-10 18:27:XX', 'utc_offset': '+08:00', 'utc_offset_source': 'inferred_site_locale'} | upd: None
+ len: 159 | imgs: 0 | flags: []
+ head: “我们从小学到大学都有过不少的老师，我还能记住他们的样子”，习近平总书记对人民教师有着深厚情怀。“长期以来，全国广大教师认真贯彻党的教育方针
+ tail: 展作出了重要贡献。”在第四十二个教师节到来之际，习近平总书记向全国广大教师和教育工作者致以节日祝贺和诚挚问候。⏎责任编辑：钟庆辉 UN660
+============== ifeng__01 
+ title: 冰岛准备永久停止捕鲸，压力给到挪威和日本
+ authors: None | publisher: 观察者网
+ pub: {'value': '2026-09-10 23:57:47', 'utc_offset': '+08:00', 'utc_offset_source': None} | upd: {'value': '2026-09-10 23:59:27', 'utc_offset': '+08:00', 'utc_offset_source': None}
+ len: 800 | imgs: 4 | flags: []
+ head: [[IMG_1]]⏎[[IMG_2]]⏎[[IMG_3]]⏎[[IMG_4]]⏎路透社9月10日消息，冰岛政府将于明年2月向议会提交一项禁止
+ tail: 这项商业捕鲸禁令允许世界部分地区的原住民继续捕鲸，例如格陵兰和阿拉斯加的原住民，因为鲸类产品在当地居民的营养摄入和文化生活中发挥着重要作用。
+============== ifeng__02 
+ title: 女子被毒蛇咬伤身亡，养蛇场负责人：无法证明蛇来自我这儿，最多补偿2万元
+ authors: ['江龙'] | publisher: 红星新闻
+ pub: {'value': '2026-09-10 23:54:03', 'utc_offset': '+08:00', 'utc_offset_source': None} | upd: {'value': '2026-09-10 23:55:46', 'utc_offset': '+08:00', 'utc_offset_source': None}
+ len: 3788 | imgs: 16 | flags: []
+ head: [[IMG_1]]⏎[[IMG_2]]⏎[[IMG_3]]⏎[[IMG_4]]⏎毒蛇咬住陆翠连的脖子，她伸手去拔，又被咬到手。这一幕，丈夫韦
+ tail: 的家⏎天色暗下来，隔壁邻居家传来炒菜声和孩子的笑闹声。韦家的大门敞着，屋内黑沉沉的，没有一点声响。⏎红星新闻记者 江龙 部分图片由受访者提供
+============== ifeng__03 
+ title: 平安半年报超预期！净利润大增36%，中期分红涨幅创四年新高，“服务+” 利好兑现
+ authors: None | publisher: 凤凰网综合
+ pub: {'value': '2026-08-20 19:08:58', 'utc_offset': '+08:00', 'utc_offset_source': None} | upd: None
+ len: 2437 | imgs: 1 | flags: []
+ head: [[IMG_1]]⏎8月20日，中国平安交出2026年中期答卷。归母营运利润同比增长8.3%，连续三年保持增长；归母净利润增长36.1%，超
+ tail: 客户、日趋完善的医养网络、全链路落地的AI能力，则是看不见的护城河，更是穿越周期的持久力量。⏎属于平安的“服务+”时代红利，才刚刚开始兑现。
+============== ifeng__04 
+ title: 尼泊尔泥石流灾害已致1382人遇难
+ authors: ['张玥', '石玥'] | publisher: 央视新闻
+ pub: {'value': '2026-09-10 22:09:59', 'utc_offset': '+08:00', 'utc_offset_source': None} | upd: {'value': '2026-09-10 22:27:23', 'utc_offset': '+08:00', 'utc_offset_source': None}
+ len: 108 | imgs: 1 | flags: []
+ head: [[IMG_1]]⏎根据尼泊尔警方公布的最新数据，截至当地时间9月10日17时，该国泥石流灾害已致1382人遇难。⏎8月26日，尼泊尔边境地
+ tail: 时，该国泥石流灾害已致1382人遇难。⏎8月26日，尼泊尔边境地区突发冰川崩塌引发严重泥石流灾害，造成重大人员伤亡。（总台记者 张玥 石玥）
+============== ifeng__05 
+ title: 燃油车卖不动，加油站怎么办？
+ authors: ['郑宇'] | publisher: 中国新闻周刊
+ pub: {'value': '2026-09-10 22:05:55', 'utc_offset': '+08:00', 'utc_offset_source': None} | upd: {'value': '2026-09-10 22:19:51', 'utc_offset': '+08:00', 'utc_offset_source': None}
+ len: 2449 | imgs: 3 | flags: []
+ head: [[IMG_1]]⏎[[IMG_2]]⏎[[IMG_3]]⏎遍布城乡的加油站，正遭遇行业变局。⏎据隆众资讯统计，2025年底全国加油站约11
+ tail: ，作为交通能源体系的终端载体，加油站行业的迭代变革，既是终端业态的自我重构，也是中国汽车产业电动化与能源结构低碳转型的大势所趋。⏎作者：郑宇
+============== caixin__01 | REFUSAL
+  notes: 付费墙：HTML 仅含开头 1-2 段，正文被收费框截断，按"无可抽取"处理
+============== caixin__02 | REFUSAL
+  notes: 付费墙：HTML 仅含开头 1-2 段，正文被收费框截断，按"无可抽取"处理
+============== caixin__03 | REFUSAL
+  notes: 付费墙：HTML 仅含开头 1-2 段，正文被收费框截断，按"无可抽取"处理
+============== caixin__04 | REFUSAL
+  notes: 付费墙：HTML 仅含开头 1-2 段，正文被收费框截断，按"无可抽取"处理
+============== caixin__05 | REFUSAL
+  notes: 付费墙：HTML 仅含开头 1-2 段，正文被收费框截断，按"无可抽取"处理
+============== chinanews__01 
+ title: 习近平将赴印度出席金砖国家领导人第十八次会晤
+ authors: ['胡寒笑（编辑）'] | publisher: 中国新闻网
+ pub: {'value': '2026-09-10 19:22:XX', 'utc_offset': '+08:00', 'utc_offset_source': 'inferred_site_locale'} | upd: None
+ len: 82 | imgs: 0 | flags: []
+ head: 中新社北京9月10日电 中国外交部发言人10日宣布，应印度共和国总理莫迪邀请，国家主席习近平将于9月12日至13日赴印度新德里出席金砖国家领
+ tail: 中国外交部发言人10日宣布，应印度共和国总理莫迪邀请，国家主席习近平将于9月12日至13日赴印度新德里出席金砖国家领导人第十八次会晤。(完)
+============== chinanews__02 
+ title: 习言道｜一图读懂“金砖”
+ authors: ['胡寒笑（编辑）'] | publisher: 中国新闻网
+ pub: {'value': '2026-09-10 19:51:XX', 'utc_offset': '+08:00', 'utc_offset_source': 'inferred_site_locale'} | upd: None
+ len: 96 | imgs: 1 | flags: []
+ head: 应印度共和国总理莫迪邀请，国家主席习近平将于9月12日至13日赴印度新德里出席金砖国家领导人第十八次会晤。⏎今年是金砖国家合作机制建立20周
+ tail: 日至13日赴印度新德里出席金砖国家领导人第十八次会晤。⏎今年是金砖国家合作机制建立20周年。关于“金砖”，带你一图读懂→⏎[[IMG_1]]
+============== chinanews__03 
+ title: 习近平对山东青岛市北海造船厂一货轮火灾事故作出重要指示
+ authors: ['胡寒笑（编辑）'] | publisher: 新华社
+ pub: {'value': '2026-09-10 17:00:XX', 'utc_offset': '+08:00', 'utc_offset_source': 'inferred_site_locale'} | upd: None
+ len: 497 | imgs: 0 | flags: []
+ head: 原标题：习近平对山东青岛市北海造船厂一货轮火灾事故作出重要指示强调⏎深入排查整治各类火灾隐患 落实落细防范措施⏎坚决遏制重特大事故发生⏎李强
+ tail: 发生。⏎根据习近平重要指示和李强要求，应急管理部已派出工作组赶赴现场指导。山东省已组织力量全力做好现场处置等工作。目前，各项工作正在进行中。
+============== chinanews__04 
+ title: 习言道｜习近平忆老师严格要求：现在回想起来，终生受益
+ authors: ['阚枫', '高萌', '胡寒笑（编辑）'] | publisher: 中国新闻网
+ pub: {'value': '2026-09-10 09:19:XX', 'utc_offset': '+08:00', 'utc_offset_source': 'inferred_site_locale'} | upd: None
+ len: 1180 | imgs: 1 | flags: []
+ head: [[IMG_1]]⏎中新网9月10日电 题：习近平忆老师严格要求：现在回想起来，终生受益⏎“欢迎首长回到母校。”⏎“到这儿就没有首长了，都是
+ tail: ⏎｜总策划：俞岚⏎｜策划：周锐⏎｜统筹：马学玲⏎｜执笔：阚枫 高萌⏎｜审校：孙静波⏎｜视觉：张舰元 李伊璐⏎｜中国新闻网“习言道”工作室出品
+============== chinanews__05 
+ title: 外交部：中美双方就年内元首互动安排保持着沟通
+ authors: ['胡寒笑（编辑）', '薛伟（摄影）'] | publisher: 中国新闻网
+ pub: {'value': '2026-09-10 15:20:XX', 'utc_offset': '+08:00', 'utc_offset_source': 'inferred_site_locale'} | upd: None
+ len: 150 | imgs: 1 | flags: []
+ head: 中新网北京9月10日电 (记者 曾玥)中国外交部发言人郭嘉昆10日主持例行记者会。有记者就中美关系相关进展提问。⏎[[IMG_1]]⏎郭嘉昆
+ tail: 国驻华大使庞德伟的有关情况，中方已经发布了有关消息。元首外交对于中美关系具有不可替代的战略引领作用，双方就年内元首互动安排保持着沟通。(完)
+============== chinanews__06 
+ title: 2026年APEC工商领导人峰会举办时间确定
+ authors: ['胡寒笑（编辑）'] | publisher: 央视新闻客户端
+ pub: {'value': '2026-09-10 18:53:XX', 'utc_offset': '+08:00', 'utc_offset_source': 'inferred_site_locale'} | upd: None
+ len: 164 | imgs: 0 | flags: []
+ head: 记者9月10日从中国贸促会获悉，2026年亚太经合组织(APEC)工商领导人峰会将于11月17日至18日在深圳举办。⏎据悉，本届工商峰会以“
+ tail: 邀请APEC经济体政商界代表约1000人，围绕亚太自贸区建设、互联互通、人工智能、可持续发展等议题开展交流讨论，为促进亚太经济增长建言献策。
+============== people__01 
+ title: 国家发展改革委有关负责人解读《关于重要工业品低价无序竞争成本核算有关事项的通知》
+ authors: ['袁勃（责任编辑）', '赵欣悦（责任编辑）'] | publisher: 新华社
+ pub: {'value': '2026-09-10 22:04:XX', 'utc_offset': '+08:00', 'utc_offset_source': 'inferred_site_locale'} | upd: None
+ len: 1531 | imgs: 1 | flags: []
+ head: 新华社北京9月10日电 题：国家发展改革委有关负责人解读《关于重要工业品低价无序竞争成本核算有关事项的通知》⏎新华社记者⏎近日，国家发展改革
+ tail: 时开展成本调查，核算相关成本，引导经营者自觉规范价格行为。依法开展价格监督检查，查处价格违法行为，维护良好市场价格秩序。⏎[[IMG_1]]
+============== people__02 
+ title: 央行将开展隔夜逆回购操作
+ authors: ['袁勃（责任编辑）', '赵欣悦（责任编辑）'] | publisher: 新华社
+ pub: {'value': '2026-09-10 20:54:XX', 'utc_offset': '+08:00', 'utc_offset_source': 'inferred_site_locale'} | upd: None
+ len: 230 | imgs: 1 | flags: []
+ head: 新华社北京9月10日电（记者任军、吴雨）中国人民银行9月10日发布公告称，为更好匹配银行体系短期流动性需求，中国人民银行将在9月14日至9月
+ tail: 。隔夜逆回购操作在一些特殊时点可以起到“削峰填谷”的作用，开展隔夜逆回购操作，可以提高流动性管理效率、降低金融机构成本。⏎[[IMG_1]]
+============== people__03 
+ title: 金融监管总局：大力整治“价格战”“高息高返”等行为
+ authors: ['杨虞波罗（责任编辑）', '高雷（责任编辑）'] | publisher: 人民网
+ pub: {'value': '2026-09-10 20:30:XX', 'utc_offset': '+08:00', 'utc_offset_source': 'inferred_site_locale'} | upd: None
+ len: 647 | imgs: 2 | flags: []
+ head: 人民网北京9月10日电 （记者杜燕飞）金融监管总局副局长丛林今日在国新办新闻发布会上表示，未来5年要分类施策优化金融机构体系，推进地方中小金
+ tail: 金融机构主体责任，加强产品适当性和营销行为管理；继续加强执法司法的协作会商，重拳整治金融“黑灰产”，持续巩固和扩大成果。⏎[[IMG_2]]
+============== people__04 
+ title: 证监会谈惩防财务造假：“惩防治”并举“行民刑”协同
+ authors: ['杨虞波罗（责任编辑）', '高雷（责任编辑）'] | publisher: 人民网
+ pub: {'value': '2026-09-10 20:30:XX', 'utc_offset': '+08:00', 'utc_offset_source': 'inferred_site_locale'} | upd: None
+ len: 471 | imgs: 2 | flags: []
+ head: 人民网北京9月10日电 （记者杜燕飞）“近年来，证监会加强部际联动、央地协同，在打假防假方面取得突破性进展，建立健全常态化、长效化的财务造假
+ tail: 的吸引力。继续加大退市监管力度，发挥好强制退市的震慑效应。加强退市后监管和退市过程中的投资者保护，坚决防止“一退了之”。⏎[[IMG_2]]
+============== people__05 
+ title: 两部门部署做好重要工业品低价无序竞争成本核算工作
+ authors: ['袁勃（责任编辑）', '赵欣悦（责任编辑）'] | publisher: 新华社
+ pub: {'value': '2026-09-10 20:14:XX', 'utc_offset': '+08:00', 'utc_offset_source': 'inferred_site_locale'} | upd: None
+ len: 498 | imgs: 1 | flags: []
+ head: 新华社北京9月10日电（记者魏玉坤）记者10日从国家发展改革委获悉，为贯彻落实党中央和国务院决策部署，依法依规治理低价无序竞争，近日，国家发
+ tail: 与行业主管部门的联系，结合产业发展规律、行业生产经营特点，做好相关工作，依法依规治理低价无序竞争，切实维护市场价格秩序。⏎[[IMG_1]]
+============== people__06 
+ title: 《金融强国建设“十五五”规划》正式出台
+ authors: ['袁勃（责任编辑）', '赵欣悦（责任编辑）'] | publisher: 新华社
+ pub: {'value': '2026-09-10 18:55:XX', 'utc_offset': '+08:00', 'utc_offset_source': 'inferred_site_locale'} | upd: None
+ len: 558 | imgs: 1 | flags: []
+ head: 新华社北京9月10日电（记者吴雨）记者9月10日从国新办举行的“开局起步‘十五五’”系列主题新闻发布会上获悉，在中央金融委统一部署下，中央金
+ tail: 案。⏎陆磊表示，“十五五”时期，中国人民银行将全力推动规划重点任务举措落地、落实，加快建设金融强国、服务经济高质量发展。⏎[[IMG_1]]
+============== cnblogs__01 
+ title: 感谢艾思科蓝成为博客园赞助商
+ authors: ['博客园团队'] | publisher: None
+ pub: None | upd: None
+ len: 1038 | imgs: 7 | flags: []
+ head: 在2025年岁末临近之际，园子又添惊喜，迎来一家新的赞助商——艾思科蓝。⏎非常感谢艾思科蓝的赞助！⏎以下是艾思科蓝的介绍：⏎艾思科蓝(AiS
+ tail: 思科蓝官网 https://ais.cn/u/QjqYJr⏎学术会议推荐 https://ais.cn/u/VZZZJj⏎[[IMG_7]]
+============== cnblogs__02 
+ title: AI 越来越强，为什么打工人反而越来越累、越来越内耗了？
+ authors: ['程序员海军'] | publisher: None
+ pub: None | upd: None
+ len: 4844 | imgs: 8 | flags: []
+ head: AI 越来越强，打工人怎么反而越来越累了？⏎最近一直都很忙，忙公司里的 AI 项目，也忙着在几个任务之间来回切换。公众号有段时间没更新了，好
+ tail: 一个人可以做过去一个小团队的工作，也让公司开始期待一个人承担更多工作。⏎AI 会继续变强。⏎至于打工人什么时候能轻松一点，我现在还没有答案。
+============== cnblogs__03 
+ title: 自由、创新、研究、探索
+ authors: ['张善友'] | publisher: None
+ pub: None | upd: None
+ len: 5518 | imgs: 2 | flags: []
+ head: 微软正式发布了 .NET 11 的第一个候选发布版本（Release Candidate 1）。⏎和之前的 Preview 不同，RC1 附
+ tail: S 版本，诚意十足。⏎你最期待哪个特性？欢迎在评论区聊聊。⏎本文内容整理自微软官方 .NET 博客及 dotnet/core 仓库发布说明。
+============== cnblogs__04 
+ title: 自由、创新、研究、探索
+ authors: ['张善友'] | publisher: None
+ pub: None | upd: None
+ len: 9505 | imgs: 1 | flags: []
+ head: 编译出单文件原生二进制、没有头文件、async 不用手写状态机、内存安全但不用和借用检查器格斗——一个 C++ 工程师视角下的 .NET A
+ tail: ——以代码为准，也欢迎提 PR。⏎觉得有用，欢迎去 GitHub 点个 Star ⭐，也欢迎点赞 / 在看 / 转发给你的 C++ 朋友 👋
+============== cnblogs__05 
+ title: [Agent Memory / 强化学习] MemPO源码学习笔记 ---（1）--- 总体
+ authors: ['罗西的思考'] | publisher: None
+ pub: None | upd: None
+ len: 15479 | imgs: 16 | flags: []
+ head: [Agent Memory / 强化学习] MemPO源码学习笔记 ---（1）--- 总体⏎0x00 概要⏎1.1 用RL训练记忆系统的要
+ tail: 练时没学会写好 ，评估时就无法正确回答⏎这个 gap 就是 memory reward 的训练信号来源⏎[[IMG_16]]⏎0xFF 参考
+============== cnblogs__06 
+ title: 图论：LCA、树的直径、树的重心、二分图与 Tarjan 缩点
+ authors: ['lvwangshu'] | publisher: None
+ pub: None | upd: None
+ len: 11096 | imgs: 0 | flags: []
+ head: 图论：LCA、树的直径、树的重心、二分图与 Tarjan 缩点⏎目录⏎1. 树上倍增法⏎2. DFS 序求 LCA（O(1) 查询）⏎1. 
+ tail: 题都可以考虑⏎这个技巧的本质是离线 + 逆序处理，是竞赛中非常高频的思维方式。不止图论，在数据结构、DP 中也经常用到。⏎部分由 AI 润色
+============== cnblogs__07 
+ title: 茴香饺子、
+ authors: ['茴香饺子、'] | publisher: None
+ pub: None | upd: None
+ len: 4013 | imgs: 0 | flags: []
+ head: 减碳和低碳是人类的在环境保护上的目标，碳达峰和碳中和是对应的实现策略，欧盟是最早立法和推进这一策略的经济体。来公司半年多了，做了很多相关的项
+ tail: 售电公司也要根据中长期合同的变化情况提前调整绿电相关的交易策略，避免出现亏损。谁能更准地预测风光出力和极端天气，谁就能在电力交易中多赚收益。
+============== segmentfault__01 
+ title: 当代码实现不再是瓶颈：技术领导者的「上下文治理」与协作演进
+ authors: ['MindMux'] | publisher: None
+ pub: {'value': '2026-06-28 03:07:37', 'utc_offset': '+00:00', 'utc_offset_source': None} | upd: None
+ len: 4400 | imgs: 14 | flags: []
+ head: 作者：祁宁（@Joyqi），MindMux.ai 联合创始人兼CTO、SegmentFault 创始人前CTO，Apache Answer 
+ tail:  主动认领 → Agent 自动执行"的极客文化。⏎记住，你的护城河不是代码写得多快，而是让正确的上下文一次都不丢失。⏎[[IMG_14]]
+============== segmentfault__02 
+ title: 定时抓 Google 搜索结果的脚本突然全变中文？排查下来是出口 IP 被 Google「送中」
+ authors: ['请求又超时了'] | publisher: None
+ pub: {'value': '2026-09-08 09:57:50', 'utc_offset': '+00:00', 'utc_offset_source': None} | upd: None
+ len: 6711 | imgs: 0 | flags: []
+ head: 有个每天跑的小任务，去抓 Google 搜索结果监控几个关键词排名。前一周都正常，某天早上看日志，抓回来的页面全是中文、还夹着验证码。机器出
+ tail: gle GeoIP 的公开技术资料。不同 IP 段、不同服务商的实际情况有差异，具体判定请在你自己环境用上面的脚本实测，别直接套别人的结论。
+============== segmentfault__03 
+ title: 【大模型应用开发】微调全景与 LoRA —— 让大模型学会你的"方言"
+ authors: ['悟空聊AI'] | publisher: None
+ pub: {'value': '2026-09-06 04:04:10', 'utc_offset': '+00:00', 'utc_offset_source': None} | upd: None
+ len: 7203 | imgs: 0 | flags: []
+ head: 19.1 先搞清楚：到底什么时候需要微调？⏎第 13 课讲过训练三阶段（预训练 → SFT → RLHF）。但那是在"造模型"的层面。对你这
+ tail: 吗？⏎能！几十 MB 的适配器 + 基础模型即可，社区都在这么玩⏎中文微调要注意什么？⏎数据别全用英文模板；保留原始分词器；测试覆盖中文场景
+============== segmentfault__04 
+ title: 如何构建有记忆的AI角色？快看Livo的Agent系统设计解析
+ authors: ['OceanBase技术站'] | publisher: None
+ pub: {'value': '2026-09-08 02:51:04', 'utc_offset': '+00:00', 'utc_offset_source': None} | upd: None
+ len: 3192 | imgs: 7 | flags: []
+ head: 《DB大咖说》第 28 期来啦⏎AI 浪潮来袭，对内容创作平台而言，是机遇还是挑战？答案或许取决于我们如何真正用好AI技术。⏎快看漫画，作为
+ tail: 新的范式，或许正在为下一个百年的叙事方式，写下最初的一行代码。⏎[[IMG_7]]⏎OB Cloud 企业新用户提供专享，点击免费申请 >>
+============== segmentfault__05 
+ title: Access 窗体也能响应式：窗口大小变了，控件自动跟着调
+ authors: ['access开发'] | publisher: None
+ pub: {'value': '2026-09-08 00:57:22', 'utc_offset': '+00:00', 'utc_offset_source': None} | upd: None
+ len: 13354 | imgs: 2 | flags: []
+ head: 摘要： 前端框架的响应式布局在 Access 里也能做到——窗体尺寸变化时，控件自动调整位置和大小，不会出现控件被遮挡、留白太多、错位等问题
+ tail: 业、更现代。⏎测试环境：Access 2010 / 2016 / 2019 / Microsoft 365，Windows 10 / 11。
+============== python_docs__01 
+ title: 1. Whetting Your Appetite
+ authors: None | publisher: None
+ pub: None | upd: None
+ len: 4373 | imgs: 0 | flags: []
+ head: If you do much work on computers, eventually you find that there’s som
+ tail: ching upon advanced⏎concepts like exceptions and user-defined classes.
+============== python_docs__02 | REFUSAL
+  notes: 文档索引页（The Python Standard Library 目录），按页面功能判 list_page
+============== python_docs__03 
+ title: 2. Using the Python Interpreter
+ authors: None | publisher: None
+ pub: None | upd: None
+ len: 5682 | imgs: 0 | flags: []
+ head: 2.1. Invoking the Interpreter¶⏎The Python interpreter is usually insta
+ tail: es not conflict with a⏎simultaneously installed Python 2.x executable.
+============== python_docs__04 
+ title: 3. An Informal Introduction to Python
+ authors: None | publisher: None
+ pub: None | upd: None
+ len: 16541 | imgs: 0 | flags: []
+ head: In the following examples, input and output are distinguished by the p
+ tail: you don’t⏎need to escape " (but you have to escape \') and vice versa.
+============== python_docs__05 
+ title: 4. More Control Flow Tools
+ authors: None | publisher: None
+ pub: None | upd: None
+ len: 34440 | imgs: 0 | flags: []
+ head: As well as the while statement just introduced, Python uses a few more
+ tail: l see any changes the⏎callee makes to it (items inserted into a list).
+============== github_blog__01 
+ title: How AI code generation works
+ authors: ['Jeimy Ruiz'] | publisher: None
+ pub: {'value': '2024-02-22 18:32:28', 'utc_offset': '+00:00', 'utc_offset_source': None} | upd: {'value': '2024-05-14 18:29:02', 'utc_offset': '+00:00', 'utc_offset_source': None}
+ len: 15886 | imgs: 1 | flags: []
+ head: Generative AI coding tools are changing software production for enterp
+ tail: or get started with the world’s most widely adopted AI developer tool.
+============== github_blog__02 
+ title: Unlocking the power of unstructured data with RAG
+ authors: ['Nicole Choi'] | publisher: None
+ pub: {'value': '2024-06-13 16:00:28', 'utc_offset': '+00:00', 'utc_offset_source': None} | upd: {'value': '2024-07-23 13:14:10', 'utc_offset': '+00:00', 'utc_offset_source': None}
+ len: 12783 | imgs: 0 | flags: []
+ head: Whether they’re building a new product or improving a process or featu
+ tail: nd evaluate a wealth of unstructured data—simply by asking a question.
+============== github_blog__03 
+ title: Project HydraFusion: Frontier quality via multi-model orches
+ authors: ['GitHub Staff'] | publisher: None
+ pub: {'value': '2026-09-04 16:04:14', 'utc_offset': '+00:00', 'utc_offset_source': None} | upd: {'value': '2026-09-04 18:31:57', 'utc_offset': '+00:00', 'utc_offset_source': None}
+ len: 11725 | imgs: 6 | flags: []
+ head: Providing developers the best model for the task at hand has always be
+ tail: AI⏎[[IMG_6]] Andy Salerno, Principal Software Engineer, GitHub Copilot
+============== github_blog__04 
+ title: GitHub Copilot app for Beginners: Run several agents at once
+ authors: ['Kayla Cinnamon'] | publisher: None
+ pub: {'value': '2026-09-03 16:00:00', 'utc_offset': '+00:00', 'utc_offset_source': None} | upd: None
+ len: 2469 | imgs: 0 | flags: []
+ head: Running multiple AI agents on the same project seems like pure chaos, 
+ tail: app. It’s a low-stakes way to watch your tasks progress independently.

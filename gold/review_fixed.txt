@@ -1,0 +1,211 @@
+wrote gold_fixed.json: 30 records
+================ news_cn__01
+ title: 新华社评出2025年国内十大新闻
+ authors: ['许丛军（摄影）', '王海洲（摄影）', '刘艺（摄影）', '丁增尼达（摄影）', '毕晓洋（摄影）', '黄敬文（摄影）', '李刚（摄影）', '李响（摄影）', '张晨霖（摄影）', '赖向东（摄影）', '郭程（摄影）', '王萌萌（责任编辑）']
+ pub: {'value': '2025-12-29 08:06:55', 'utc_offset': '+08:00', 'utc_offset_source': 'inferred_site_locale'} | upd: None | pub-lisher: 新华网
+ imgs: 10 | flags: [] | len: 3221
+ head: 新华社北京12月29日电 新华社评出2025年国内十大新闻（按事件发生时间先后为序）⏎1.全党扎实开展深入贯彻中央八项规定精神学习教育 推进作风建设常态化长效化
+ tail: 发展，现代化产业体系建设持续推进，重点领域风险化解取得积极进展，民生保障更加有力。我国经济社会发展主要目标将顺利完成，全年国内生产总值预计达到140万亿元左右。
+================ news_cn__02
+ title: 李强主持召开国务院常务会议
+ authors: ['邱丽芳（责任编辑）']
+ pub: {'value': '2026-07-20 19:39:41', 'utc_offset': '+08:00', 'utc_offset_source': 'inferred_site_locale'} | upd: None | pub-lisher: 新华网
+ imgs: 0 | flags: [] | len: 1061
+ head: 李强主持召开国务院常务会议⏎听取对服务业扩能提质和“六张网”规划建设督查情况汇报⏎审议通过《知识产权保护和运用“十五五”规划》⏎研究优化社会保障体系有关工作⏎听
+ tail: 要把审计整改作为改进工作的有力抓手，推动党中央决策部署和政策措施更好落地见效，扎实做好下半年各项工作，确保完成全年经济社会发展目标任务。⏎会议还研究了其他事项。
+================ news_cn__03
+ title: 新华视点丨2026年，各部委要干哪些民生实事？
+ authors: ['焦鹏（责任编辑）']
+ pub: {'value': '2026-01-26 14:14:46', 'utc_offset': '+08:00', 'utc_offset_source': 'inferred_site_locale'} | upd: None | pub-lisher: 新华网
+ imgs: 0 | flags: [] | len: 2449
+ head: 新华社北京1月26日电 题：2026年，各部委要干哪些民生实事？⏎新华社“新华视点”记者⏎2026年，就业、住房、医疗、养老等民生领域将迎来哪些新变化？近期，各
+ tail: 业科技创新和成果应用，稳妥推进农村改革重点任务，努力把农业建成现代化大产业、使农村基本具备现代生活条件、让农民生活更加富裕美好，为推进中国式现代化提供基础支撑。
+================ news_cn__04
+ title: 习近平经济思想指引中国经济高质量发展行稳致远
+ authors: ['邢广利（摄影）', '唐克（摄影）', '杨世尧（摄影）', '肖艺九（摄影）', '谢晗（摄影）', '周牧（摄影）', '陈浩明（摄影）', '刘颖（摄影）', '计成军（摄影）', '王翔（摄影）', '黄孝邦（摄影）', '刘云杰（摄影）', '安蓓', '谢希瑶', '王雨萧', '张晓洁', '徐菁（海报设计）', '张欣然（责任编辑）']
+ pub: {'value': '2026-08-03 21:09:14', 'utc_offset': '+08:00', 'utc_offset_source': 'inferred_site_locale'} | upd: None | pub-lisher: 新华社
+ imgs: 17 | flags: [] | len: 7372
+ head: [[IMG_1]]⏎2026年，“十五五”开局之年。世界第二大经济体交出怎样的发展答卷，举世关注。⏎上半年，面对更趋复杂严峻的国内外环境，中国经济顶住压力稳健前
+ tail: 定能够实现全年经济社会发展目标任务，在推进强国建设、民族复兴伟业的征途上行稳致远。⏎[[IMG_17]]⏎文字记者：安蓓、谢希瑶、王雨萧、张晓洁⏎海报设计：徐菁
+================ news_cn__05
+ title: 两会新华社快讯：政府工作报告提出2026年发展主要预期目标
+ authors: ['张樵苏（责任编辑）']
+ pub: {'value': '2026-03-05 09:36:49', 'utc_offset': '+08:00', 'utc_offset_source': 'inferred_site_locale'} | upd: None | pub-lisher: 新华网
+ imgs: 0 | flags: [] | len: 159
+ head: 两会新华社快讯：政府工作报告说，2026年发展主要预期目标是：经济增长4.5%－5%，在实际工作中努力争取更好结果；城镇调查失业率5.5%左右，城镇新增就业12
+ tail: 200万人以上；居民消费价格涨幅2%左右；居民收入增长和经济增长同步；国际收支基本平衡；粮食产量1.4万亿斤左右；单位国内生产总值二氧化碳排放降低3.8%左右。
+================ news_cn__06
+ title: 不断增强高质量发展的确定性——从地方两会看开局之年谋篇布局
+ authors: ['陈欣波（摄影）', '徐昱（摄影）', '赵小帅（摄影）', '欧东衢（摄影）', '郭程（摄影）', '肖艺九（摄影）', '毛思倩（摄影）', '陈曦（摄影）', '赵子硕（摄影）', '连振（摄影）', '陆文祥（摄影）', '安蓓', '王雨萧', '张晓洁', '卓越（海报设计）', '吴京泽（责任编辑）']
+ pub: {'value': '2026-02-10 09:15:17', 'utc_offset': '+08:00', 'utc_offset_source': 'inferred_site_locale'} | upd: None | pub-lisher: 新华社
+ imgs: 17 | flags: [] | len: 5156
+ head: [[IMG_1]]⏎2026年开年，全国31个省区市地方两会密集召开。各地深入学习贯彻党的二十届四中全会精神，扎实落实中央经济工作会议部署，结合实际、因地制宜，
+ tail: 进路上的一切不确定性，必将推动中国经济航船行稳致远，不断描绘更加壮美的中国式现代化新图景。⏎[[IMG_17]]⏎文字记者：安蓓、王雨萧、张晓洁⏎海报设计：卓越
+================ news_cn__07
+ title: 起步有力 开局良好——透视2026年中国经济开年表现
+ authors: ['张超（摄影）', '韩传号（摄影）', '蒲晓旭（摄影）', '杜鹏辉（摄影）', '邓华（摄影）', '赵子硕（摄影）', '吴鲁（摄影）', '周华（摄影）', '杜宇（摄影）', '王雨萧', '魏玉坤', '黄垚', '李梦帆（海报设计）', '张欣然（责任编辑）']
+ pub: {'value': '2026-03-17 00:24:38', 'utc_offset': '+08:00', 'utc_offset_source': 'inferred_site_locale'} | upd: None | pub-lisher: 新华社
+ imgs: 14 | flags: [] | len: 3453
+ head: [[IMG_1]]⏎“十五五”开局之年，中国经济起步态势备受关注。⏎前2个月，全国规模以上工业增加值同比增长6.3%；货物进出口总额同比增长18.3%，重回两位
+ tail: 继续保持稳中有进发展态势，持续向新向优，为实现全年预期目标任务打下良好基础。”付凌晖说。⏎[[IMG_14]]⏎文字记者：王雨萧、魏玉坤、黄垚⏎海报设计：李梦帆
+================ news_cn__08
+ title: 钟华论：一步一步往上走，一程一程向复兴
+ authors: ['梁志强（摄影）', '王松（摄影）', '毛俊（摄影）', '郭绪雷（摄影）', '张春雷（摄影）', '张端（摄影）', '顾彬斌（摄影）', '武纪全（摄影）', '王健民（摄影）', '吴京泽（责任编辑）']
+ pub: {'value': '2026-03-23 17:24:35', 'utc_offset': '+08:00', 'utc_offset_source': 'inferred_site_locale'} | upd: None | pub-lisher: 新华社
+ imgs: 15 | flags: [] | len: 6547
+ head: 蓝图已经绘就，奋进正当其时。随着举世瞩目的2026年全国两会胜利闭幕，中国式现代化建设开启新篇章。春天里的中国，激荡着生生不息的活力，澎湃着干事创业的热潮。⏎全
+ tail: 核心的党中央周围，坚持以习近平新时代中国特色社会主义思想为指导，勠力同心、狠抓落实，努力实现“十五五”良好开局，不断把宏伟蓝图变成美好现实，续写中国奇迹新篇章！
+================ news_cn__09
+ title: 坚定信心真抓实干 奋力实现“十五五”良好开局——从中央政治局会议看2026年经济工作方向
+ authors: ['魏玉坤', '谢希瑶', '申铖', '王雨萧', '钱中兵（责任编辑）']
+ pub: {'value': '2025-12-08 22:50:01', 'utc_offset': '+08:00', 'utc_offset_source': 'inferred_site_locale'} | upd: None | pub-lisher: 新华网
+ imgs: 0 | flags: [] | len: 2826
+ head: 新华社北京12月8日电 题：坚定信心真抓实干 奋力实现“十五五”良好开局——从中央政治局会议看2026年经济工作方向⏎新华社记者⏎12月8日，中共中央政治局召开
+ tail: 得感、幸福感、安全感，让发展成果更多更公平惠及全体人民，将为经济高质量发展提供更为坚实的保障。”对外经济贸易大学教授马双说。（记者魏玉坤、谢希瑶、申铖、王雨萧）
+================ news_cn__10
+ title: 两会受权发布丨中华人民共和国国民经济和社会发展第十五个五年规划纲要
+ authors: ['周楚卿（责任编辑）']
+ pub: {'value': '2026-03-13 22:38:41', 'utc_offset': '+08:00', 'utc_offset_source': 'inferred_site_locale'} | upd: None | pub-lisher: 新华网
+ imgs: 2 | flags: [] | len: 59593
+ head: 新华社北京3月13日电⏎中华人民共和国国民经济和社会发展第十五个五年规划纲要⏎目录⏎第一篇 奋力开创中国式现代化建设新局面⏎第一章 发展环境⏎第二章 指导方针⏎
+ tail: 家监督体系融入规划实施之中，发挥纪检监察机关和审计机关等对规划实施的监督作用，健全跨地区跨部门重大任务落实协同监督机制。规划实施情况及时公开，接受社会各界监督。
+================ chinadaily__01
+ title: More patient policy framework for China's economy
+ authors: ['Luo Zhiheng']
+ pub: None | upd: {'value': '2026-08-03 09:08:XX', 'utc_offset': '+08:00', 'utc_offset_source': 'inferred_site_locale'} | pub-lisher: China Daily
+ imgs: 1 | flags: [] | len: 5805
+ head: [[IMG_1]]⏎China's economy can no longer be described simply as either strong or 
+ tail: at Yuekai Securities.⏎The views do not necessarily reflect those of China Daily.
+================ chinadaily__02
+ title: AI's role in cultural domain discussed
+ authors: ['CAO DESHENG']
+ pub: None | upd: {'value': '2026-05-22 07:59:XX', 'utc_offset': '+08:00', 'utc_offset_source': 'inferred_site_locale'} | pub-lisher: China Daily
+ imgs: 0 | flags: [] | len: 3222
+ head: Cultural innovation and development empowered by artificial intelligence have be
+ tail: ate them into the legislative framework for the protection of cultural heritage.
+================ chinadaily__03
+ title: Dancing to the rhythm of culture and tradition
+ authors: ['Yang Jinsong']
+ pub: None | upd: {'value': '2026-08-06 00:00:XX', 'utc_offset': '+08:00', 'utc_offset_source': 'inferred_site_locale'} | pub-lisher: China Daily
+ imgs: 0 | flags: [] | len: 6434
+ head: In recent years, the Munao Zongge Festival, a grand celebration of the Jingpo et
+ tail: ina Tourism Academy.⏎The views don't necessarily represent those of China Daily.
+================ chinadaily__04
+ title: The evolution of relic preservation
+ authors: ['Wang Qian', 'JIN DING（摄影）']
+ pub: None | upd: {'value': '2025-11-19 08:53:XX', 'utc_offset': '+08:00', 'utc_offset_source': 'inferred_site_locale'} | pub-lisher: China Daily
+ imgs: 1 | flags: [] | len: 7774
+ head: [[IMG_1]]⏎China is harnessing cutting-edge science and technology to preserve an
+ tail: onstructing the world's first silk heritage database.⏎wangqian@chinadaily.com.cn
+================ chinadaily__05
+ title: Innovation takes center stage at cultural tourism week in Ningbo
+ authors: ['Yang Feiyue']
+ pub: None | upd: {'value': '2026-04-13 16:42:XX', 'utc_offset': '+08:00', 'utc_offset_source': 'inferred_site_locale'} | pub-lisher: chinadaily.com.cn
+ imgs: 1 | flags: [] | len: 2776
+ head: [[IMG_1]]⏎Industrial players and experts emphasized how technology and shifting 
+ tail: hnology, broader cross-industry collaboration and more personalized consumption.
+================ chinadaily__06
+ title: Canadian entrepreneur shares Chinese culture through VR
+ authors: ['Xinhua']
+ pub: None | upd: {'value': '2026-03-09 07:07:XX', 'utc_offset': '+08:00', 'utc_offset_source': 'inferred_site_locale'} | pub-lisher: Xinhua
+ imgs: 0 | flags: [] | len: 3410
+ head: A Peking Opera performer clad in embroidered armor raises her spear as gongs rev
+ tail: e anything beautiful and meaningful that humanity has created can be preserved."
+================ chinadaily__07
+ title: Passing on cultural heritage and tradition, pursuing cultural innovation and creativity: China Daily editorial
+ authors: None
+ pub: None | upd: {'value': '2026-05-21 20:45:XX', 'utc_offset': '+08:00', 'utc_offset_source': 'inferred_site_locale'} | pub-lisher: chinadaily.com.cn
+ imgs: 0 | flags: [] | len: 4569
+ head: As China advances toward the goal of building a modern socialist country in all 
+ tail: ely a reflection of development. It is increasingly becoming one of its engines.
+================ chinadaily__08
+ title: Annual report reviews, forecasts China's culture and tourism industries
+ authors: ['Yang Xiaoyu']
+ pub: None | upd: {'value': '2026-02-04 16:59:XX', 'utc_offset': '+08:00', 'utc_offset_source': 'inferred_site_locale'} | pub-lisher: chinadaily.com.cn
+ imgs: 2 | flags: [] | len: 2978
+ head: [[IMG_1]]⏎The Annual Research Report on China's Culture and Tourism Industries (
+ tail: tly, commit to longtermism by focusing on sustainable investment and operations.
+================ chinadaily__09
+ title: Shanghai hosts dialogue to foster cultural and tech fusion
+ authors: ['Zhou Wenting']
+ pub: None | upd: {'value': '2026-04-27 14:35:XX', 'utc_offset': '+08:00', 'utc_offset_source': 'inferred_site_locale'} | pub-lisher: chinadaily.com.cn
+ imgs: 1 | flags: [] | len: 1722
+ head: [[IMG_1]]⏎The Shanghai sub-forum of the 2026 World Dialogue on Art and Technolog
+ tail: e expression and innovative development of the country's rich cultural heritage.
+================ chinadaily__10
+ title: Economy to get greater financial policy support
+ authors: ['ZHOU LANXU', 'SHI JING']
+ pub: None | upd: {'value': '2024-07-23 07:01:XX', 'utc_offset': '+08:00', 'utc_offset_source': 'inferred_site_locale'} | pub-lisher: China Daily
+ imgs: 1 | flags: [] | len: 4614
+ head: [[IMG_1]]⏎Editor's note: The third plenary session of the 20th Central Committee
+ tail: eanwhile, differentiated delisting rules may be introduced for different boards.
+================ gov_cn__01
+ title: 李强主持召开国务院常务会议 进一步部署防汛抗洪救灾工作等
+ authors: ['沙鹏程（责任编辑）']
+ pub: {'value': '2026-07-10 20:28:00', 'utc_offset': '+08:00', 'utc_offset_source': 'inferred_site_locale'} | upd: {'value': '2026-07-10 20:28:00', 'utc_offset': '+08:00', 'utc_offset_source': 'inferred_site_locale'} | pub-lisher: 新华社
+ imgs: 0 | flags: [] | len: 1131
+ head: 李强主持召开国务院常务会议进一步部署防汛抗洪救灾工作听取数字中国建设情况汇报听取现代流通体系建设进展情况汇报研究新兴支柱产业培育有关工作研究自然资源保护利用有关
+ tail: 多渠道增加全民健身场地设施供给，加力发展校园体育，办好各类群众赛事，优化健身普及方式，创新发展健康产业，更好守护人民群众全生命周期健康。⏎会议还研究了其他事项。
+================ gov_cn__02
+ title: 李强主持召开国务院常务会议 讨论通过《国务院2026年重点工作分工方案》等
+ authors: ['张兴华（责任编辑）']
+ pub: {'value': '2026-03-13 19:41:00', 'utc_offset': '+08:00', 'utc_offset_source': 'inferred_site_locale'} | upd: {'value': '2026-03-13 19:41:00', 'utc_offset': '+08:00', 'utc_offset_source': 'inferred_site_locale'} | pub-lisher: 新华社
+ imgs: 0 | flags: [] | len: 772
+ head: 李强主持召开国务院常务会议讨论通过《国务院2026年重点工作分工方案》研究建立地方财政补贴负面清单管理机制审议通过《全国农业普查条例（修订草案）》⏎新华社北京3
+ tail: 四次全国农业普查，坚持科学普查、依法普查，严格数据质量控制和资料管理，积极应用现代信息技术，强化部门协同和组织保障，进一步提高普查质效。⏎会议还研究了其他事项。
+================ gov_cn__03
+ title: 习近平向第39届非洲联盟峰会致贺电
+ authors: ['张兴华（责任编辑）']
+ pub: {'value': '2026-02-14 15:20:00', 'utc_offset': '+08:00', 'utc_offset_source': 'inferred_site_locale'} | upd: {'value': '2026-02-14 15:20:00', 'utc_offset': '+08:00', 'utc_offset_source': 'inferred_site_locale'} | pub-lisher: 新华社
+ imgs: 0 | flags: [] | len: 427
+ head: 新华社北京2月14日电 2月14日，国家主席习近平向非洲联盟轮值主席、安哥拉总统洛伦索和非洲联盟委员会主席优素福致贺电，就第39届非洲联盟峰会召开，向非洲国家和
+ tail: 调，中非开启外交关系70年来，双方始终风雨同舟、并肩前行。中方愿同非方一道，传承历史情谊，深化互利合作，增进相知相亲，共同书写新时代全天候中非命运共同体新篇章。
+================ gov_cn__04
+ title: 中华人民共和国政府和泰王国政府关于面向繁荣中泰命运共同体的联合声明
+ authors: ['杨鹤（责任编辑）']
+ pub: {'value': '2026-07-20 23:21:00', 'utc_offset': '+08:00', 'utc_offset_source': 'inferred_site_locale'} | upd: {'value': '2026-07-20 23:21:00', 'utc_offset': '+08:00', 'utc_offset_source': 'inferred_site_locale'} | pub-lisher: 新华社
+ imgs: 0 | flags: [] | len: 3513
+ head: 新华社北京7月20日电⏎中华人民共和国政府和泰王国政府关于面向繁荣中泰命运共同体的联合声明⏎一、应中华人民共和国国务院总理李强邀请，泰王国总理阿努廷·参威拉军于
+ tail: 海关、科技、人工智能教育、航空航天、知识产权、反洗钱、媒体等领域合作文件。⏎十四、阿努廷总理感谢中方对泰方代表团的热情接待，邀请中方领导人在双方方便时访问泰国。
+================ gov_cn__05
+ title: 中华人民共和国和俄罗斯联邦关于进一步加强全面战略协作、深化睦邻友好合作的联合声明
+ authors: ['朱英（责任编辑）']
+ pub: {'value': '2026-05-20 22:58:00', 'utc_offset': '+08:00', 'utc_offset_source': 'inferred_site_locale'} | upd: {'value': '2026-05-20 22:58:00', 'utc_offset': '+08:00', 'utc_offset_source': 'inferred_site_locale'} | pub-lisher: 新华社
+ imgs: 0 | flags: [] | len: 18146
+ head: 新华社北京5月20日电⏎中华人民共和国和俄罗斯联邦关于进一步加强全面战略协作、深化睦邻友好合作的联合声明⏎应中华人民共和国主席习近平邀请，俄罗斯联邦总统普京于2
+ tail: 紧张地区的状态，通过北极理事会等多边机制，在北极地区开展建设性对话和互利合作。⏎中华人民共和国主席 俄罗斯联邦总统习近平 弗·弗·普京二〇二六年五月二十日于北京
+================ gov_cn__06
+ title: 中华人民共和国和孟加拉人民共和国关于建立全面战略合作伙伴关系的联合声明（全文）
+ authors: ['郝瑀然（责任编辑）']
+ pub: {'value': '2024-07-11 11:35:00', 'utc_offset': '+08:00', 'utc_offset_source': 'inferred_site_locale'} | upd: {'value': '2024-07-11 11:35:00', 'utc_offset': '+08:00', 'utc_offset_source': 'inferred_site_locale'} | pub-lisher: 新华社
+ imgs: 0 | flags: [] | len: 4904
+ head: 新华社北京7月11日电⏎中华人民共和国和孟加拉人民共和国关于建立全面战略合作伙伴关系的联合声明（2024年7月10日，北京）⏎一、应中华人民共和国国务院总理李强
+ tail: 西娜总理衷心感谢中华人民共和国政府和人民给予她和孟加拉国代表团的热情友好接待，并邀请中国领导人访问孟加拉国。中国领导人对此表示感谢，双方将通过外交渠道保持沟通。
+================ gov_cn__07
+ title: 《关于进一步健全城市社区卫生服务体系 提升服务能力的通知》政策解读
+ authors: ['王安（责任编辑）']
+ pub: {'value': '2026-06-02 20:09:00', 'utc_offset': '+08:00', 'utc_offset_source': 'inferred_site_locale'} | upd: {'value': '2026-06-02 20:09:00', 'utc_offset': '+08:00', 'utc_offset_source': 'inferred_site_locale'} | pub-lisher: 国家卫生健康委网站
+ imgs: 0 | flags: [] | len: 1832
+ head: 近日，国家卫生健康委印发了《关于进一步健全城市社区卫生服务体系 提升服务能力的通知》（以下简称《通知》）。现对《通知》有关情况解读如下。⏎一、《通知》出台的背景
+ tail: 调推进，结合城市更新行动，社区卫生服务机构与新建、改建居民区同步规划建设。三是加强监管。区（市）级卫生健康行政部门要落实日常监管责任，严格新设机构准入审核审批。
+================ gov_cn__08
+ title: 国务院办公厅关于印发《政府采购领域“整顿市场秩序、建设法规体系、促进产业发展”三年行动方案（2024—2026年）》的通知
+ authors: ['马娟（责任编辑）']
+ pub: {'value': '2024-07-04 16:57:00', 'utc_offset': '+08:00', 'utc_offset_source': 'inferred_site_locale'} | upd: {'value': '2024-07-04 16:57:00', 'utc_offset': '+08:00', 'utc_offset_source': 'inferred_site_locale'} | pub-lisher: None
+ imgs: 0 | flags: [] | len: 3552
+ head: 国务院办公厅关于印发《政府采购领域⏎“整顿市场秩序、建设法规体系、促进产业发展”⏎三年行动方案（2024—2026年）》的通知⏎国办发〔2024〕33号⏎各省、
+ tail: ，确保各项工作落地见效。⏎（三）加强宣传培训。各地区、各部门要及时宣传解读政府采购相关举措，针对各项举措中的重点、难点问题，加强业务培训，保障各项工作顺利推进。
+================ gov_cn__09
+ title: 国务院办公厅关于深化投资审批制度改革的意见
+ authors: ['马娟（责任编辑）']
+ pub: {'value': '2026-04-30 16:00:00', 'utc_offset': '+08:00', 'utc_offset_source': 'inferred_site_locale'} | upd: {'value': '2026-04-30 16:00:00', 'utc_offset': '+08:00', 'utc_offset_source': 'inferred_site_locale'} | pub-lisher: None
+ imgs: 0 | flags: [] | len: 3153
+ head: 国务院办公厅关于深化投资审批⏎制度改革的意见⏎国办发〔2026〕13号⏎各省、自治区、直辖市人民政府，国务院各部委、各直属机构：⏎为进一步优化投资审批权限配置、
+ tail: 项目审批权限规定和政府核准的投资项目目录，对违法违规增设投资审批环节、评估评审事项等予以清理规范。重大事项及时按程序请示报告。⏎国务院办公厅⏎2026年4月8日
+================ gov_cn__10
+ title: 国务院办公厅关于加强基层消防工作的意见
+ authors: ['马娟（责任编辑）']
+ pub: {'value': '2026-03-20 16:00:00', 'utc_offset': '+08:00', 'utc_offset_source': 'inferred_site_locale'} | upd: {'value': '2026-03-20 16:00:00', 'utc_offset': '+08:00', 'utc_offset_source': 'inferred_site_locale'} | pub-lisher: None
+ imgs: 0 | flags: [] | len: 5061
+ head: 国务院办公厅关于加强基层消防工作的意见⏎国办发〔2026〕6号⏎各省、自治区、直辖市人民政府，国务院各部委、各直属机构：⏎为加强和改进基层消防工作，营造良好消防
+ tail: 关人员责任；对职责范围内发生火灾事故，但已严格依据法律法规履行有关职责，符合有关规定条件的，依法依规予以免责或从轻、减轻处理。⏎国务院办公厅⏎2026年3月3日

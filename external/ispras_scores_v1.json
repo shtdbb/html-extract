@@ -1,0 +1,3693 @@
+{
+  "version": "v1（历史口径，仅对照用）",
+  "n_pages": 160,
+  "pred_parse_errors": [],
+  "time_fields": [
+    "publish_time",
+    "update_time"
+  ],
+  "overall": {
+    "n_pages": 160,
+    "n_scored": 160,
+    "title": 0.6375,
+    "authors": 0.24893617021276596,
+    "content": 0.7588871273352515,
+    "title_n": 160,
+    "authors_n": 94,
+    "content_n": 160,
+    "publish_time": 0.8529411764705882,
+    "publish_time_n": 68,
+    "update_time": 1.0,
+    "update_time_n": 1,
+    "rejection_accuracy": null,
+    "rejection_detail": {
+      "n": 0,
+      "correct": 0,
+      "badcases": []
+    }
+  },
+  "pages": [
+    {
+      "id": "ispras__24_kg__9624fb86",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 0.0,
+      "authors": 1.0,
+      "time": {
+        "publish_time": 1.0,
+        "update_time": null
+      },
+      "content": 1.0
+    },
+    {
+      "id": "ispras__24_kg__d5553b3c",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 0.0,
+      "authors": 1.0,
+      "time": {
+        "publish_time": 1.0,
+        "update_time": null
+      },
+      "content": 1.0
+    },
+    {
+      "id": "ispras__aap_com_au__94ae72ae",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 1.0,
+      "authors": 0.0,
+      "time": {
+        "publish_time": null,
+        "update_time": null
+      },
+      "content": 1.0
+    },
+    {
+      "id": "ispras__aap_com_au__1aef79bf",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 1.0,
+      "authors": 0.0,
+      "time": {
+        "publish_time": null,
+        "update_time": null
+      },
+      "content": 1.0
+    },
+    {
+      "id": "ispras__abc_net_au__6d10db6c",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 0.0,
+      "authors": 1.0,
+      "time": {
+        "publish_time": 1.0,
+        "update_time": null
+      },
+      "content": 0.6126973826519576
+    },
+    {
+      "id": "ispras__abc_net_au__19903fa0",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 0.0,
+      "authors": 1.0,
+      "time": {
+        "publish_time": 1.0,
+        "update_time": null
+      },
+      "content": 0.8612373669857227
+    },
+    {
+      "id": "ispras__abs-cbn_com__aeabdaeb",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 1.0,
+      "authors": 0.0,
+      "time": {
+        "publish_time": 1.0,
+        "update_time": null
+      },
+      "content": 0.6181139122315593
+    },
+    {
+      "id": "ispras__abs-cbn_com__f26cc53c",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 1.0,
+      "authors": 0.0,
+      "time": {
+        "publish_time": 1.0,
+        "update_time": null
+      },
+      "content": 0.32599837000814996
+    },
+    {
+      "id": "ispras__oup_com__427c9d0e",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 1.0,
+      "authors": 0.0,
+      "time": {
+        "publish_time": 1.0,
+        "update_time": null
+      },
+      "content": 0.15365396627108058
+    },
+    {
+      "id": "ispras__oup_com__0c0e1582",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 1.0,
+      "authors": 0.0,
+      "time": {
+        "publish_time": 1.0,
+        "update_time": null
+      },
+      "content": 0.09175366344219901
+    },
+    {
+      "id": "ispras__admin_ch__a424a770",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 1.0,
+      "authors": 0.0,
+      "time": {
+        "publish_time": null,
+        "update_time": null
+      },
+      "content": 0.935117599351176
+    },
+    {
+      "id": "ispras__admin_ch__e8385637",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 1.0,
+      "authors": 0.0,
+      "time": {
+        "publish_time": null,
+        "update_time": null
+      },
+      "content": 0.8779118720179624
+    },
+    {
+      "id": "ispras__afghanislamicpress_com__f6b1a0bb",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 1.0,
+      "authors": null,
+      "time": {
+        "publish_time": null,
+        "update_time": null
+      },
+      "content": 0.531578947368421
+    },
+    {
+      "id": "ispras__afghanislamicpress_com__66ae7173",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 1.0,
+      "authors": null,
+      "time": {
+        "publish_time": null,
+        "update_time": null
+      },
+      "content": 0.9501312335958005
+    },
+    {
+      "id": "ispras__africa-confidential_com__7067ffee",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 1.0,
+      "authors": null,
+      "time": {
+        "publish_time": null,
+        "update_time": null
+      },
+      "content": 0.11776967170401251
+    },
+    {
+      "id": "ispras__africa-confidential_com__728c4ca3",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 1.0,
+      "authors": null,
+      "time": {
+        "publish_time": null,
+        "update_time": null
+      },
+      "content": 0.07438894792773644
+    },
+    {
+      "id": "ispras__who_int__4ca6fa6d",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 1.0,
+      "authors": null,
+      "time": {
+        "publish_time": null,
+        "update_time": null
+      },
+      "content": 0.9827769508824155
+    },
+    {
+      "id": "ispras__who_int__24bb4f61",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 1.0,
+      "authors": null,
+      "time": {
+        "publish_time": null,
+        "update_time": null
+      },
+      "content": 0.9756470738237919
+    },
+    {
+      "id": "ispras__akipress_com__ae4f7a3c",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 1.0,
+      "authors": null,
+      "time": {
+        "publish_time": null,
+        "update_time": null
+      },
+      "content": 0.6866485013623979
+    },
+    {
+      "id": "ispras__akipress_com__8359960c",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 1.0,
+      "authors": null,
+      "time": {
+        "publish_time": null,
+        "update_time": null
+      },
+      "content": 0.4135802469135802
+    },
+    {
+      "id": "ispras__akorda_kz__9184aafd",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 0.0,
+      "authors": 0.0,
+      "time": {
+        "publish_time": null,
+        "update_time": null
+      },
+      "content": 1.0
+    },
+    {
+      "id": "ispras__akorda_kz__cfa6a692",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 0.0,
+      "authors": null,
+      "time": {
+        "publish_time": null,
+        "update_time": null
+      },
+      "content": 1.0
+    },
+    {
+      "id": "ispras__alliancefr_org__d87f0331",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 0.0,
+      "authors": null,
+      "time": {
+        "publish_time": null,
+        "update_time": null
+      },
+      "content": 1.0
+    },
+    {
+      "id": "ispras__alliancefr_org__7c4717c6",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 1.0,
+      "authors": null,
+      "time": {
+        "publish_time": null,
+        "update_time": null
+      },
+      "content": 1.0
+    },
+    {
+      "id": "ispras__alquds_com__1fdabfac",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 0.0,
+      "authors": null,
+      "time": {
+        "publish_time": null,
+        "update_time": null
+      },
+      "content": 0.0
+    },
+    {
+      "id": "ispras__alquds_com__88838cb3",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 0.0,
+      "authors": null,
+      "time": {
+        "publish_time": null,
+        "update_time": null
+      },
+      "content": 0.0
+    },
+    {
+      "id": "ispras__newsday_co_zw__e435d388",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 1.0,
+      "authors": 0.0,
+      "time": {
+        "publish_time": null,
+        "update_time": null
+      },
+      "content": 0.9663241106719368
+    },
+    {
+      "id": "ispras__newsday_co_zw__b09636d1",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 1.0,
+      "authors": 0.0,
+      "time": {
+        "publish_time": null,
+        "update_time": null
+      },
+      "content": 0.9438924605493864
+    },
+    {
+      "id": "ispras__newzimbabwe_com__5b649c60",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 1.0,
+      "authors": 0.0,
+      "time": {
+        "publish_time": 0.0,
+        "update_time": null
+      },
+      "content": 0.972592670376982
+    },
+    {
+      "id": "ispras__newzimbabwe_com__f676e806",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 0.0,
+      "authors": 0.0,
+      "time": {
+        "publish_time": null,
+        "update_time": null
+      },
+      "content": 0.0
+    },
+    {
+      "id": "ispras__anguillafocus_com__c50316c4",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 0.0,
+      "authors": 1.0,
+      "time": {
+        "publish_time": 1.0,
+        "update_time": null
+      },
+      "content": 1.0
+    },
+    {
+      "id": "ispras__anguillafocus_com__5399ee5c",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 0.0,
+      "authors": 1.0,
+      "time": {
+        "publish_time": 1.0,
+        "update_time": null
+      },
+      "content": 0.9130816505706761
+    },
+    {
+      "id": "ispras__aps_dz__29b1a8be",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 0.0,
+      "authors": null,
+      "time": {
+        "publish_time": null,
+        "update_time": null
+      },
+      "content": 0.0
+    },
+    {
+      "id": "ispras__aps_dz__ad9022d6",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 0.0,
+      "authors": null,
+      "time": {
+        "publish_time": null,
+        "update_time": null
+      },
+      "content": 0.0
+    },
+    {
+      "id": "ispras__thenewshawks_com__6444ee87",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 1.0,
+      "authors": 1.0,
+      "time": {
+        "publish_time": 1.0,
+        "update_time": null
+      },
+      "content": 1.0
+    },
+    {
+      "id": "ispras__thenewshawks_com__a0564c83",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 1.0,
+      "authors": 1.0,
+      "time": {
+        "publish_time": 1.0,
+        "update_time": null
+      },
+      "content": 0.13818181818181818
+    },
+    {
+      "id": "ispras__auswaertiges-amt_de__ba77cc79",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 1.0,
+      "authors": null,
+      "time": {
+        "publish_time": null,
+        "update_time": null
+      },
+      "content": 0.9773462783171522
+    },
+    {
+      "id": "ispras__auswaertiges-amt_de__5de67d80",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 1.0,
+      "authors": null,
+      "time": {
+        "publish_time": null,
+        "update_time": null
+      },
+      "content": 0.8779458318677454
+    },
+    {
+      "id": "ispras__aviationweek_com__6affad09",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 0.0,
+      "authors": 1.0,
+      "time": {
+        "publish_time": 1.0,
+        "update_time": null
+      },
+      "content": 0.4208725406330197
+    },
+    {
+      "id": "ispras__aviationweek_com__60e1f500",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 0.0,
+      "authors": 1.0,
+      "time": {
+        "publish_time": 1.0,
+        "update_time": null
+      },
+      "content": 0.24734982332155478
+    },
+    {
+      "id": "ispras__awate_com__2014b3b0",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 1.0,
+      "authors": 0.0,
+      "time": {
+        "publish_time": 1.0,
+        "update_time": null
+      },
+      "content": 0.9996788581623551
+    },
+    {
+      "id": "ispras__awate_com__7fc07355",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 0.0,
+      "authors": 0.0,
+      "time": {
+        "publish_time": 1.0,
+        "update_time": null
+      },
+      "content": 0.9976859504132232
+    },
+    {
+      "id": "ispras__bahamas_com__b92b18b2",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 0.0,
+      "authors": null,
+      "time": {
+        "publish_time": null,
+        "update_time": null
+      },
+      "content": 0.9717766497461929
+    },
+    {
+      "id": "ispras__bahamas_com__cf6f4a53",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 0.0,
+      "authors": null,
+      "time": {
+        "publish_time": null,
+        "update_time": null
+      },
+      "content": 0.9804765056254137
+    },
+    {
+      "id": "ispras__balkangreenenergynews_com__a18bbf2c",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 0.0,
+      "authors": 0.0,
+      "time": {
+        "publish_time": 1.0,
+        "update_time": null
+      },
+      "content": 0.9865877024908553
+    },
+    {
+      "id": "ispras__balkangreenenergynews_com__bbc16add",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 1.0,
+      "authors": 0.0,
+      "time": {
+        "publish_time": 1.0,
+        "update_time": null
+      },
+      "content": 0.9595536959553697
+    },
+    {
+      "id": "ispras__balkaninsight_com__492146f8",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 1.0,
+      "authors": 1.0,
+      "time": {
+        "publish_time": 1.0,
+        "update_time": null
+      },
+      "content": 0.9539901221731218
+    },
+    {
+      "id": "ispras__balkaninsight_com__71512da8",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 1.0,
+      "authors": 1.0,
+      "time": {
+        "publish_time": 1.0,
+        "update_time": null
+      },
+      "content": 0.9709821428571429
+    },
+    {
+      "id": "ispras__bbc_co_uk__5000ec0a",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 1.0,
+      "authors": null,
+      "time": {
+        "publish_time": null,
+        "update_time": null
+      },
+      "content": 0.9375561545372866
+    },
+    {
+      "id": "ispras__bbc_co_uk__d686d4c6",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 1.0,
+      "authors": 0.0,
+      "time": {
+        "publish_time": 0.0,
+        "update_time": null
+      },
+      "content": 0.9796575442704523
+    },
+    {
+      "id": "ispras__beehive_govt_nz__d35c87d2",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 1.0,
+      "authors": 0.0,
+      "time": {
+        "publish_time": null,
+        "update_time": null
+      },
+      "content": 1.0
+    },
+    {
+      "id": "ispras__beehive_govt_nz__203346d4",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 1.0,
+      "authors": 0.0,
+      "time": {
+        "publish_time": null,
+        "update_time": null
+      },
+      "content": 1.0
+    },
+    {
+      "id": "ispras__bloomberg_com__e6c64500",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 1.0,
+      "authors": 0.6666666666666666,
+      "time": {
+        "publish_time": null,
+        "update_time": null
+      },
+      "content": 0.9600925390399074
+    },
+    {
+      "id": "ispras__bloomberg_com__dd5f8868",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 1.0,
+      "authors": 0.6666666666666666,
+      "time": {
+        "publish_time": null,
+        "update_time": null
+      },
+      "content": 0.9793297210515753
+    },
+    {
+      "id": "ispras__bmeia_gv_at__63afa14b",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 0.0,
+      "authors": null,
+      "time": {
+        "publish_time": null,
+        "update_time": null
+      },
+      "content": 0.0
+    },
+    {
+      "id": "ispras__bmeia_gv_at__798c2826",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 0.0,
+      "authors": null,
+      "time": {
+        "publish_time": null,
+        "update_time": null
+      },
+      "content": 0.0
+    },
+    {
+      "id": "ispras__bna_bh__46021c2d",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 1.0,
+      "authors": null,
+      "time": {
+        "publish_time": null,
+        "update_time": null
+      },
+      "content": 1.0
+    },
+    {
+      "id": "ispras__bna_bh__ffe5c7bf",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 1.0,
+      "authors": null,
+      "time": {
+        "publish_time": null,
+        "update_time": null
+      },
+      "content": 1.0
+    },
+    {
+      "id": "ispras__bnionline_net__7343efe1",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 1.0,
+      "authors": null,
+      "time": {
+        "publish_time": null,
+        "update_time": null
+      },
+      "content": 1.0
+    },
+    {
+      "id": "ispras__bnionline_net__a0788aea",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 1.0,
+      "authors": null,
+      "time": {
+        "publish_time": null,
+        "update_time": null
+      },
+      "content": 1.0
+    },
+    {
+      "id": "ispras__breakingbelizenews_com__c4fe88d8",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 0.0,
+      "authors": 0.0,
+      "time": {
+        "publish_time": null,
+        "update_time": null
+      },
+      "content": 0.0
+    },
+    {
+      "id": "ispras__breakingbelizenews_com__de446c39",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 0.0,
+      "authors": 0.0,
+      "time": {
+        "publish_time": null,
+        "update_time": null
+      },
+      "content": 0.0
+    },
+    {
+      "id": "ispras__bruegel_org__f9d6a20e",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 1.0,
+      "authors": 0.4,
+      "time": {
+        "publish_time": null,
+        "update_time": null
+      },
+      "content": 0.995149930412045
+    },
+    {
+      "id": "ispras__bruegel_org__c00e02cb",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 1.0,
+      "authors": 0.6666666666666666,
+      "time": {
+        "publish_time": null,
+        "update_time": null
+      },
+      "content": 0.9970401691331924
+    },
+    {
+      "id": "ispras__bundeskanzler_de__3af8d532",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 0.0,
+      "authors": null,
+      "time": {
+        "publish_time": null,
+        "update_time": null
+      },
+      "content": 0.9793775062058431
+    },
+    {
+      "id": "ispras__bundeskanzler_de__a9cbe0eb",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 0.0,
+      "authors": null,
+      "time": {
+        "publish_time": null,
+        "update_time": null
+      },
+      "content": 0.9679453494482396
+    },
+    {
+      "id": "ispras__bworldonline_com__441e44fb",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 0.0,
+      "authors": 0.0,
+      "time": {
+        "publish_time": 0.0,
+        "update_time": null
+      },
+      "content": 0.9660672145821466
+    },
+    {
+      "id": "ispras__bworldonline_com__6d8745e7",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 0.0,
+      "authors": 0.0,
+      "time": {
+        "publish_time": 1.0,
+        "update_time": null
+      },
+      "content": 1.0
+    },
+    {
+      "id": "ispras__canada_ca__188ea72f",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 1.0,
+      "authors": 0.0,
+      "time": {
+        "publish_time": null,
+        "update_time": null
+      },
+      "content": 0.7323411816970236
+    },
+    {
+      "id": "ispras__canada_ca__cea41f9a",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 1.0,
+      "authors": 0.0,
+      "time": {
+        "publish_time": null,
+        "update_time": null
+      },
+      "content": 0.9457013574660633
+    },
+    {
+      "id": "ispras__carnegieendowment_org__955ec0fc",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 1.0,
+      "authors": 0.0,
+      "time": {
+        "publish_time": null,
+        "update_time": null
+      },
+      "content": 1.0
+    },
+    {
+      "id": "ispras__carnegieendowment_org__c97f00d3",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 1.0,
+      "authors": 0.0,
+      "time": {
+        "publish_time": null,
+        "update_time": null
+      },
+      "content": 1.0
+    },
+    {
+      "id": "ispras__cgtn_com__fdbace0c",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 1.0,
+      "authors": 0.0,
+      "time": {
+        "publish_time": 1.0,
+        "update_time": null
+      },
+      "content": 1.0
+    },
+    {
+      "id": "ispras__cgtn_com__03a0cfa0",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 1.0,
+      "authors": 0.0,
+      "time": {
+        "publish_time": 1.0,
+        "update_time": null
+      },
+      "content": 0.9434889434889435
+    },
+    {
+      "id": "ispras__channelstv_com__1672110e",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 0.0,
+      "authors": 0.6666666666666666,
+      "time": {
+        "publish_time": null,
+        "update_time": 1.0
+      },
+      "content": 0.9832474226804123
+    },
+    {
+      "id": "ispras__channelstv_com__15094ee3",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 1.0,
+      "authors": 0.0,
+      "time": {
+        "publish_time": null,
+        "update_time": null
+      },
+      "content": 0.9773519163763066
+    },
+    {
+      "id": "ispras__chathamhouse_org__adfdbe4a",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 1.0,
+      "authors": 0.0,
+      "time": {
+        "publish_time": 1.0,
+        "update_time": null
+      },
+      "content": 0.044964028776978415
+    },
+    {
+      "id": "ispras__chathamhouse_org__15b04737",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 1.0,
+      "authors": 0.0,
+      "time": {
+        "publish_time": 1.0,
+        "update_time": null
+      },
+      "content": 0.09172661870503598
+    },
+    {
+      "id": "ispras__chinadaily_com_cn__49384184",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 1.0,
+      "authors": 0.0,
+      "time": {
+        "publish_time": null,
+        "update_time": null
+      },
+      "content": 0.9617292700212615
+    },
+    {
+      "id": "ispras__chinadaily_com_cn__f369de1f",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 1.0,
+      "authors": 0.0,
+      "time": {
+        "publish_time": null,
+        "update_time": null
+      },
+      "content": 0.9099403062548663
+    },
+    {
+      "id": "ispras__chronicle_co_zw__01636bf2",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 1.0,
+      "authors": 0.0,
+      "time": {
+        "publish_time": 1.0,
+        "update_time": null
+      },
+      "content": 1.0
+    },
+    {
+      "id": "ispras__chronicle_co_zw__4790cf40",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 1.0,
+      "authors": 0.0,
+      "time": {
+        "publish_time": 1.0,
+        "update_time": null
+      },
+      "content": 0.2741902627826441
+    },
+    {
+      "id": "ispras__chronicle_gi__75d02eeb",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 1.0,
+      "authors": 0.0,
+      "time": {
+        "publish_time": null,
+        "update_time": null
+      },
+      "content": 0.14357888659000145
+    },
+    {
+      "id": "ispras__chronicle_gi__59d77ca9",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 1.0,
+      "authors": 0.0,
+      "time": {
+        "publish_time": null,
+        "update_time": null
+      },
+      "content": 0.09378341224988544
+    },
+    {
+      "id": "ispras__citizen_digital__f3dceeb9",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 1.0,
+      "authors": 1.0,
+      "time": {
+        "publish_time": 1.0,
+        "update_time": null
+      },
+      "content": 0.7945529899348727
+    },
+    {
+      "id": "ispras__citizen_digital__2cbe6257",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 1.0,
+      "authors": 1.0,
+      "time": {
+        "publish_time": 1.0,
+        "update_time": null
+      },
+      "content": 0.8718487394957982
+    },
+    {
+      "id": "ispras__confidencial_digital__1afd28d5",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 1.0,
+      "authors": 1.0,
+      "time": {
+        "publish_time": null,
+        "update_time": null
+      },
+      "content": 0.984041150092324
+    },
+    {
+      "id": "ispras__confidencial_digital__50c38bc7",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 1.0,
+      "authors": 0.0,
+      "time": {
+        "publish_time": null,
+        "update_time": null
+      },
+      "content": 0.9521236680174094
+    },
+    {
+      "id": "ispras__crisisgroup_org__1568f998",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 0.0,
+      "authors": 0.0,
+      "time": {
+        "publish_time": 1.0,
+        "update_time": null
+      },
+      "content": 0.10476919153277224
+    },
+    {
+      "id": "ispras__crisisgroup_org__66e7f28b",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 0.0,
+      "authors": 0.0,
+      "time": {
+        "publish_time": null,
+        "update_time": null
+      },
+      "content": 0.0
+    },
+    {
+      "id": "ispras__csis_org__214f84b7",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 0.0,
+      "authors": null,
+      "time": {
+        "publish_time": null,
+        "update_time": null
+      },
+      "content": 0.931754440635712
+    },
+    {
+      "id": "ispras__csis_org__63972f63",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 0.0,
+      "authors": null,
+      "time": {
+        "publish_time": null,
+        "update_time": null
+      },
+      "content": 0.0
+    },
+    {
+      "id": "ispras__dailyguideghana_com__406984f1",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 1.0,
+      "authors": 1.0,
+      "time": {
+        "publish_time": 1.0,
+        "update_time": null
+      },
+      "content": 1.0
+    },
+    {
+      "id": "ispras__dailyguideghana_com__03b9772a",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 1.0,
+      "authors": 1.0,
+      "time": {
+        "publish_time": 1.0,
+        "update_time": null
+      },
+      "content": 0.9938792739552553
+    },
+    {
+      "id": "ispras__gov_bw__3c021513",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 0.0,
+      "authors": 0.0,
+      "time": {
+        "publish_time": null,
+        "update_time": null
+      },
+      "content": 0.8975903614457832
+    },
+    {
+      "id": "ispras__gov_bw__2fb7921c",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 0.0,
+      "authors": 0.0,
+      "time": {
+        "publish_time": null,
+        "update_time": null
+      },
+      "content": 0.5090180360721442
+    },
+    {
+      "id": "ispras__dawn_com__5152c825",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 1.0,
+      "authors": 1.0,
+      "time": {
+        "publish_time": 1.0,
+        "update_time": null
+      },
+      "content": 0.9973462002412544
+    },
+    {
+      "id": "ispras__dawn_com__da0d97a5",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 1.0,
+      "authors": 0.0,
+      "time": {
+        "publish_time": 1.0,
+        "update_time": null
+      },
+      "content": 0.9957734573119189
+    },
+    {
+      "id": "ispras__belgium_be__07643e17",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 1.0,
+      "authors": null,
+      "time": {
+        "publish_time": null,
+        "update_time": null
+      },
+      "content": 0.9948114839156001
+    },
+    {
+      "id": "ispras__belgium_be__3904e11b",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 1.0,
+      "authors": null,
+      "time": {
+        "publish_time": null,
+        "update_time": null
+      },
+      "content": 0.9846070753443155
+    },
+    {
+      "id": "ispras__dominicantoday_com__383fee17",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 0.0,
+      "authors": null,
+      "time": {
+        "publish_time": null,
+        "update_time": null
+      },
+      "content": 0.0
+    },
+    {
+      "id": "ispras__dominicantoday_com__bc46d43a",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 0.0,
+      "authors": null,
+      "time": {
+        "publish_time": null,
+        "update_time": null
+      },
+      "content": 0.0
+    },
+    {
+      "id": "ispras__eastwestcenter_org__3dc60b38",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 1.0,
+      "authors": null,
+      "time": {
+        "publish_time": null,
+        "update_time": null
+      },
+      "content": 0.9723554946310258
+    },
+    {
+      "id": "ispras__eastwestcenter_org__edf4347b",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 1.0,
+      "authors": null,
+      "time": {
+        "publish_time": null,
+        "update_time": null
+      },
+      "content": 0.9605481727574752
+    },
+    {
+      "id": "ispras__egypttoday_com__70d70889",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 1.0,
+      "authors": null,
+      "time": {
+        "publish_time": 1.0,
+        "update_time": null
+      },
+      "content": 0.9756367663344407
+    },
+    {
+      "id": "ispras__egypttoday_com__4c2e0f36",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 1.0,
+      "authors": null,
+      "time": {
+        "publish_time": 1.0,
+        "update_time": null
+      },
+      "content": 0.9790910661828235
+    },
+    {
+      "id": "ispras__elsevier_com__53ee0fb3",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 1.0,
+      "authors": null,
+      "time": {
+        "publish_time": 1.0,
+        "update_time": null
+      },
+      "content": 0.986291107948161
+    },
+    {
+      "id": "ispras__elsevier_com__706e9fc8",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 0.0,
+      "authors": 0.0,
+      "time": {
+        "publish_time": 1.0,
+        "update_time": null
+      },
+      "content": 0.975367374986785
+    },
+    {
+      "id": "ispras__elysee_fr__ef576038",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 1.0,
+      "authors": 0.0,
+      "time": {
+        "publish_time": 1.0,
+        "update_time": null
+      },
+      "content": 0.8542274052478134
+    },
+    {
+      "id": "ispras__elysee_fr__f7f5313e",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 1.0,
+      "authors": 0.0,
+      "time": {
+        "publish_time": 1.0,
+        "update_time": null
+      },
+      "content": 0.9695068390011294
+    },
+    {
+      "id": "ispras__aawsat_com__3bd61fe5",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 1.0,
+      "authors": null,
+      "time": {
+        "publish_time": 0.0,
+        "update_time": null
+      },
+      "content": 0.4718066743383199
+    },
+    {
+      "id": "ispras__aawsat_com__e6e11757",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 1.0,
+      "authors": 0.0,
+      "time": {
+        "publish_time": 0.0,
+        "update_time": null
+      },
+      "content": 0.8297557364914877
+    },
+    {
+      "id": "ispras__ahram_org_eg__4231fc70",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 0.0,
+      "authors": null,
+      "time": {
+        "publish_time": null,
+        "update_time": null
+      },
+      "content": 0.0
+    },
+    {
+      "id": "ispras__ahram_org_eg__76c27ecd",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 0.0,
+      "authors": null,
+      "time": {
+        "publish_time": null,
+        "update_time": null
+      },
+      "content": 0.0
+    },
+    {
+      "id": "ispras__cctv_com__2f60c110",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 1.0,
+      "authors": null,
+      "time": {
+        "publish_time": null,
+        "update_time": null
+      },
+      "content": 0.8054298642533936
+    },
+    {
+      "id": "ispras__cctv_com__3673284a",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 1.0,
+      "authors": 0.0,
+      "time": {
+        "publish_time": null,
+        "update_time": null
+      },
+      "content": 1.0
+    },
+    {
+      "id": "ispras__www_gov_cn__2f0e0a40",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 1.0,
+      "authors": null,
+      "time": {
+        "publish_time": null,
+        "update_time": null
+      },
+      "content": 0.7238095238095237
+    },
+    {
+      "id": "ispras__www_gov_cn__a73eea83",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 1.0,
+      "authors": null,
+      "time": {
+        "publish_time": null,
+        "update_time": null
+      },
+      "content": 0.988179669030733
+    },
+    {
+      "id": "ispras__mee_gov_cn__54b818b9",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 1.0,
+      "authors": null,
+      "time": {
+        "publish_time": 1.0,
+        "update_time": null
+      },
+      "content": 0.9983587338804221
+    },
+    {
+      "id": "ispras__mee_gov_cn__47a94404",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 1.0,
+      "authors": null,
+      "time": {
+        "publish_time": 1.0,
+        "update_time": null
+      },
+      "content": 0.9873111782477342
+    },
+    {
+      "id": "ispras__stm_dk__53908c8f",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 1.0,
+      "authors": null,
+      "time": {
+        "publish_time": null,
+        "update_time": null
+      },
+      "content": 1.0
+    },
+    {
+      "id": "ispras__stm_dk__6914fae7",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 1.0,
+      "authors": null,
+      "time": {
+        "publish_time": null,
+        "update_time": null
+      },
+      "content": 1.0
+    },
+    {
+      "id": "ispras__gmw_cn__ba51702c",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 1.0,
+      "authors": 0.0,
+      "time": {
+        "publish_time": 1.0,
+        "update_time": null
+      },
+      "content": 0.7891044160132066
+    },
+    {
+      "id": "ispras__gmw_cn__b051f586",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 1.0,
+      "authors": 0.0,
+      "time": {
+        "publish_time": 1.0,
+        "update_time": null
+      },
+      "content": 0.5098039215686275
+    },
+    {
+      "id": "ispras__president_go_kr__09f3084c",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 0.0,
+      "authors": 0.0,
+      "time": {
+        "publish_time": null,
+        "update_time": null
+      },
+      "content": 0.13733905579399142
+    },
+    {
+      "id": "ispras__president_go_kr__795378a7",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 0.0,
+      "authors": null,
+      "time": {
+        "publish_time": null,
+        "update_time": null
+      },
+      "content": 0.9845156643860281
+    },
+    {
+      "id": "ispras__mfa_gov_ir__a5b66442",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 1.0,
+      "authors": null,
+      "time": {
+        "publish_time": null,
+        "update_time": null
+      },
+      "content": 0.8940650925335035
+    },
+    {
+      "id": "ispras__mfa_gov_ir__1e11ff03",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 1.0,
+      "authors": null,
+      "time": {
+        "publish_time": null,
+        "update_time": null
+      },
+      "content": 0.9606299212598425
+    },
+    {
+      "id": "ispras__people_cn__0bdacaae",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 1.0,
+      "authors": null,
+      "time": {
+        "publish_time": 1.0,
+        "update_time": null
+      },
+      "content": 0.9508928571428571
+    },
+    {
+      "id": "ispras__people_cn__30a63a26",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 1.0,
+      "authors": null,
+      "time": {
+        "publish_time": 1.0,
+        "update_time": null
+      },
+      "content": 0.9246808510638298
+    },
+    {
+      "id": "ispras__qstheory_cn__1096a494",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 1.0,
+      "authors": 0.0,
+      "time": {
+        "publish_time": null,
+        "update_time": null
+      },
+      "content": 0.81450193593805
+    },
+    {
+      "id": "ispras__qstheory_cn__5397b17a",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 1.0,
+      "authors": 0.0,
+      "time": {
+        "publish_time": null,
+        "update_time": null
+      },
+      "content": 0.8481873111782477
+    },
+    {
+      "id": "ispras__tatoli_tl__39e574eb",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 0.0,
+      "authors": 0.0,
+      "time": {
+        "publish_time": 0.0,
+        "update_time": null
+      },
+      "content": 1.0
+    },
+    {
+      "id": "ispras__tatoli_tl__4c6fd9fe",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 0.0,
+      "authors": 0.0,
+      "time": {
+        "publish_time": 1.0,
+        "update_time": null
+      },
+      "content": 1.0
+    },
+    {
+      "id": "ispras__euronews_com__a7a394c4",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 0.0,
+      "authors": 0.0,
+      "time": {
+        "publish_time": 1.0,
+        "update_time": null
+      },
+      "content": 0.5310659599528857
+    },
+    {
+      "id": "ispras__euronews_com__411c74a1",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 0.0,
+      "authors": 0.0,
+      "time": {
+        "publish_time": 0.0,
+        "update_time": null
+      },
+      "content": 0.06754505527790398
+    },
+    {
+      "id": "ispras__ewn_co_za__46da7812",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 1.0,
+      "authors": 0.0,
+      "time": {
+        "publish_time": null,
+        "update_time": null
+      },
+      "content": 0.9276139410187667
+    },
+    {
+      "id": "ispras__ewn_co_za__8371663a",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 1.0,
+      "authors": 0.0,
+      "time": {
+        "publish_time": null,
+        "update_time": null
+      },
+      "content": 0.9388489208633094
+    },
+    {
+      "id": "ispras__fiji_gov_fj__37974c3a",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 0.0,
+      "authors": null,
+      "time": {
+        "publish_time": null,
+        "update_time": null
+      },
+      "content": 1.0
+    },
+    {
+      "id": "ispras__fiji_gov_fj__af032cea",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 0.0,
+      "authors": null,
+      "time": {
+        "publish_time": null,
+        "update_time": null
+      },
+      "content": 1.0
+    },
+    {
+      "id": "ispras__fijionenews_com_fj__4f6ea25e",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 0.0,
+      "authors": 0.0,
+      "time": {
+        "publish_time": 0.0,
+        "update_time": null
+      },
+      "content": 1.0
+    },
+    {
+      "id": "ispras__fijionenews_com_fj__149f76de",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 1.0,
+      "authors": 1.0,
+      "time": {
+        "publish_time": 1.0,
+        "update_time": null
+      },
+      "content": 1.0
+    },
+    {
+      "id": "ispras__fijivillage_com__2cf521dc",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 0.0,
+      "authors": 0.6666666666666666,
+      "time": {
+        "publish_time": null,
+        "update_time": null
+      },
+      "content": 0.8333333333333334
+    },
+    {
+      "id": "ispras__fijivillage_com__a674edd7",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 0.0,
+      "authors": 0.6666666666666666,
+      "time": {
+        "publish_time": null,
+        "update_time": null
+      },
+      "content": 0.8468227424749164
+    },
+    {
+      "id": "ispras__fm_gov_om__246bb30e",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 0.0,
+      "authors": 0.0,
+      "time": {
+        "publish_time": 1.0,
+        "update_time": null
+      },
+      "content": 0.9698067632850241
+    },
+    {
+      "id": "ispras__fm_gov_om__48791537",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 0.0,
+      "authors": 0.0,
+      "time": {
+        "publish_time": 1.0,
+        "update_time": null
+      },
+      "content": 0.9584954604409857
+    },
+    {
+      "id": "ispras__fmprc_gov_cn__8c977424",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 1.0,
+      "authors": null,
+      "time": {
+        "publish_time": 1.0,
+        "update_time": null
+      },
+      "content": 0.9931087289433385
+    },
+    {
+      "id": "ispras__fmprc_gov_cn__20c4103b",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 1.0,
+      "authors": null,
+      "time": {
+        "publish_time": 1.0,
+        "update_time": null
+      },
+      "content": 0.9968017057569297
+    },
+    {
+      "id": "ispras__foreign_gov_bb__9c7dd0c6",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 0.0,
+      "authors": null,
+      "time": {
+        "publish_time": null,
+        "update_time": null
+      },
+      "content": 0.0
+    },
+    {
+      "id": "ispras__foreign_gov_bb__94e40d95",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 1.0,
+      "authors": null,
+      "time": {
+        "publish_time": 1.0,
+        "update_time": null
+      },
+      "content": 1.0
+    },
+    {
+      "id": "ispras__foreign_gov_mv__b013574f",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 1.0,
+      "authors": 0.0,
+      "time": {
+        "publish_time": null,
+        "update_time": null
+      },
+      "content": 0.9934867564046894
+    },
+    {
+      "id": "ispras__foreign_gov_mv__35c3e101",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 1.0,
+      "authors": 0.0,
+      "time": {
+        "publish_time": null,
+        "update_time": null
+      },
+      "content": 0.9969230769230769
+    },
+    {
+      "id": "ispras__ghanaweb_com__1df0524b",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 1.0,
+      "authors": null,
+      "time": {
+        "publish_time": 1.0,
+        "update_time": null
+      },
+      "content": 0.9674981103552532
+    },
+    {
+      "id": "ispras__ghanaweb_com__56ac175f",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 1.0,
+      "authors": null,
+      "time": {
+        "publish_time": 1.0,
+        "update_time": null
+      },
+      "content": 0.980580728685038
+    },
+    {
+      "id": "ispras__gna_org_gh__bf263e34",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 0.0,
+      "authors": 0.0,
+      "time": {
+        "publish_time": 1.0,
+        "update_time": null
+      },
+      "content": 0.9917855598789451
+    },
+    {
+      "id": "ispras__gna_org_gh__cce8e8fc",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 0.0,
+      "authors": 0.0,
+      "time": {
+        "publish_time": 1.0,
+        "update_time": null
+      },
+      "content": 0.990589055420007
+    },
+    {
+      "id": "ispras__www_gob_mx__c5162965",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 1.0,
+      "authors": null,
+      "time": {
+        "publish_time": 0.0,
+        "update_time": null
+      },
+      "content": 0.9385665529010239
+    },
+    {
+      "id": "ispras__www_gob_mx__68b3be02",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 1.0,
+      "authors": null,
+      "time": {
+        "publish_time": 0.0,
+        "update_time": null
+      },
+      "content": 0.9862390067252975
+    },
+    {
+      "id": "ispras__gov_ai__2365d633",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 0.0,
+      "authors": null,
+      "time": {
+        "publish_time": null,
+        "update_time": null
+      },
+      "content": 1.0
+    },
+    {
+      "id": "ispras__gov_ai__4c7cc6e8",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 0.0,
+      "authors": null,
+      "time": {
+        "publish_time": null,
+        "update_time": null
+      },
+      "content": 0.8577319587628867
+    }
+  ],
+  "by_dataset": {
+    "ispras_en": {
+      "n_pages": 160,
+      "n_scored": 160,
+      "title": 0.6375,
+      "authors": 0.24893617021276596,
+      "content": 0.7588871273352515,
+      "title_n": 160,
+      "authors_n": 94,
+      "content_n": 160,
+      "publish_time": 0.8529411764705882,
+      "publish_time_n": 68,
+      "update_time": 1.0,
+      "update_time_n": 1,
+      "rejection_accuracy": null,
+      "rejection_detail": {
+        "n": 0,
+        "correct": 0,
+        "badcases": []
+      }
+    }
+  },
+  "by_site": {
+    "24.kg": {
+      "n_pages": 2,
+      "n_scored": 2,
+      "title": 0.0,
+      "authors": 1.0,
+      "content": 1.0,
+      "title_n": 2,
+      "authors_n": 2,
+      "content_n": 2,
+      "publish_time": 1.0,
+      "publish_time_n": 2,
+      "rejection_accuracy": null,
+      "rejection_detail": {
+        "n": 0,
+        "correct": 0,
+        "badcases": []
+      }
+    },
+    "aap.com.au": {
+      "n_pages": 2,
+      "n_scored": 2,
+      "title": 1.0,
+      "authors": 0.0,
+      "content": 1.0,
+      "title_n": 2,
+      "authors_n": 2,
+      "content_n": 2,
+      "rejection_accuracy": null,
+      "rejection_detail": {
+        "n": 0,
+        "correct": 0,
+        "badcases": []
+      }
+    },
+    "aawsat.com": {
+      "n_pages": 2,
+      "n_scored": 2,
+      "title": 1.0,
+      "authors": 0.0,
+      "content": 0.6507812054149038,
+      "title_n": 2,
+      "authors_n": 1,
+      "content_n": 2,
+      "publish_time": 0.0,
+      "publish_time_n": 2,
+      "rejection_accuracy": null,
+      "rejection_detail": {
+        "n": 0,
+        "correct": 0,
+        "badcases": []
+      }
+    },
+    "abc.net.au": {
+      "n_pages": 2,
+      "n_scored": 2,
+      "title": 0.0,
+      "authors": 1.0,
+      "content": 0.7369673748188401,
+      "title_n": 2,
+      "authors_n": 2,
+      "content_n": 2,
+      "publish_time": 1.0,
+      "publish_time_n": 2,
+      "rejection_accuracy": null,
+      "rejection_detail": {
+        "n": 0,
+        "correct": 0,
+        "badcases": []
+      }
+    },
+    "abs-cbn.com": {
+      "n_pages": 2,
+      "n_scored": 2,
+      "title": 1.0,
+      "authors": 0.0,
+      "content": 0.4720561411198546,
+      "title_n": 2,
+      "authors_n": 2,
+      "content_n": 2,
+      "publish_time": 1.0,
+      "publish_time_n": 2,
+      "rejection_accuracy": null,
+      "rejection_detail": {
+        "n": 0,
+        "correct": 0,
+        "badcases": []
+      }
+    },
+    "admin.ch": {
+      "n_pages": 2,
+      "n_scored": 2,
+      "title": 1.0,
+      "authors": 0.0,
+      "content": 0.9065147356845692,
+      "title_n": 2,
+      "authors_n": 2,
+      "content_n": 2,
+      "rejection_accuracy": null,
+      "rejection_detail": {
+        "n": 0,
+        "correct": 0,
+        "badcases": []
+      }
+    },
+    "afghanislamicpress.com": {
+      "n_pages": 2,
+      "n_scored": 2,
+      "title": 1.0,
+      "authors": null,
+      "content": 0.7408550904821107,
+      "title_n": 2,
+      "authors_n": 0,
+      "content_n": 2,
+      "rejection_accuracy": null,
+      "rejection_detail": {
+        "n": 0,
+        "correct": 0,
+        "badcases": []
+      }
+    },
+    "africa-confidential.com": {
+      "n_pages": 2,
+      "n_scored": 2,
+      "title": 1.0,
+      "authors": null,
+      "content": 0.09607930981587448,
+      "title_n": 2,
+      "authors_n": 0,
+      "content_n": 2,
+      "rejection_accuracy": null,
+      "rejection_detail": {
+        "n": 0,
+        "correct": 0,
+        "badcases": []
+      }
+    },
+    "ahram.org.eg": {
+      "n_pages": 2,
+      "n_scored": 2,
+      "title": 0.0,
+      "authors": null,
+      "content": 0.0,
+      "title_n": 2,
+      "authors_n": 0,
+      "content_n": 2,
+      "rejection_accuracy": null,
+      "rejection_detail": {
+        "n": 0,
+        "correct": 0,
+        "badcases": []
+      }
+    },
+    "akipress.com": {
+      "n_pages": 2,
+      "n_scored": 2,
+      "title": 1.0,
+      "authors": null,
+      "content": 0.550114374137989,
+      "title_n": 2,
+      "authors_n": 0,
+      "content_n": 2,
+      "rejection_accuracy": null,
+      "rejection_detail": {
+        "n": 0,
+        "correct": 0,
+        "badcases": []
+      }
+    },
+    "akorda.kz": {
+      "n_pages": 2,
+      "n_scored": 2,
+      "title": 0.0,
+      "authors": 0.0,
+      "content": 1.0,
+      "title_n": 2,
+      "authors_n": 1,
+      "content_n": 2,
+      "rejection_accuracy": null,
+      "rejection_detail": {
+        "n": 0,
+        "correct": 0,
+        "badcases": []
+      }
+    },
+    "alliancefr.org": {
+      "n_pages": 2,
+      "n_scored": 2,
+      "title": 0.5,
+      "authors": null,
+      "content": 1.0,
+      "title_n": 2,
+      "authors_n": 0,
+      "content_n": 2,
+      "rejection_accuracy": null,
+      "rejection_detail": {
+        "n": 0,
+        "correct": 0,
+        "badcases": []
+      }
+    },
+    "alquds.com": {
+      "n_pages": 2,
+      "n_scored": 2,
+      "title": 0.0,
+      "authors": null,
+      "content": 0.0,
+      "title_n": 2,
+      "authors_n": 0,
+      "content_n": 2,
+      "rejection_accuracy": null,
+      "rejection_detail": {
+        "n": 0,
+        "correct": 0,
+        "badcases": []
+      }
+    },
+    "anguillafocus.com": {
+      "n_pages": 2,
+      "n_scored": 2,
+      "title": 0.0,
+      "authors": 1.0,
+      "content": 0.956540825285338,
+      "title_n": 2,
+      "authors_n": 2,
+      "content_n": 2,
+      "publish_time": 1.0,
+      "publish_time_n": 2,
+      "rejection_accuracy": null,
+      "rejection_detail": {
+        "n": 0,
+        "correct": 0,
+        "badcases": []
+      }
+    },
+    "aps.dz": {
+      "n_pages": 2,
+      "n_scored": 2,
+      "title": 0.0,
+      "authors": null,
+      "content": 0.0,
+      "title_n": 2,
+      "authors_n": 0,
+      "content_n": 2,
+      "rejection_accuracy": null,
+      "rejection_detail": {
+        "n": 0,
+        "correct": 0,
+        "badcases": []
+      }
+    },
+    "auswaertiges-amt.de": {
+      "n_pages": 2,
+      "n_scored": 2,
+      "title": 1.0,
+      "authors": null,
+      "content": 0.9276460550924488,
+      "title_n": 2,
+      "authors_n": 0,
+      "content_n": 2,
+      "rejection_accuracy": null,
+      "rejection_detail": {
+        "n": 0,
+        "correct": 0,
+        "badcases": []
+      }
+    },
+    "aviationweek.com": {
+      "n_pages": 2,
+      "n_scored": 2,
+      "title": 0.0,
+      "authors": 1.0,
+      "content": 0.33411118197728723,
+      "title_n": 2,
+      "authors_n": 2,
+      "content_n": 2,
+      "publish_time": 1.0,
+      "publish_time_n": 2,
+      "rejection_accuracy": null,
+      "rejection_detail": {
+        "n": 0,
+        "correct": 0,
+        "badcases": []
+      }
+    },
+    "awate.com": {
+      "n_pages": 2,
+      "n_scored": 2,
+      "title": 0.5,
+      "authors": 0.0,
+      "content": 0.9986824042877891,
+      "title_n": 2,
+      "authors_n": 2,
+      "content_n": 2,
+      "publish_time": 1.0,
+      "publish_time_n": 2,
+      "rejection_accuracy": null,
+      "rejection_detail": {
+        "n": 0,
+        "correct": 0,
+        "badcases": []
+      }
+    },
+    "bahamas.com": {
+      "n_pages": 2,
+      "n_scored": 2,
+      "title": 0.0,
+      "authors": null,
+      "content": 0.9761265776858032,
+      "title_n": 2,
+      "authors_n": 0,
+      "content_n": 2,
+      "rejection_accuracy": null,
+      "rejection_detail": {
+        "n": 0,
+        "correct": 0,
+        "badcases": []
+      }
+    },
+    "balkangreenenergynews.com": {
+      "n_pages": 2,
+      "n_scored": 2,
+      "title": 0.5,
+      "authors": 0.0,
+      "content": 0.9730706992231124,
+      "title_n": 2,
+      "authors_n": 2,
+      "content_n": 2,
+      "publish_time": 1.0,
+      "publish_time_n": 2,
+      "rejection_accuracy": null,
+      "rejection_detail": {
+        "n": 0,
+        "correct": 0,
+        "badcases": []
+      }
+    },
+    "balkaninsight.com": {
+      "n_pages": 2,
+      "n_scored": 2,
+      "title": 1.0,
+      "authors": 1.0,
+      "content": 0.9624861325151324,
+      "title_n": 2,
+      "authors_n": 2,
+      "content_n": 2,
+      "publish_time": 1.0,
+      "publish_time_n": 2,
+      "rejection_accuracy": null,
+      "rejection_detail": {
+        "n": 0,
+        "correct": 0,
+        "badcases": []
+      }
+    },
+    "bbc.co.uk": {
+      "n_pages": 2,
+      "n_scored": 2,
+      "title": 1.0,
+      "authors": 0.0,
+      "content": 0.9586068494038694,
+      "title_n": 2,
+      "authors_n": 1,
+      "content_n": 2,
+      "publish_time": 0.0,
+      "publish_time_n": 1,
+      "rejection_accuracy": null,
+      "rejection_detail": {
+        "n": 0,
+        "correct": 0,
+        "badcases": []
+      }
+    },
+    "beehive.govt.nz": {
+      "n_pages": 2,
+      "n_scored": 2,
+      "title": 1.0,
+      "authors": 0.0,
+      "content": 1.0,
+      "title_n": 2,
+      "authors_n": 2,
+      "content_n": 2,
+      "rejection_accuracy": null,
+      "rejection_detail": {
+        "n": 0,
+        "correct": 0,
+        "badcases": []
+      }
+    },
+    "belgium.be": {
+      "n_pages": 2,
+      "n_scored": 2,
+      "title": 1.0,
+      "authors": null,
+      "content": 0.9897092796299578,
+      "title_n": 2,
+      "authors_n": 0,
+      "content_n": 2,
+      "rejection_accuracy": null,
+      "rejection_detail": {
+        "n": 0,
+        "correct": 0,
+        "badcases": []
+      }
+    },
+    "bloomberg.com": {
+      "n_pages": 2,
+      "n_scored": 2,
+      "title": 1.0,
+      "authors": 0.6666666666666666,
+      "content": 0.9697111300457414,
+      "title_n": 2,
+      "authors_n": 2,
+      "content_n": 2,
+      "rejection_accuracy": null,
+      "rejection_detail": {
+        "n": 0,
+        "correct": 0,
+        "badcases": []
+      }
+    },
+    "bmeia.gv.at": {
+      "n_pages": 2,
+      "n_scored": 2,
+      "title": 0.0,
+      "authors": null,
+      "content": 0.0,
+      "title_n": 2,
+      "authors_n": 0,
+      "content_n": 2,
+      "rejection_accuracy": null,
+      "rejection_detail": {
+        "n": 0,
+        "correct": 0,
+        "badcases": []
+      }
+    },
+    "bna.bh": {
+      "n_pages": 2,
+      "n_scored": 2,
+      "title": 1.0,
+      "authors": null,
+      "content": 1.0,
+      "title_n": 2,
+      "authors_n": 0,
+      "content_n": 2,
+      "rejection_accuracy": null,
+      "rejection_detail": {
+        "n": 0,
+        "correct": 0,
+        "badcases": []
+      }
+    },
+    "bnionline.net": {
+      "n_pages": 2,
+      "n_scored": 2,
+      "title": 1.0,
+      "authors": null,
+      "content": 1.0,
+      "title_n": 2,
+      "authors_n": 0,
+      "content_n": 2,
+      "rejection_accuracy": null,
+      "rejection_detail": {
+        "n": 0,
+        "correct": 0,
+        "badcases": []
+      }
+    },
+    "breakingbelizenews.com": {
+      "n_pages": 2,
+      "n_scored": 2,
+      "title": 0.0,
+      "authors": 0.0,
+      "content": 0.0,
+      "title_n": 2,
+      "authors_n": 2,
+      "content_n": 2,
+      "rejection_accuracy": null,
+      "rejection_detail": {
+        "n": 0,
+        "correct": 0,
+        "badcases": []
+      }
+    },
+    "bruegel.org": {
+      "n_pages": 2,
+      "n_scored": 2,
+      "title": 1.0,
+      "authors": 0.5333333333333333,
+      "content": 0.9960950497726186,
+      "title_n": 2,
+      "authors_n": 2,
+      "content_n": 2,
+      "rejection_accuracy": null,
+      "rejection_detail": {
+        "n": 0,
+        "correct": 0,
+        "badcases": []
+      }
+    },
+    "bundeskanzler.de": {
+      "n_pages": 2,
+      "n_scored": 2,
+      "title": 0.0,
+      "authors": null,
+      "content": 0.9736614278270413,
+      "title_n": 2,
+      "authors_n": 0,
+      "content_n": 2,
+      "rejection_accuracy": null,
+      "rejection_detail": {
+        "n": 0,
+        "correct": 0,
+        "badcases": []
+      }
+    },
+    "bworldonline.com": {
+      "n_pages": 2,
+      "n_scored": 2,
+      "title": 0.0,
+      "authors": 0.0,
+      "content": 0.9830336072910733,
+      "title_n": 2,
+      "authors_n": 2,
+      "content_n": 2,
+      "publish_time": 0.5,
+      "publish_time_n": 2,
+      "rejection_accuracy": null,
+      "rejection_detail": {
+        "n": 0,
+        "correct": 0,
+        "badcases": []
+      }
+    },
+    "canada.ca": {
+      "n_pages": 2,
+      "n_scored": 2,
+      "title": 1.0,
+      "authors": 0.0,
+      "content": 0.8390212695815434,
+      "title_n": 2,
+      "authors_n": 2,
+      "content_n": 2,
+      "rejection_accuracy": null,
+      "rejection_detail": {
+        "n": 0,
+        "correct": 0,
+        "badcases": []
+      }
+    },
+    "carnegieendowment.org": {
+      "n_pages": 2,
+      "n_scored": 2,
+      "title": 1.0,
+      "authors": 0.0,
+      "content": 1.0,
+      "title_n": 2,
+      "authors_n": 2,
+      "content_n": 2,
+      "rejection_accuracy": null,
+      "rejection_detail": {
+        "n": 0,
+        "correct": 0,
+        "badcases": []
+      }
+    },
+    "cctv.com": {
+      "n_pages": 2,
+      "n_scored": 2,
+      "title": 1.0,
+      "authors": 0.0,
+      "content": 0.9027149321266967,
+      "title_n": 2,
+      "authors_n": 1,
+      "content_n": 2,
+      "rejection_accuracy": null,
+      "rejection_detail": {
+        "n": 0,
+        "correct": 0,
+        "badcases": []
+      }
+    },
+    "cgtn.com": {
+      "n_pages": 2,
+      "n_scored": 2,
+      "title": 1.0,
+      "authors": 0.0,
+      "content": 0.9717444717444718,
+      "title_n": 2,
+      "authors_n": 2,
+      "content_n": 2,
+      "publish_time": 1.0,
+      "publish_time_n": 2,
+      "rejection_accuracy": null,
+      "rejection_detail": {
+        "n": 0,
+        "correct": 0,
+        "badcases": []
+      }
+    },
+    "channelstv.com": {
+      "n_pages": 2,
+      "n_scored": 2,
+      "title": 0.5,
+      "authors": 0.3333333333333333,
+      "content": 0.9802996695283595,
+      "title_n": 2,
+      "authors_n": 2,
+      "content_n": 2,
+      "update_time": 1.0,
+      "update_time_n": 1,
+      "rejection_accuracy": null,
+      "rejection_detail": {
+        "n": 0,
+        "correct": 0,
+        "badcases": []
+      }
+    },
+    "chathamhouse.org": {
+      "n_pages": 2,
+      "n_scored": 2,
+      "title": 1.0,
+      "authors": 0.0,
+      "content": 0.0683453237410072,
+      "title_n": 2,
+      "authors_n": 2,
+      "content_n": 2,
+      "publish_time": 1.0,
+      "publish_time_n": 2,
+      "rejection_accuracy": null,
+      "rejection_detail": {
+        "n": 0,
+        "correct": 0,
+        "badcases": []
+      }
+    },
+    "chinadaily.com.cn": {
+      "n_pages": 2,
+      "n_scored": 2,
+      "title": 1.0,
+      "authors": 0.0,
+      "content": 0.935834788138064,
+      "title_n": 2,
+      "authors_n": 2,
+      "content_n": 2,
+      "rejection_accuracy": null,
+      "rejection_detail": {
+        "n": 0,
+        "correct": 0,
+        "badcases": []
+      }
+    },
+    "chronicle.co.zw": {
+      "n_pages": 2,
+      "n_scored": 2,
+      "title": 1.0,
+      "authors": 0.0,
+      "content": 0.637095131391322,
+      "title_n": 2,
+      "authors_n": 2,
+      "content_n": 2,
+      "publish_time": 1.0,
+      "publish_time_n": 2,
+      "rejection_accuracy": null,
+      "rejection_detail": {
+        "n": 0,
+        "correct": 0,
+        "badcases": []
+      }
+    },
+    "chronicle.gi": {
+      "n_pages": 2,
+      "n_scored": 2,
+      "title": 1.0,
+      "authors": 0.0,
+      "content": 0.11868114941994345,
+      "title_n": 2,
+      "authors_n": 2,
+      "content_n": 2,
+      "rejection_accuracy": null,
+      "rejection_detail": {
+        "n": 0,
+        "correct": 0,
+        "badcases": []
+      }
+    },
+    "citizen.digital": {
+      "n_pages": 2,
+      "n_scored": 2,
+      "title": 1.0,
+      "authors": 1.0,
+      "content": 0.8332008647153355,
+      "title_n": 2,
+      "authors_n": 2,
+      "content_n": 2,
+      "publish_time": 1.0,
+      "publish_time_n": 2,
+      "rejection_accuracy": null,
+      "rejection_detail": {
+        "n": 0,
+        "correct": 0,
+        "badcases": []
+      }
+    },
+    "confidencial.digital": {
+      "n_pages": 2,
+      "n_scored": 2,
+      "title": 1.0,
+      "authors": 0.5,
+      "content": 0.9680824090548668,
+      "title_n": 2,
+      "authors_n": 2,
+      "content_n": 2,
+      "rejection_accuracy": null,
+      "rejection_detail": {
+        "n": 0,
+        "correct": 0,
+        "badcases": []
+      }
+    },
+    "crisisgroup.org": {
+      "n_pages": 2,
+      "n_scored": 2,
+      "title": 0.0,
+      "authors": 0.0,
+      "content": 0.05238459576638612,
+      "title_n": 2,
+      "authors_n": 2,
+      "content_n": 2,
+      "publish_time": 1.0,
+      "publish_time_n": 1,
+      "rejection_accuracy": null,
+      "rejection_detail": {
+        "n": 0,
+        "correct": 0,
+        "badcases": []
+      }
+    },
+    "csis.org": {
+      "n_pages": 2,
+      "n_scored": 2,
+      "title": 0.0,
+      "authors": null,
+      "content": 0.465877220317856,
+      "title_n": 2,
+      "authors_n": 0,
+      "content_n": 2,
+      "rejection_accuracy": null,
+      "rejection_detail": {
+        "n": 0,
+        "correct": 0,
+        "badcases": []
+      }
+    },
+    "dailyguideghana.com": {
+      "n_pages": 2,
+      "n_scored": 2,
+      "title": 1.0,
+      "authors": 1.0,
+      "content": 0.9969396369776277,
+      "title_n": 2,
+      "authors_n": 2,
+      "content_n": 2,
+      "publish_time": 1.0,
+      "publish_time_n": 2,
+      "rejection_accuracy": null,
+      "rejection_detail": {
+        "n": 0,
+        "correct": 0,
+        "badcases": []
+      }
+    },
+    "dawn.com": {
+      "n_pages": 2,
+      "n_scored": 2,
+      "title": 1.0,
+      "authors": 0.5,
+      "content": 0.9965598287765867,
+      "title_n": 2,
+      "authors_n": 2,
+      "content_n": 2,
+      "publish_time": 1.0,
+      "publish_time_n": 2,
+      "rejection_accuracy": null,
+      "rejection_detail": {
+        "n": 0,
+        "correct": 0,
+        "badcases": []
+      }
+    },
+    "dominicantoday.com": {
+      "n_pages": 2,
+      "n_scored": 2,
+      "title": 0.0,
+      "authors": null,
+      "content": 0.0,
+      "title_n": 2,
+      "authors_n": 0,
+      "content_n": 2,
+      "rejection_accuracy": null,
+      "rejection_detail": {
+        "n": 0,
+        "correct": 0,
+        "badcases": []
+      }
+    },
+    "eastwestcenter.org": {
+      "n_pages": 2,
+      "n_scored": 2,
+      "title": 1.0,
+      "authors": null,
+      "content": 0.9664518336942505,
+      "title_n": 2,
+      "authors_n": 0,
+      "content_n": 2,
+      "rejection_accuracy": null,
+      "rejection_detail": {
+        "n": 0,
+        "correct": 0,
+        "badcases": []
+      }
+    },
+    "egypttoday.com": {
+      "n_pages": 2,
+      "n_scored": 2,
+      "title": 1.0,
+      "authors": null,
+      "content": 0.9773639162586321,
+      "title_n": 2,
+      "authors_n": 0,
+      "content_n": 2,
+      "publish_time": 1.0,
+      "publish_time_n": 2,
+      "rejection_accuracy": null,
+      "rejection_detail": {
+        "n": 0,
+        "correct": 0,
+        "badcases": []
+      }
+    },
+    "elsevier.com": {
+      "n_pages": 2,
+      "n_scored": 2,
+      "title": 0.5,
+      "authors": 0.0,
+      "content": 0.9808292414674731,
+      "title_n": 2,
+      "authors_n": 1,
+      "content_n": 2,
+      "publish_time": 1.0,
+      "publish_time_n": 2,
+      "rejection_accuracy": null,
+      "rejection_detail": {
+        "n": 0,
+        "correct": 0,
+        "badcases": []
+      }
+    },
+    "elysee.fr": {
+      "n_pages": 2,
+      "n_scored": 2,
+      "title": 1.0,
+      "authors": 0.0,
+      "content": 0.9118671221244714,
+      "title_n": 2,
+      "authors_n": 2,
+      "content_n": 2,
+      "publish_time": 1.0,
+      "publish_time_n": 2,
+      "rejection_accuracy": null,
+      "rejection_detail": {
+        "n": 0,
+        "correct": 0,
+        "badcases": []
+      }
+    },
+    "euronews.com": {
+      "n_pages": 2,
+      "n_scored": 2,
+      "title": 0.0,
+      "authors": 0.0,
+      "content": 0.2993055076153949,
+      "title_n": 2,
+      "authors_n": 2,
+      "content_n": 2,
+      "publish_time": 0.5,
+      "publish_time_n": 2,
+      "rejection_accuracy": null,
+      "rejection_detail": {
+        "n": 0,
+        "correct": 0,
+        "badcases": []
+      }
+    },
+    "ewn.co.za": {
+      "n_pages": 2,
+      "n_scored": 2,
+      "title": 1.0,
+      "authors": 0.0,
+      "content": 0.9332314309410381,
+      "title_n": 2,
+      "authors_n": 2,
+      "content_n": 2,
+      "rejection_accuracy": null,
+      "rejection_detail": {
+        "n": 0,
+        "correct": 0,
+        "badcases": []
+      }
+    },
+    "fiji.gov.fj": {
+      "n_pages": 2,
+      "n_scored": 2,
+      "title": 0.0,
+      "authors": null,
+      "content": 1.0,
+      "title_n": 2,
+      "authors_n": 0,
+      "content_n": 2,
+      "rejection_accuracy": null,
+      "rejection_detail": {
+        "n": 0,
+        "correct": 0,
+        "badcases": []
+      }
+    },
+    "fijionenews.com.fj": {
+      "n_pages": 2,
+      "n_scored": 2,
+      "title": 0.5,
+      "authors": 0.5,
+      "content": 1.0,
+      "title_n": 2,
+      "authors_n": 2,
+      "content_n": 2,
+      "publish_time": 0.5,
+      "publish_time_n": 2,
+      "rejection_accuracy": null,
+      "rejection_detail": {
+        "n": 0,
+        "correct": 0,
+        "badcases": []
+      }
+    },
+    "fijivillage.com": {
+      "n_pages": 2,
+      "n_scored": 2,
+      "title": 0.0,
+      "authors": 0.6666666666666666,
+      "content": 0.8400780379041248,
+      "title_n": 2,
+      "authors_n": 2,
+      "content_n": 2,
+      "rejection_accuracy": null,
+      "rejection_detail": {
+        "n": 0,
+        "correct": 0,
+        "badcases": []
+      }
+    },
+    "fm.gov.om": {
+      "n_pages": 2,
+      "n_scored": 2,
+      "title": 0.0,
+      "authors": 0.0,
+      "content": 0.9641511118630048,
+      "title_n": 2,
+      "authors_n": 2,
+      "content_n": 2,
+      "publish_time": 1.0,
+      "publish_time_n": 2,
+      "rejection_accuracy": null,
+      "rejection_detail": {
+        "n": 0,
+        "correct": 0,
+        "badcases": []
+      }
+    },
+    "fmprc.gov.cn": {
+      "n_pages": 2,
+      "n_scored": 2,
+      "title": 1.0,
+      "authors": null,
+      "content": 0.9949552173501341,
+      "title_n": 2,
+      "authors_n": 0,
+      "content_n": 2,
+      "publish_time": 1.0,
+      "publish_time_n": 2,
+      "rejection_accuracy": null,
+      "rejection_detail": {
+        "n": 0,
+        "correct": 0,
+        "badcases": []
+      }
+    },
+    "foreign.gov.bb": {
+      "n_pages": 2,
+      "n_scored": 2,
+      "title": 0.5,
+      "authors": null,
+      "content": 0.5,
+      "title_n": 2,
+      "authors_n": 0,
+      "content_n": 2,
+      "publish_time": 1.0,
+      "publish_time_n": 1,
+      "rejection_accuracy": null,
+      "rejection_detail": {
+        "n": 0,
+        "correct": 0,
+        "badcases": []
+      }
+    },
+    "foreign.gov.mv": {
+      "n_pages": 2,
+      "n_scored": 2,
+      "title": 1.0,
+      "authors": 0.0,
+      "content": 0.9952049166638832,
+      "title_n": 2,
+      "authors_n": 2,
+      "content_n": 2,
+      "rejection_accuracy": null,
+      "rejection_detail": {
+        "n": 0,
+        "correct": 0,
+        "badcases": []
+      }
+    },
+    "ghanaweb.com": {
+      "n_pages": 2,
+      "n_scored": 2,
+      "title": 1.0,
+      "authors": null,
+      "content": 0.9740394195201456,
+      "title_n": 2,
+      "authors_n": 0,
+      "content_n": 2,
+      "publish_time": 1.0,
+      "publish_time_n": 2,
+      "rejection_accuracy": null,
+      "rejection_detail": {
+        "n": 0,
+        "correct": 0,
+        "badcases": []
+      }
+    },
+    "gmw.cn": {
+      "n_pages": 2,
+      "n_scored": 2,
+      "title": 1.0,
+      "authors": 0.0,
+      "content": 0.649454168790917,
+      "title_n": 2,
+      "authors_n": 2,
+      "content_n": 2,
+      "publish_time": 1.0,
+      "publish_time_n": 2,
+      "rejection_accuracy": null,
+      "rejection_detail": {
+        "n": 0,
+        "correct": 0,
+        "badcases": []
+      }
+    },
+    "gna.org.gh": {
+      "n_pages": 2,
+      "n_scored": 2,
+      "title": 0.0,
+      "authors": 0.0,
+      "content": 0.991187307649476,
+      "title_n": 2,
+      "authors_n": 2,
+      "content_n": 2,
+      "publish_time": 1.0,
+      "publish_time_n": 2,
+      "rejection_accuracy": null,
+      "rejection_detail": {
+        "n": 0,
+        "correct": 0,
+        "badcases": []
+      }
+    },
+    "gov.ai": {
+      "n_pages": 2,
+      "n_scored": 2,
+      "title": 0.0,
+      "authors": null,
+      "content": 0.9288659793814433,
+      "title_n": 2,
+      "authors_n": 0,
+      "content_n": 2,
+      "rejection_accuracy": null,
+      "rejection_detail": {
+        "n": 0,
+        "correct": 0,
+        "badcases": []
+      }
+    },
+    "gov.bw": {
+      "n_pages": 2,
+      "n_scored": 2,
+      "title": 0.0,
+      "authors": 0.0,
+      "content": 0.7033041987589637,
+      "title_n": 2,
+      "authors_n": 2,
+      "content_n": 2,
+      "rejection_accuracy": null,
+      "rejection_detail": {
+        "n": 0,
+        "correct": 0,
+        "badcases": []
+      }
+    },
+    "mee.gov.cn": {
+      "n_pages": 2,
+      "n_scored": 2,
+      "title": 1.0,
+      "authors": null,
+      "content": 0.9928349560640781,
+      "title_n": 2,
+      "authors_n": 0,
+      "content_n": 2,
+      "publish_time": 1.0,
+      "publish_time_n": 2,
+      "rejection_accuracy": null,
+      "rejection_detail": {
+        "n": 0,
+        "correct": 0,
+        "badcases": []
+      }
+    },
+    "mfa.gov.ir": {
+      "n_pages": 2,
+      "n_scored": 2,
+      "title": 1.0,
+      "authors": null,
+      "content": 0.927347506896673,
+      "title_n": 2,
+      "authors_n": 0,
+      "content_n": 2,
+      "rejection_accuracy": null,
+      "rejection_detail": {
+        "n": 0,
+        "correct": 0,
+        "badcases": []
+      }
+    },
+    "newsday.co.zw": {
+      "n_pages": 2,
+      "n_scored": 2,
+      "title": 1.0,
+      "authors": 0.0,
+      "content": 0.9551082856106616,
+      "title_n": 2,
+      "authors_n": 2,
+      "content_n": 2,
+      "rejection_accuracy": null,
+      "rejection_detail": {
+        "n": 0,
+        "correct": 0,
+        "badcases": []
+      }
+    },
+    "newzimbabwe.com": {
+      "n_pages": 2,
+      "n_scored": 2,
+      "title": 0.5,
+      "authors": 0.0,
+      "content": 0.486296335188491,
+      "title_n": 2,
+      "authors_n": 2,
+      "content_n": 2,
+      "publish_time": 0.0,
+      "publish_time_n": 1,
+      "rejection_accuracy": null,
+      "rejection_detail": {
+        "n": 0,
+        "correct": 0,
+        "badcases": []
+      }
+    },
+    "oup.com": {
+      "n_pages": 2,
+      "n_scored": 2,
+      "title": 1.0,
+      "authors": 0.0,
+      "content": 0.1227038148566398,
+      "title_n": 2,
+      "authors_n": 2,
+      "content_n": 2,
+      "publish_time": 1.0,
+      "publish_time_n": 2,
+      "rejection_accuracy": null,
+      "rejection_detail": {
+        "n": 0,
+        "correct": 0,
+        "badcases": []
+      }
+    },
+    "people.cn": {
+      "n_pages": 2,
+      "n_scored": 2,
+      "title": 1.0,
+      "authors": null,
+      "content": 0.9377868541033434,
+      "title_n": 2,
+      "authors_n": 0,
+      "content_n": 2,
+      "publish_time": 1.0,
+      "publish_time_n": 2,
+      "rejection_accuracy": null,
+      "rejection_detail": {
+        "n": 0,
+        "correct": 0,
+        "badcases": []
+      }
+    },
+    "president.go.kr": {
+      "n_pages": 2,
+      "n_scored": 2,
+      "title": 0.0,
+      "authors": 0.0,
+      "content": 0.5609273600900098,
+      "title_n": 2,
+      "authors_n": 1,
+      "content_n": 2,
+      "rejection_accuracy": null,
+      "rejection_detail": {
+        "n": 0,
+        "correct": 0,
+        "badcases": []
+      }
+    },
+    "qstheory.cn": {
+      "n_pages": 2,
+      "n_scored": 2,
+      "title": 1.0,
+      "authors": 0.0,
+      "content": 0.8313446235581489,
+      "title_n": 2,
+      "authors_n": 2,
+      "content_n": 2,
+      "rejection_accuracy": null,
+      "rejection_detail": {
+        "n": 0,
+        "correct": 0,
+        "badcases": []
+      }
+    },
+    "stm.dk": {
+      "n_pages": 2,
+      "n_scored": 2,
+      "title": 1.0,
+      "authors": null,
+      "content": 1.0,
+      "title_n": 2,
+      "authors_n": 0,
+      "content_n": 2,
+      "rejection_accuracy": null,
+      "rejection_detail": {
+        "n": 0,
+        "correct": 0,
+        "badcases": []
+      }
+    },
+    "tatoli.tl": {
+      "n_pages": 2,
+      "n_scored": 2,
+      "title": 0.0,
+      "authors": 0.0,
+      "content": 1.0,
+      "title_n": 2,
+      "authors_n": 2,
+      "content_n": 2,
+      "publish_time": 0.5,
+      "publish_time_n": 2,
+      "rejection_accuracy": null,
+      "rejection_detail": {
+        "n": 0,
+        "correct": 0,
+        "badcases": []
+      }
+    },
+    "thenewshawks.com": {
+      "n_pages": 2,
+      "n_scored": 2,
+      "title": 1.0,
+      "authors": 1.0,
+      "content": 0.5690909090909091,
+      "title_n": 2,
+      "authors_n": 2,
+      "content_n": 2,
+      "publish_time": 1.0,
+      "publish_time_n": 2,
+      "rejection_accuracy": null,
+      "rejection_detail": {
+        "n": 0,
+        "correct": 0,
+        "badcases": []
+      }
+    },
+    "who.int": {
+      "n_pages": 2,
+      "n_scored": 2,
+      "title": 1.0,
+      "authors": null,
+      "content": 0.9792120123531036,
+      "title_n": 2,
+      "authors_n": 0,
+      "content_n": 2,
+      "rejection_accuracy": null,
+      "rejection_detail": {
+        "n": 0,
+        "correct": 0,
+        "badcases": []
+      }
+    },
+    "www.gob.mx": {
+      "n_pages": 2,
+      "n_scored": 2,
+      "title": 1.0,
+      "authors": null,
+      "content": 0.9624027798131607,
+      "title_n": 2,
+      "authors_n": 0,
+      "content_n": 2,
+      "publish_time": 0.0,
+      "publish_time_n": 2,
+      "rejection_accuracy": null,
+      "rejection_detail": {
+        "n": 0,
+        "correct": 0,
+        "badcases": []
+      }
+    },
+    "www.gov.cn": {
+      "n_pages": 2,
+      "n_scored": 2,
+      "title": 1.0,
+      "authors": null,
+      "content": 0.8559945964201283,
+      "title_n": 2,
+      "authors_n": 0,
+      "content_n": 2,
+      "rejection_accuracy": null,
+      "rejection_detail": {
+        "n": 0,
+        "correct": 0,
+        "badcases": []
+      }
+    }
+  },
+  "by_route": {
+    "generic": {
+      "n_pages": 160,
+      "n_scored": 160,
+      "title": 0.6375,
+      "authors": 0.24893617021276596,
+      "content": 0.7588871273352515,
+      "title_n": 160,
+      "authors_n": 94,
+      "content_n": 160,
+      "publish_time": 0.8529411764705882,
+      "publish_time_n": 68,
+      "update_time": 1.0,
+      "update_time_n": 1,
+      "rejection_accuracy": null,
+      "rejection_detail": {
+        "n": 0,
+        "correct": 0,
+        "badcases": []
+      }
+    }
+  },
+  "by_content_structure": {
+    "single": {
+      "n_pages": 160,
+      "n_scored": 160,
+      "title": 0.6375,
+      "authors": 0.24893617021276596,
+      "content": 0.7588871273352515,
+      "title_n": 160,
+      "authors_n": 94,
+      "content_n": 160,
+      "publish_time": 0.8529411764705882,
+      "publish_time_n": 68,
+      "update_time": 1.0,
+      "update_time_n": 1,
+      "rejection_accuracy": null,
+      "rejection_detail": {
+        "n": 0,
+        "correct": 0,
+        "badcases": []
+      }
+    }
+  }
+}

@@ -1,0 +1,10 @@
+ok   readability_extract_dev.log
+ok   readability_score_v1.log
+ok   readability_score_v2.log
+ok   v4_extract_test.log
+ok   readability_extract_test.log
+ok   test_v4_score.log
+ok   test_readability_score.log
+ok   results/test_final_scores.json
+ok   results/negative_check.json
+ok   results/v2_scores_all.json

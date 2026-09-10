@@ -1,0 +1,1552 @@
+{
+  "version": "v1（历史口径，仅对照用）",
+  "n_pages": 85,
+  "pred_parse_errors": [],
+  "time_fields": [
+    "publish_time",
+    "update_time"
+  ],
+  "overall": {
+    "n_pages": 85,
+    "n_scored": 84,
+    "title": 0.8860759493670886,
+    "authors": 0.5990990990990991,
+    "content": 0.9316931823200758,
+    "title_n": 79,
+    "authors_n": 74,
+    "content_n": 79,
+    "publish_time": 1.0,
+    "publish_time_n": 58,
+    "update_time": 1.0,
+    "update_time_n": 27,
+    "rejection_accuracy": 1.0,
+    "rejection_detail": {
+      "n": 1,
+      "correct": 1,
+      "badcases": []
+    }
+  },
+  "pages": [
+    {
+      "id": "news_cn__01",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 1.0,
+      "authors": 1.0,
+      "time": {
+        "publish_time": 1.0,
+        "update_time": null
+      },
+      "content": 0.9978063303039799
+    },
+    {
+      "id": "news_cn__02",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 1.0,
+      "authors": 1.0,
+      "time": {
+        "publish_time": 1.0,
+        "update_time": null
+      },
+      "content": 0.9933774834437086
+    },
+    {
+      "id": "news_cn__03",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 1.0,
+      "authors": 1.0,
+      "time": {
+        "publish_time": 1.0,
+        "update_time": null
+      },
+      "content": 0.9973190348525469
+    },
+    {
+      "id": "news_cn__04",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 1.0,
+      "authors": 1.0,
+      "time": {
+        "publish_time": 1.0,
+        "update_time": null
+      },
+      "content": 0.999043323766571
+    },
+    {
+      "id": "news_cn__05",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 1.0,
+      "authors": 1.0,
+      "time": {
+        "publish_time": 1.0,
+        "update_time": null
+      },
+      "content": 0.9085714285714286
+    },
+    {
+      "id": "news_cn__06",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 1.0,
+      "authors": 1.0,
+      "time": {
+        "publish_time": 1.0,
+        "update_time": null
+      },
+      "content": 0.9986373369671014
+    },
+    {
+      "id": "news_cn__07",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 1.0,
+      "authors": 1.0,
+      "time": {
+        "publish_time": 1.0,
+        "update_time": null
+      },
+      "content": 0.9979556074766355
+    },
+    {
+      "id": "news_cn__08",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 1.0,
+      "authors": 1.0,
+      "time": {
+        "publish_time": 1.0,
+        "update_time": null
+      },
+      "content": 0.9989309712889433
+    },
+    {
+      "id": "news_cn__09",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 1.0,
+      "authors": 0.33333333333333337,
+      "time": {
+        "publish_time": 1.0,
+        "update_time": null
+      },
+      "content": 0.9975035663338089
+    },
+    {
+      "id": "news_cn__10",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 1.0,
+      "authors": 1.0,
+      "time": {
+        "publish_time": 1.0,
+        "update_time": null
+      },
+      "content": 0.9977790447339534
+    },
+    {
+      "id": "chinadaily__01",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 1.0,
+      "authors": 1.0,
+      "time": {
+        "publish_time": null,
+        "update_time": 1.0
+      },
+      "content": 1.0
+    },
+    {
+      "id": "chinadaily__02",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 1.0,
+      "authors": 1.0,
+      "time": {
+        "publish_time": null,
+        "update_time": 1.0
+      },
+      "content": 1.0
+    },
+    {
+      "id": "chinadaily__03",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 1.0,
+      "authors": 1.0,
+      "time": {
+        "publish_time": null,
+        "update_time": 1.0
+      },
+      "content": 1.0
+    },
+    {
+      "id": "chinadaily__04",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 1.0,
+      "authors": 1.0,
+      "time": {
+        "publish_time": null,
+        "update_time": 1.0
+      },
+      "content": 1.0
+    },
+    {
+      "id": "chinadaily__05",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 1.0,
+      "authors": 1.0,
+      "time": {
+        "publish_time": null,
+        "update_time": 1.0
+      },
+      "content": 1.0
+    },
+    {
+      "id": "chinadaily__06",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 1.0,
+      "authors": 1.0,
+      "time": {
+        "publish_time": null,
+        "update_time": 1.0
+      },
+      "content": 1.0
+    },
+    {
+      "id": "chinadaily__07",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 1.0,
+      "authors": 0.0,
+      "time": {
+        "publish_time": null,
+        "update_time": 1.0
+      },
+      "content": 1.0
+    },
+    {
+      "id": "chinadaily__08",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 1.0,
+      "authors": 1.0,
+      "time": {
+        "publish_time": null,
+        "update_time": 1.0
+      },
+      "content": 1.0
+    },
+    {
+      "id": "chinadaily__09",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 1.0,
+      "authors": 1.0,
+      "time": {
+        "publish_time": null,
+        "update_time": 1.0
+      },
+      "content": 1.0
+    },
+    {
+      "id": "chinadaily__10",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 1.0,
+      "authors": 1.0,
+      "time": {
+        "publish_time": null,
+        "update_time": 1.0
+      },
+      "content": 1.0
+    },
+    {
+      "id": "gov_cn__01",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 1.0,
+      "authors": 1.0,
+      "time": {
+        "publish_time": 1.0,
+        "update_time": 1.0
+      },
+      "content": 1.0
+    },
+    {
+      "id": "gov_cn__02",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 1.0,
+      "authors": 1.0,
+      "time": {
+        "publish_time": 1.0,
+        "update_time": 1.0
+      },
+      "content": 1.0
+    },
+    {
+      "id": "gov_cn__03",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 1.0,
+      "authors": 1.0,
+      "time": {
+        "publish_time": 1.0,
+        "update_time": 1.0
+      },
+      "content": 1.0
+    },
+    {
+      "id": "gov_cn__04",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 1.0,
+      "authors": 1.0,
+      "time": {
+        "publish_time": 1.0,
+        "update_time": 1.0
+      },
+      "content": 1.0
+    },
+    {
+      "id": "gov_cn__05",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 1.0,
+      "authors": 1.0,
+      "time": {
+        "publish_time": 1.0,
+        "update_time": 1.0
+      },
+      "content": 1.0
+    },
+    {
+      "id": "gov_cn__06",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 1.0,
+      "authors": 1.0,
+      "time": {
+        "publish_time": 1.0,
+        "update_time": 1.0
+      },
+      "content": 1.0
+    },
+    {
+      "id": "gov_cn__07",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 1.0,
+      "authors": 1.0,
+      "time": {
+        "publish_time": 1.0,
+        "update_time": 1.0
+      },
+      "content": 1.0
+    },
+    {
+      "id": "gov_cn__08",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 1.0,
+      "authors": 1.0,
+      "time": {
+        "publish_time": 1.0,
+        "update_time": 1.0
+      },
+      "content": 1.0
+    },
+    {
+      "id": "gov_cn__09",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 1.0,
+      "authors": 1.0,
+      "time": {
+        "publish_time": 1.0,
+        "update_time": 1.0
+      },
+      "content": 1.0
+    },
+    {
+      "id": "gov_cn__10",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 1.0,
+      "authors": 1.0,
+      "time": {
+        "publish_time": 1.0,
+        "update_time": 1.0
+      },
+      "content": 1.0
+    },
+    {
+      "id": "sina__01",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 1.0,
+      "authors": 0.0,
+      "time": {
+        "publish_time": 1.0,
+        "update_time": null
+      },
+      "content": 0.8976945244956773
+    },
+    {
+      "id": "sina__02",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 1.0,
+      "authors": 0.0,
+      "time": {
+        "publish_time": 1.0,
+        "update_time": null
+      },
+      "content": 0.7448275862068965
+    },
+    {
+      "id": "sina__03",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 1.0,
+      "authors": 0.0,
+      "time": {
+        "publish_time": 1.0,
+        "update_time": null
+      },
+      "content": 0.9662002152852529
+    },
+    {
+      "id": "sina__04",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 1.0,
+      "authors": 0.0,
+      "time": {
+        "publish_time": 1.0,
+        "update_time": null
+      },
+      "content": 0.9717868338557993
+    },
+    {
+      "id": "sina__05",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 1.0,
+      "authors": 0.0,
+      "time": {
+        "publish_time": 1.0,
+        "update_time": null
+      },
+      "content": 0.9890949613945713
+    },
+    {
+      "id": "sina__06",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 1.0,
+      "authors": 0.0,
+      "time": {
+        "publish_time": 1.0,
+        "update_time": null
+      },
+      "content": 0.9607361963190185
+    },
+    {
+      "id": "sohu__01",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 1.0,
+      "authors": 0.0,
+      "time": {
+        "publish_time": 1.0,
+        "update_time": null
+      },
+      "content": 0.9629629629629629
+    },
+    {
+      "id": "sohu__02",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 1.0,
+      "authors": null,
+      "time": {
+        "publish_time": 1.0,
+        "update_time": null
+      },
+      "content": 0.9821782178217822
+    },
+    {
+      "id": "sohu__03",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 1.0,
+      "authors": 0.0,
+      "time": {
+        "publish_time": 1.0,
+        "update_time": null
+      },
+      "content": 0.9909304669129996
+    },
+    {
+      "id": "sohu__04",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 1.0,
+      "authors": 0.0,
+      "time": {
+        "publish_time": 1.0,
+        "update_time": null
+      },
+      "content": 0.9910802775024777
+    },
+    {
+      "id": "sohu__05",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 1.0,
+      "authors": 0.0,
+      "time": {
+        "publish_time": 1.0,
+        "update_time": null
+      },
+      "content": 0.91
+    },
+    {
+      "id": "sohu__06",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 1.0,
+      "authors": 0.0,
+      "time": {
+        "publish_time": 1.0,
+        "update_time": null
+      },
+      "content": 0.9721362229102167
+    },
+    {
+      "id": "ifeng__01",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 1.0,
+      "authors": 0.0,
+      "time": {
+        "publish_time": 1.0,
+        "update_time": 1.0
+      },
+      "content": 0.8292134831460675
+    },
+    {
+      "id": "ifeng__02",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 1.0,
+      "authors": 0.0,
+      "time": {
+        "publish_time": 1.0,
+        "update_time": 1.0
+      },
+      "content": 0.9427359490986214
+    },
+    {
+      "id": "ifeng__03",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 1.0,
+      "authors": 0.0,
+      "time": {
+        "publish_time": 1.0,
+        "update_time": null
+      },
+      "content": 0.9900662251655629
+    },
+    {
+      "id": "ifeng__04",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 1.0,
+      "authors": 0.0,
+      "time": {
+        "publish_time": 1.0,
+        "update_time": 1.0
+      },
+      "content": 0.7111111111111112
+    },
+    {
+      "id": "ifeng__05",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 1.0,
+      "authors": 0.0,
+      "time": {
+        "publish_time": 1.0,
+        "update_time": 1.0
+      },
+      "content": 0.9424560015819655
+    },
+    {
+      "id": "caixin__01",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": null,
+      "authors": null,
+      "time": {
+        "publish_time": null,
+        "update_time": null
+      },
+      "content": null
+    },
+    {
+      "id": "caixin__02",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": null,
+      "authors": null,
+      "time": {
+        "publish_time": null,
+        "update_time": null
+      },
+      "content": null
+    },
+    {
+      "id": "caixin__03",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": null,
+      "authors": null,
+      "time": {
+        "publish_time": null,
+        "update_time": null
+      },
+      "content": null
+    },
+    {
+      "id": "caixin__04",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": null,
+      "authors": null,
+      "time": {
+        "publish_time": null,
+        "update_time": null
+      },
+      "content": null
+    },
+    {
+      "id": "caixin__05",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": null,
+      "authors": null,
+      "time": {
+        "publish_time": null,
+        "update_time": null
+      },
+      "content": null
+    },
+    {
+      "id": "chinanews__01",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 1.0,
+      "authors": 0.0,
+      "time": {
+        "publish_time": 1.0,
+        "update_time": null
+      },
+      "content": 0.4143222506393862
+    },
+    {
+      "id": "chinanews__02",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 1.0,
+      "authors": 0.0,
+      "time": {
+        "publish_time": 1.0,
+        "update_time": null
+      },
+      "content": 0.4246913580246913
+    },
+    {
+      "id": "chinanews__03",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 1.0,
+      "authors": 0.0,
+      "time": {
+        "publish_time": 1.0,
+        "update_time": null
+      },
+      "content": 0.8062913907284768
+    },
+    {
+      "id": "chinanews__04",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 1.0,
+      "authors": 0.0,
+      "time": {
+        "publish_time": 1.0,
+        "update_time": null
+      },
+      "content": 0.9023912191297531
+    },
+    {
+      "id": "chinanews__05",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 1.0,
+      "authors": 0.0,
+      "time": {
+        "publish_time": 1.0,
+        "update_time": null
+      },
+      "content": 0.5027522935779816
+    },
+    {
+      "id": "chinanews__06",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 1.0,
+      "authors": 0.0,
+      "time": {
+        "publish_time": 1.0,
+        "update_time": null
+      },
+      "content": 0.29185317815577444
+    },
+    {
+      "id": "people__01",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 0.0,
+      "authors": 0.0,
+      "time": {
+        "publish_time": 1.0,
+        "update_time": null
+      },
+      "content": 0.9768955418158152
+    },
+    {
+      "id": "people__02",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 0.0,
+      "authors": 0.0,
+      "time": {
+        "publish_time": 1.0,
+        "update_time": null
+      },
+      "content": 0.783542039355993
+    },
+    {
+      "id": "people__03",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 0.0,
+      "authors": 0.0,
+      "time": {
+        "publish_time": 1.0,
+        "update_time": null
+      },
+      "content": 0.8962536023054756
+    },
+    {
+      "id": "people__04",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 0.0,
+      "authors": 0.0,
+      "time": {
+        "publish_time": 1.0,
+        "update_time": null
+      },
+      "content": 0.861003861003861
+    },
+    {
+      "id": "people__05",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 0.0,
+      "authors": 0.0,
+      "time": {
+        "publish_time": 1.0,
+        "update_time": null
+      },
+      "content": 0.8792007266121707
+    },
+    {
+      "id": "people__06",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 0.0,
+      "authors": 0.0,
+      "time": {
+        "publish_time": 1.0,
+        "update_time": null
+      },
+      "content": 0.894736842105263
+    },
+    {
+      "id": "cnblogs__01",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 1.0,
+      "authors": 1.0,
+      "time": {
+        "publish_time": null,
+        "update_time": null
+      },
+      "content": 0.9608938547486034
+    },
+    {
+      "id": "cnblogs__02",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 1.0,
+      "authors": 1.0,
+      "time": {
+        "publish_time": null,
+        "update_time": null
+      },
+      "content": 0.9892121608368748
+    },
+    {
+      "id": "cnblogs__03",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 0.0,
+      "authors": 1.0,
+      "time": {
+        "publish_time": null,
+        "update_time": null
+      },
+      "content": 0.9904301400221618
+    },
+    {
+      "id": "cnblogs__04",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 0.0,
+      "authors": 1.0,
+      "time": {
+        "publish_time": null,
+        "update_time": null
+      },
+      "content": 0.9866776219261694
+    },
+    {
+      "id": "cnblogs__05",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 1.0,
+      "authors": 1.0,
+      "time": {
+        "publish_time": null,
+        "update_time": null
+      },
+      "content": 0.9508330550298713
+    },
+    {
+      "id": "cnblogs__06",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 1.0,
+      "authors": 1.0,
+      "time": {
+        "publish_time": null,
+        "update_time": null
+      },
+      "content": 0.9812533476164971
+    },
+    {
+      "id": "cnblogs__07",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 0.0,
+      "authors": 1.0,
+      "time": {
+        "publish_time": null,
+        "update_time": null
+      },
+      "content": 0.9966296342529023
+    },
+    {
+      "id": "segmentfault__01",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 1.0,
+      "authors": 1.0,
+      "time": {
+        "publish_time": 1.0,
+        "update_time": null
+      },
+      "content": 0.976503875015377
+    },
+    {
+      "id": "segmentfault__02",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 1.0,
+      "authors": 1.0,
+      "time": {
+        "publish_time": 1.0,
+        "update_time": null
+      },
+      "content": 0.9959527546047741
+    },
+    {
+      "id": "segmentfault__03",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 1.0,
+      "authors": 1.0,
+      "time": {
+        "publish_time": 1.0,
+        "update_time": null
+      },
+      "content": 0.9854664791373652
+    },
+    {
+      "id": "segmentfault__04",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 1.0,
+      "authors": 1.0,
+      "time": {
+        "publish_time": 1.0,
+        "update_time": null
+      },
+      "content": 0.9883798140770252
+    },
+    {
+      "id": "segmentfault__05",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 1.0,
+      "authors": 1.0,
+      "time": {
+        "publish_time": 1.0,
+        "update_time": null
+      },
+      "content": 0.9847351351351351
+    },
+    {
+      "id": "python_docs__01",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 1.0,
+      "authors": null,
+      "time": {
+        "publish_time": null,
+        "update_time": null
+      },
+      "content": 0.9964451736395953
+    },
+    {
+      "id": "python_docs__02",
+      "rejection": {
+        "should": true,
+        "correct": true
+      }
+    },
+    {
+      "id": "python_docs__03",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 1.0,
+      "authors": null,
+      "time": {
+        "publish_time": null,
+        "update_time": null
+      },
+      "content": 0.9806727175654031
+    },
+    {
+      "id": "python_docs__04",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 1.0,
+      "authors": null,
+      "time": {
+        "publish_time": null,
+        "update_time": null
+      },
+      "content": 0.9825861430159318
+    },
+    {
+      "id": "python_docs__05",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 1.0,
+      "authors": null,
+      "time": {
+        "publish_time": null,
+        "update_time": null
+      },
+      "content": 0.9964857067925517
+    },
+    {
+      "id": "github_blog__01",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 1.0,
+      "authors": 1.0,
+      "time": {
+        "publish_time": 1.0,
+        "update_time": 1.0
+      },
+      "content": 0.9715278302243032
+    },
+    {
+      "id": "github_blog__02",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 1.0,
+      "authors": 1.0,
+      "time": {
+        "publish_time": 1.0,
+        "update_time": 1.0
+      },
+      "content": 0.9311094996374184
+    },
+    {
+      "id": "github_blog__03",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 1.0,
+      "authors": 1.0,
+      "time": {
+        "publish_time": 1.0,
+        "update_time": 1.0
+      },
+      "content": 0.8495197438633938
+    },
+    {
+      "id": "github_blog__04",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": 1.0,
+      "authors": 1.0,
+      "time": {
+        "publish_time": 1.0,
+        "update_time": null
+      },
+      "content": 0.8323770491803278
+    }
+  ],
+  "by_dataset": {
+    "dev": {
+      "n_pages": 85,
+      "n_scored": 84,
+      "title": 0.8860759493670886,
+      "authors": 0.5990990990990991,
+      "content": 0.9316931823200758,
+      "title_n": 79,
+      "authors_n": 74,
+      "content_n": 79,
+      "publish_time": 1.0,
+      "publish_time_n": 58,
+      "update_time": 1.0,
+      "update_time_n": 27,
+      "rejection_accuracy": 1.0,
+      "rejection_detail": {
+        "n": 1,
+        "correct": 1,
+        "badcases": []
+      }
+    }
+  },
+  "by_site": {
+    "caixin": {
+      "n_pages": 5,
+      "n_scored": 5,
+      "title": null,
+      "authors": null,
+      "content": null,
+      "title_n": 0,
+      "authors_n": 0,
+      "content_n": 0,
+      "rejection_accuracy": null,
+      "rejection_detail": {
+        "n": 0,
+        "correct": 0,
+        "badcases": []
+      }
+    },
+    "chinadaily": {
+      "n_pages": 10,
+      "n_scored": 10,
+      "title": 1.0,
+      "authors": 0.9,
+      "content": 1.0,
+      "title_n": 10,
+      "authors_n": 10,
+      "content_n": 10,
+      "update_time": 1.0,
+      "update_time_n": 10,
+      "rejection_accuracy": null,
+      "rejection_detail": {
+        "n": 0,
+        "correct": 0,
+        "badcases": []
+      }
+    },
+    "chinanews": {
+      "n_pages": 6,
+      "n_scored": 6,
+      "title": 1.0,
+      "authors": 0.0,
+      "content": 0.5570502817093439,
+      "title_n": 6,
+      "authors_n": 6,
+      "content_n": 6,
+      "publish_time": 1.0,
+      "publish_time_n": 6,
+      "rejection_accuracy": null,
+      "rejection_detail": {
+        "n": 0,
+        "correct": 0,
+        "badcases": []
+      }
+    },
+    "cnblogs": {
+      "n_pages": 7,
+      "n_scored": 7,
+      "title": 0.5714285714285714,
+      "authors": 1.0,
+      "content": 0.9794185449190114,
+      "title_n": 7,
+      "authors_n": 7,
+      "content_n": 7,
+      "rejection_accuracy": null,
+      "rejection_detail": {
+        "n": 0,
+        "correct": 0,
+        "badcases": []
+      }
+    },
+    "github_blog": {
+      "n_pages": 4,
+      "n_scored": 4,
+      "title": 1.0,
+      "authors": 1.0,
+      "content": 0.8961335307263608,
+      "title_n": 4,
+      "authors_n": 4,
+      "content_n": 4,
+      "publish_time": 1.0,
+      "publish_time_n": 4,
+      "update_time": 1.0,
+      "update_time_n": 3,
+      "rejection_accuracy": null,
+      "rejection_detail": {
+        "n": 0,
+        "correct": 0,
+        "badcases": []
+      }
+    },
+    "gov_cn": {
+      "n_pages": 10,
+      "n_scored": 10,
+      "title": 1.0,
+      "authors": 1.0,
+      "content": 1.0,
+      "title_n": 10,
+      "authors_n": 10,
+      "content_n": 10,
+      "publish_time": 1.0,
+      "publish_time_n": 10,
+      "update_time": 1.0,
+      "update_time_n": 10,
+      "rejection_accuracy": null,
+      "rejection_detail": {
+        "n": 0,
+        "correct": 0,
+        "badcases": []
+      }
+    },
+    "ifeng": {
+      "n_pages": 5,
+      "n_scored": 5,
+      "title": 1.0,
+      "authors": 0.0,
+      "content": 0.8831165540206657,
+      "title_n": 5,
+      "authors_n": 5,
+      "content_n": 5,
+      "publish_time": 1.0,
+      "publish_time_n": 5,
+      "update_time": 1.0,
+      "update_time_n": 4,
+      "rejection_accuracy": null,
+      "rejection_detail": {
+        "n": 0,
+        "correct": 0,
+        "badcases": []
+      }
+    },
+    "news_cn": {
+      "n_pages": 10,
+      "n_scored": 10,
+      "title": 1.0,
+      "authors": 0.9333333333333333,
+      "content": 0.9886924127738677,
+      "title_n": 10,
+      "authors_n": 10,
+      "content_n": 10,
+      "publish_time": 1.0,
+      "publish_time_n": 10,
+      "rejection_accuracy": null,
+      "rejection_detail": {
+        "n": 0,
+        "correct": 0,
+        "badcases": []
+      }
+    },
+    "people": {
+      "n_pages": 6,
+      "n_scored": 6,
+      "title": 0.0,
+      "authors": 0.0,
+      "content": 0.8819387688664296,
+      "title_n": 6,
+      "authors_n": 6,
+      "content_n": 6,
+      "publish_time": 1.0,
+      "publish_time_n": 6,
+      "rejection_accuracy": null,
+      "rejection_detail": {
+        "n": 0,
+        "correct": 0,
+        "badcases": []
+      }
+    },
+    "python_docs": {
+      "n_pages": 5,
+      "n_scored": 4,
+      "title": 1.0,
+      "authors": null,
+      "content": 0.9890474352533705,
+      "title_n": 4,
+      "authors_n": 0,
+      "content_n": 4,
+      "rejection_accuracy": 1.0,
+      "rejection_detail": {
+        "n": 1,
+        "correct": 1,
+        "badcases": []
+      }
+    },
+    "segmentfault": {
+      "n_pages": 5,
+      "n_scored": 5,
+      "title": 1.0,
+      "authors": 1.0,
+      "content": 0.9862076115939352,
+      "title_n": 5,
+      "authors_n": 5,
+      "content_n": 5,
+      "publish_time": 1.0,
+      "publish_time_n": 5,
+      "rejection_accuracy": null,
+      "rejection_detail": {
+        "n": 0,
+        "correct": 0,
+        "badcases": []
+      }
+    },
+    "sina": {
+      "n_pages": 6,
+      "n_scored": 6,
+      "title": 1.0,
+      "authors": 0.0,
+      "content": 0.921723386259536,
+      "title_n": 6,
+      "authors_n": 6,
+      "content_n": 6,
+      "publish_time": 1.0,
+      "publish_time_n": 6,
+      "rejection_accuracy": null,
+      "rejection_detail": {
+        "n": 0,
+        "correct": 0,
+        "badcases": []
+      }
+    },
+    "sohu": {
+      "n_pages": 6,
+      "n_scored": 6,
+      "title": 1.0,
+      "authors": 0.0,
+      "content": 0.9682146913517399,
+      "title_n": 6,
+      "authors_n": 5,
+      "content_n": 6,
+      "publish_time": 1.0,
+      "publish_time_n": 6,
+      "rejection_accuracy": null,
+      "rejection_detail": {
+        "n": 0,
+        "correct": 0,
+        "badcases": []
+      }
+    }
+  },
+  "by_route": {
+    "fixed": {
+      "n_pages": 30,
+      "n_scored": 30,
+      "title": 1.0,
+      "authors": 0.9444444444444444,
+      "content": 0.9962308042579558,
+      "title_n": 30,
+      "authors_n": 30,
+      "content_n": 30,
+      "publish_time": 1.0,
+      "publish_time_n": 20,
+      "update_time": 1.0,
+      "update_time_n": 20,
+      "rejection_accuracy": null,
+      "rejection_detail": {
+        "n": 0,
+        "correct": 0,
+        "badcases": []
+      }
+    },
+    "generic": {
+      "n_pages": 55,
+      "n_scored": 54,
+      "title": 0.8163265306122449,
+      "authors": 0.36363636363636365,
+      "content": 0.8921803525621899,
+      "title_n": 49,
+      "authors_n": 44,
+      "content_n": 49,
+      "publish_time": 1.0,
+      "publish_time_n": 38,
+      "update_time": 1.0,
+      "update_time_n": 7,
+      "rejection_accuracy": 1.0,
+      "rejection_detail": {
+        "n": 1,
+        "correct": 1,
+        "badcases": []
+      }
+    }
+  },
+  "by_content_structure": {
+    "list_page": {
+      "n_pages": 1,
+      "n_scored": 0,
+      "title": null,
+      "authors": null,
+      "content": null,
+      "title_n": 0,
+      "authors_n": 0,
+      "content_n": 0,
+      "rejection_accuracy": 1.0,
+      "rejection_detail": {
+        "n": 1,
+        "correct": 1,
+        "badcases": []
+      }
+    },
+    "single": {
+      "n_pages": 84,
+      "n_scored": 84,
+      "title": 0.8860759493670886,
+      "authors": 0.5990990990990991,
+      "content": 0.9316931823200758,
+      "title_n": 79,
+      "authors_n": 74,
+      "content_n": 79,
+      "publish_time": 1.0,
+      "publish_time_n": 58,
+      "update_time": 1.0,
+      "update_time_n": 27,
+      "rejection_accuracy": null,
+      "rejection_detail": {
+        "n": 0,
+        "correct": 0,
+        "badcases": []
+      }
+    }
+  }
+}

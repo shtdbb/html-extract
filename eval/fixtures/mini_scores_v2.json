@@ -1,0 +1,676 @@
+{
+  "version": "v2",
+  "spec": "eval_spec_v2.md（冻结）",
+  "n_pages": 3,
+  "pred_parse_errors": [],
+  "time_fields": [
+    "publish_time",
+    "update_time"
+  ],
+  "overall": {
+    "n_pages": 3,
+    "n_scored": 2,
+    "title_exact": 0.5,
+    "title_sim": 0.8333333333333333,
+    "title_detail": {
+      "n": 2,
+      "correct_empty": 0,
+      "false_fill": 0,
+      "miss": 0
+    },
+    "authors_f1": 0.8333333333333333,
+    "authors_false_fill_rate": null,
+    "authors_miss_rate": 0.0,
+    "authors_detail": {
+      "n": 2,
+      "correct_empty": 0,
+      "false_fill": 0,
+      "miss": 0,
+      "gold_empty_pages": 0,
+      "gold_present_pages": 2
+    },
+    "time": {
+      "publish_time": {
+        "score": 1.0,
+        "n": 2,
+        "confusion": 0,
+        "correct_empty": 0,
+        "false_fill": 0,
+        "miss": 0,
+        "gold_all_xx": 0,
+        "tz": {
+          "match": 1,
+          "missing": 0,
+          "mismatch": 0,
+          "gold_absent": 1
+        },
+        "false_fill_rate": null
+      },
+      "update_time": {
+        "score": 1.0,
+        "n": 1,
+        "confusion": 0,
+        "correct_empty": 1,
+        "false_fill": 0,
+        "miss": 0,
+        "gold_all_xx": 0,
+        "tz": {
+          "match": 1,
+          "missing": 0,
+          "mismatch": 0,
+          "gold_absent": 0
+        },
+        "false_fill_rate": 0.0
+      }
+    },
+    "publish_time_score": 1.0,
+    "update_time_score": 1.0,
+    "content_f1": 0.75,
+    "lcs_f1": 0.8333333333333333,
+    "dup_ratio": 0.0,
+    "num_f1": 1.0,
+    "para_ratio": 1.0,
+    "content_detail": {
+      "n": 2,
+      "correct_empty": 0,
+      "false_fill": 0,
+      "miss": 0
+    },
+    "rejection_accuracy": 1.0,
+    "rejection_detail": {
+      "n": 1,
+      "correct": 1,
+      "badcases": []
+    }
+  },
+  "by_dataset": {
+    "dev": {
+      "n_pages": 3,
+      "n_scored": 2,
+      "title_exact": 0.5,
+      "title_sim": 0.8333333333333333,
+      "title_detail": {
+        "n": 2,
+        "correct_empty": 0,
+        "false_fill": 0,
+        "miss": 0
+      },
+      "authors_f1": 0.8333333333333333,
+      "authors_false_fill_rate": null,
+      "authors_miss_rate": 0.0,
+      "authors_detail": {
+        "n": 2,
+        "correct_empty": 0,
+        "false_fill": 0,
+        "miss": 0,
+        "gold_empty_pages": 0,
+        "gold_present_pages": 2
+      },
+      "time": {
+        "publish_time": {
+          "score": 1.0,
+          "n": 2,
+          "confusion": 0,
+          "correct_empty": 0,
+          "false_fill": 0,
+          "miss": 0,
+          "gold_all_xx": 0,
+          "tz": {
+            "match": 1,
+            "missing": 0,
+            "mismatch": 0,
+            "gold_absent": 1
+          },
+          "false_fill_rate": null
+        },
+        "update_time": {
+          "score": 1.0,
+          "n": 1,
+          "confusion": 0,
+          "correct_empty": 1,
+          "false_fill": 0,
+          "miss": 0,
+          "gold_all_xx": 0,
+          "tz": {
+            "match": 1,
+            "missing": 0,
+            "mismatch": 0,
+            "gold_absent": 0
+          },
+          "false_fill_rate": 0.0
+        }
+      },
+      "publish_time_score": 1.0,
+      "update_time_score": 1.0,
+      "content_f1": 0.75,
+      "lcs_f1": 0.8333333333333333,
+      "dup_ratio": 0.0,
+      "num_f1": 1.0,
+      "para_ratio": 1.0,
+      "content_detail": {
+        "n": 2,
+        "correct_empty": 0,
+        "false_fill": 0,
+        "miss": 0
+      },
+      "rejection_accuracy": 1.0,
+      "rejection_detail": {
+        "n": 1,
+        "correct": 1,
+        "badcases": []
+      }
+    }
+  },
+  "by_site": {
+    "example_com": {
+      "n_pages": 2,
+      "n_scored": 1,
+      "title_exact": 0.0,
+      "title_sim": 0.6666666666666666,
+      "title_detail": {
+        "n": 1,
+        "correct_empty": 0,
+        "false_fill": 0,
+        "miss": 0
+      },
+      "authors_f1": 0.6666666666666666,
+      "authors_false_fill_rate": null,
+      "authors_miss_rate": 0.0,
+      "authors_detail": {
+        "n": 1,
+        "correct_empty": 0,
+        "false_fill": 0,
+        "miss": 0,
+        "gold_empty_pages": 0,
+        "gold_present_pages": 1
+      },
+      "time": {
+        "publish_time": {
+          "score": 1.0,
+          "n": 1,
+          "confusion": 0,
+          "correct_empty": 0,
+          "false_fill": 0,
+          "miss": 0,
+          "gold_all_xx": 0,
+          "tz": {
+            "match": 0,
+            "missing": 0,
+            "mismatch": 0,
+            "gold_absent": 1
+          },
+          "false_fill_rate": null
+        },
+        "update_time": {
+          "score": null,
+          "n": 0,
+          "confusion": 0,
+          "correct_empty": 1,
+          "false_fill": 0,
+          "miss": 0,
+          "gold_all_xx": 0,
+          "tz": {
+            "match": 0,
+            "missing": 0,
+            "mismatch": 0,
+            "gold_absent": 0
+          },
+          "false_fill_rate": 0.0
+        }
+      },
+      "publish_time_score": 1.0,
+      "update_time_score": null,
+      "content_f1": 0.5,
+      "lcs_f1": 0.6666666666666666,
+      "dup_ratio": 0.0,
+      "num_f1": null,
+      "para_ratio": 1.0,
+      "content_detail": {
+        "n": 1,
+        "correct_empty": 0,
+        "false_fill": 0,
+        "miss": 0
+      },
+      "rejection_accuracy": 1.0,
+      "rejection_detail": {
+        "n": 1,
+        "correct": 1,
+        "badcases": []
+      }
+    },
+    "news_cn": {
+      "n_pages": 1,
+      "n_scored": 1,
+      "title_exact": 1.0,
+      "title_sim": 1.0,
+      "title_detail": {
+        "n": 1,
+        "correct_empty": 0,
+        "false_fill": 0,
+        "miss": 0
+      },
+      "authors_f1": 1.0,
+      "authors_false_fill_rate": null,
+      "authors_miss_rate": 0.0,
+      "authors_detail": {
+        "n": 1,
+        "correct_empty": 0,
+        "false_fill": 0,
+        "miss": 0,
+        "gold_empty_pages": 0,
+        "gold_present_pages": 1
+      },
+      "time": {
+        "publish_time": {
+          "score": 1.0,
+          "n": 1,
+          "confusion": 0,
+          "correct_empty": 0,
+          "false_fill": 0,
+          "miss": 0,
+          "gold_all_xx": 0,
+          "tz": {
+            "match": 1,
+            "missing": 0,
+            "mismatch": 0,
+            "gold_absent": 0
+          },
+          "false_fill_rate": null
+        },
+        "update_time": {
+          "score": 1.0,
+          "n": 1,
+          "confusion": 0,
+          "correct_empty": 0,
+          "false_fill": 0,
+          "miss": 0,
+          "gold_all_xx": 0,
+          "tz": {
+            "match": 1,
+            "missing": 0,
+            "mismatch": 0,
+            "gold_absent": 0
+          },
+          "false_fill_rate": null
+        }
+      },
+      "publish_time_score": 1.0,
+      "update_time_score": 1.0,
+      "content_f1": 1.0,
+      "lcs_f1": 1.0,
+      "dup_ratio": 0.0,
+      "num_f1": 1.0,
+      "para_ratio": 1.0,
+      "content_detail": {
+        "n": 1,
+        "correct_empty": 0,
+        "false_fill": 0,
+        "miss": 0
+      },
+      "rejection_accuracy": null,
+      "rejection_detail": {
+        "n": 0,
+        "correct": 0,
+        "badcases": []
+      }
+    }
+  },
+  "by_route": {
+    "fixed": {
+      "n_pages": 1,
+      "n_scored": 1,
+      "title_exact": 1.0,
+      "title_sim": 1.0,
+      "title_detail": {
+        "n": 1,
+        "correct_empty": 0,
+        "false_fill": 0,
+        "miss": 0
+      },
+      "authors_f1": 1.0,
+      "authors_false_fill_rate": null,
+      "authors_miss_rate": 0.0,
+      "authors_detail": {
+        "n": 1,
+        "correct_empty": 0,
+        "false_fill": 0,
+        "miss": 0,
+        "gold_empty_pages": 0,
+        "gold_present_pages": 1
+      },
+      "time": {
+        "publish_time": {
+          "score": 1.0,
+          "n": 1,
+          "confusion": 0,
+          "correct_empty": 0,
+          "false_fill": 0,
+          "miss": 0,
+          "gold_all_xx": 0,
+          "tz": {
+            "match": 1,
+            "missing": 0,
+            "mismatch": 0,
+            "gold_absent": 0
+          },
+          "false_fill_rate": null
+        },
+        "update_time": {
+          "score": 1.0,
+          "n": 1,
+          "confusion": 0,
+          "correct_empty": 0,
+          "false_fill": 0,
+          "miss": 0,
+          "gold_all_xx": 0,
+          "tz": {
+            "match": 1,
+            "missing": 0,
+            "mismatch": 0,
+            "gold_absent": 0
+          },
+          "false_fill_rate": null
+        }
+      },
+      "publish_time_score": 1.0,
+      "update_time_score": 1.0,
+      "content_f1": 1.0,
+      "lcs_f1": 1.0,
+      "dup_ratio": 0.0,
+      "num_f1": 1.0,
+      "para_ratio": 1.0,
+      "content_detail": {
+        "n": 1,
+        "correct_empty": 0,
+        "false_fill": 0,
+        "miss": 0
+      },
+      "rejection_accuracy": null,
+      "rejection_detail": {
+        "n": 0,
+        "correct": 0,
+        "badcases": []
+      }
+    },
+    "generic": {
+      "n_pages": 2,
+      "n_scored": 1,
+      "title_exact": 0.0,
+      "title_sim": 0.6666666666666666,
+      "title_detail": {
+        "n": 1,
+        "correct_empty": 0,
+        "false_fill": 0,
+        "miss": 0
+      },
+      "authors_f1": 0.6666666666666666,
+      "authors_false_fill_rate": null,
+      "authors_miss_rate": 0.0,
+      "authors_detail": {
+        "n": 1,
+        "correct_empty": 0,
+        "false_fill": 0,
+        "miss": 0,
+        "gold_empty_pages": 0,
+        "gold_present_pages": 1
+      },
+      "time": {
+        "publish_time": {
+          "score": 1.0,
+          "n": 1,
+          "confusion": 0,
+          "correct_empty": 0,
+          "false_fill": 0,
+          "miss": 0,
+          "gold_all_xx": 0,
+          "tz": {
+            "match": 0,
+            "missing": 0,
+            "mismatch": 0,
+            "gold_absent": 1
+          },
+          "false_fill_rate": null
+        },
+        "update_time": {
+          "score": null,
+          "n": 0,
+          "confusion": 0,
+          "correct_empty": 1,
+          "false_fill": 0,
+          "miss": 0,
+          "gold_all_xx": 0,
+          "tz": {
+            "match": 0,
+            "missing": 0,
+            "mismatch": 0,
+            "gold_absent": 0
+          },
+          "false_fill_rate": 0.0
+        }
+      },
+      "publish_time_score": 1.0,
+      "update_time_score": null,
+      "content_f1": 0.5,
+      "lcs_f1": 0.6666666666666666,
+      "dup_ratio": 0.0,
+      "num_f1": null,
+      "para_ratio": 1.0,
+      "content_detail": {
+        "n": 1,
+        "correct_empty": 0,
+        "false_fill": 0,
+        "miss": 0
+      },
+      "rejection_accuracy": 1.0,
+      "rejection_detail": {
+        "n": 1,
+        "correct": 1,
+        "badcases": []
+      }
+    }
+  },
+  "by_content_structure": {
+    "list_page": {
+      "n_pages": 1,
+      "n_scored": 0,
+      "title_exact": null,
+      "title_sim": null,
+      "title_detail": {
+        "n": 0,
+        "correct_empty": 0,
+        "false_fill": 0,
+        "miss": 0
+      },
+      "authors_f1": null,
+      "authors_false_fill_rate": null,
+      "authors_miss_rate": null,
+      "authors_detail": {
+        "n": 0,
+        "correct_empty": 0,
+        "false_fill": 0,
+        "miss": 0,
+        "gold_empty_pages": 0,
+        "gold_present_pages": 0
+      },
+      "time": {},
+      "content_f1": null,
+      "lcs_f1": null,
+      "dup_ratio": null,
+      "num_f1": null,
+      "para_ratio": null,
+      "content_detail": {
+        "n": 0,
+        "correct_empty": 0,
+        "false_fill": 0,
+        "miss": 0
+      },
+      "rejection_accuracy": 1.0,
+      "rejection_detail": {
+        "n": 1,
+        "correct": 1,
+        "badcases": []
+      }
+    },
+    "single": {
+      "n_pages": 2,
+      "n_scored": 2,
+      "title_exact": 0.5,
+      "title_sim": 0.8333333333333333,
+      "title_detail": {
+        "n": 2,
+        "correct_empty": 0,
+        "false_fill": 0,
+        "miss": 0
+      },
+      "authors_f1": 0.8333333333333333,
+      "authors_false_fill_rate": null,
+      "authors_miss_rate": 0.0,
+      "authors_detail": {
+        "n": 2,
+        "correct_empty": 0,
+        "false_fill": 0,
+        "miss": 0,
+        "gold_empty_pages": 0,
+        "gold_present_pages": 2
+      },
+      "time": {
+        "publish_time": {
+          "score": 1.0,
+          "n": 2,
+          "confusion": 0,
+          "correct_empty": 0,
+          "false_fill": 0,
+          "miss": 0,
+          "gold_all_xx": 0,
+          "tz": {
+            "match": 1,
+            "missing": 0,
+            "mismatch": 0,
+            "gold_absent": 1
+          },
+          "false_fill_rate": null
+        },
+        "update_time": {
+          "score": 1.0,
+          "n": 1,
+          "confusion": 0,
+          "correct_empty": 1,
+          "false_fill": 0,
+          "miss": 0,
+          "gold_all_xx": 0,
+          "tz": {
+            "match": 1,
+            "missing": 0,
+            "mismatch": 0,
+            "gold_absent": 0
+          },
+          "false_fill_rate": 0.0
+        }
+      },
+      "publish_time_score": 1.0,
+      "update_time_score": 1.0,
+      "content_f1": 0.75,
+      "lcs_f1": 0.8333333333333333,
+      "dup_ratio": 0.0,
+      "num_f1": 1.0,
+      "para_ratio": 1.0,
+      "content_detail": {
+        "n": 2,
+        "correct_empty": 0,
+        "false_fill": 0,
+        "miss": 0
+      },
+      "rejection_accuracy": null,
+      "rejection_detail": {
+        "n": 0,
+        "correct": 0,
+        "badcases": []
+      }
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": {
+        "score": 1.0,
+        "sim": 1.0,
+        "tag": "ok"
+      },
+      "authors": {
+        "score": 1.0,
+        "tag": "ok"
+      },
+      "time": {
+        "publish_time": {
+          "score": 1.0,
+          "tag": "ok",
+          "confusion": false,
+          "tz": "match"
+        },
+        "update_time": {
+          "score": 1.0,
+          "tag": "ok",
+          "confusion": false,
+          "tz": "match"
+        }
+      },
+      "content": {
+        "score": 1.0,
+        "tag": "ok",
+        "lcs_f1": 1.0,
+        "dup_ratio": 0.0,
+        "num_f1": 1.0,
+        "para_ratio": 1.0
+      }
+    },
+    {
+      "id": "p2",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": {
+        "score": 0.0,
+        "sim": 0.6666666666666666,
+        "tag": "ok"
+      },
+      "authors": {
+        "score": 0.6666666666666666,
+        "tag": "ok"
+      },
+      "time": {
+        "publish_time": {
+          "score": 1.0,
+          "tag": "ok",
+          "confusion": false,
+          "tz": "gold_absent"
+        },
+        "update_time": {
+          "score": null,
+          "tag": "correct_empty",
+          "confusion": false,
+          "tz": null
+        }
+      },
+      "content": {
+        "score": 0.5,
+        "tag": "ok",
+        "lcs_f1": 0.6666666666666666,
+        "dup_ratio": 0.0,
+        "num_f1": null,
+        "para_ratio": 1.0
+      }
+    },
+    {
+      "id": "p3",
+      "rejection": {
+        "should": true,
+        "correct": true
+      }
+    }
+  ]
+}

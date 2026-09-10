@@ -1,0 +1,342 @@
+{
+  "runs": [
+    {
+      "group": "fixed",
+      "site": "news_cn",
+      "ran_at": "2026-09-10T16:25:22+00:00",
+      "target": 10,
+      "saved": 10,
+      "failed": 0
+    },
+    {
+      "group": "fixed",
+      "site": "chinadaily",
+      "ran_at": "2026-09-10T16:25:22+00:00",
+      "target": 10,
+      "saved": 10,
+      "failed": 0
+    },
+    {
+      "group": "fixed",
+      "site": "gov_cn",
+      "ran_at": "2026-09-10T16:25:22+00:00",
+      "target": 10,
+      "saved": 10,
+      "failed": 0
+    },
+    {
+      "group": "negative",
+      "site": "people_list",
+      "ran_at": "2026-09-10T16:25:26+00:00",
+      "target": 1,
+      "saved": 1,
+      "failed": 0
+    },
+    {
+      "group": "negative",
+      "site": "sohu_list",
+      "ran_at": "2026-09-10T16:25:26+00:00",
+      "target": 1,
+      "saved": 1,
+      "failed": 0
+    },
+    {
+      "group": "negative",
+      "site": "sina_list",
+      "ran_at": "2026-09-10T16:25:26+00:00",
+      "target": 1,
+      "saved": 1,
+      "failed": 0
+    },
+    {
+      "group": "negative",
+      "site": "chinanews_list",
+      "ran_at": "2026-09-10T16:25:26+00:00",
+      "target": 1,
+      "saved": 1,
+      "failed": 0
+    },
+    {
+      "group": "generic",
+      "site": "sina",
+      "ran_at": "2026-09-10T16:26:14+00:00",
+      "target": 6,
+      "saved": 6,
+      "failed": 0
+    },
+    {
+      "group": "generic",
+      "site": "sohu",
+      "ran_at": "2026-09-10T16:26:14+00:00",
+      "target": 6,
+      "saved": 6,
+      "failed": 0
+    },
+    {
+      "group": "generic",
+      "site": "ifeng",
+      "ran_at": "2026-09-10T16:26:14+00:00",
+      "target": 5,
+      "saved": 5,
+      "failed": 4
+    },
+    {
+      "group": "generic",
+      "site": "caixin",
+      "ran_at": "2026-09-10T16:26:14+00:00",
+      "target": 5,
+      "saved": 5,
+      "failed": 0
+    },
+    {
+      "group": "generic",
+      "site": "chinanews",
+      "ran_at": "2026-09-10T16:26:14+00:00",
+      "target": 6,
+      "saved": 6,
+      "failed": 0
+    },
+    {
+      "group": "generic",
+      "site": "people",
+      "ran_at": "2026-09-10T16:27:01+00:00",
+      "target": 6,
+      "saved": 6,
+      "failed": 1
+    },
+    {
+      "group": "generic",
+      "site": "cnblogs",
+      "ran_at": "2026-09-10T16:27:01+00:00",
+      "target": 7,
+      "saved": 7,
+      "failed": 0
+    },
+    {
+      "group": "generic",
+      "site": "segmentfault",
+      "ran_at": "2026-09-10T16:27:01+00:00",
+      "target": 5,
+      "saved": 5,
+      "failed": 0
+    },
+    {
+      "group": "generic",
+      "site": "python_docs",
+      "ran_at": "2026-09-10T16:27:01+00:00",
+      "target": 5,
+      "saved": 5,
+      "failed": 0
+    },
+    {
+      "group": "generic",
+      "site": "github_blog",
+      "ran_at": "2026-09-10T16:27:01+00:00",
+      "target": 4,
+      "saved": 4,
+      "failed": 0
+    },
+    {
+      "group": "test",
+      "site": "gmw",
+      "ran_at": "2026-09-10T16:27:20+00:00",
+      "target": 4,
+      "saved": 4,
+      "failed": 0
+    },
+    {
+      "group": "test",
+      "site": "stdaily",
+      "ran_at": "2026-09-10T16:27:20+00:00",
+      "target": 3,
+      "saved": 3,
+      "failed": 1
+    },
+    {
+      "group": "test",
+      "site": "en_people",
+      "ran_at": "2026-09-10T16:27:20+00:00",
+      "target": 4,
+      "saved": 4,
+      "failed": 0
+    },
+    {
+      "group": "test",
+      "site": "oschina",
+      "ran_at": "2026-09-10T16:28:12+00:00",
+      "target": 3,
+      "saved": 0,
+      "failed": 13
+    },
+    {
+      "group": "test",
+      "site": "csdn",
+      "ran_at": "2026-09-10T16:28:12+00:00",
+      "target": 5,
+      "saved": 5,
+      "failed": 0
+    },
+    {
+      "group": "test",
+      "site": "devto",
+      "ran_at": "2026-09-10T16:28:12+00:00",
+      "target": 2,
+      "saved": 2,
+      "failed": 0
+    },
+    {
+      "group": "test",
+      "site": "mdn",
+      "ran_at": "2026-09-10T16:28:12+00:00",
+      "target": 3,
+      "saved": 3,
+      "failed": 0
+    },
+    {
+      "group": "test",
+      "site": "mslearn",
+      "ran_at": "2026-09-10T16:28:12+00:00",
+      "target": 3,
+      "saved": 3,
+      "failed": 0
+    },
+    {
+      "group": "test",
+      "site": "netease",
+      "ran_at": "2026-09-10T16:33:37+00:00",
+      "target": 4,
+      "saved": 4,
+      "failed": 0
+    },
+    {
+      "group": "test",
+      "site": "51cto",
+      "ran_at": "2026-09-10T16:35:27+00:00",
+      "target": 2,
+      "saved": 0,
+      "failed": 1
+    }
+  ],
+  "failures": [
+    {
+      "group": "generic",
+      "site": "ifeng",
+      "url": "https://gentie.ifeng.com/view.html?docUrl=ucms_8wJVOS2esyy&docName=冰岛准备永久停止捕鲸，压力给到挪威和日本&skey=d8188f&pcUrl=https://news.ifeng.com/c/8wJVOS2esyy",
+      "reason": "ValueError:empty_shell_suspected:visible_text=39"
+    },
+    {
+      "group": "generic",
+      "site": "ifeng",
+      "url": "https://gentie.ifeng.com/view.html?docUrl=ucms_8wJZYLKbvIH&docName=女子被毒蛇咬伤身亡，养蛇场负责人：无法证明蛇来自我这儿，最多补偿2万元&skey=cbf785&pcUrl=https://news.ifeng.com/c/8wJZYLKbvIH",
+      "reason": "ValueError:empty_shell_suspected:visible_text=39"
+    },
+    {
+      "group": "generic",
+      "site": "ifeng",
+      "url": "https://gentie.ifeng.com/view.html?docUrl=ucms_8vkUL3aoVho&docName=平安半年报超预期！净利润大增36%&skey=dde3e5&pcUrl=https://news.ifeng.com/c/8vkUL3aoVho",
+      "reason": "ValueError:empty_shell_suspected:visible_text=39"
+    },
+    {
+      "group": "generic",
+      "site": "ifeng",
+      "url": "https://gentie.ifeng.com/view.html?docUrl=ucms_8wJZw7qn5d4&docName=尼泊尔泥石流灾害已致1382人遇难&skey=96bf82&pcUrl=https://news.ifeng.com/c/8wJZw7qn5d4",
+      "reason": "ValueError:empty_shell_suspected:visible_text=39"
+    },
+    {
+      "group": "generic",
+      "site": "people",
+      "url": "http://politics.people.com.cn/",
+      "reason": "seed_fetch:HTTPError:403 Client Error: Forbidden for url: http://politics.people.com.cn/"
+    },
+    {
+      "group": "test",
+      "site": "stdaily",
+      "url": "https://www.stdaily.com/index/kejixinwen/",
+      "reason": "seed_fetch:HTTPError:404 Client Error: Not Found for url: https://www.stdaily.com/index/kejixinwen/"
+    },
+    {
+      "group": "test",
+      "site": "oschina",
+      "url": "https://www.oschina.net/news/502409",
+      "reason": "ValueError:empty_shell_suspected:visible_text=27"
+    },
+    {
+      "group": "test",
+      "site": "oschina",
+      "url": "https://www.oschina.net/news/502408",
+      "reason": "ValueError:empty_shell_suspected:visible_text=27"
+    },
+    {
+      "group": "test",
+      "site": "oschina",
+      "url": "https://www.oschina.net/news/502405/deepseek-v4-1-flash-ga",
+      "reason": "ValueError:empty_shell_suspected:visible_text=27"
+    },
+    {
+      "group": "test",
+      "site": "oschina",
+      "url": "https://www.oschina.net/news/502404/tailwind-is-joining-shopify",
+      "reason": "ValueError:empty_shell_suspected:visible_text=27"
+    },
+    {
+      "group": "test",
+      "site": "oschina",
+      "url": "https://www.oschina.net/news/502402",
+      "reason": "ValueError:empty_shell_suspected:visible_text=27"
+    },
+    {
+      "group": "test",
+      "site": "oschina",
+      "url": "https://www.oschina.net/news/502401/gpt-6-astra-looped-transformers-and",
+      "reason": "ValueError:empty_shell_suspected:visible_text=27"
+    },
+    {
+      "group": "test",
+      "site": "oschina",
+      "url": "https://www.oschina.net/news/502400",
+      "reason": "ValueError:empty_shell_suspected:visible_text=27"
+    },
+    {
+      "group": "test",
+      "site": "oschina",
+      "url": "https://www.oschina.net/news/502399",
+      "reason": "ValueError:empty_shell_suspected:visible_text=27"
+    },
+    {
+      "group": "test",
+      "site": "oschina",
+      "url": "https://www.oschina.net/news/502398",
+      "reason": "ValueError:empty_shell_suspected:visible_text=27"
+    },
+    {
+      "group": "test",
+      "site": "oschina",
+      "url": "https://www.oschina.net/news/502395",
+      "reason": "ValueError:empty_shell_suspected:visible_text=27"
+    },
+    {
+      "group": "test",
+      "site": "oschina",
+      "url": "https://www.oschina.net/news/502394",
+      "reason": "ValueError:empty_shell_suspected:visible_text=27"
+    },
+    {
+      "group": "test",
+      "site": "oschina",
+      "url": "https://www.oschina.net/news/502393/openai-chatgpt-images-2-5",
+      "reason": "ValueError:empty_shell_suspected:visible_text=27"
+    },
+    {
+      "group": "test",
+      "site": "oschina",
+      "url": "https://www.oschina.net/news/502392/meta-ai-muse",
+      "reason": "ValueError:empty_shell_suspected:visible_text=27"
+    },
+    {
+      "group": "test",
+      "site": "51cto",
+      "url": "https://www.51cto.com/|https://blog.51cto.com/",
+      "reason": "no_article_links_extracted:种子页可访问但提取到0个文章链接(JS壳或模式不匹配)"
+    }
+  ]
+}

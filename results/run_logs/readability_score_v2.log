@@ -1,0 +1,5 @@
+页数 85（参评字段评分 84，应拒识 1）
+title_exact=0.023809523809523808  authors_f1=0.2  content_f1=0.7778332288950887  rejection=0.0
+publish_time=0.0  confusion=0  tz={'match': 0, 'missing': 58, 'mismatch': 0, 'gold_absent': 0}
+update_time=0.0  confusion=0  tz={'match': 0, 'missing': 27, 'mismatch': 0, 'gold_absent': 0}
+已写出 results/readability_scores_v2.json

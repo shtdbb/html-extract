@@ -1,0 +1,21 @@
+=== 拒识页（gold 全是文章页→全字段 miss）: 16
+Counter({('list_page', 'ok'): 16})
+=== title: 精确匹配失败中 包含关系(后缀/截断类)= 22  完全错位= 20
+v2 title detail: {'n': 160, 'correct_empty': 0, 'false_fill': 0, 'miss': 16} title_sim: 0.793
+=== authors v2 detail: {'n': 94, 'correct_empty': 66, 'false_fill': 35, 'miss': 19, 'gold_empty_pages': 101, 'gold_present_pages': 59} false_fill_rate: 0.3465346534653465
+false_fill 页数: 35 示例: [('ispras__abs-cbn_com__aeabdaeb', ['RG Cruz']), ('ispras__abs-cbn_com__f26cc53c', ['ABS-CBN News']), ('ispras__admin_ch__a424a770', ['The Federal Council']), ('ispras__admin_ch__e8385637', ['The Federal Council']), ('ispras__newsday_co_zw__e435d388', ['Tafadzwa Kachiko'])]
+=== publish_time v2: {'score': 0.2922077922077922, 'n': 154, 'miss': 75, 'false_fill': 10, 'correct_empty': 6}
+publish ok-但-不等 页数: 24
+其中天粒度相等(只差时分秒): 13
+   ('ispras__abs-cbn_com__aeabdaeb', '2024-07-15 10:46:06', '2024-07-15 18:46:XX')
+   ('ispras__abs-cbn_com__f26cc53c', '2024-07-15 15:39:50', '2024-07-15 23:39:XX')
+   ('ispras__newzimbabwe_com__5b649c60', '2023-08-31 23:00:14', '2023-09-01 XX:XX:XX')
+   ('ispras__bbc_co_uk__5000ec0a', '2011-06-10 15:06:01', 'XXXX-02-13 XX:XX:XX')
+   ('ispras__bbc_co_uk__d686d4c6', '2017-12-22 08:25:10', '2023-11-17 XX:XX:XX')
+   ('ispras__bworldonline_com__441e44fb', '2024-07-16 16:05:56', '2024-07-17 00:05:XX')
+   ('ispras__bworldonline_com__6d8745e7', '2024-07-16 12:16:18', '2024-07-16 20:16:XX')
+   ('ispras__citizen_digital__f3dceeb9', '2024-05-15 19:42:10', '2024-05-15 07:42:XX')
+=== content 最差 8 页: [(0.04, 'ispras__chathamhouse_org__adfdbe4a'), (0.06, 'ispras__chathamhouse_org__15b04737'), (0.09, 'ispras__oup_com__0c0e1582'), (0.09, 'ispras__chronicle_gi__59d77ca9'), (0.1, 'ispras__crisisgroup_org__1568f998'), (0.11, 'ispras__thenewshawks_com__a0564c83'), (0.12, 'ispras__president_go_kr__09f3084c'), (0.14, 'ispras__chronicle_gi__75d02eeb')]
+content<0.3 页数: 13
+拒识页占 content miss: 16
+num_f1: 0.734 lcs_f1: 0.843 dup: 0.501 para: 0.648
