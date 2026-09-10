@@ -414,8 +414,14 @@ def scan_signature_authors(soup, content_text):
         m = re.search(r"(?<![A-Za-z])[Bb]y[ \t]+([A-Z][A-Za-z.'-]+(?:[ \t]+[A-Z][A-Za-z.'-]+){0,2})", t)
         # v6 修订⑤：散文中的「…supported by Python.\nFor example…」非署名——
         # 捕获名以句点结尾（句子边界）时拒收；[ \t] 不换行同 修订①。
+        # v9 修订：首词为英文虚词/栏目词的拒收（ISPRAS「Just For The …」误抓）。
+        BY_STOP = {"just", "for", "the", "a", "an", "this", "that", "these",
+                   "those", "read", "more", "click", "see", "watch", "listen",
+                   "sponsored", "special", "from", "with", "breaking", "live",
+                   "update", "updated", "video", "photos", "gallery", "opinion"}
         if m and not m.group(1).rstrip().endswith(".") \
-                and t[m.end():m.end() + 1] != ".":
+                and t[m.end():m.end() + 1] != "." \
+                and m.group(1).split()[0].lower() not in BY_STOP:
             add([m.group(1)], None, f"署名扫描:By[{where}]")
         m = re.search(r"摄影[:：]\s*" + NAMES, t)
         if m:
@@ -661,19 +667,31 @@ def check_refusal(soup, site, traf_text_len):
         el_text = el.get_text(strip=True)
         if any(len(p.get_text(strip=True)) > 200 for p in el.find_all("p")):
             continue
+        # v9 修订：容器外存在实质段落文本（≥400字，p>100字）→ 图集只是
+        # 文章页的相关模块，不拒（ISPRAS 误拒修复：dawn/bbc/chathamhouse
+        # 等英文文章页正文在图集容器之外）。
+        outside_p = sum(len(p.get_text(strip=True))
+                        for p in soup.find_all("p")
+                        if el not in p.parents and len(p.get_text(strip=True)) > 100)
+        if outside_p >= 400:
+            continue
+        caps = [c for c in (_caption_of(img) for img in imgs) if c]
+        cap_text = sum(len(c) for c in caps)
+        # v9 修订②：图集文本必须是「图说性质」——纯图墙（text/img<15）
+        # 或 ≥6 张图有图说且图说占容器文本 ≥40%。
+        # bna 短讯文章（582字正文+8张内联图，text/img=73 连续散文、无图说）
+        # 不再误拒；chinadaily 文章 figure 组图说占比<40% 不触发。
+        caption_like = len(el_text) / len(imgs) < 15 or \
+            (len(caps) >= 6 and cap_text / max(len(el_text), 1) >= 0.4)
         # 路径 A：结构主导——最内层内容图≥8 容器且占全页内容图 ≥50%
         if len(imgs) >= 8 and len(imgs) >= n_content_page * 0.5 and \
                 not any(len(_content_imgs(d)) >= 8
                         for d in el.find_all(["article", "div", "section", "ul"])):
-            if len(el_text) / len(imgs) < 120:
+            if caption_like and len(el_text) / len(imgs) < 120:
                 return True, (f"photo_set:content_imgs={len(imgs)}/{n_content_page},"
                               f"text_per_img={len(el_text)/len(imgs):.0f}"), "photo_set"
         # 路径 B：图说驱动——≥6 张图带图说且图说占容器文本 ≥40%
-        # （正文=图片+图说序列；chinadaily 文章 figure 组文本以正文段为主，
-        #  图说占比 <40%，不触发）
-        caps = [c for c in (_caption_of(img) for img in imgs) if c]
         if len(caps) >= 6:
-            cap_text = sum(len(c) for c in caps)
             if cap_text / max(len(el_text), 1) >= 0.4 \
                     and len(el_text) / len(imgs) < 150:
                 return True, (f"photo_set:captioned={len(caps)}/{len(imgs)},"
@@ -803,6 +821,11 @@ def extract_page(raw: bytes, site: str):
     # authors：规则/元数据（v6 媒体名过滤）→ traf；署名扫描合并移至正文装配后
     with timed("postprocess"):
         authors = pick("authors")
+        # v9：站名/域名词干不是作者（ISPRAS fijivillage json-ld author=站点名）。
+        stem = site.split(".")[0].lower()
+        if authors:
+            authors = [a for a in authors
+                       if a.lower().replace(" ", "") not in (stem, site.lower())] or None
         if authors and rec["provenance"].get("authors", "").startswith(("meta:", "json-ld")):
             authors = filter_meta_authors(authors)
         if authors is None and doc is not None and doc.author:
