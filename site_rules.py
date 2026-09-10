@@ -276,6 +276,12 @@ def rule_chinadaily(soup, meta):
                 seen.add(a)
                 dedup.append(a)
         out["authors"] = (dedup, 'dom:byline "By X | ..." + figure/figcaption 摄影署名')
+    else:
+        # v6：byline 区块无有效署名时 final 裁决为空——chinadaily 的
+        # meta[name=author] 是后台录入编辑（chinadaily__07「贺霞婷」false_fill），
+        # 全站 10 页核对：其余 9 页作者均来自 byline，无一依赖 meta 回退。
+        out["authors"] = (None, "final",
+                          "dom:byline 无有效署名；meta[name=author] 为后台录入编辑，不予采用")
     return out
 
 
