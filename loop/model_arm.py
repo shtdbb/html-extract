@@ -137,7 +137,7 @@ def _visible_text(soup, limit=3500) -> str:
     return re.sub(r"\n{3,}", "\n\n", sp.get_text("\n", strip=True))[:limit]
 
 
-def needs_model(rec, final_fields=frozenset()) -> bool:
+def needs_model(rec, final_fields=frozenset(), soup=None) -> bool:
     """门控：任一字段低置信且未被规则层 final 裁决即触发。"""
     if rec.get("rejected"):
         return False
@@ -168,9 +168,10 @@ _ROUTE_D_ENABLED = False
 
 
 # ---------------------------------------------------------------------------
-# v13：正文 route-D——模型只做「选容器」，值从 DOM 取（无幻觉通道）。
-# 候选块由规则侧按文本量枚举并给出预览，模型回答编号；
-# 采纳前过结构核验（长度、链接密度、相对现值的增量）。
+# v14 实验记录（未投产，代码已移除）：og:title ≠ h1 整标题分歧的模型二选一
+# 裁决。负结果：abc_net_au 实测模型选择 og 侧（更像「标题」的短句），而
+# gold 取 h1 可见标题——模型品味与 gold 口径不一致，裁决无增益。
+# 最终由规则替代（extract.py：meta 与 h1 互斥分歧时 h1 优先），见迭代日志。
 # ---------------------------------------------------------------------------
 
 CONTENT_PROMPT_TMPL = (
@@ -262,7 +263,7 @@ def model_fallback(rec, soup, site, final_fields=frozenset()):
     final_fields：规则层已 final 裁决为空的字段——模型同样不得回退
     （chinadaily 全站 publish_time 裁决为空：页面只有 Updated 一个时间）。
     """
-    if not needs_model(rec, final_fields):
+    if not needs_model(rec, final_fields, soup):
         return []
     ollama_client.note_page()
     filled = []
