@@ -33,7 +33,8 @@ PROMPT_TMPL = (
     "字段：title（文章真实标题，不含站点名后缀）、authors（作者/记者署名"
     "人名数组，没有则空数组；媒体名/栏目名/站点名/机构名不是作者，"
     "文中提及或受访的人物也不是作者）、"
-    "publish_time（发布时间，原样摘录页面中的写法，没有则 null）。\n"
+    "publish_time（发布时间，原样摘录页面中的写法，没有则 null；"
+    "若同一处同时有日期和时分，务必一并摘录时分）。\n"
     "只抽取网页文本中真实出现的值，不要推测。\n\n"
     "网页文本：\n<<<\n{text}\n>>>\n"
 )
@@ -43,33 +44,10 @@ def _norm(s: str) -> str:
     return re.sub(r"\s+", "", (s or "")).lower()
 
 
-_BYLINE_PREFIX = re.compile(
-    r"^(?:by|作者|记者|撰文|撰稿|编辑|责编|摄影|文)\s*[:：/]?\s*", re.I)
-
 # 敬称/头衔后缀：gold 署名用本名；带敬称的是报道中提及/受访的人物
 # （sohu__02「朱先生」误填案例——句中断行恰好形成伪独立行，位置核验失效）。
 _HONORIFIC_PAT = re.compile(
     r"(先生|女士|老师|教授|博士|经理|主任|局长|部长|院士|同学)$")
-
-
-def _is_standalone_byline(name: str, page_text: str) -> bool:
-    """署名位置核验：名字必须作为独立行（或剥掉署名前缀后的独立行）出现。
-
-    区分 byline 区块的署名（AAP：标题下单独一行「Poppy Johnston」）与
-    句中提及的人物（sohu：「…湖北的朱先生向红星新闻记者反映…」——
-    后者每处出现都嵌在完整句子里，永远不是独立行）。
-    """
-    target = _norm(name)
-    for line in page_text.split("\n"):
-        line = line.strip()
-        if not line or len(line) > 80:
-            continue
-        if _norm(line) == target:
-            return True
-        stripped = _BYLINE_PREFIX.sub("", line)
-        if stripped != line and _norm(stripped) == target:
-            return True
-    return False
 
 
 _EN_MONTH = {m: i + 1 for i, m in enumerate(
@@ -79,12 +57,20 @@ _EN_MONTH = {m: i + 1 for i, m in enumerate(
 
 def _parse_model_time(raw: str):
     """模型摘录的时间写法 → 结构化。先试 parse_time_str（ISO/中文格式），
-    再补英文月名格式（June 2, 2024 / 2 June 2024 / 带 AM-PM 时分）。
-    核验链不中断：值仍是页面原样摘录，只是解析器认识英文月名。"""
+    再补：①英文月名（June 2, 2024 / 5th March / Sept. 3 PM）；
+    ②点分日序欧式（30.11.2023，德/瑞政府站——ISPRAS admin_ch×2、
+    auswaertiges-amt×2 模型摘回但解析失败的格式）。
+    核验链不中断：值仍是页面原样摘录，只是解析器认识更多写法。"""
     pt = parse_time_str(raw)
     if pt:
         return pt
     s = raw.strip()
+    m = re.search(r"\b(\d{1,2})\.(\d{1,2})\.(\d{4})(?:\s+(\d{1,2}):(\d{2}))?", s)
+    if m:
+        d, mo, yr, hh, mm = m.groups()
+        tpart = f"{int(hh):02d}:{mm}:00" if hh is not None else "XX:XX:XX"
+        return {"value": f"{yr}-{int(mo):02d}-{int(d):02d} {tpart}",
+                "utc_offset": None, "utc_offset_source": None}
     mon = "|".join(_EN_MONTH) + "|sept|" + "|".join(m[:3] for m in _EN_MONTH)
     m = re.search(
         rf"(?:(\d{{1,2}})(?:st|nd|rd|th)?\s+)?({mon})\.?\s*(\d{{1,2}})?(?:st|nd|rd|th)?,?\s*(\d{{4}})"
@@ -111,6 +97,36 @@ def _parse_model_time(raw: str):
         tpart = "XX:XX:XX"
     return {"value": f"{yr}-{month:02d}-{int(day):02d} {tpart}",
             "utc_offset": None, "utc_offset_source": None}
+
+
+_DATE_CAND = re.compile(
+    r"\b\d{4}-\d{2}-\d{2}(?:[ T]\d{2}:\d{2}(?::\d{2})?)?"
+    r"|\b\d{1,2}\.\d{1,2}\.\d{4}(?:\s+\d{1,2}:\d{2})?"
+    r"|\b(?:\d{1,2}(?:st|nd|rd|th)?\s+)?(?:Jan(?:uary)?|Feb(?:ruary)?|Mar(?:ch)?|"
+    r"Apr(?:il)?|May|Jun(?:e)?|Jul(?:y)?|Aug(?:ust)?|Sep(?:t|tember)?|"
+    r"Oct(?:ober)?|Nov(?:ember)?|Dec(?:ember)?)\.?\s+\d{1,2}(?:st|nd|rd|th)?"
+    r",?\s+\d{4}(?:\s+\d{1,2}:\d{2}(?::\d{2})?\s*[AP]M\.?)?"
+    r"|\b(?:Jan(?:uary)?|Feb(?:ruary)?|Mar(?:ch)?|Apr(?:il)?|May|Jun(?:e)?|"
+    r"Jul(?:y)?|Aug(?:ust)?|Sep(?:t|tember)?|Oct(?:ober)?|Nov(?:ember)?|"
+    r"Dec(?:ember)?)\.?\s+\d{4}", re.I)
+
+
+def _date_value_in_page(value: str, page_text: str) -> bool:
+    """页面中是否存在与 value 同日期（精确到日）的证据。两级：
+    ①某个日期串整体可解析为同一天；
+    ②月日写法与月年写法分处出现（bna 案例：电头「Manama, May 26 (BNA):」
+    无年份，年份由归档导航「May 2024」佐证——跨串 grounding，仍非幻觉）。"""
+    yr, mo, dy = int(value[:4]), int(value[5:7]), int(value[8:10])
+    day = value[:10]
+    for m in _DATE_CAND.finditer(page_text):
+        pt = _parse_model_time(m.group(0))
+        if pt and pt["value"][:10] == day:
+            return True
+    mon_name = [k for k, v in _EN_MONTH.items() if v == mo][0]
+    md = re.compile(rf"\b(?:{mon_name[:3]}[a-z]*\.?\s+{dy}(?:st|nd|rd|th)?\b"
+                    rf"|\b{dy}(?:st|nd|rd|th)?\s+{mon_name[:3]}[a-z]*\.?)", re.I)
+    my = re.compile(rf"\b{mon_name[:3]}[a-z]*\.?\s+{yr}\b", re.I)
+    return bool(md.search(page_text) and my.search(page_text))
 
 
 def _visible_text(soup, limit=3500) -> str:
@@ -169,7 +185,8 @@ def model_fallback(rec, soup, site, final_fields=frozenset()):
     # 媒体名/站名过滤 ③署名位置核验（独立署名行——「朱先生」类受访者
     # 在句中提及被此拦截，v10 首跑误填案例） ---
     if "authors" not in final_fields and not rec.get("authors"):
-        from extract import _is_media_name  # 运行期 extract 已加载，无循环导入
+        from extract import (_is_media_name, _author_en_category,
+                             _is_standalone_byline)  # 运行期已加载
         stem = site.split(".")[0].lower()
         ma = out.get("authors")
         if isinstance(ma, list):
@@ -182,6 +199,11 @@ def model_fallback(rec, soup, site, final_fields=frozenset()):
                     continue
                 if _is_media_name(n) or n.lower().replace(" ", "") in (stem, site.lower()):
                     continue
+                # 社媒/月份词永拒；机构/角色词交给下方的独立署名行核验
+                # （可见署名=真值：「News Team」可见照收，meta-only 角色名
+                # 过不了 _is_standalone_byline，自然被拦）
+                if _author_en_category(n) in ("social", "month"):
+                    continue
                 if _HONORIFIC_PAT.search(n):
                     continue
                 if not _is_standalone_byline(n, page_text):
@@ -192,12 +214,16 @@ def model_fallback(rec, soup, site, final_fields=frozenset()):
                 rec["provenance"]["authors"] = "model:qwen2.5-7b(verified:in-page)"
                 filled.append("authors")
 
-    # --- publish_time：仅当缺失；模型摘录的原始写法须可解析 ---
+    # --- publish_time：仅当缺失；模型摘录须可解析，且日期须页内存在——
+    # ①摘录原样在页（verbatim），或②模型改了写法（如补零 ISO）但页面
+    # 存在等价日期的其他写法（bna_bh：v12 页内核验误杀正确值后的放宽，
+    # 仍要求日期本身页内可证，幻觉日期依然拒收） ---
     if "publish_time" not in final_fields and rec.get("publish_time") is None:
         mp = out.get("publish_time")
         if isinstance(mp, str) and mp.strip():
             pt = _parse_model_time(mp.strip())
-            if pt:
+            if pt and (_norm(mp) in norm_page
+                       or _date_value_in_page(pt["value"], page_text)):
                 rec["publish_time"] = pt
                 rec["provenance"]["publish_time"] = \
                     f"model:qwen2.5-7b(verified:parseable|{mp.strip()[:40]})"
