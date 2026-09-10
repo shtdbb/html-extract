@@ -1,0 +1,4628 @@
+{
+  "version": "v2",
+  "spec": "eval_spec_v2.md（冻结）",
+  "n_pages": 85,
+  "pred_parse_errors": [],
+  "time_fields": [
+    "publish_time",
+    "update_time"
+  ],
+  "overall": {
+    "n_pages": 85,
+    "n_scored": 84,
+    "title_exact": 0.9620253164556962,
+    "title_sim": 0.9620253164556962,
+    "title_detail": {
+      "n": 79,
+      "correct_empty": 5,
+      "false_fill": 0,
+      "miss": 0
+    },
+    "authors_f1": 0.9710144927536232,
+    "authors_false_fill_rate": 0.0,
+    "authors_miss_rate": 0.014492753623188406,
+    "authors_detail": {
+      "n": 69,
+      "correct_empty": 15,
+      "false_fill": 0,
+      "miss": 1,
+      "gold_empty_pages": 15,
+      "gold_present_pages": 69
+    },
+    "time": {
+      "publish_time": {
+        "score": 0.8923076923076924,
+        "n": 65,
+        "confusion": 10,
+        "correct_empty": 19,
+        "false_fill": 7,
+        "miss": 0,
+        "gold_all_xx": 0,
+        "tz": {
+          "match": 52,
+          "missing": 6,
+          "mismatch": 0,
+          "gold_absent": 0
+        },
+        "false_fill_rate": 0.2692307692307692
+      },
+      "update_time": {
+        "score": 1.0,
+        "n": 27,
+        "confusion": 10,
+        "correct_empty": 57,
+        "false_fill": 0,
+        "miss": 0,
+        "gold_all_xx": 0,
+        "tz": {
+          "match": 27,
+          "missing": 0,
+          "mismatch": 0,
+          "gold_absent": 0
+        },
+        "false_fill_rate": 0.0
+      }
+    },
+    "publish_time_score": 0.8923076923076924,
+    "update_time_score": 1.0,
+    "content_f1": 0.9305566655154994,
+    "lcs_f1": 0.9312778978914433,
+    "dup_ratio": 0.3076312901004701,
+    "num_f1": 0.8126763771516776,
+    "para_ratio": 0.7335656731241462,
+    "content_detail": {
+      "n": 79,
+      "correct_empty": 5,
+      "false_fill": 0,
+      "miss": 0
+    },
+    "rejection_accuracy": 1.0,
+    "rejection_detail": {
+      "n": 1,
+      "correct": 1,
+      "badcases": []
+    }
+  },
+  "by_dataset": {
+    "dev": {
+      "n_pages": 85,
+      "n_scored": 84,
+      "title_exact": 0.9620253164556962,
+      "title_sim": 0.9620253164556962,
+      "title_detail": {
+        "n": 79,
+        "correct_empty": 5,
+        "false_fill": 0,
+        "miss": 0
+      },
+      "authors_f1": 0.9710144927536232,
+      "authors_false_fill_rate": 0.0,
+      "authors_miss_rate": 0.014492753623188406,
+      "authors_detail": {
+        "n": 69,
+        "correct_empty": 15,
+        "false_fill": 0,
+        "miss": 1,
+        "gold_empty_pages": 15,
+        "gold_present_pages": 69
+      },
+      "time": {
+        "publish_time": {
+          "score": 0.8923076923076924,
+          "n": 65,
+          "confusion": 10,
+          "correct_empty": 19,
+          "false_fill": 7,
+          "miss": 0,
+          "gold_all_xx": 0,
+          "tz": {
+            "match": 52,
+            "missing": 6,
+            "mismatch": 0,
+            "gold_absent": 0
+          },
+          "false_fill_rate": 0.2692307692307692
+        },
+        "update_time": {
+          "score": 1.0,
+          "n": 27,
+          "confusion": 10,
+          "correct_empty": 57,
+          "false_fill": 0,
+          "miss": 0,
+          "gold_all_xx": 0,
+          "tz": {
+            "match": 27,
+            "missing": 0,
+            "mismatch": 0,
+            "gold_absent": 0
+          },
+          "false_fill_rate": 0.0
+        }
+      },
+      "publish_time_score": 0.8923076923076924,
+      "update_time_score": 1.0,
+      "content_f1": 0.9305566655154994,
+      "lcs_f1": 0.9312778978914433,
+      "dup_ratio": 0.3076312901004701,
+      "num_f1": 0.8126763771516776,
+      "para_ratio": 0.7335656731241462,
+      "content_detail": {
+        "n": 79,
+        "correct_empty": 5,
+        "false_fill": 0,
+        "miss": 0
+      },
+      "rejection_accuracy": 1.0,
+      "rejection_detail": {
+        "n": 1,
+        "correct": 1,
+        "badcases": []
+      }
+    }
+  },
+  "by_site": {
+    "caixin": {
+      "n_pages": 5,
+      "n_scored": 5,
+      "title_exact": null,
+      "title_sim": null,
+      "title_detail": {
+        "n": 0,
+        "correct_empty": 5,
+        "false_fill": 0,
+        "miss": 0
+      },
+      "authors_f1": null,
+      "authors_false_fill_rate": 0.0,
+      "authors_miss_rate": null,
+      "authors_detail": {
+        "n": 0,
+        "correct_empty": 5,
+        "false_fill": 0,
+        "miss": 0,
+        "gold_empty_pages": 5,
+        "gold_present_pages": 0
+      },
+      "time": {
+        "publish_time": {
+          "score": null,
+          "n": 0,
+          "confusion": 0,
+          "correct_empty": 5,
+          "false_fill": 0,
+          "miss": 0,
+          "gold_all_xx": 0,
+          "tz": {
+            "match": 0,
+            "missing": 0,
+            "mismatch": 0,
+            "gold_absent": 0
+          },
+          "false_fill_rate": 0.0
+        },
+        "update_time": {
+          "score": null,
+          "n": 0,
+          "confusion": 0,
+          "correct_empty": 5,
+          "false_fill": 0,
+          "miss": 0,
+          "gold_all_xx": 0,
+          "tz": {
+            "match": 0,
+            "missing": 0,
+            "mismatch": 0,
+            "gold_absent": 0
+          },
+          "false_fill_rate": 0.0
+        }
+      },
+      "publish_time_score": null,
+      "update_time_score": null,
+      "content_f1": null,
+      "lcs_f1": null,
+      "dup_ratio": null,
+      "num_f1": null,
+      "para_ratio": null,
+      "content_detail": {
+        "n": 0,
+        "correct_empty": 5,
+        "false_fill": 0,
+        "miss": 0
+      },
+      "rejection_accuracy": null,
+      "rejection_detail": {
+        "n": 0,
+        "correct": 0,
+        "badcases": []
+      }
+    },
+    "chinadaily": {
+      "n_pages": 10,
+      "n_scored": 10,
+      "title_exact": 1.0,
+      "title_sim": 1.0,
+      "title_detail": {
+        "n": 10,
+        "correct_empty": 0,
+        "false_fill": 0,
+        "miss": 0
+      },
+      "authors_f1": 1.0,
+      "authors_false_fill_rate": 0.0,
+      "authors_miss_rate": 0.0,
+      "authors_detail": {
+        "n": 9,
+        "correct_empty": 1,
+        "false_fill": 0,
+        "miss": 0,
+        "gold_empty_pages": 1,
+        "gold_present_pages": 9
+      },
+      "time": {
+        "publish_time": {
+          "score": null,
+          "n": 0,
+          "confusion": 0,
+          "correct_empty": 10,
+          "false_fill": 0,
+          "miss": 0,
+          "gold_all_xx": 0,
+          "tz": {
+            "match": 0,
+            "missing": 0,
+            "mismatch": 0,
+            "gold_absent": 0
+          },
+          "false_fill_rate": 0.0
+        },
+        "update_time": {
+          "score": 1.0,
+          "n": 10,
+          "confusion": 0,
+          "correct_empty": 0,
+          "false_fill": 0,
+          "miss": 0,
+          "gold_all_xx": 0,
+          "tz": {
+            "match": 10,
+            "missing": 0,
+            "mismatch": 0,
+            "gold_absent": 0
+          },
+          "false_fill_rate": null
+        }
+      },
+      "publish_time_score": null,
+      "update_time_score": 1.0,
+      "content_f1": 1.0,
+      "lcs_f1": 1.0,
+      "dup_ratio": 0.5585021068606036,
+      "num_f1": 1.0,
+      "para_ratio": 1.0,
+      "content_detail": {
+        "n": 10,
+        "correct_empty": 0,
+        "false_fill": 0,
+        "miss": 0
+      },
+      "rejection_accuracy": null,
+      "rejection_detail": {
+        "n": 0,
+        "correct": 0,
+        "badcases": []
+      }
+    },
+    "chinanews": {
+      "n_pages": 6,
+      "n_scored": 6,
+      "title_exact": 1.0,
+      "title_sim": 1.0,
+      "title_detail": {
+        "n": 6,
+        "correct_empty": 0,
+        "false_fill": 0,
+        "miss": 0
+      },
+      "authors_f1": 1.0,
+      "authors_false_fill_rate": null,
+      "authors_miss_rate": 0.0,
+      "authors_detail": {
+        "n": 6,
+        "correct_empty": 0,
+        "false_fill": 0,
+        "miss": 0,
+        "gold_empty_pages": 0,
+        "gold_present_pages": 6
+      },
+      "time": {
+        "publish_time": {
+          "score": 1.0,
+          "n": 6,
+          "confusion": 0,
+          "correct_empty": 0,
+          "false_fill": 0,
+          "miss": 0,
+          "gold_all_xx": 0,
+          "tz": {
+            "match": 6,
+            "missing": 0,
+            "mismatch": 0,
+            "gold_absent": 0
+          },
+          "false_fill_rate": null
+        },
+        "update_time": {
+          "score": null,
+          "n": 0,
+          "confusion": 0,
+          "correct_empty": 6,
+          "false_fill": 0,
+          "miss": 0,
+          "gold_all_xx": 0,
+          "tz": {
+            "match": 0,
+            "missing": 0,
+            "mismatch": 0,
+            "gold_absent": 0
+          },
+          "false_fill_rate": 0.0
+        }
+      },
+      "publish_time_score": 1.0,
+      "update_time_score": null,
+      "content_f1": 0.5627301171209367,
+      "lcs_f1": 0.5636048333635924,
+      "dup_ratio": 0.37030438812912475,
+      "num_f1": 0.15743328439272616,
+      "para_ratio": 0.20449656135826347,
+      "content_detail": {
+        "n": 6,
+        "correct_empty": 0,
+        "false_fill": 0,
+        "miss": 0
+      },
+      "rejection_accuracy": null,
+      "rejection_detail": {
+        "n": 0,
+        "correct": 0,
+        "badcases": []
+      }
+    },
+    "cnblogs": {
+      "n_pages": 7,
+      "n_scored": 7,
+      "title_exact": 0.5714285714285714,
+      "title_sim": 0.5714285714285714,
+      "title_detail": {
+        "n": 7,
+        "correct_empty": 0,
+        "false_fill": 0,
+        "miss": 0
+      },
+      "authors_f1": 0.8571428571428571,
+      "authors_false_fill_rate": null,
+      "authors_miss_rate": 0.0,
+      "authors_detail": {
+        "n": 7,
+        "correct_empty": 0,
+        "false_fill": 0,
+        "miss": 0,
+        "gold_empty_pages": 0,
+        "gold_present_pages": 7
+      },
+      "time": {
+        "publish_time": {
+          "score": 0.0,
+          "n": 7,
+          "confusion": 0,
+          "correct_empty": 0,
+          "false_fill": 7,
+          "miss": 0,
+          "gold_all_xx": 0,
+          "tz": {
+            "match": 0,
+            "missing": 0,
+            "mismatch": 0,
+            "gold_absent": 0
+          },
+          "false_fill_rate": 1.0
+        },
+        "update_time": {
+          "score": null,
+          "n": 0,
+          "confusion": 0,
+          "correct_empty": 7,
+          "false_fill": 0,
+          "miss": 0,
+          "gold_all_xx": 0,
+          "tz": {
+            "match": 0,
+            "missing": 0,
+            "mismatch": 0,
+            "gold_absent": 0
+          },
+          "false_fill_rate": 0.0
+        }
+      },
+      "publish_time_score": 0.0,
+      "update_time_score": null,
+      "content_f1": 0.9932831497308268,
+      "lcs_f1": 0.9934367223651888,
+      "dup_ratio": 0.2814053360211618,
+      "num_f1": 0.9882998380074922,
+      "para_ratio": 0.79649531662092,
+      "content_detail": {
+        "n": 7,
+        "correct_empty": 0,
+        "false_fill": 0,
+        "miss": 0
+      },
+      "rejection_accuracy": null,
+      "rejection_detail": {
+        "n": 0,
+        "correct": 0,
+        "badcases": []
+      }
+    },
+    "github_blog": {
+      "n_pages": 4,
+      "n_scored": 4,
+      "title_exact": 1.0,
+      "title_sim": 1.0,
+      "title_detail": {
+        "n": 4,
+        "correct_empty": 0,
+        "false_fill": 0,
+        "miss": 0
+      },
+      "authors_f1": 1.0,
+      "authors_false_fill_rate": null,
+      "authors_miss_rate": 0.0,
+      "authors_detail": {
+        "n": 4,
+        "correct_empty": 0,
+        "false_fill": 0,
+        "miss": 0,
+        "gold_empty_pages": 0,
+        "gold_present_pages": 4
+      },
+      "time": {
+        "publish_time": {
+          "score": 1.0,
+          "n": 4,
+          "confusion": 0,
+          "correct_empty": 0,
+          "false_fill": 0,
+          "miss": 0,
+          "gold_all_xx": 0,
+          "tz": {
+            "match": 4,
+            "missing": 0,
+            "mismatch": 0,
+            "gold_absent": 0
+          },
+          "false_fill_rate": null
+        },
+        "update_time": {
+          "score": 1.0,
+          "n": 3,
+          "confusion": 0,
+          "correct_empty": 1,
+          "false_fill": 0,
+          "miss": 0,
+          "gold_all_xx": 0,
+          "tz": {
+            "match": 3,
+            "missing": 0,
+            "mismatch": 0,
+            "gold_absent": 0
+          },
+          "false_fill_rate": 0.0
+        }
+      },
+      "publish_time_score": 1.0,
+      "update_time_score": 1.0,
+      "content_f1": 0.9204585414118834,
+      "lcs_f1": 0.9015425995074353,
+      "dup_ratio": 0.6884651226527964,
+      "num_f1": 0.4344444444444444,
+      "para_ratio": 0.7912814260705827,
+      "content_detail": {
+        "n": 4,
+        "correct_empty": 0,
+        "false_fill": 0,
+        "miss": 0
+      },
+      "rejection_accuracy": null,
+      "rejection_detail": {
+        "n": 0,
+        "correct": 0,
+        "badcases": []
+      }
+    },
+    "gov_cn": {
+      "n_pages": 10,
+      "n_scored": 10,
+      "title_exact": 1.0,
+      "title_sim": 1.0,
+      "title_detail": {
+        "n": 10,
+        "correct_empty": 0,
+        "false_fill": 0,
+        "miss": 0
+      },
+      "authors_f1": 1.0,
+      "authors_false_fill_rate": null,
+      "authors_miss_rate": 0.0,
+      "authors_detail": {
+        "n": 10,
+        "correct_empty": 0,
+        "false_fill": 0,
+        "miss": 0,
+        "gold_empty_pages": 0,
+        "gold_present_pages": 10
+      },
+      "time": {
+        "publish_time": {
+          "score": 1.0,
+          "n": 10,
+          "confusion": 10,
+          "correct_empty": 0,
+          "false_fill": 0,
+          "miss": 0,
+          "gold_all_xx": 0,
+          "tz": {
+            "match": 10,
+            "missing": 0,
+            "mismatch": 0,
+            "gold_absent": 0
+          },
+          "false_fill_rate": null
+        },
+        "update_time": {
+          "score": 1.0,
+          "n": 10,
+          "confusion": 10,
+          "correct_empty": 0,
+          "false_fill": 0,
+          "miss": 0,
+          "gold_all_xx": 0,
+          "tz": {
+            "match": 10,
+            "missing": 0,
+            "mismatch": 0,
+            "gold_absent": 0
+          },
+          "false_fill_rate": null
+        }
+      },
+      "publish_time_score": 1.0,
+      "update_time_score": 1.0,
+      "content_f1": 1.0,
+      "lcs_f1": 1.0,
+      "dup_ratio": 0.2071520868461611,
+      "num_f1": 1.0,
+      "para_ratio": 1.0,
+      "content_detail": {
+        "n": 10,
+        "correct_empty": 0,
+        "false_fill": 0,
+        "miss": 0
+      },
+      "rejection_accuracy": null,
+      "rejection_detail": {
+        "n": 0,
+        "correct": 0,
+        "badcases": []
+      }
+    },
+    "ifeng": {
+      "n_pages": 5,
+      "n_scored": 5,
+      "title_exact": 1.0,
+      "title_sim": 1.0,
+      "title_detail": {
+        "n": 5,
+        "correct_empty": 0,
+        "false_fill": 0,
+        "miss": 0
+      },
+      "authors_f1": 0.6666666666666666,
+      "authors_false_fill_rate": 0.0,
+      "authors_miss_rate": 0.3333333333333333,
+      "authors_detail": {
+        "n": 3,
+        "correct_empty": 2,
+        "false_fill": 0,
+        "miss": 1,
+        "gold_empty_pages": 2,
+        "gold_present_pages": 3
+      },
+      "time": {
+        "publish_time": {
+          "score": 1.0,
+          "n": 5,
+          "confusion": 0,
+          "correct_empty": 0,
+          "false_fill": 0,
+          "miss": 0,
+          "gold_all_xx": 0,
+          "tz": {
+            "match": 5,
+            "missing": 0,
+            "mismatch": 0,
+            "gold_absent": 0
+          },
+          "false_fill_rate": null
+        },
+        "update_time": {
+          "score": 1.0,
+          "n": 4,
+          "confusion": 0,
+          "correct_empty": 1,
+          "false_fill": 0,
+          "miss": 0,
+          "gold_all_xx": 0,
+          "tz": {
+            "match": 4,
+            "missing": 0,
+            "mismatch": 0,
+            "gold_absent": 0
+          },
+          "false_fill_rate": 0.0
+        }
+      },
+      "publish_time_score": 1.0,
+      "update_time_score": 1.0,
+      "content_f1": 0.8878643236834296,
+      "lcs_f1": 0.8896949361851719,
+      "dup_ratio": 0.1451510930262632,
+      "num_f1": 0.8545790068517342,
+      "para_ratio": 0.8463097091540874,
+      "content_detail": {
+        "n": 5,
+        "correct_empty": 0,
+        "false_fill": 0,
+        "miss": 0
+      },
+      "rejection_accuracy": null,
+      "rejection_detail": {
+        "n": 0,
+        "correct": 0,
+        "badcases": []
+      }
+    },
+    "news_cn": {
+      "n_pages": 10,
+      "n_scored": 10,
+      "title_exact": 1.0,
+      "title_sim": 1.0,
+      "title_detail": {
+        "n": 10,
+        "correct_empty": 0,
+        "false_fill": 0,
+        "miss": 0
+      },
+      "authors_f1": 1.0,
+      "authors_false_fill_rate": null,
+      "authors_miss_rate": 0.0,
+      "authors_detail": {
+        "n": 10,
+        "correct_empty": 0,
+        "false_fill": 0,
+        "miss": 0,
+        "gold_empty_pages": 0,
+        "gold_present_pages": 10
+      },
+      "time": {
+        "publish_time": {
+          "score": 1.0,
+          "n": 10,
+          "confusion": 0,
+          "correct_empty": 0,
+          "false_fill": 0,
+          "miss": 0,
+          "gold_all_xx": 0,
+          "tz": {
+            "match": 10,
+            "missing": 0,
+            "mismatch": 0,
+            "gold_absent": 0
+          },
+          "false_fill_rate": null
+        },
+        "update_time": {
+          "score": null,
+          "n": 0,
+          "confusion": 0,
+          "correct_empty": 10,
+          "false_fill": 0,
+          "miss": 0,
+          "gold_all_xx": 0,
+          "tz": {
+            "match": 0,
+            "missing": 0,
+            "mismatch": 0,
+            "gold_absent": 0
+          },
+          "false_fill_rate": 0.0
+        }
+      },
+      "publish_time_score": 1.0,
+      "update_time_score": null,
+      "content_f1": 0.9885132020542887,
+      "lcs_f1": 0.9886924127738677,
+      "dup_ratio": 0.18511107686575295,
+      "num_f1": 0.9727598566308243,
+      "para_ratio": 0.8937622022999345,
+      "content_detail": {
+        "n": 10,
+        "correct_empty": 0,
+        "false_fill": 0,
+        "miss": 0
+      },
+      "rejection_accuracy": null,
+      "rejection_detail": {
+        "n": 0,
+        "correct": 0,
+        "badcases": []
+      }
+    },
+    "people": {
+      "n_pages": 6,
+      "n_scored": 6,
+      "title_exact": 1.0,
+      "title_sim": 1.0,
+      "title_detail": {
+        "n": 6,
+        "correct_empty": 0,
+        "false_fill": 0,
+        "miss": 0
+      },
+      "authors_f1": 1.0,
+      "authors_false_fill_rate": null,
+      "authors_miss_rate": 0.0,
+      "authors_detail": {
+        "n": 6,
+        "correct_empty": 0,
+        "false_fill": 0,
+        "miss": 0,
+        "gold_empty_pages": 0,
+        "gold_present_pages": 6
+      },
+      "time": {
+        "publish_time": {
+          "score": 1.0,
+          "n": 6,
+          "confusion": 0,
+          "correct_empty": 0,
+          "false_fill": 0,
+          "miss": 0,
+          "gold_all_xx": 0,
+          "tz": {
+            "match": 6,
+            "missing": 0,
+            "mismatch": 0,
+            "gold_absent": 0
+          },
+          "false_fill_rate": null
+        },
+        "update_time": {
+          "score": null,
+          "n": 0,
+          "confusion": 0,
+          "correct_empty": 6,
+          "false_fill": 0,
+          "miss": 0,
+          "gold_all_xx": 0,
+          "tz": {
+            "match": 0,
+            "missing": 0,
+            "mismatch": 0,
+            "gold_absent": 0
+          },
+          "false_fill_rate": 0.0
+        }
+      },
+      "publish_time_score": 1.0,
+      "update_time_score": null,
+      "content_f1": 0.8325199893159784,
+      "lcs_f1": 0.8353900923921168,
+      "dup_ratio": 0.18862856096177652,
+      "num_f1": 0.48400070987728766,
+      "para_ratio": 0.22497214795008913,
+      "content_detail": {
+        "n": 6,
+        "correct_empty": 0,
+        "false_fill": 0,
+        "miss": 0
+      },
+      "rejection_accuracy": null,
+      "rejection_detail": {
+        "n": 0,
+        "correct": 0,
+        "badcases": []
+      }
+    },
+    "python_docs": {
+      "n_pages": 5,
+      "n_scored": 4,
+      "title_exact": 1.0,
+      "title_sim": 1.0,
+      "title_detail": {
+        "n": 4,
+        "correct_empty": 0,
+        "false_fill": 0,
+        "miss": 0
+      },
+      "authors_f1": null,
+      "authors_false_fill_rate": 0.0,
+      "authors_miss_rate": null,
+      "authors_detail": {
+        "n": 0,
+        "correct_empty": 4,
+        "false_fill": 0,
+        "miss": 0,
+        "gold_empty_pages": 4,
+        "gold_present_pages": 0
+      },
+      "time": {
+        "publish_time": {
+          "score": null,
+          "n": 0,
+          "confusion": 0,
+          "correct_empty": 4,
+          "false_fill": 0,
+          "miss": 0,
+          "gold_all_xx": 0,
+          "tz": {
+            "match": 0,
+            "missing": 0,
+            "mismatch": 0,
+            "gold_absent": 0
+          },
+          "false_fill_rate": 0.0
+        },
+        "update_time": {
+          "score": null,
+          "n": 0,
+          "confusion": 0,
+          "correct_empty": 4,
+          "false_fill": 0,
+          "miss": 0,
+          "gold_all_xx": 0,
+          "tz": {
+            "match": 0,
+            "missing": 0,
+            "mismatch": 0,
+            "gold_absent": 0
+          },
+          "false_fill_rate": 0.0
+        }
+      },
+      "publish_time_score": null,
+      "update_time_score": null,
+      "content_f1": 0.9903214834713239,
+      "lcs_f1": 0.989377361586904,
+      "dup_ratio": 0.6796921609355007,
+      "num_f1": 0.7419802692529965,
+      "para_ratio": 0.27760841703702754,
+      "content_detail": {
+        "n": 4,
+        "correct_empty": 0,
+        "false_fill": 0,
+        "miss": 0
+      },
+      "rejection_accuracy": 1.0,
+      "rejection_detail": {
+        "n": 1,
+        "correct": 1,
+        "badcases": []
+      }
+    },
+    "segmentfault": {
+      "n_pages": 5,
+      "n_scored": 5,
+      "title_exact": 1.0,
+      "title_sim": 1.0,
+      "title_detail": {
+        "n": 5,
+        "correct_empty": 0,
+        "false_fill": 0,
+        "miss": 0
+      },
+      "authors_f1": 1.0,
+      "authors_false_fill_rate": null,
+      "authors_miss_rate": 0.0,
+      "authors_detail": {
+        "n": 5,
+        "correct_empty": 0,
+        "false_fill": 0,
+        "miss": 0,
+        "gold_empty_pages": 0,
+        "gold_present_pages": 5
+      },
+      "time": {
+        "publish_time": {
+          "score": 1.0,
+          "n": 5,
+          "confusion": 0,
+          "correct_empty": 0,
+          "false_fill": 0,
+          "miss": 0,
+          "gold_all_xx": 0,
+          "tz": {
+            "match": 5,
+            "missing": 0,
+            "mismatch": 0,
+            "gold_absent": 0
+          },
+          "false_fill_rate": null
+        },
+        "update_time": {
+          "score": null,
+          "n": 0,
+          "confusion": 0,
+          "correct_empty": 5,
+          "false_fill": 0,
+          "miss": 0,
+          "gold_all_xx": 0,
+          "tz": {
+            "match": 0,
+            "missing": 0,
+            "mismatch": 0,
+            "gold_absent": 0
+          },
+          "false_fill_rate": 0.0
+        }
+      },
+      "publish_time_score": 1.0,
+      "update_time_score": null,
+      "content_f1": 0.9923399317319672,
+      "lcs_f1": 0.9945009744990273,
+      "dup_ratio": 0.31811074032465586,
+      "num_f1": 0.7651515151515151,
+      "para_ratio": 0.7003785810955715,
+      "content_detail": {
+        "n": 5,
+        "correct_empty": 0,
+        "false_fill": 0,
+        "miss": 0
+      },
+      "rejection_accuracy": null,
+      "rejection_detail": {
+        "n": 0,
+        "correct": 0,
+        "badcases": []
+      }
+    },
+    "sina": {
+      "n_pages": 6,
+      "n_scored": 6,
+      "title_exact": 1.0,
+      "title_sim": 1.0,
+      "title_detail": {
+        "n": 6,
+        "correct_empty": 0,
+        "false_fill": 0,
+        "miss": 0
+      },
+      "authors_f1": 1.0,
+      "authors_false_fill_rate": 0.0,
+      "authors_miss_rate": 0.0,
+      "authors_detail": {
+        "n": 4,
+        "correct_empty": 2,
+        "false_fill": 0,
+        "miss": 0,
+        "gold_empty_pages": 2,
+        "gold_present_pages": 4
+      },
+      "time": {
+        "publish_time": {
+          "score": 1.0,
+          "n": 6,
+          "confusion": 0,
+          "correct_empty": 0,
+          "false_fill": 0,
+          "miss": 0,
+          "gold_all_xx": 0,
+          "tz": {
+            "match": 6,
+            "missing": 0,
+            "mismatch": 0,
+            "gold_absent": 0
+          },
+          "false_fill_rate": null
+        },
+        "update_time": {
+          "score": null,
+          "n": 0,
+          "confusion": 0,
+          "correct_empty": 6,
+          "false_fill": 0,
+          "miss": 0,
+          "gold_all_xx": 0,
+          "tz": {
+            "match": 0,
+            "missing": 0,
+            "mismatch": 0,
+            "gold_absent": 0
+          },
+          "false_fill_rate": 0.0
+        }
+      },
+      "publish_time_score": 1.0,
+      "update_time_score": null,
+      "content_f1": 0.918214029213666,
+      "lcs_f1": 0.9234494123830449,
+      "dup_ratio": 0.16765131709732936,
+      "num_f1": 0.8642426465012214,
+      "para_ratio": 0.751525054466231,
+      "content_detail": {
+        "n": 6,
+        "correct_empty": 0,
+        "false_fill": 0,
+        "miss": 0
+      },
+      "rejection_accuracy": null,
+      "rejection_detail": {
+        "n": 0,
+        "correct": 0,
+        "badcases": []
+      }
+    },
+    "sohu": {
+      "n_pages": 6,
+      "n_scored": 6,
+      "title_exact": 1.0,
+      "title_sim": 1.0,
+      "title_detail": {
+        "n": 6,
+        "correct_empty": 0,
+        "false_fill": 0,
+        "miss": 0
+      },
+      "authors_f1": 1.0,
+      "authors_false_fill_rate": 0.0,
+      "authors_miss_rate": 0.0,
+      "authors_detail": {
+        "n": 5,
+        "correct_empty": 1,
+        "false_fill": 0,
+        "miss": 0,
+        "gold_empty_pages": 1,
+        "gold_present_pages": 5
+      },
+      "time": {
+        "publish_time": {
+          "score": 1.0,
+          "n": 6,
+          "confusion": 0,
+          "correct_empty": 0,
+          "false_fill": 0,
+          "miss": 0,
+          "gold_all_xx": 0,
+          "tz": {
+            "match": 0,
+            "missing": 6,
+            "mismatch": 0,
+            "gold_absent": 0
+          },
+          "false_fill_rate": null
+        },
+        "update_time": {
+          "score": null,
+          "n": 0,
+          "confusion": 0,
+          "correct_empty": 6,
+          "false_fill": 0,
+          "miss": 0,
+          "gold_all_xx": 0,
+          "tz": {
+            "match": 0,
+            "missing": 0,
+            "mismatch": 0,
+            "gold_absent": 0
+          },
+          "false_fill_rate": 0.0
+        }
+      },
+      "publish_time_score": 1.0,
+      "update_time_score": null,
+      "content_f1": 0.9584893860920808,
+      "lcs_f1": 0.9684412204163572,
+      "dup_ratio": 0.11282299363777666,
+      "num_f1": 0.9528875088647384,
+      "para_ratio": 0.7239392551892552,
+      "content_detail": {
+        "n": 6,
+        "correct_empty": 0,
+        "false_fill": 0,
+        "miss": 0
+      },
+      "rejection_accuracy": null,
+      "rejection_detail": {
+        "n": 0,
+        "correct": 0,
+        "badcases": []
+      }
+    }
+  },
+  "by_route": {
+    "fixed": {
+      "n_pages": 30,
+      "n_scored": 30,
+      "title_exact": 1.0,
+      "title_sim": 1.0,
+      "title_detail": {
+        "n": 30,
+        "correct_empty": 0,
+        "false_fill": 0,
+        "miss": 0
+      },
+      "authors_f1": 1.0,
+      "authors_false_fill_rate": 0.0,
+      "authors_miss_rate": 0.0,
+      "authors_detail": {
+        "n": 29,
+        "correct_empty": 1,
+        "false_fill": 0,
+        "miss": 0,
+        "gold_empty_pages": 1,
+        "gold_present_pages": 29
+      },
+      "time": {
+        "publish_time": {
+          "score": 1.0,
+          "n": 20,
+          "confusion": 10,
+          "correct_empty": 10,
+          "false_fill": 0,
+          "miss": 0,
+          "gold_all_xx": 0,
+          "tz": {
+            "match": 20,
+            "missing": 0,
+            "mismatch": 0,
+            "gold_absent": 0
+          },
+          "false_fill_rate": 0.0
+        },
+        "update_time": {
+          "score": 1.0,
+          "n": 20,
+          "confusion": 10,
+          "correct_empty": 10,
+          "false_fill": 0,
+          "miss": 0,
+          "gold_all_xx": 0,
+          "tz": {
+            "match": 20,
+            "missing": 0,
+            "mismatch": 0,
+            "gold_absent": 0
+          },
+          "false_fill_rate": 0.0
+        }
+      },
+      "publish_time_score": 1.0,
+      "update_time_score": 1.0,
+      "content_f1": 0.9961710673514296,
+      "lcs_f1": 0.9962308042579558,
+      "dup_ratio": 0.31692175685750595,
+      "num_f1": 0.9909199522102748,
+      "para_ratio": 0.9645874007666448,
+      "content_detail": {
+        "n": 30,
+        "correct_empty": 0,
+        "false_fill": 0,
+        "miss": 0
+      },
+      "rejection_accuracy": null,
+      "rejection_detail": {
+        "n": 0,
+        "correct": 0,
+        "badcases": []
+      }
+    },
+    "generic": {
+      "n_pages": 55,
+      "n_scored": 54,
+      "title_exact": 0.9387755102040817,
+      "title_sim": 0.9387755102040817,
+      "title_detail": {
+        "n": 49,
+        "correct_empty": 5,
+        "false_fill": 0,
+        "miss": 0
+      },
+      "authors_f1": 0.95,
+      "authors_false_fill_rate": 0.0,
+      "authors_miss_rate": 0.025,
+      "authors_detail": {
+        "n": 40,
+        "correct_empty": 14,
+        "false_fill": 0,
+        "miss": 1,
+        "gold_empty_pages": 14,
+        "gold_present_pages": 40
+      },
+      "time": {
+        "publish_time": {
+          "score": 0.8444444444444444,
+          "n": 45,
+          "confusion": 0,
+          "correct_empty": 9,
+          "false_fill": 7,
+          "miss": 0,
+          "gold_all_xx": 0,
+          "tz": {
+            "match": 32,
+            "missing": 6,
+            "mismatch": 0,
+            "gold_absent": 0
+          },
+          "false_fill_rate": 0.4375
+        },
+        "update_time": {
+          "score": 1.0,
+          "n": 7,
+          "confusion": 0,
+          "correct_empty": 47,
+          "false_fill": 0,
+          "miss": 0,
+          "gold_all_xx": 0,
+          "tz": {
+            "match": 7,
+            "missing": 0,
+            "mismatch": 0,
+            "gold_absent": 0
+          },
+          "false_fill_rate": 0.0
+        }
+      },
+      "publish_time_score": 0.8444444444444444,
+      "update_time_score": 1.0,
+      "content_f1": 0.8903845827588076,
+      "lcs_f1": 0.8915108123609253,
+      "dup_ratio": 0.3019432492288155,
+      "num_f1": 0.7035476577280468,
+      "para_ratio": 0.5921237990573104,
+      "content_detail": {
+        "n": 49,
+        "correct_empty": 5,
+        "false_fill": 0,
+        "miss": 0
+      },
+      "rejection_accuracy": 1.0,
+      "rejection_detail": {
+        "n": 1,
+        "correct": 1,
+        "badcases": []
+      }
+    }
+  },
+  "by_content_structure": {
+    "list_page": {
+      "n_pages": 1,
+      "n_scored": 0,
+      "title_exact": null,
+      "title_sim": null,
+      "title_detail": {
+        "n": 0,
+        "correct_empty": 0,
+        "false_fill": 0,
+        "miss": 0
+      },
+      "authors_f1": null,
+      "authors_false_fill_rate": null,
+      "authors_miss_rate": null,
+      "authors_detail": {
+        "n": 0,
+        "correct_empty": 0,
+        "false_fill": 0,
+        "miss": 0,
+        "gold_empty_pages": 0,
+        "gold_present_pages": 0
+      },
+      "time": {},
+      "content_f1": null,
+      "lcs_f1": null,
+      "dup_ratio": null,
+      "num_f1": null,
+      "para_ratio": null,
+      "content_detail": {
+        "n": 0,
+        "correct_empty": 0,
+        "false_fill": 0,
+        "miss": 0
+      },
+      "rejection_accuracy": 1.0,
+      "rejection_detail": {
+        "n": 1,
+        "correct": 1,
+        "badcases": []
+      }
+    },
+    "single": {
+      "n_pages": 84,
+      "n_scored": 84,
+      "title_exact": 0.9620253164556962,
+      "title_sim": 0.9620253164556962,
+      "title_detail": {
+        "n": 79,
+        "correct_empty": 5,
+        "false_fill": 0,
+        "miss": 0
+      },
+      "authors_f1": 0.9710144927536232,
+      "authors_false_fill_rate": 0.0,
+      "authors_miss_rate": 0.014492753623188406,
+      "authors_detail": {
+        "n": 69,
+        "correct_empty": 15,
+        "false_fill": 0,
+        "miss": 1,
+        "gold_empty_pages": 15,
+        "gold_present_pages": 69
+      },
+      "time": {
+        "publish_time": {
+          "score": 0.8923076923076924,
+          "n": 65,
+          "confusion": 10,
+          "correct_empty": 19,
+          "false_fill": 7,
+          "miss": 0,
+          "gold_all_xx": 0,
+          "tz": {
+            "match": 52,
+            "missing": 6,
+            "mismatch": 0,
+            "gold_absent": 0
+          },
+          "false_fill_rate": 0.2692307692307692
+        },
+        "update_time": {
+          "score": 1.0,
+          "n": 27,
+          "confusion": 10,
+          "correct_empty": 57,
+          "false_fill": 0,
+          "miss": 0,
+          "gold_all_xx": 0,
+          "tz": {
+            "match": 27,
+            "missing": 0,
+            "mismatch": 0,
+            "gold_absent": 0
+          },
+          "false_fill_rate": 0.0
+        }
+      },
+      "publish_time_score": 0.8923076923076924,
+      "update_time_score": 1.0,
+      "content_f1": 0.9305566655154994,
+      "lcs_f1": 0.9312778978914433,
+      "dup_ratio": 0.3076312901004701,
+      "num_f1": 0.8126763771516776,
+      "para_ratio": 0.7335656731241462,
+      "content_detail": {
+        "n": 79,
+        "correct_empty": 5,
+        "false_fill": 0,
+        "miss": 0
+      },
+      "rejection_accuracy": null,
+      "rejection_detail": {
+        "n": 0,
+        "correct": 0,
+        "badcases": []
+      }
+    }
+  },
+  "pages": [
+    {
+      "id": "news_cn__01",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": {
+        "score": 1.0,
+        "sim": 1.0,
+        "tag": "ok"
+      },
+      "authors": {
+        "score": 1.0,
+        "tag": "ok"
+      },
+      "time": {
+        "publish_time": {
+          "score": 1.0,
+          "tag": "ok",
+          "confusion": false,
+          "tz": "match"
+        },
+        "update_time": {
+          "score": null,
+          "tag": "correct_empty",
+          "confusion": false,
+          "tz": null
+        }
+      },
+      "content": {
+        "score": 0.997804954531201,
+        "tag": "ok",
+        "lcs_f1": 0.9978063303039799,
+        "dup_ratio": 0.16489361702127658,
+        "num_f1": 1.0,
+        "para_ratio": 0.96875
+      }
+    },
+    {
+      "id": "news_cn__02",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": {
+        "score": 1.0,
+        "sim": 1.0,
+        "tag": "ok"
+      },
+      "authors": {
+        "score": 1.0,
+        "tag": "ok"
+      },
+      "time": {
+        "publish_time": {
+          "score": 1.0,
+          "tag": "ok",
+          "confusion": false,
+          "tz": "match"
+        },
+        "update_time": {
+          "score": null,
+          "tag": "correct_empty",
+          "confusion": false,
+          "tz": null
+        }
+      },
+      "content": {
+        "score": 0.9933649289099525,
+        "tag": "ok",
+        "lcs_f1": 0.9933774834437086,
+        "dup_ratio": 0.18361581920903955,
+        "num_f1": 1.0,
+        "para_ratio": 0.9166666666666666
+      }
+    },
+    {
+      "id": "news_cn__03",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": {
+        "score": 1.0,
+        "sim": 1.0,
+        "tag": "ok"
+      },
+      "authors": {
+        "score": 1.0,
+        "tag": "ok"
+      },
+      "time": {
+        "publish_time": {
+          "score": 1.0,
+          "tag": "ok",
+          "confusion": false,
+          "tz": "match"
+        },
+        "update_time": {
+          "score": null,
+          "tag": "correct_empty",
+          "confusion": false,
+          "tz": null
+        }
+      },
+      "content": {
+        "score": 0.9973168214654283,
+        "tag": "ok",
+        "lcs_f1": 0.9973190348525469,
+        "dup_ratio": 0.14985590778097982,
+        "num_f1": 1.0,
+        "para_ratio": 0.9722222222222222
+      }
+    },
+    {
+      "id": "news_cn__04",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": {
+        "score": 1.0,
+        "sim": 1.0,
+        "tag": "ok"
+      },
+      "authors": {
+        "score": 1.0,
+        "tag": "ok"
+      },
+      "time": {
+        "publish_time": {
+          "score": 1.0,
+          "tag": "ok",
+          "confusion": false,
+          "tz": "match"
+        },
+        "update_time": {
+          "score": null,
+          "tag": "correct_empty",
+          "confusion": false,
+          "tz": null
+        }
+      },
+      "content": {
+        "score": 0.999043062200957,
+        "tag": "ok",
+        "lcs_f1": 0.999043323766571,
+        "dup_ratio": 0.18983884184649003,
+        "num_f1": 1.0,
+        "para_ratio": 0.9921875
+      }
+    },
+    {
+      "id": "news_cn__05",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": {
+        "score": 1.0,
+        "sim": 1.0,
+        "tag": "ok"
+      },
+      "authors": {
+        "score": 1.0,
+        "tag": "ok"
+      },
+      "time": {
+        "publish_time": {
+          "score": 1.0,
+          "tag": "ok",
+          "confusion": false,
+          "tz": "match"
+        },
+        "update_time": {
+          "score": null,
+          "tag": "correct_empty",
+          "confusion": false,
+          "tz": null
+        }
+      },
+      "content": {
+        "score": 0.9075144508670521,
+        "tag": "ok",
+        "lcs_f1": 0.9085714285714286,
+        "dup_ratio": 0.06349206349206349,
+        "num_f1": 0.888888888888889,
+        "para_ratio": 0.2
+      }
+    },
+    {
+      "id": "news_cn__06",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": {
+        "score": 1.0,
+        "sim": 1.0,
+        "tag": "ok"
+      },
+      "authors": {
+        "score": 1.0,
+        "tag": "ok"
+      },
+      "time": {
+        "publish_time": {
+          "score": 1.0,
+          "tag": "ok",
+          "confusion": false,
+          "tz": "match"
+        },
+        "update_time": {
+          "score": null,
+          "tag": "correct_empty",
+          "confusion": false,
+          "tz": null
+        }
+      },
+      "content": {
+        "score": 0.998636806231743,
+        "tag": "ok",
+        "lcs_f1": 0.9986373369671014,
+        "dup_ratio": 0.1927265655387009,
+        "num_f1": 1.0,
+        "para_ratio": 0.989247311827957
+      }
+    },
+    {
+      "id": "news_cn__07",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": {
+        "score": 1.0,
+        "sim": 1.0,
+        "tag": "ok"
+      },
+      "authors": {
+        "score": 1.0,
+        "tag": "ok"
+      },
+      "time": {
+        "publish_time": {
+          "score": 1.0,
+          "tag": "ok",
+          "confusion": false,
+          "tz": "match"
+        },
+        "update_time": {
+          "score": null,
+          "tag": "correct_empty",
+          "confusion": false,
+          "tz": null
+        }
+      },
+      "content": {
+        "score": 0.9979544126241964,
+        "tag": "ok",
+        "lcs_f1": 0.9979556074766355,
+        "dup_ratio": 0.1714785651793526,
+        "num_f1": 1.0,
+        "para_ratio": 0.9857142857142858
+      }
+    },
+    {
+      "id": "news_cn__08",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": {
+        "score": 1.0,
+        "sim": 1.0,
+        "tag": "ok"
+      },
+      "authors": {
+        "score": 1.0,
+        "tag": "ok"
+      },
+      "time": {
+        "publish_time": {
+          "score": 1.0,
+          "tag": "ok",
+          "confusion": false,
+          "tz": "match"
+        },
+        "update_time": {
+          "score": null,
+          "tag": "correct_empty",
+          "confusion": false,
+          "tz": null
+        }
+      },
+      "content": {
+        "score": 0.9989306446684999,
+        "tag": "ok",
+        "lcs_f1": 0.9989309712889431,
+        "dup_ratio": 0.15840073248893635,
+        "num_f1": 1.0,
+        "para_ratio": 0.9833333333333333
+      }
+    },
+    {
+      "id": "news_cn__09",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": {
+        "score": 1.0,
+        "sim": 1.0,
+        "tag": "ok"
+      },
+      "authors": {
+        "score": 1.0,
+        "tag": "ok"
+      },
+      "time": {
+        "publish_time": {
+          "score": 1.0,
+          "tag": "ok",
+          "confusion": false,
+          "tz": "match"
+        },
+        "update_time": {
+          "score": null,
+          "tag": "correct_empty",
+          "confusion": false,
+          "tz": null
+        }
+      },
+      "content": {
+        "score": 0.997501784439686,
+        "tag": "ok",
+        "lcs_f1": 0.9975035663338089,
+        "dup_ratio": 0.19829120683517265,
+        "num_f1": 1.0,
+        "para_ratio": 0.9722222222222222
+      }
+    },
+    {
+      "id": "news_cn__10",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": {
+        "score": 1.0,
+        "sim": 1.0,
+        "tag": "ok"
+      },
+      "authors": {
+        "score": 1.0,
+        "tag": "ok"
+      },
+      "time": {
+        "publish_time": {
+          "score": 1.0,
+          "tag": "ok",
+          "confusion": false,
+          "tz": "match"
+        },
+        "update_time": {
+          "score": null,
+          "tag": "correct_empty",
+          "confusion": false,
+          "tz": null
+        }
+      },
+      "content": {
+        "score": 0.9970641546041715,
+        "tag": "ok",
+        "lcs_f1": 0.9977790447339534,
+        "dup_ratio": 0.37851744926551756,
+        "num_f1": 0.8387096774193548,
+        "para_ratio": 0.9572784810126582
+      }
+    },
+    {
+      "id": "chinadaily__01",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": {
+        "score": 1.0,
+        "sim": 1.0,
+        "tag": "ok"
+      },
+      "authors": {
+        "score": 1.0,
+        "tag": "ok"
+      },
+      "time": {
+        "publish_time": {
+          "score": null,
+          "tag": "correct_empty",
+          "confusion": false,
+          "tz": null
+        },
+        "update_time": {
+          "score": 1.0,
+          "tag": "ok",
+          "confusion": false,
+          "tz": "match"
+        }
+      },
+      "content": {
+        "score": 1.0,
+        "tag": "ok",
+        "lcs_f1": 1.0,
+        "dup_ratio": 0.6071428571428571,
+        "num_f1": 1.0,
+        "para_ratio": 1.0
+      }
+    },
+    {
+      "id": "chinadaily__02",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": {
+        "score": 1.0,
+        "sim": 1.0,
+        "tag": "ok"
+      },
+      "authors": {
+        "score": 1.0,
+        "tag": "ok"
+      },
+      "time": {
+        "publish_time": {
+          "score": null,
+          "tag": "correct_empty",
+          "confusion": false,
+          "tz": null
+        },
+        "update_time": {
+          "score": 1.0,
+          "tag": "ok",
+          "confusion": false,
+          "tz": "match"
+        }
+      },
+      "content": {
+        "score": 1.0,
+        "tag": "ok",
+        "lcs_f1": 1.0,
+        "dup_ratio": 0.521311475409836,
+        "num_f1": 1.0,
+        "para_ratio": 1.0
+      }
+    },
+    {
+      "id": "chinadaily__03",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": {
+        "score": 1.0,
+        "sim": 1.0,
+        "tag": "ok"
+      },
+      "authors": {
+        "score": 1.0,
+        "tag": "ok"
+      },
+      "time": {
+        "publish_time": {
+          "score": null,
+          "tag": "correct_empty",
+          "confusion": false,
+          "tz": null
+        },
+        "update_time": {
+          "score": 1.0,
+          "tag": "ok",
+          "confusion": false,
+          "tz": "match"
+        }
+      },
+      "content": {
+        "score": 1.0,
+        "tag": "ok",
+        "lcs_f1": 1.0,
+        "dup_ratio": 0.6583694083694084,
+        "num_f1": 1.0,
+        "para_ratio": 1.0
+      }
+    },
+    {
+      "id": "chinadaily__04",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": {
+        "score": 1.0,
+        "sim": 1.0,
+        "tag": "ok"
+      },
+      "authors": {
+        "score": 1.0,
+        "tag": "ok"
+      },
+      "time": {
+        "publish_time": {
+          "score": null,
+          "tag": "correct_empty",
+          "confusion": false,
+          "tz": null
+        },
+        "update_time": {
+          "score": 1.0,
+          "tag": "ok",
+          "confusion": false,
+          "tz": "match"
+        }
+      },
+      "content": {
+        "score": 1.0,
+        "tag": "ok",
+        "lcs_f1": 1.0,
+        "dup_ratio": 0.6846292404683278,
+        "num_f1": 1.0,
+        "para_ratio": 1.0
+      }
+    },
+    {
+      "id": "chinadaily__05",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": {
+        "score": 1.0,
+        "sim": 1.0,
+        "tag": "ok"
+      },
+      "authors": {
+        "score": 1.0,
+        "tag": "ok"
+      },
+      "time": {
+        "publish_time": {
+          "score": null,
+          "tag": "correct_empty",
+          "confusion": false,
+          "tz": null
+        },
+        "update_time": {
+          "score": 1.0,
+          "tag": "ok",
+          "confusion": false,
+          "tz": "match"
+        }
+      },
+      "content": {
+        "score": 1.0,
+        "tag": "ok",
+        "lcs_f1": 1.0,
+        "dup_ratio": 0.4989613626921479,
+        "num_f1": 1.0,
+        "para_ratio": 1.0
+      }
+    },
+    {
+      "id": "chinadaily__06",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": {
+        "score": 1.0,
+        "sim": 1.0,
+        "tag": "ok"
+      },
+      "authors": {
+        "score": 1.0,
+        "tag": "ok"
+      },
+      "time": {
+        "publish_time": {
+          "score": null,
+          "tag": "correct_empty",
+          "confusion": false,
+          "tz": null
+        },
+        "update_time": {
+          "score": 1.0,
+          "tag": "ok",
+          "confusion": false,
+          "tz": "match"
+        }
+      },
+      "content": {
+        "score": 1.0,
+        "tag": "ok",
+        "lcs_f1": 1.0,
+        "dup_ratio": 0.5034965034965035,
+        "num_f1": 1.0,
+        "para_ratio": 1.0
+      }
+    },
+    {
+      "id": "chinadaily__07",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": {
+        "score": 1.0,
+        "sim": 1.0,
+        "tag": "ok"
+      },
+      "authors": {
+        "score": null,
+        "tag": "correct_empty"
+      },
+      "time": {
+        "publish_time": {
+          "score": null,
+          "tag": "correct_empty",
+          "confusion": false,
+          "tz": null
+        },
+        "update_time": {
+          "score": 1.0,
+          "tag": "ok",
+          "confusion": false,
+          "tz": "match"
+        }
+      },
+      "content": {
+        "score": 1.0,
+        "tag": "ok",
+        "lcs_f1": 1.0,
+        "dup_ratio": 0.6089159067882473,
+        "num_f1": 1.0,
+        "para_ratio": 1.0
+      }
+    },
+    {
+      "id": "chinadaily__08",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": {
+        "score": 1.0,
+        "sim": 1.0,
+        "tag": "ok"
+      },
+      "authors": {
+        "score": 1.0,
+        "tag": "ok"
+      },
+      "time": {
+        "publish_time": {
+          "score": null,
+          "tag": "correct_empty",
+          "confusion": false,
+          "tz": null
+        },
+        "update_time": {
+          "score": 1.0,
+          "tag": "ok",
+          "confusion": false,
+          "tz": "match"
+        }
+      },
+      "content": {
+        "score": 1.0,
+        "tag": "ok",
+        "lcs_f1": 1.0,
+        "dup_ratio": 0.4769351055512119,
+        "num_f1": 1.0,
+        "para_ratio": 1.0
+      }
+    },
+    {
+      "id": "chinadaily__09",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": {
+        "score": 1.0,
+        "sim": 1.0,
+        "tag": "ok"
+      },
+      "authors": {
+        "score": 1.0,
+        "tag": "ok"
+      },
+      "time": {
+        "publish_time": {
+          "score": null,
+          "tag": "correct_empty",
+          "confusion": false,
+          "tz": null
+        },
+        "update_time": {
+          "score": 1.0,
+          "tag": "ok",
+          "confusion": false,
+          "tz": "match"
+        }
+      },
+      "content": {
+        "score": 1.0,
+        "tag": "ok",
+        "lcs_f1": 1.0,
+        "dup_ratio": 0.444895199459094,
+        "num_f1": 1.0,
+        "para_ratio": 1.0
+      }
+    },
+    {
+      "id": "chinadaily__10",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": {
+        "score": 1.0,
+        "sim": 1.0,
+        "tag": "ok"
+      },
+      "authors": {
+        "score": 1.0,
+        "tag": "ok"
+      },
+      "time": {
+        "publish_time": {
+          "score": null,
+          "tag": "correct_empty",
+          "confusion": false,
+          "tz": null
+        },
+        "update_time": {
+          "score": 1.0,
+          "tag": "ok",
+          "confusion": false,
+          "tz": "match"
+        }
+      },
+      "content": {
+        "score": 1.0,
+        "tag": "ok",
+        "lcs_f1": 1.0,
+        "dup_ratio": 0.5803640092284029,
+        "num_f1": 1.0,
+        "para_ratio": 1.0
+      }
+    },
+    {
+      "id": "gov_cn__01",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": {
+        "score": 1.0,
+        "sim": 1.0,
+        "tag": "ok"
+      },
+      "authors": {
+        "score": 1.0,
+        "tag": "ok"
+      },
+      "time": {
+        "publish_time": {
+          "score": 1.0,
+          "tag": "ok",
+          "confusion": true,
+          "tz": "match"
+        },
+        "update_time": {
+          "score": 1.0,
+          "tag": "ok",
+          "confusion": true,
+          "tz": "match"
+        }
+      },
+      "content": {
+        "score": 1.0,
+        "tag": "ok",
+        "lcs_f1": 1.0,
+        "dup_ratio": 0.1703835860838537,
+        "num_f1": 1.0,
+        "para_ratio": 1.0
+      }
+    },
+    {
+      "id": "gov_cn__02",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": {
+        "score": 1.0,
+        "sim": 1.0,
+        "tag": "ok"
+      },
+      "authors": {
+        "score": 1.0,
+        "tag": "ok"
+      },
+      "time": {
+        "publish_time": {
+          "score": 1.0,
+          "tag": "ok",
+          "confusion": true,
+          "tz": "match"
+        },
+        "update_time": {
+          "score": 1.0,
+          "tag": "ok",
+          "confusion": true,
+          "tz": "match"
+        }
+      },
+      "content": {
+        "score": 1.0,
+        "tag": "ok",
+        "lcs_f1": 1.0,
+        "dup_ratio": 0.19895287958115182,
+        "num_f1": 1.0,
+        "para_ratio": 1.0
+      }
+    },
+    {
+      "id": "gov_cn__03",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": {
+        "score": 1.0,
+        "sim": 1.0,
+        "tag": "ok"
+      },
+      "authors": {
+        "score": 1.0,
+        "tag": "ok"
+      },
+      "time": {
+        "publish_time": {
+          "score": 1.0,
+          "tag": "ok",
+          "confusion": true,
+          "tz": "match"
+        },
+        "update_time": {
+          "score": 1.0,
+          "tag": "ok",
+          "confusion": true,
+          "tz": "match"
+        }
+      },
+      "content": {
+        "score": 1.0,
+        "tag": "ok",
+        "lcs_f1": 1.0,
+        "dup_ratio": 0.06413301662707839,
+        "num_f1": 1.0,
+        "para_ratio": 1.0
+      }
+    },
+    {
+      "id": "gov_cn__04",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": {
+        "score": 1.0,
+        "sim": 1.0,
+        "tag": "ok"
+      },
+      "authors": {
+        "score": 1.0,
+        "tag": "ok"
+      },
+      "time": {
+        "publish_time": {
+          "score": 1.0,
+          "tag": "ok",
+          "confusion": true,
+          "tz": "match"
+        },
+        "update_time": {
+          "score": 1.0,
+          "tag": "ok",
+          "confusion": true,
+          "tz": "match"
+        }
+      },
+      "content": {
+        "score": 1.0,
+        "tag": "ok",
+        "lcs_f1": 1.0,
+        "dup_ratio": 0.17055603572457506,
+        "num_f1": 1.0,
+        "para_ratio": 1.0
+      }
+    },
+    {
+      "id": "gov_cn__05",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": {
+        "score": 1.0,
+        "sim": 1.0,
+        "tag": "ok"
+      },
+      "authors": {
+        "score": 1.0,
+        "tag": "ok"
+      },
+      "time": {
+        "publish_time": {
+          "score": 1.0,
+          "tag": "ok",
+          "confusion": true,
+          "tz": "match"
+        },
+        "update_time": {
+          "score": 1.0,
+          "tag": "ok",
+          "confusion": true,
+          "tz": "match"
+        }
+      },
+      "content": {
+        "score": 1.0,
+        "tag": "ok",
+        "lcs_f1": 1.0,
+        "dup_ratio": 0.30136224631637476,
+        "num_f1": 1.0,
+        "para_ratio": 1.0
+      }
+    },
+    {
+      "id": "gov_cn__06",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": {
+        "score": 1.0,
+        "sim": 1.0,
+        "tag": "ok"
+      },
+      "authors": {
+        "score": 1.0,
+        "tag": "ok"
+      },
+      "time": {
+        "publish_time": {
+          "score": 1.0,
+          "tag": "ok",
+          "confusion": true,
+          "tz": "match"
+        },
+        "update_time": {
+          "score": 1.0,
+          "tag": "ok",
+          "confusion": true,
+          "tz": "match"
+        }
+      },
+      "content": {
+        "score": 1.0,
+        "tag": "ok",
+        "lcs_f1": 1.0,
+        "dup_ratio": 0.2219020172910663,
+        "num_f1": 1.0,
+        "para_ratio": 1.0
+      }
+    },
+    {
+      "id": "gov_cn__07",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": {
+        "score": 1.0,
+        "sim": 1.0,
+        "tag": "ok"
+      },
+      "authors": {
+        "score": 1.0,
+        "tag": "ok"
+      },
+      "time": {
+        "publish_time": {
+          "score": 1.0,
+          "tag": "ok",
+          "confusion": true,
+          "tz": "match"
+        },
+        "update_time": {
+          "score": 1.0,
+          "tag": "ok",
+          "confusion": true,
+          "tz": "match"
+        }
+      },
+      "content": {
+        "score": 1.0,
+        "tag": "ok",
+        "lcs_f1": 1.0,
+        "dup_ratio": 0.24958677685950414,
+        "num_f1": 1.0,
+        "para_ratio": 1.0
+      }
+    },
+    {
+      "id": "gov_cn__08",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": {
+        "score": 1.0,
+        "sim": 1.0,
+        "tag": "ok"
+      },
+      "authors": {
+        "score": 1.0,
+        "tag": "ok"
+      },
+      "time": {
+        "publish_time": {
+          "score": 1.0,
+          "tag": "ok",
+          "confusion": true,
+          "tz": "match"
+        },
+        "update_time": {
+          "score": 1.0,
+          "tag": "ok",
+          "confusion": true,
+          "tz": "match"
+        }
+      },
+      "content": {
+        "score": 1.0,
+        "tag": "ok",
+        "lcs_f1": 1.0,
+        "dup_ratio": 0.238013698630137,
+        "num_f1": 1.0,
+        "para_ratio": 1.0
+      }
+    },
+    {
+      "id": "gov_cn__09",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": {
+        "score": 1.0,
+        "sim": 1.0,
+        "tag": "ok"
+      },
+      "authors": {
+        "score": 1.0,
+        "tag": "ok"
+      },
+      "time": {
+        "publish_time": {
+          "score": 1.0,
+          "tag": "ok",
+          "confusion": true,
+          "tz": "match"
+        },
+        "update_time": {
+          "score": 1.0,
+          "tag": "ok",
+          "confusion": true,
+          "tz": "match"
+        }
+      },
+      "content": {
+        "score": 1.0,
+        "tag": "ok",
+        "lcs_f1": 1.0,
+        "dup_ratio": 0.22439180537772088,
+        "num_f1": 1.0,
+        "para_ratio": 1.0
+      }
+    },
+    {
+      "id": "gov_cn__10",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": {
+        "score": 1.0,
+        "sim": 1.0,
+        "tag": "ok"
+      },
+      "authors": {
+        "score": 1.0,
+        "tag": "ok"
+      },
+      "time": {
+        "publish_time": {
+          "score": 1.0,
+          "tag": "ok",
+          "confusion": true,
+          "tz": "match"
+        },
+        "update_time": {
+          "score": 1.0,
+          "tag": "ok",
+          "confusion": true,
+          "tz": "match"
+        }
+      },
+      "content": {
+        "score": 1.0,
+        "tag": "ok",
+        "lcs_f1": 1.0,
+        "dup_ratio": 0.23223880597014926,
+        "num_f1": 1.0,
+        "para_ratio": 1.0
+      }
+    },
+    {
+      "id": "sina__01",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": {
+        "score": 1.0,
+        "sim": 1.0,
+        "tag": "ok"
+      },
+      "authors": {
+        "score": 1.0,
+        "tag": "ok"
+      },
+      "time": {
+        "publish_time": {
+          "score": 1.0,
+          "tag": "ok",
+          "confusion": false,
+          "tz": "match"
+        },
+        "update_time": {
+          "score": null,
+          "tag": "correct_empty",
+          "confusion": false,
+          "tz": null
+        }
+      },
+      "content": {
+        "score": 0.8958031837916063,
+        "tag": "ok",
+        "lcs_f1": 0.898989898989899,
+        "dup_ratio": 0.18351063829787234,
+        "num_f1": 0.5,
+        "para_ratio": 0.5
+      }
+    },
+    {
+      "id": "sina__02",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": {
+        "score": 1.0,
+        "sim": 1.0,
+        "tag": "ok"
+      },
+      "authors": {
+        "score": null,
+        "tag": "correct_empty"
+      },
+      "time": {
+        "publish_time": {
+          "score": 1.0,
+          "tag": "ok",
+          "confusion": false,
+          "tz": "match"
+        },
+        "update_time": {
+          "score": null,
+          "tag": "correct_empty",
+          "confusion": false,
+          "tz": null
+        }
+      },
+      "content": {
+        "score": 0.7365967365967365,
+        "tag": "ok",
+        "lcs_f1": 0.7482678983833718,
+        "dup_ratio": 0.06324110671936758,
+        "num_f1": 0.8799999999999999,
+        "para_ratio": 0.4444444444444444
+      }
+    },
+    {
+      "id": "sina__03",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": {
+        "score": 1.0,
+        "sim": 1.0,
+        "tag": "ok"
+      },
+      "authors": {
+        "score": null,
+        "tag": "correct_empty"
+      },
+      "time": {
+        "publish_time": {
+          "score": 1.0,
+          "tag": "ok",
+          "confusion": false,
+          "tz": "match"
+        },
+        "update_time": {
+          "score": null,
+          "tag": "correct_empty",
+          "confusion": false,
+          "tz": null
+        }
+      },
+      "content": {
+        "score": 0.9592233009708738,
+        "tag": "ok",
+        "lcs_f1": 0.9674498814399655,
+        "dup_ratio": 0.09180609180609181,
+        "num_f1": 0.961904761904762,
+        "para_ratio": 0.9117647058823529
+      }
+    },
+    {
+      "id": "sina__04",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": {
+        "score": 1.0,
+        "sim": 1.0,
+        "tag": "ok"
+      },
+      "authors": {
+        "score": 1.0,
+        "tag": "ok"
+      },
+      "time": {
+        "publish_time": {
+          "score": 1.0,
+          "tag": "ok",
+          "confusion": false,
+          "tz": "match"
+        },
+        "update_time": {
+          "score": null,
+          "tag": "correct_empty",
+          "confusion": false,
+          "tz": null
+        }
+      },
+      "content": {
+        "score": 0.9717203456402198,
+        "tag": "ok",
+        "lcs_f1": 0.9725490196078431,
+        "dup_ratio": 0.22153846153846155,
+        "num_f1": 0.9782608695652174,
+        "para_ratio": 0.8
+      }
+    },
+    {
+      "id": "sina__05",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": {
+        "score": 1.0,
+        "sim": 1.0,
+        "tag": "ok"
+      },
+      "authors": {
+        "score": 1.0,
+        "tag": "ok"
+      },
+      "time": {
+        "publish_time": {
+          "score": 1.0,
+          "tag": "ok",
+          "confusion": false,
+          "tz": "match"
+        },
+        "update_time": {
+          "score": null,
+          "tag": "correct_empty",
+          "confusion": false,
+          "tz": null
+        }
+      },
+      "content": {
+        "score": 0.986700645058533,
+        "tag": "ok",
+        "lcs_f1": 0.9892524480534989,
+        "dup_ratio": 0.3125597704813516,
+        "num_f1": 0.9800443458980044,
+        "para_ratio": 0.9529411764705882
+      }
+    },
+    {
+      "id": "sina__06",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": {
+        "score": 1.0,
+        "sim": 1.0,
+        "tag": "ok"
+      },
+      "authors": {
+        "score": 1.0,
+        "tag": "ok"
+      },
+      "time": {
+        "publish_time": {
+          "score": 1.0,
+          "tag": "ok",
+          "confusion": false,
+          "tz": "match"
+        },
+        "update_time": {
+          "score": null,
+          "tag": "correct_empty",
+          "confusion": false,
+          "tz": null
+        }
+      },
+      "content": {
+        "score": 0.9592399632240269,
+        "tag": "ok",
+        "lcs_f1": 0.9641873278236914,
+        "dup_ratio": 0.1332518337408313,
+        "num_f1": 0.8852459016393442,
+        "para_ratio": 0.9
+      }
+    },
+    {
+      "id": "sohu__01",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": {
+        "score": 1.0,
+        "sim": 1.0,
+        "tag": "ok"
+      },
+      "authors": {
+        "score": 1.0,
+        "tag": "ok"
+      },
+      "time": {
+        "publish_time": {
+          "score": 1.0,
+          "tag": "ok",
+          "confusion": false,
+          "tz": "missing"
+        },
+        "update_time": {
+          "score": null,
+          "tag": "correct_empty",
+          "confusion": false,
+          "tz": null
+        }
+      },
+      "content": {
+        "score": 0.9504132231404959,
+        "tag": "ok",
+        "lcs_f1": 0.9629629629629629,
+        "dup_ratio": 0.18105263157894738,
+        "num_f1": 0.9032258064516129,
+        "para_ratio": 0.7692307692307693
+      }
+    },
+    {
+      "id": "sohu__02",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": {
+        "score": 1.0,
+        "sim": 1.0,
+        "tag": "ok"
+      },
+      "authors": {
+        "score": null,
+        "tag": "correct_empty"
+      },
+      "time": {
+        "publish_time": {
+          "score": 1.0,
+          "tag": "ok",
+          "confusion": false,
+          "tz": "missing"
+        },
+        "update_time": {
+          "score": null,
+          "tag": "correct_empty",
+          "confusion": false,
+          "tz": null
+        }
+      },
+      "content": {
+        "score": 0.9761904761904762,
+        "tag": "ok",
+        "lcs_f1": 0.9821782178217822,
+        "dup_ratio": 0.1021021021021021,
+        "num_f1": 0.9032258064516129,
+        "para_ratio": 0.8125
+      }
+    },
+    {
+      "id": "sohu__03",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": {
+        "score": 1.0,
+        "sim": 1.0,
+        "tag": "ok"
+      },
+      "authors": {
+        "score": 1.0,
+        "tag": "ok"
+      },
+      "time": {
+        "publish_time": {
+          "score": 1.0,
+          "tag": "ok",
+          "confusion": false,
+          "tz": "missing"
+        },
+        "update_time": {
+          "score": null,
+          "tag": "correct_empty",
+          "confusion": false,
+          "tz": null
+        }
+      },
+      "content": {
+        "score": 0.99026518966096,
+        "tag": "ok",
+        "lcs_f1": 0.992289641300704,
+        "dup_ratio": 0.1028225806451613,
+        "num_f1": 0.9696969696969697,
+        "para_ratio": 0.9285714285714286
+      }
+    },
+    {
+      "id": "sohu__04",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": {
+        "score": 1.0,
+        "sim": 1.0,
+        "tag": "ok"
+      },
+      "authors": {
+        "score": 1.0,
+        "tag": "ok"
+      },
+      "time": {
+        "publish_time": {
+          "score": 1.0,
+          "tag": "ok",
+          "confusion": false,
+          "tz": "missing"
+        },
+        "update_time": {
+          "score": null,
+          "tag": "correct_empty",
+          "confusion": false,
+          "tz": null
+        }
+      },
+      "content": {
+        "score": 0.9870646766169153,
+        "tag": "ok",
+        "lcs_f1": 0.9910802775024777,
+        "dup_ratio": 0.1952662721893491,
+        "num_f1": 1.0,
+        "para_ratio": 1.0
+      }
+    },
+    {
+      "id": "sohu__05",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": {
+        "score": 1.0,
+        "sim": 1.0,
+        "tag": "ok"
+      },
+      "authors": {
+        "score": 1.0,
+        "tag": "ok"
+      },
+      "time": {
+        "publish_time": {
+          "score": 1.0,
+          "tag": "ok",
+          "confusion": false,
+          "tz": "missing"
+        },
+        "update_time": {
+          "score": null,
+          "tag": "correct_empty",
+          "confusion": false,
+          "tz": null
+        }
+      },
+      "content": {
+        "score": 0.8877551020408163,
+        "tag": "ok",
+        "lcs_f1": 0.91,
+        "dup_ratio": 0.04081632653061224,
+        "num_f1": 0.9411764705882353,
+        "para_ratio": 0.3333333333333333
+      }
+    },
+    {
+      "id": "sohu__06",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": {
+        "score": 1.0,
+        "sim": 1.0,
+        "tag": "ok"
+      },
+      "authors": {
+        "score": 1.0,
+        "tag": "ok"
+      },
+      "time": {
+        "publish_time": {
+          "score": 1.0,
+          "tag": "ok",
+          "confusion": false,
+          "tz": "missing"
+        },
+        "update_time": {
+          "score": null,
+          "tag": "correct_empty",
+          "confusion": false,
+          "tz": null
+        }
+      },
+      "content": {
+        "score": 0.9592476489028213,
+        "tag": "ok",
+        "lcs_f1": 0.9721362229102167,
+        "dup_ratio": 0.054878048780487805,
+        "num_f1": 1.0,
+        "para_ratio": 0.5
+      }
+    },
+    {
+      "id": "ifeng__01",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": {
+        "score": 1.0,
+        "sim": 1.0,
+        "tag": "ok"
+      },
+      "authors": {
+        "score": null,
+        "tag": "correct_empty"
+      },
+      "time": {
+        "publish_time": {
+          "score": 1.0,
+          "tag": "ok",
+          "confusion": false,
+          "tz": "match"
+        },
+        "update_time": {
+          "score": 1.0,
+          "tag": "ok",
+          "confusion": false,
+          "tz": "match"
+        }
+      },
+      "content": {
+        "score": 0.8358886996024986,
+        "tag": "ok",
+        "lcs_f1": 0.8362606232294617,
+        "dup_ratio": 0.12032355915065723,
+        "num_f1": 0.8750000000000001,
+        "para_ratio": 0.9411764705882353
+      }
+    },
+    {
+      "id": "ifeng__02",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": {
+        "score": 1.0,
+        "sim": 1.0,
+        "tag": "ok"
+      },
+      "authors": {
+        "score": 0.0,
+        "tag": "miss"
+      },
+      "time": {
+        "publish_time": {
+          "score": 1.0,
+          "tag": "ok",
+          "confusion": false,
+          "tz": "match"
+        },
+        "update_time": {
+          "score": 1.0,
+          "tag": "ok",
+          "confusion": false,
+          "tz": "match"
+        }
+      },
+      "content": {
+        "score": 0.9615536018895158,
+        "tag": "ok",
+        "lcs_f1": 0.9584262295081967,
+        "dup_ratio": 0.1922389583865203,
+        "num_f1": 0.9696969696969697,
+        "para_ratio": 0.9873417721518988
+      }
+    },
+    {
+      "id": "ifeng__03",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": {
+        "score": 1.0,
+        "sim": 1.0,
+        "tag": "ok"
+      },
+      "authors": {
+        "score": null,
+        "tag": "correct_empty"
+      },
+      "time": {
+        "publish_time": {
+          "score": 1.0,
+          "tag": "ok",
+          "confusion": false,
+          "tz": "match"
+        },
+        "update_time": {
+          "score": null,
+          "tag": "correct_empty",
+          "confusion": false,
+          "tz": null
+        }
+      },
+      "content": {
+        "score": 0.9981206932553768,
+        "tag": "ok",
+        "lcs_f1": 0.998122261631546,
+        "dup_ratio": 0.10502092050209205,
+        "num_f1": 0.9914529914529915,
+        "para_ratio": 0.9696969696969697
+      }
+    },
+    {
+      "id": "ifeng__04",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": {
+        "score": 1.0,
+        "sim": 1.0,
+        "tag": "ok"
+      },
+      "authors": {
+        "score": 1.0,
+        "tag": "ok"
+      },
+      "time": {
+        "publish_time": {
+          "score": 1.0,
+          "tag": "ok",
+          "confusion": false,
+          "tz": "match"
+        },
+        "update_time": {
+          "score": 1.0,
+          "tag": "ok",
+          "confusion": false,
+          "tz": "match"
+        }
+      },
+      "content": {
+        "score": 0.6992481203007518,
+        "tag": "ok",
+        "lcs_f1": 0.7111111111111111,
+        "dup_ratio": 0.1951219512195122,
+        "num_f1": 0.46153846153846156,
+        "para_ratio": 0.3333333333333333
+      }
+    },
+    {
+      "id": "ifeng__05",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": {
+        "score": 1.0,
+        "sim": 1.0,
+        "tag": "ok"
+      },
+      "authors": {
+        "score": 1.0,
+        "tag": "ok"
+      },
+      "time": {
+        "publish_time": {
+          "score": 1.0,
+          "tag": "ok",
+          "confusion": false,
+          "tz": "match"
+        },
+        "update_time": {
+          "score": 1.0,
+          "tag": "ok",
+          "confusion": false,
+          "tz": "match"
+        }
+      },
+      "content": {
+        "score": 0.9445105033690052,
+        "tag": "ok",
+        "lcs_f1": 0.9445544554455445,
+        "dup_ratio": 0.11305007587253414,
+        "num_f1": 0.9752066115702479,
+        "para_ratio": 1.0
+      }
+    },
+    {
+      "id": "caixin__01",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": {
+        "score": null,
+        "sim": null,
+        "tag": "correct_empty"
+      },
+      "authors": {
+        "score": null,
+        "tag": "correct_empty"
+      },
+      "time": {
+        "publish_time": {
+          "score": null,
+          "tag": "correct_empty",
+          "confusion": false,
+          "tz": null
+        },
+        "update_time": {
+          "score": null,
+          "tag": "correct_empty",
+          "confusion": false,
+          "tz": null
+        }
+      },
+      "content": {
+        "score": null,
+        "tag": "correct_empty",
+        "lcs_f1": null,
+        "dup_ratio": null,
+        "num_f1": null,
+        "para_ratio": null
+      }
+    },
+    {
+      "id": "caixin__02",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": {
+        "score": null,
+        "sim": null,
+        "tag": "correct_empty"
+      },
+      "authors": {
+        "score": null,
+        "tag": "correct_empty"
+      },
+      "time": {
+        "publish_time": {
+          "score": null,
+          "tag": "correct_empty",
+          "confusion": false,
+          "tz": null
+        },
+        "update_time": {
+          "score": null,
+          "tag": "correct_empty",
+          "confusion": false,
+          "tz": null
+        }
+      },
+      "content": {
+        "score": null,
+        "tag": "correct_empty",
+        "lcs_f1": null,
+        "dup_ratio": null,
+        "num_f1": null,
+        "para_ratio": null
+      }
+    },
+    {
+      "id": "caixin__03",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": {
+        "score": null,
+        "sim": null,
+        "tag": "correct_empty"
+      },
+      "authors": {
+        "score": null,
+        "tag": "correct_empty"
+      },
+      "time": {
+        "publish_time": {
+          "score": null,
+          "tag": "correct_empty",
+          "confusion": false,
+          "tz": null
+        },
+        "update_time": {
+          "score": null,
+          "tag": "correct_empty",
+          "confusion": false,
+          "tz": null
+        }
+      },
+      "content": {
+        "score": null,
+        "tag": "correct_empty",
+        "lcs_f1": null,
+        "dup_ratio": null,
+        "num_f1": null,
+        "para_ratio": null
+      }
+    },
+    {
+      "id": "caixin__04",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": {
+        "score": null,
+        "sim": null,
+        "tag": "correct_empty"
+      },
+      "authors": {
+        "score": null,
+        "tag": "correct_empty"
+      },
+      "time": {
+        "publish_time": {
+          "score": null,
+          "tag": "correct_empty",
+          "confusion": false,
+          "tz": null
+        },
+        "update_time": {
+          "score": null,
+          "tag": "correct_empty",
+          "confusion": false,
+          "tz": null
+        }
+      },
+      "content": {
+        "score": null,
+        "tag": "correct_empty",
+        "lcs_f1": null,
+        "dup_ratio": null,
+        "num_f1": null,
+        "para_ratio": null
+      }
+    },
+    {
+      "id": "caixin__05",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": {
+        "score": null,
+        "sim": null,
+        "tag": "correct_empty"
+      },
+      "authors": {
+        "score": null,
+        "tag": "correct_empty"
+      },
+      "time": {
+        "publish_time": {
+          "score": null,
+          "tag": "correct_empty",
+          "confusion": false,
+          "tz": null
+        },
+        "update_time": {
+          "score": null,
+          "tag": "correct_empty",
+          "confusion": false,
+          "tz": null
+        }
+      },
+      "content": {
+        "score": null,
+        "tag": "correct_empty",
+        "lcs_f1": null,
+        "dup_ratio": null,
+        "num_f1": null,
+        "para_ratio": null
+      }
+    },
+    {
+      "id": "chinanews__01",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": {
+        "score": 1.0,
+        "sim": 1.0,
+        "tag": "ok"
+      },
+      "authors": {
+        "score": 1.0,
+        "tag": "ok"
+      },
+      "time": {
+        "publish_time": {
+          "score": 1.0,
+          "tag": "ok",
+          "confusion": false,
+          "tz": "match"
+        },
+        "update_time": {
+          "score": null,
+          "tag": "correct_empty",
+          "confusion": false,
+          "tz": null
+        }
+      },
+      "content": {
+        "score": 0.3542600896860986,
+        "tag": "ok",
+        "lcs_f1": 0.36,
+        "dup_ratio": 0.45231607629427795,
+        "num_f1": 0.14634146341463414,
+        "para_ratio": 0.045454545454545456
+      }
+    },
+    {
+      "id": "chinanews__02",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": {
+        "score": 1.0,
+        "sim": 1.0,
+        "tag": "ok"
+      },
+      "authors": {
+        "score": 1.0,
+        "tag": "ok"
+      },
+      "time": {
+        "publish_time": {
+          "score": 1.0,
+          "tag": "ok",
+          "confusion": false,
+          "tz": "match"
+        },
+        "update_time": {
+          "score": null,
+          "tag": "correct_empty",
+          "confusion": false,
+          "tz": null
+        }
+      },
+      "content": {
+        "score": 0.3837953091684435,
+        "tag": "ok",
+        "lcs_f1": 0.3974630021141649,
+        "dup_ratio": 0.4350132625994695,
+        "num_f1": 0.12658227848101267,
+        "para_ratio": 0.125
+      }
+    },
+    {
+      "id": "chinanews__03",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": {
+        "score": 1.0,
+        "sim": 1.0,
+        "tag": "ok"
+      },
+      "authors": {
+        "score": 1.0,
+        "tag": "ok"
+      },
+      "time": {
+        "publish_time": {
+          "score": 1.0,
+          "tag": "ok",
+          "confusion": false,
+          "tz": "match"
+        },
+        "update_time": {
+          "score": null,
+          "tag": "correct_empty",
+          "confusion": false,
+          "tz": null
+        }
+      },
+      "content": {
+        "score": 0.7710651828298888,
+        "tag": "ok",
+        "lcs_f1": 0.7717908082408875,
+        "dup_ratio": 0.3428201811125485,
+        "num_f1": 0.14634146341463414,
+        "para_ratio": 0.3
+      }
+    },
+    {
+      "id": "chinanews__04",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": {
+        "score": 1.0,
+        "sim": 1.0,
+        "tag": "ok"
+      },
+      "authors": {
+        "score": 1.0,
+        "tag": "ok"
+      },
+      "time": {
+        "publish_time": {
+          "score": 1.0,
+          "tag": "ok",
+          "confusion": false,
+          "tz": "match"
+        },
+        "update_time": {
+          "score": null,
+          "tag": "correct_empty",
+          "confusion": false,
+          "tz": null
+        }
+      },
+      "content": {
+        "score": 0.888888888888889,
+        "tag": "ok",
+        "lcs_f1": 0.8836852207293666,
+        "dup_ratio": 0.19611919611919612,
+        "num_f1": 0.25806451612903225,
+        "para_ratio": 0.5531914893617021
+      }
+    },
+    {
+      "id": "chinanews__05",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": {
+        "score": 1.0,
+        "sim": 1.0,
+        "tag": "ok"
+      },
+      "authors": {
+        "score": 1.0,
+        "tag": "ok"
+      },
+      "time": {
+        "publish_time": {
+          "score": 1.0,
+          "tag": "ok",
+          "confusion": false,
+          "tz": "match"
+        },
+        "update_time": {
+          "score": null,
+          "tag": "correct_empty",
+          "confusion": false,
+          "tz": null
+        }
+      },
+      "content": {
+        "score": 0.45901639344262296,
+        "tag": "ok",
+        "lcs_f1": 0.44625407166123776,
+        "dup_ratio": 0.4055793991416309,
+        "num_f1": 0.10256410256410257,
+        "para_ratio": 0.12
+      }
+    },
+    {
+      "id": "chinanews__06",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": {
+        "score": 1.0,
+        "sim": 1.0,
+        "tag": "ok"
+      },
+      "authors": {
+        "score": 1.0,
+        "tag": "ok"
+      },
+      "time": {
+        "publish_time": {
+          "score": 1.0,
+          "tag": "ok",
+          "confusion": false,
+          "tz": "match"
+        },
+        "update_time": {
+          "score": null,
+          "tag": "correct_empty",
+          "confusion": false,
+          "tz": null
+        }
+      },
+      "content": {
+        "score": 0.5193548387096775,
+        "tag": "ok",
+        "lcs_f1": 0.5224358974358975,
+        "dup_ratio": 0.3899782135076253,
+        "num_f1": 0.1647058823529412,
+        "para_ratio": 0.08333333333333333
+      }
+    },
+    {
+      "id": "people__01",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": {
+        "score": 1.0,
+        "sim": 1.0,
+        "tag": "ok"
+      },
+      "authors": {
+        "score": 1.0,
+        "tag": "ok"
+      },
+      "time": {
+        "publish_time": {
+          "score": 1.0,
+          "tag": "ok",
+          "confusion": false,
+          "tz": "match"
+        },
+        "update_time": {
+          "score": null,
+          "tag": "correct_empty",
+          "confusion": false,
+          "tz": null
+        }
+      },
+      "content": {
+        "score": 0.9558870199936528,
+        "tag": "ok",
+        "lcs_f1": 0.9565768621236133,
+        "dup_ratio": 0.27084601339014,
+        "num_f1": 0.5,
+        "para_ratio": 0.5
+      }
+    },
+    {
+      "id": "people__02",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": {
+        "score": 1.0,
+        "sim": 1.0,
+        "tag": "ok"
+      },
+      "authors": {
+        "score": 1.0,
+        "tag": "ok"
+      },
+      "time": {
+        "publish_time": {
+          "score": 1.0,
+          "tag": "ok",
+          "confusion": false,
+          "tz": "match"
+        },
+        "update_time": {
+          "score": null,
+          "tag": "correct_empty",
+          "confusion": false,
+          "tz": null
+        }
+      },
+      "content": {
+        "score": 0.6881720430107527,
+        "tag": "ok",
+        "lcs_f1": 0.6961832061068702,
+        "dup_ratio": 0.19058823529411764,
+        "num_f1": 0.5945945945945945,
+        "para_ratio": 0.1
+      }
+    },
+    {
+      "id": "people__03",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": {
+        "score": 1.0,
+        "sim": 1.0,
+        "tag": "ok"
+      },
+      "authors": {
+        "score": 1.0,
+        "tag": "ok"
+      },
+      "time": {
+        "publish_time": {
+          "score": 1.0,
+          "tag": "ok",
+          "confusion": false,
+          "tz": "match"
+        },
+        "update_time": {
+          "score": null,
+          "tag": "correct_empty",
+          "confusion": false,
+          "tz": null
+        }
+      },
+      "content": {
+        "score": 0.8612051455653351,
+        "tag": "ok",
+        "lcs_f1": 0.861580013504389,
+        "dup_ratio": 0.15256257449344457,
+        "num_f1": 0.4,
+        "para_ratio": 0.20588235294117646
+      }
+    },
+    {
+      "id": "people__04",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": {
+        "score": 1.0,
+        "sim": 1.0,
+        "tag": "ok"
+      },
+      "authors": {
+        "score": 1.0,
+        "tag": "ok"
+      },
+      "time": {
+        "publish_time": {
+          "score": 1.0,
+          "tag": "ok",
+          "confusion": false,
+          "tz": "match"
+        },
+        "update_time": {
+          "score": null,
+          "tag": "correct_empty",
+          "confusion": false,
+          "tz": null
+        }
+      },
+      "content": {
+        "score": 0.8177777777777778,
+        "tag": "ok",
+        "lcs_f1": 0.8184233835252436,
+        "dup_ratio": 0.13423831070889894,
+        "num_f1": 0.5454545454545454,
+        "para_ratio": 0.20588235294117646
+      }
+    },
+    {
+      "id": "people__05",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": {
+        "score": 1.0,
+        "sim": 1.0,
+        "tag": "ok"
+      },
+      "authors": {
+        "score": 1.0,
+        "tag": "ok"
+      },
+      "time": {
+        "publish_time": {
+          "score": 1.0,
+          "tag": "ok",
+          "confusion": false,
+          "tz": "match"
+        },
+        "update_time": {
+          "score": null,
+          "tag": "correct_empty",
+          "confusion": false,
+          "tz": null
+        }
+      },
+      "content": {
+        "score": 0.8281117696867063,
+        "tag": "ok",
+        "lcs_f1": 0.8320675105485232,
+        "dup_ratio": 0.19420289855072465,
+        "num_f1": 0.34782608695652173,
+        "para_ratio": 0.15625
+      }
+    },
+    {
+      "id": "people__06",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": {
+        "score": 1.0,
+        "sim": 1.0,
+        "tag": "ok"
+      },
+      "authors": {
+        "score": 1.0,
+        "tag": "ok"
+      },
+      "time": {
+        "publish_time": {
+          "score": 1.0,
+          "tag": "ok",
+          "confusion": false,
+          "tz": "match"
+        },
+        "update_time": {
+          "score": null,
+          "tag": "correct_empty",
+          "confusion": false,
+          "tz": null
+        }
+      },
+      "content": {
+        "score": 0.8439661798616449,
+        "tag": "ok",
+        "lcs_f1": 0.8475095785440613,
+        "dup_ratio": 0.18933333333333333,
+        "num_f1": 0.5161290322580645,
+        "para_ratio": 0.18181818181818182
+      }
+    },
+    {
+      "id": "cnblogs__01",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": {
+        "score": 1.0,
+        "sim": 1.0,
+        "tag": "ok"
+      },
+      "authors": {
+        "score": 1.0,
+        "tag": "ok"
+      },
+      "time": {
+        "publish_time": {
+          "score": 0.0,
+          "tag": "false_fill",
+          "confusion": false,
+          "tz": null
+        },
+        "update_time": {
+          "score": null,
+          "tag": "correct_empty",
+          "confusion": false,
+          "tz": null
+        }
+      },
+      "content": {
+        "score": 1.0,
+        "tag": "ok",
+        "lcs_f1": 1.0,
+        "dup_ratio": 0.17974180734856007,
+        "num_f1": 1.0,
+        "para_ratio": 1.0
+      }
+    },
+    {
+      "id": "cnblogs__02",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": {
+        "score": 1.0,
+        "sim": 1.0,
+        "tag": "ok"
+      },
+      "authors": {
+        "score": 1.0,
+        "tag": "ok"
+      },
+      "time": {
+        "publish_time": {
+          "score": 0.0,
+          "tag": "false_fill",
+          "confusion": false,
+          "tz": null
+        },
+        "update_time": {
+          "score": null,
+          "tag": "correct_empty",
+          "confusion": false,
+          "tz": null
+        }
+      },
+      "content": {
+        "score": 1.0,
+        "tag": "ok",
+        "lcs_f1": 1.0,
+        "dup_ratio": 0.12931221523106964,
+        "num_f1": 1.0,
+        "para_ratio": 0.9791666666666666
+      }
+    },
+    {
+      "id": "cnblogs__03",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": {
+        "score": 0.0,
+        "sim": 0.0,
+        "tag": "ok"
+      },
+      "authors": {
+        "score": 1.0,
+        "tag": "ok"
+      },
+      "time": {
+        "publish_time": {
+          "score": 0.0,
+          "tag": "false_fill",
+          "confusion": false,
+          "tz": null
+        },
+        "update_time": {
+          "score": null,
+          "tag": "correct_empty",
+          "confusion": false,
+          "tz": null
+        }
+      },
+      "content": {
+        "score": 0.9977746307910176,
+        "tag": "ok",
+        "lcs_f1": 0.9977755308392315,
+        "dup_ratio": 0.26947920872022607,
+        "num_f1": 1.0,
+        "para_ratio": 0.75
+      }
+    },
+    {
+      "id": "cnblogs__04",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": {
+        "score": 0.0,
+        "sim": 0.0,
+        "tag": "ok"
+      },
+      "authors": {
+        "score": 1.0,
+        "tag": "ok"
+      },
+      "time": {
+        "publish_time": {
+          "score": 0.0,
+          "tag": "false_fill",
+          "confusion": false,
+          "tz": null
+        },
+        "update_time": {
+          "score": null,
+          "tag": "correct_empty",
+          "confusion": false,
+          "tz": null
+        }
+      },
+      "content": {
+        "score": 0.9986942070275404,
+        "tag": "ok",
+        "lcs_f1": 0.9986945169712794,
+        "dup_ratio": 0.35637225844694725,
+        "num_f1": 1.0,
+        "para_ratio": 0.6752136752136753
+      }
+    },
+    {
+      "id": "cnblogs__05",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": {
+        "score": 1.0,
+        "sim": 1.0,
+        "tag": "ok"
+      },
+      "authors": {
+        "score": 1.0,
+        "tag": "ok"
+      },
+      "time": {
+        "publish_time": {
+          "score": 0.0,
+          "tag": "false_fill",
+          "confusion": false,
+          "tz": null
+        },
+        "update_time": {
+          "score": null,
+          "tag": "correct_empty",
+          "confusion": false,
+          "tz": null
+        }
+      },
+      "content": {
+        "score": 0.9681581217417395,
+        "tag": "ok",
+        "lcs_f1": 0.9686878914013575,
+        "dup_ratio": 0.40661029976940816,
+        "num_f1": 0.9301470588235294,
+        "para_ratio": 0.6722689075630253
+      }
+    },
+    {
+      "id": "cnblogs__06",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": {
+        "score": 1.0,
+        "sim": 1.0,
+        "tag": "ok"
+      },
+      "authors": {
+        "score": 1.0,
+        "tag": "ok"
+      },
+      "time": {
+        "publish_time": {
+          "score": 0.0,
+          "tag": "false_fill",
+          "confusion": false,
+          "tz": null
+        },
+        "update_time": {
+          "score": null,
+          "tag": "correct_empty",
+          "confusion": false,
+          "tz": null
+        }
+      },
+      "content": {
+        "score": 0.9883550885554894,
+        "tag": "ok",
+        "lcs_f1": 0.9888991173444522,
+        "dup_ratio": 0.43659223932365054,
+        "num_f1": 0.9879518072289156,
+        "para_ratio": 0.4988179669030733
+      }
+    },
+    {
+      "id": "cnblogs__07",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": {
+        "score": 0.0,
+        "sim": 0.0,
+        "tag": "ok"
+      },
+      "authors": {
+        "score": 0.0,
+        "tag": "ok"
+      },
+      "time": {
+        "publish_time": {
+          "score": 0.0,
+          "tag": "false_fill",
+          "confusion": false,
+          "tz": null
+        },
+        "update_time": {
+          "score": null,
+          "tag": "correct_empty",
+          "confusion": false,
+          "tz": null
+        }
+      },
+      "content": {
+        "score": 1.0,
+        "tag": "ok",
+        "lcs_f1": 1.0,
+        "dup_ratio": 0.19172932330827067,
+        "num_f1": 1.0,
+        "para_ratio": 1.0
+      }
+    },
+    {
+      "id": "segmentfault__01",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": {
+        "score": 1.0,
+        "sim": 1.0,
+        "tag": "ok"
+      },
+      "authors": {
+        "score": 1.0,
+        "tag": "ok"
+      },
+      "time": {
+        "publish_time": {
+          "score": 1.0,
+          "tag": "ok",
+          "confusion": false,
+          "tz": "match"
+        },
+        "update_time": {
+          "score": null,
+          "tag": "correct_empty",
+          "confusion": false,
+          "tz": null
+        }
+      },
+      "content": {
+        "score": 0.9773093614383137,
+        "tag": "ok",
+        "lcs_f1": 0.9837650266451853,
+        "dup_ratio": 0.15049155533148476,
+        "num_f1": 0.3,
+        "para_ratio": 0.8760330578512396
+      }
+    },
+    {
+      "id": "segmentfault__02",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": {
+        "score": 1.0,
+        "sim": 1.0,
+        "tag": "ok"
+      },
+      "authors": {
+        "score": 1.0,
+        "tag": "ok"
+      },
+      "time": {
+        "publish_time": {
+          "score": 1.0,
+          "tag": "ok",
+          "confusion": false,
+          "tz": "match"
+        },
+        "update_time": {
+          "score": null,
+          "tag": "correct_empty",
+          "confusion": false,
+          "tz": null
+        }
+      },
+      "content": {
+        "score": 1.0,
+        "tag": "ok",
+        "lcs_f1": 1.0,
+        "dup_ratio": 0.3213870914219346,
+        "num_f1": 1.0,
+        "para_ratio": 0.6850393700787402
+      }
+    },
+    {
+      "id": "segmentfault__03",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": {
+        "score": 1.0,
+        "sim": 1.0,
+        "tag": "ok"
+      },
+      "authors": {
+        "score": 1.0,
+        "tag": "ok"
+      },
+      "time": {
+        "publish_time": {
+          "score": 1.0,
+          "tag": "ok",
+          "confusion": false,
+          "tz": "match"
+        },
+        "update_time": {
+          "score": null,
+          "tag": "correct_empty",
+          "confusion": false,
+          "tz": null
+        }
+      },
+      "content": {
+        "score": 1.0,
+        "tag": "ok",
+        "lcs_f1": 1.0,
+        "dup_ratio": 0.28743654822335024,
+        "num_f1": 1.0,
+        "para_ratio": 0.6047430830039525
+      }
+    },
+    {
+      "id": "segmentfault__04",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": {
+        "score": 1.0,
+        "sim": 1.0,
+        "tag": "ok"
+      },
+      "authors": {
+        "score": 1.0,
+        "tag": "ok"
+      },
+      "time": {
+        "publish_time": {
+          "score": 1.0,
+          "tag": "ok",
+          "confusion": false,
+          "tz": "match"
+        },
+        "update_time": {
+          "score": null,
+          "tag": "correct_empty",
+          "confusion": false,
+          "tz": null
+        }
+      },
+      "content": {
+        "score": 0.9855313487443872,
+        "tag": "ok",
+        "lcs_f1": 0.989529665946485,
+        "dup_ratio": 0.18252100840336136,
+        "num_f1": 0.5333333333333333,
+        "para_ratio": 0.8679245283018868
+      }
+    },
+    {
+      "id": "segmentfault__05",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": {
+        "score": 1.0,
+        "sim": 1.0,
+        "tag": "ok"
+      },
+      "authors": {
+        "score": 1.0,
+        "tag": "ok"
+      },
+      "time": {
+        "publish_time": {
+          "score": 1.0,
+          "tag": "ok",
+          "confusion": false,
+          "tz": "match"
+        },
+        "update_time": {
+          "score": null,
+          "tag": "correct_empty",
+          "confusion": false,
+          "tz": null
+        }
+      },
+      "content": {
+        "score": 0.9988589484771351,
+        "tag": "ok",
+        "lcs_f1": 0.9992101799034664,
+        "dup_ratio": 0.6487174982431483,
+        "num_f1": 0.9924242424242424,
+        "para_ratio": 0.4681528662420382
+      }
+    },
+    {
+      "id": "python_docs__01",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": {
+        "score": 1.0,
+        "sim": 1.0,
+        "tag": "ok"
+      },
+      "authors": {
+        "score": null,
+        "tag": "correct_empty"
+      },
+      "time": {
+        "publish_time": {
+          "score": null,
+          "tag": "correct_empty",
+          "confusion": false,
+          "tz": null
+        },
+        "update_time": {
+          "score": null,
+          "tag": "correct_empty",
+          "confusion": false,
+          "tz": null
+        }
+      },
+      "content": {
+        "score": 0.9968523333789516,
+        "tag": "ok",
+        "lcs_f1": 0.9968540555327589,
+        "dup_ratio": 0.572987721691678,
+        "num_f1": 0.0,
+        "para_ratio": 0.265625
+      }
+    },
+    {
+      "id": "python_docs__02",
+      "rejection": {
+        "should": true,
+        "correct": true
+      }
+    },
+    {
+      "id": "python_docs__03",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": {
+        "score": 1.0,
+        "sim": 1.0,
+        "tag": "ok"
+      },
+      "authors": {
+        "score": null,
+        "tag": "correct_empty"
+      },
+      "time": {
+        "publish_time": {
+          "score": null,
+          "tag": "correct_empty",
+          "confusion": false,
+          "tz": null
+        },
+        "update_time": {
+          "score": null,
+          "tag": "correct_empty",
+          "confusion": false,
+          "tz": null
+        }
+      },
+      "content": {
+        "score": 0.9840828971263754,
+        "tag": "ok",
+        "lcs_f1": 0.9806727175654031,
+        "dup_ratio": 0.6260285838025119,
+        "num_f1": 0.9841269841269841,
+        "para_ratio": 0.32653061224489793
+      }
+    },
+    {
+      "id": "python_docs__04",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": {
+        "score": 1.0,
+        "sim": 1.0,
+        "tag": "ok"
+      },
+      "authors": {
+        "score": null,
+        "tag": "correct_empty"
+      },
+      "time": {
+        "publish_time": {
+          "score": null,
+          "tag": "correct_empty",
+          "confusion": false,
+          "tz": null
+        },
+        "update_time": {
+          "score": null,
+          "tag": "correct_empty",
+          "confusion": false,
+          "tz": null
+        }
+      },
+      "content": {
+        "score": 0.9834643333827672,
+        "tag": "ok",
+        "lcs_f1": 0.9830960854092526,
+        "dup_ratio": 0.7138052171313252,
+        "num_f1": 0.9854469854469855,
+        "para_ratio": 0.2695035460992908
+      }
+    },
+    {
+      "id": "python_docs__05",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": {
+        "score": 1.0,
+        "sim": 1.0,
+        "tag": "ok"
+      },
+      "authors": {
+        "score": null,
+        "tag": "correct_empty"
+      },
+      "time": {
+        "publish_time": {
+          "score": null,
+          "tag": "correct_empty",
+          "confusion": false,
+          "tz": null
+        },
+        "update_time": {
+          "score": null,
+          "tag": "correct_empty",
+          "confusion": false,
+          "tz": null
+        }
+      },
+      "content": {
+        "score": 0.9968863699972011,
+        "tag": "ok",
+        "lcs_f1": 0.9968865878402015,
+        "dup_ratio": 0.8059471211164878,
+        "num_f1": 0.9983471074380166,
+        "para_ratio": 0.24877450980392157
+      }
+    },
+    {
+      "id": "github_blog__01",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": {
+        "score": 1.0,
+        "sim": 1.0,
+        "tag": "ok"
+      },
+      "authors": {
+        "score": 1.0,
+        "tag": "ok"
+      },
+      "time": {
+        "publish_time": {
+          "score": 1.0,
+          "tag": "ok",
+          "confusion": false,
+          "tz": "match"
+        },
+        "update_time": {
+          "score": 1.0,
+          "tag": "ok",
+          "confusion": false,
+          "tz": "match"
+        }
+      },
+      "content": {
+        "score": 0.9745023231216712,
+        "tag": "ok",
+        "lcs_f1": 0.9723911319258224,
+        "dup_ratio": 0.7589128941140545,
+        "num_f1": 0.7777777777777777,
+        "para_ratio": 0.8192771084337349
+      }
+    },
+    {
+      "id": "github_blog__02",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": {
+        "score": 1.0,
+        "sim": 1.0,
+        "tag": "ok"
+      },
+      "authors": {
+        "score": 1.0,
+        "tag": "ok"
+      },
+      "time": {
+        "publish_time": {
+          "score": 1.0,
+          "tag": "ok",
+          "confusion": false,
+          "tz": "match"
+        },
+        "update_time": {
+          "score": 1.0,
+          "tag": "ok",
+          "confusion": false,
+          "tz": "match"
+        }
+      },
+      "content": {
+        "score": 0.9471316085489314,
+        "tag": "ok",
+        "lcs_f1": 0.92419811957353,
+        "dup_ratio": 0.7619841966637402,
+        "num_f1": 0.0,
+        "para_ratio": 0.8055555555555556
+      }
+    },
+    {
+      "id": "github_blog__03",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": {
+        "score": 1.0,
+        "sim": 1.0,
+        "tag": "ok"
+      },
+      "authors": {
+        "score": 1.0,
+        "tag": "ok"
+      },
+      "time": {
+        "publish_time": {
+          "score": 1.0,
+          "tag": "ok",
+          "confusion": false,
+          "tz": "match"
+        },
+        "update_time": {
+          "score": 1.0,
+          "tag": "ok",
+          "confusion": false,
+          "tz": "match"
+        }
+      },
+      "content": {
+        "score": 0.893344709897611,
+        "tag": "ok",
+        "lcs_f1": 0.8530603540200469,
+        "dup_ratio": 0.7134321498333908,
+        "num_f1": 0.9600000000000001,
+        "para_ratio": 0.7307692307692307
+      }
+    },
+    {
+      "id": "github_blog__04",
+      "rejection": {
+        "should": false,
+        "correct": null
+      },
+      "title": {
+        "score": 1.0,
+        "sim": 1.0,
+        "tag": "ok"
+      },
+      "authors": {
+        "score": 1.0,
+        "tag": "ok"
+      },
+      "time": {
+        "publish_time": {
+          "score": 1.0,
+          "tag": "ok",
+          "confusion": false,
+          "tz": "match"
+        },
+        "update_time": {
+          "score": null,
+          "tag": "correct_empty",
+          "confusion": false,
+          "tz": null
+        }
+      },
+      "content": {
+        "score": 0.8668555240793201,
+        "tag": "ok",
+        "lcs_f1": 0.8565207925103419,
+        "dup_ratio": 0.51953125,
+        "num_f1": 0.0,
+        "para_ratio": 0.8095238095238095
+      }
+    }
+  ]
+}
