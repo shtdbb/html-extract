@@ -62,6 +62,13 @@ section{margin-top:64px; border-top:2px solid var(--ink); padding-top:22px;}
 .stat .v small{font-size:13px; color:var(--muted); font-weight:400;}
 .stat .k{font-size:12.5px; color:var(--muted); margin-top:4px;}
 
+/* ---- glossary ---- */
+.glossary{background:var(--surface); border:1px solid var(--hair); border-radius:6px; padding:14px 20px; margin-top:22px; box-shadow:var(--shadow);}
+.glossary dl{display:grid; grid-template-columns:max-content 1fr; gap:4px 18px; margin:0; font-size:13.5px;}
+.glossary dt{font-weight:700; white-space:nowrap;}
+.glossary dd{margin:0; color:var(--muted);}
+@media (max-width:640px){.glossary dl{grid-template-columns:1fr;}}
+
 /* ---- charts ---- */
 .chartgrid{display:grid; grid-template-columns:1fr 1fr; gap:18px; margin-top:18px;}
 @media (max-width:820px){.chartgrid{grid-template-columns:1fr;}}
@@ -104,6 +111,29 @@ tr:last-child td{border-bottom:none;}
 td .pos{color:var(--good); font-weight:600;}
 td .negv{color:var(--bad); font-weight:600;}
 
+/* ---- tooltip ---- */
+.tip{border-bottom:1.5px dotted var(--model); cursor:help;}
+.tip:focus-visible{outline:2px solid var(--rule); outline-offset:2px;}
+.floattip{
+  position:fixed; z-index:50; max-width:330px;
+  background:var(--surface); color:var(--ink);
+  border:1px solid var(--hair-strong); border-radius:6px;
+  box-shadow:0 6px 18px rgba(0,0,0,.2);
+  padding:10px 14px; font-size:12.5px; line-height:1.7; font-family:"Noto Sans SC",sans-serif;
+}
+.floattip b{color:var(--model);}
+
+/* ---- formulas ---- */
+.formula{
+  display:block; overflow-x:auto; white-space:nowrap;
+  font-family:"IBM Plex Mono",monospace; font-size:13.5px;
+  background:var(--code-bg); border-radius:4px;
+  padding:10px 16px; margin:8px 0;
+}
+.formula i{font-family:"Noto Serif SC",serif;}
+.fdef{margin:14px 0 4px; font-weight:700; font-size:14.5px;}
+.fnote{font-size:13px; color:var(--muted); margin:4px 0 14px;}
+
 /* ---- flow diagram ---- */
 .flow{display:flex; flex-direction:column; align-items:center; gap:0; margin:20px auto; max-width:640px;}
 .fnode{width:100%; background:var(--surface); border:1.5px solid var(--hair-strong); border-radius:6px; padding:10px 16px; text-align:center; font-size:13.5px; box-shadow:var(--shadow);}
@@ -114,7 +144,6 @@ td .negv{color:var(--bad); font-weight:600;}
 .farrow{color:var(--muted); font-size:15px; line-height:1; padding:5px 0;}
 .fbranch{display:grid; grid-template-columns:1fr 1fr 1fr; gap:10px; width:100%;}
 @media (max-width:560px){.fbranch{grid-template-columns:1fr;}}
-.flabel{font-family:"IBM Plex Mono",monospace; font-size:11px; letter-spacing:.1em; color:var(--model); text-transform:uppercase; padding:4px 0;}
 
 /* ---- loop diagram ---- */
 .loop{display:grid; grid-template-columns:repeat(auto-fit,minmax(200px,1fr)); gap:10px; margin-top:16px;}
@@ -144,49 +173,60 @@ footer{margin-top:72px; border-top:1px solid var(--hair); padding-top:16px; font
 <header class="masthead">
   <div class="eyebrow">Self-Evolving Extraction · Final Record</div>
   <h1>抽取策略进化志</h1>
-  <p class="lede">离线内容库网页字段抽取（title / content / authors / publish_time / update_time）：从 v4 规则基线到 v15「规则先行 + 门控模型兜底」，11 轮 git 版本化迭代、三套数据集、两条成本曲线的完整自进化记录。</p>
+  <p class="lede">离线内容库网页字段抽取（标题、正文、作者、发布时间、更新时间）的算法链路自进化全记录：从 v4 规则基线到 v15「规则管线优先 + 门控模型补全」的最终方案，共 11 轮经 git 版本化的迭代，覆盖三套数据集与两条成本曲线。</p>
   <div class="meta">
     <span>硬件 <b>Apple M4 Pro 64GB（统一内存）</b></span>
-    <span>模型 <b>Qwen2.5-7B-Instruct Q4_K_M · 本地 ollama</b></span>
+    <span>模型 <b>Qwen2.5-7B-Instruct Q4_K_M · 本地 ollama 部署</b></span>
     <span>最终版本 <b class="mono">v15 · 3d1cb5e</b></span>
-    <span>迭代区间 <b class="mono">fcf7965 → 33cecd0</b></span>
+    <span>版本链 <b class="mono">fcf7965 → ce8244f</b></span>
   </div>
   <div class="statrow">
-    <div class="stat"><div class="v">11</div><div class="k">版本化迭代（v5–v15，含 1 轮回滚）</div></div>
-    <div class="stat"><div class="v">0.962<span style="color:var(--muted)"> / </span>0.971</div><div class="k">dev 终态 title / authors（冻结口径）</div></div>
-    <div class="stat"><div class="v">+0.169</div><div class="k">ISPRAS title 净增（0.637→0.806）</div></div>
-    <div class="stat"><div class="v">+0.252</div><div class="k">ISPRAS publish 净增（0.292→0.544）</div></div>
-    <div class="stat"><div class="v">~700<small> 页/分</small></div><div class="k">纯规则吞吐 · 仅 CPU · RSS ~190MB</div></div>
-    <div class="stat"><div class="v">11%</div><div class="k">dev 模型触发率——成本只落在规则失陷页</div></div>
+    <div class="stat"><div class="v">11</div><div class="k">版本化迭代（v5–v15，含 1 轮实验回滚）</div></div>
+    <div class="stat"><div class="v">0.962<span style="color:var(--muted)"> / </span>0.971</div><div class="k">dev 终态 标题 / 作者（冻结评分口径）</div></div>
+    <div class="stat"><div class="v">+0.169</div><div class="k">ISPRAS 标题净增（0.637→0.806）</div></div>
+    <div class="stat"><div class="v">+0.252</div><div class="k">ISPRAS 发布时间净增（0.292→0.544）</div></div>
+    <div class="stat"><div class="v">~700<small> 页/分</small></div><div class="k">纯规则吞吐 · 仅 CPU · 内存峰值约 190MB</div></div>
+    <div class="stat"><div class="v">11%</div><div class="k">dev 模型补全层触发率——模型成本只落在规则失陷页</div></div>
+  </div>
+  <div class="glossary">
+    <dl>
+      <dt>规则管线</dt><dd>由站点规则库、元数据解析、trafilatura 通用引擎与 DOM 密度回退构成的确定性抽取链路，单页耗时约 85 毫秒，无外部依赖。</dd>
+      <dt>模型补全层</dt><dd>规则管线输出低置信时方才触发的本地大模型补全过程（Qwen2.5-7B，约 2 秒/页）；其输出必须通过页内证据核验方可采纳，否则弃用并回退规则结果。</dd>
+      <dt>触发门控</dt><dd>决定单页是否调用模型的判定逻辑：仅当标题缺失或来源过弱、作者为空、发布时间为空，且未被规则层终判为「本站无此字段」时触发。</dd>
+      <dt>规则层终判</dt><dd>规则管线对特定站点给出的「该字段不存在」的确定性结论；一经终判，模型补全层同样禁止回填该字段。</dd>
+      <dt>误填 / 漏填</dt><dd>误填（false fill）：标注为空而系统给出了值；漏填（miss）：标注有值而系统为空。本方案将误填视为比漏填更严重的事故。</dd>
+      <dt>口径挂起项</dt><dd>系统输出与标注答案不一致、但争议点在标注规范本身的条目；登记挂起、不为此修改标注，也不计入策略缺陷。</dd>
+      <dt>ISPRAS 基准</dt><dd>俄罗斯科学院系统编程研究所（ISPRAS）公开的英文新闻网页抽取评测集，本项目取 160 页 / 80 站作为跨语言外部基准。</dd>
+    </dl>
   </div>
 </header>
 
 <!-- ================= 指标曲线 ================= -->
 <section id="curves">
   <div class="eyebrow">01 · Metric Curves</div>
-  <h2>指标曲线：每轮重评、逐页回归</h2>
-  <p>每轮迭代全量重跑 dev（85 评分页 + 4 负例，score_v2 冻结口径）与 ISPRAS 外部基准（160 页/80 站），指标以机器可读流追加至 <code>loop/metrics_history.jsonl</code>。dev 在 v8 后封顶（残余全部为已登记的 gold 边界分歧挂起项），v10 起的增益全部发生在 ISPRAS——这正是引入外部基准的意义。</p>
+  <h2>指标曲线：逐版本全量重评</h2>
+  <p>每轮迭代对 dev 集（85 个评分页 + 4 个拒识负例，评分器版本冻结）与 ISPRAS 外部基准（160 页 / 80 站）执行全量重评，结果以机器可读形式追加至 <code>loop/metrics_history.jsonl</code>。dev 集在 v8 后趋于饱和（残余失分全部为已登记的口径挂起项），v10 之后的增益全部发生在 ISPRAS——这正是引入外部基准的意义所在。</p>
   <div class="chartgrid">
     <div class="chartbox">
       <h4>dev 集指标（85 页 + 4 负例）</h4>
-      <div class="sub">v8 封顶；残余失分 = gold 挂起项（cnblogs 标题×3 / #post-date×7 / 用户名×1）</div>
+      <div class="sub">v8 封顶；残余失分 = 口径挂起项（cnblogs 标题 3 页、时间字段 7 页、用户名 1 页）</div>
       <canvas id="chDev" height="240"></canvas>
     </div>
     <div class="chartbox">
       <h4>ISPRAS 外部基准（160 页英文站）</h4>
-      <div class="sub">v10 模型臂上线后的主战场；v13 实验回滚（=v12）</div>
+      <div class="sub">v10 模型补全层上线后的主要改进空间；v13 实验回滚（指标同 v12）</div>
       <canvas id="chIspras" height="240"></canvas>
     </div>
     <div class="chartbox wide">
-      <h4>成本：吞吐对比（页/分，越高越好）</h4>
-      <div class="sub">模型臂按门控触发——dev 仅 10/89 页、ISPRAS 约 40% 页承担 ~2s/页的模型成本；模型常驻 12GB 统一内存、零 API 费用</div>
+      <h4>成本：抽取吞吐对比（页/分，越高越好）</h4>
+      <div class="sub">模型补全层按触发门控按需启用——dev 仅 10/89 页、ISPRAS 约 40% 的页面承担约 2 秒/页的模型成本；模型常驻 12GB 统一内存，无 API 调用费用</div>
       <canvas id="chCost" height="200"></canvas>
     </div>
   </div>
   <div class="legend-note">
-    <span><span class="sw" style="background:var(--rule)"></span>规则策略主导的版本</span>
-    <span><span class="sw" style="background:var(--model)"></span>模型臂（EXTRACT_MODEL=1）相关</span>
-    <span>dev 拒识准确率恒 1.000，负例 v9 起 4/4；ISPRAS update 恒 0.017（口径差异，见 §06）</span>
+    <span><span class="sw" style="background:var(--rule)"></span>规则管线主导的改进</span>
+    <span><span class="sw" style="background:var(--model)"></span>模型补全层相关的改进</span>
+    <span>dev 拒识准确率恒为 1.000，拒识负例自 v9 起 4/4；ISPRAS 更新时间与作者两项存在标注口径差异（<span class="tip" tabindex="0" data-tip="ISPRAS 的标注答案普遍不标注 update_time：抽样 50 页中，多数页面元数据含有 dateModified 字段，但标注答案为空。本系统依据页面证据抽取该字段，被基准系统性判为误填；而 dev 集口径恰好相反（更新时间恒为满分）。两套口径对齐之前，抽取与不抽取都会在一侧失分——本方案按 dev 口径保留抽取行为，并如实登记该差异。">悬浮查看口径说明</span>）</span>
   </div>
 </section>
 
@@ -194,121 +234,121 @@ footer{margin-top:72px; border-top:1px solid var(--hair); padding-top:16px; font
 <section id="rounds">
   <div class="eyebrow">02 · Iteration Log</div>
   <h2>迭代全录：每轮的目标问题与策略增量</h2>
-  <p>每轮一个 git commit：目标问题 → 探针定位 → 策略增量 → 全量重跑 + 逐页 diff → 指标入 commit message。回归即修复或回滚，全部留痕。</p>
+  <p>每轮迭代对应一个 git 提交：目标问题 → 探针定位 → 策略增量 → 全量重评与逐页差异比对 → 指标写入提交信息。出现回归即修复或整体回滚，全程留痕可溯。</p>
   <div class="tl">
     <div class="round">
       <div class="vid">v5<span class="hash">b74d34f</span></div>
       <div>
-        <h5>闭环打通<span class="tag rule">基建</span></h5>
-        <div class="aim"><b>目标：</b>无分数目标——建立分层耗时埋点与一键迭代脚本。</div>
-        <span class="delta flat">分数复现验证 · 732 页/分</span>
+        <h5>迭代闭环基础设施建设<span class="tag rule">基建</span></h5>
+        <div class="aim"><b>目标：</b>不设分数目标——建立分层耗时埋点与一键迭代脚本，打通「评估→定位→改进→版本化→再评估」环路。</div>
+        <span class="delta flat">分数完全复现 · 732 页/分</span>
       </div>
     </div>
     <div class="round">
       <div class="vid">v6<span class="hash">34a7dca</span></div>
       <div>
-        <h5>authors 轮<span class="tag rule">规则</span></h5>
-        <div class="aim"><b>目标：</b>authors 0.760、17 页失分——媒体名误作作者、署名扫描 bug、多人漏抓。</div>
-        <ul><li>媒体名过滤表（len≥4 防误伤）+ 署名扫描传真实正文 + 多人/电头排除模式 + 强来源门控</li></ul>
-        <span class="delta up">authors 0.760→0.971 · 零回归</span>
+        <h5>作者字段专项<span class="tag rule">规则</span></h5>
+        <div class="aim"><b>目标问题：</b>作者 F1 仅 0.760、17 页失分——媒体名称被误作作者、署名扫描逻辑存在缺陷、多人署名漏抓。</div>
+        <ul><li>媒体名称过滤表（长度≥4 防止误伤真实人名）+ 署名扫描改为基于真实正文 + 多人署名与新闻电头（如「电（记者某某）」）排除模式 + 强来源门控</li></ul>
+        <span class="delta up">作者 0.760→0.971 · 逐页无回归</span>
       </div>
     </div>
     <div class="round">
       <div class="vid">v7<span class="hash">c90df58</span></div>
       <div>
-        <h5>title 轮①<span class="tag rule">规则</span></h5>
-        <div class="aim"><b>目标：</b>people×6「标题--栏目--人民网」后缀未剥。</div>
-        <ul><li>-- 链先行剥离 + 短栏目段识别；安全核查通过（gold 唯一含 -- 标题不受影响）</li></ul>
-        <span class="delta up">title 0.886→0.962 · 零回归</span>
+        <h5>标题字段专项①：中文站点后缀<span class="tag rule">规则</span></h5>
+        <div class="aim"><b>目标问题：</b>人民网 6 页标题携带「标题--栏目--人民网」后缀未剥离。</div>
+        <ul><li>双连字符后缀链先行剥离 + 短栏目段识别；安全核查确认标注中唯一含双连字符的标题不受影响</li></ul>
+        <span class="delta up">标题 0.886→0.962 · 逐页无回归</span>
       </div>
     </div>
     <div class="round">
       <div class="vid">v8<span class="hash">f17f341</span></div>
       <div>
-        <h5>content 轮<span class="tag rule">规则</span></h5>
-        <div class="aim"><b>目标：</b>chinanews/people/sina——trafilatura 在 CMS 模板上系统性拖入样板。</div>
-        <ul><li>CMS 容器先验（全网流通签名）门控装配：容器≥60字且比 traf 紧凑才接管</li></ul>
-        <span class="delta up">content 0.931→0.982 · dev 封顶</span>
+        <h5>正文字段专项<span class="tag rule">规则</span></h5>
+        <div class="aim"><b>目标问题：</b>中新网、人民网、新浪等页面中，trafilatura 系统性拖入相关推荐与页眉页脚等模板噪声。</div>
+        <ul><li>CMS 容器先验（识别全网流通的内容管理系统签名）门控装配：候选容器不少于 60 字且比 trafilatura 结果更紧凑时方接管</li></ul>
+        <span class="delta up">正文 0.931→0.982 · dev 集封顶</span>
       </div>
     </div>
     <div class="round">
       <div class="vid">v9<span class="hash">ca97da4</span></div>
       <div>
-        <h5>拒识轮<span class="tag rule">规则</span></h5>
-        <div class="aim"><b>目标：</b>photo_set 图集页拒识缺口 + 超薄列表页漏拒（dev 无此类页，合成壳标定）。</div>
-        <ul><li>photo_set 双路径结构识别（图说性判定）+ 超薄列表页信号 + 内容图过滤防误拒</li></ul>
-        <span class="delta up">负例 3/4→4/4 · ISPRAS 全面≥v4</span>
+        <h5>拒识判定专项<span class="tag rule">规则</span></h5>
+        <div class="aim"><b>目标问题：</b>photo_set 图集页与超薄列表页的拒识缺口（dev 无此类页面，以合成样本标定）。</div>
+        <ul><li>图集页双路径结构识别（基于图说性判定）+ 超薄列表页信号 + 内容图过滤以防止误拒正常新闻</li></ul>
+        <span class="delta up">拒识负例 3/4→4/4 · ISPRAS 全面不低于 v4</span>
       </div>
     </div>
     <div class="round">
       <div class="vid">v10<span class="hash">8a0bd30</span></div>
       <div>
-        <h5>模型兜底臂上线<span class="tag model">模型</span></h5>
-        <div class="aim"><b>目标：</b>dev 已饱和，模型臂价值须在外部基准证明（ISPRAS publish 仅 0.292）。</div>
+        <h5>模型补全层上线<span class="tag model">模型</span></h5>
+        <div class="aim"><b>目标问题：</b>dev 集已趋于饱和，模型补全的价值须在外部基准上验证（ISPRAS 发布时间仅 0.292）。</div>
         <ul>
-          <li>门控触发（title 弱/authors 空/publish 空，遵守规则层 final 裁决）→ Qwen2.5-7B 单页单次合并抽取</li>
-          <li>三重核验：值须页内出现 · 署名须独立署名行+过滤链 · 时间须可解析——幻觉被物理阻断</li>
-          <li>同轮三连修：final 裁决贯通 / 媒体名过滤（观察者网）/ 敬称过滤（朱先生）</li>
+          <li>触发门控：标题缺失或来源过弱、作者为空、发布时间为空，且遵守规则层终判——满足其一才调用本地 Qwen2.5-7B，单页单次合并抽取</li>
+          <li>三重输出核验：①值必须在页面文本中实际出现 ②署名须位于独立署名行并通过过滤链 ③时间须可解析——模型只能「定位与摘录」，无法编造页面上不存在的值</li>
+          <li>同轮三项修正：规则层终判向模型层贯通、媒体名称过滤（「观察者网」）、敬称过滤（「朱先生」系报道提及人物而非署名）</li>
         </ul>
-        <span class="delta up">ISPRAS publish 0.292→0.506 · authors→0.319 · dev 零回归</span>
+        <span class="delta up">ISPRAS 发布时间 0.292→0.506 · 作者→0.319 · dev 逐页无回归</span>
       </div>
     </div>
     <div class="round">
       <div class="vid">v11<span class="hash">804d641</span></div>
       <div>
-        <h5>title 轮②：英文品牌后缀<span class="tag rule">规则</span></h5>
-        <div class="aim"><b>目标：</b>ISPRAS title 0 分 58 页中 25+ 页为「Title - Brand | News」英文后缀（v7 只覆盖中文）。</div>
-        <ul><li>站点词干/面包屑/official website/品牌词表四路识别；对抗用例（24kg 词干巧合）不误剥</li></ul>
-        <span class="delta up">ISPRAS title 0.637→0.762 · 零回归</span>
+        <h5>标题字段专项②：英文品牌后缀<span class="tag rule">规则</span></h5>
+        <div class="aim"><b>目标问题：</b>ISPRAS 标题零分 58 页中，25 页以上为「标题 - 品牌 | News」型英文后缀（v7 仅覆盖中文情形）。</div>
+        <ul><li>四路识别：站点词干、面包屑分隔、official website 字样、英文品牌词表；对抗用例（词干巧合嵌入标题本体）验证不误剥</li></ul>
+        <span class="delta up">ISPRAS 标题 0.637→0.762 · 逐页无回归</span>
       </div>
     </div>
     <div class="round">
       <div class="vid">v12<span class="hash">a7083bd</span></div>
       <div>
-        <h5>英文垃圾署名 + 欧式日期<span class="tag rule">规则</span><span class="tag model">核验链</span></h5>
-        <div class="aim"><b>目标：</b>authors false_fill 40 页最大簇；DD.MM.YYYY 欧式日期解析失败 20 页。</div>
+        <h5>英文垃圾署名过滤与欧式日期解析<span class="tag rule">规则</span><span class="tag model">核验链</span></h5>
+        <div class="aim"><b>目标问题：</b>作者误填 40 页为最大失分簇；DD.MM.YYYY 欧式日期解析失败 20 页。</div>
         <ul>
-          <li>垃圾署名三分过滤：社媒/月份词永拒，机构角色词需可见独立署名行佐证（「可见署名=真值」口径）</li>
-          <li>日期两级佐证：整串解析 或 月日+月年跨串 grounding（bna 电头无年份案例）</li>
-          <li>教训：首跑聚合净零掩盖内部对冲——逐页 diff 才暴露 3 类误杀</li>
+          <li>垃圾署名三分过滤：社媒词与月份词一律拒收；机构/角色词须有页面可见的独立署名行佐证（「可见署名即真值」口径）</li>
+          <li>日期证据两级佐证：整串可直接解析，或「月日」与「月年」两种写法跨位置互相印证（电头无年份的情形）</li>
+          <li>教训：首跑聚合分净零掩盖了内部对冲——9 处误填清除被 3 类误杀抵消，逐页差异比对方能暴露</li>
         </ul>
-        <span class="delta up">ISPRAS authors→0.334 · publish→0.519 · 零回归</span>
+        <span class="delta up">ISPRAS 作者→0.334 · 发布时间→0.519 · 逐页无回归</span>
       </div>
     </div>
     <div class="round">
       <div class="vid">v13<span class="hash">cb1b29b</span></div>
       <div>
-        <h5>正文 route-D 实验【回滚】<span class="tag neg">负结果</span></h5>
-        <div class="aim"><b>假设：</b>正文薄（&lt;300字）/臃肿（&gt;6000字）= 抽取失败，模型选容器可修。</div>
-        <ul><li>证伪：gov_ai 为 242/330 字真短讯（原得分 1.00/0.85），扩写反降至 0.18/0.22——「薄=失败」前提不成立；全程 0 正收益 2 负收益，旁路留档</li>
-        <li>附带收益：字段级门控细分，ISPRAS 单轮 309s→132s</li></ul>
-        <span class="delta back">回滚 =v12 · 段落级取舍划归训练方案</span>
+        <h5>正文模型选容器实验【已回滚】<span class="tag neg">负结果</span></h5>
+        <div class="aim"><b>实验假设：</b>正文过短（&lt;300 字）或臃肿（&gt;6000 字）即视为抽取失败，由模型指定正文容器修复。</div>
+        <ul><li>假设被证伪：gov_ai 两页为 242/330 字的真实短讯（原得分 1.00/0.85），扩写后反降至 0.18/0.22——「短即失败」前提不成立；全程 0 正收益、2 页负收益，代码旁路留档</li>
+        <li>附带收益：字段级触发门控细分，ISPRAS 单轮耗时 309 秒→132 秒</li></ul>
+        <span class="delta back">整体回滚至 v12 · 段落级取舍问题移交训练方案</span>
       </div>
     </div>
     <div class="round">
       <div class="vid">v14<span class="hash">6b1bb29</span></div>
       <div>
-        <h5>title 轮③：h1 整标题分歧优先<span class="tag rule">规则</span><span class="tag neg">模型裁决负结果</span></h5>
-        <div class="aim"><b>目标：</b>og:title ≠ gold h1 约 21 页。先试模型二选一裁决——模型偏好 og 短标题，与 gold 口径不一致，改确定性规则。</div>
-        <ul><li>meta 与 h1 互斥时 h1 优先 + 双重守卫：标题位 DOM 区域限定（防 cnblogs 博客标语误翻）+ 栏目词/数字标签拒收（Welcome/Vol 65 No 6）</li></ul>
-        <span class="delta up">ISPRAS title 0.762→0.806 · 8 升 0 回归</span>
+        <h5>标题字段专项③：正文主标题优先<span class="tag rule">规则</span><span class="tag neg">模型裁决负结果</span></h5>
+        <div class="aim"><b>目标问题：</b>约 21 页 og:title 与标注采用的正文主标题（h1）不一致。先尝试模型二选一裁决——模型偏好 og 侧短标题，与标注口径不符，遂改为确定性规则。</div>
+        <ul><li>元数据标题与 h1 互不包含时 h1 优先；双重守卫：h1 须位于正文语义区（防止博客标语误翻转）+ 栏目词与数字标签拒收（Welcome、Vol 65 No 6 等）</li></ul>
+        <span class="delta up">ISPRAS 标题 0.762→0.806 · 8 页提升、逐页无回归</span>
       </div>
     </div>
     <div class="round">
       <div class="vid">v15<span class="hash">3d1cb5e</span></div>
       <div>
-        <h5>publish 轮②：同日时分精化<span class="tag rule">规则</span></h5>
-        <div class="aim"><b>目标：</b>模型/meta 只摘到日，页面另有同日带时分写法（「July 16」vs「16.07.2024 11:58」）。</div>
-        <ul><li>只升精度不新填日期——评分口径下单调非负、无 false_fill 通道；分隔符放行 [/|–-]</li></ul>
-        <span class="delta up">ISPRAS publish 0.519→0.544 · 零回归 · 迭代终止</span>
+        <h5>发布时间专项②：同日时分精度补全<span class="tag rule">规则</span></h5>
+        <div class="aim"><b>目标问题：</b>模型与元数据仅摘录到日期，而页面另处存在同一日期的带时分写法（「July 16」对「16.07.2024 11:58」）。</div>
+        <ul><li>仅提升精度、绝不新填日期——评分口径下单调非负，无误填通道；日期与时分之间的分隔符放行 [/|–-]</li></ul>
+        <span class="delta up">ISPRAS 发布时间 0.519→0.544 · 逐页无回归 · 迭代终止</span>
       </div>
     </div>
     <div class="round">
       <div class="vid">终测<span class="hash">3d1cb5e</span></div>
       <div>
-        <h5>test 28 页一次性聚合<span class="tag rule">纪律</span></h5>
-        <div class="aim"><b>结果：</b>title 0.550 / authors 0.529 / publish 0.467 / update 0.273 / content 0.696 / 拒识 0.125；false_fill 全面为 0。拒识缺口（gmw 模板族）如实登记为残留 badcase，不回调。</div>
-        <span class="delta flat">模板迁移差距 + 拒识泛化缺口，见 §06</span>
+        <h5>test 预留集一次性评测<span class="tag rule">纪律</span></h5>
+        <div class="aim"><b>结果：</b>标题 0.550 / 作者 0.529 / 发布时间 0.467 / 更新时间 0.273 / 正文 0.696 / 拒识 0.125；误填三项全部为 0。拒识缺口（gmw 模板族）如实登记为残留失分案例，不做任何回调。</div>
+        <span class="delta flat">模板迁移差距 + 拒识泛化缺口，详见 §07</span>
       </div>
     </div>
   </div>
@@ -317,37 +357,59 @@ footer{margin-top:72px; border-top:1px solid var(--hair); padding-top:16px; font
 <!-- ================= 最佳方案 ================= -->
 <section id="best">
   <div class="eyebrow">03 · Best Plan</div>
-  <h2>最佳方案：v15 规则先行 + 门控模型兜底</h2>
-  <p>候选终态中，纯规则（~700 页/分、零模型依赖）与全量模型（~30 页/分、幻觉风险）各据一端；门控方案使模型成本精确落在规则失陷页上——dev 11%、ISPRAS 40% 的页面承担全部模型成本，其余页面享受规则速度。生产按吞吐/质量偏好用 <code>EXTRACT_MODEL=1</code> 切换。</p>
+  <h2>最佳方案：v15 规则管线优先 + 门控模型补全</h2>
+  <p>候选终态中，纯规则方案（约 700 页/分、零模型依赖）与全量模型方案（约 30 页/分、且存在编造风险）各据一端；门控方案令模型成本精确落在规则失陷页上——dev 集 11%、ISPRAS 40% 的页面承担全部模型成本，其余页面享受规则速度。生产部署可按吞吐与质量偏好，通过环境变量 <code>EXTRACT_MODEL=1</code> 在两档之间切换。</p>
 
   <div class="flow">
-    <div class="fnode"><b>原始 HTML</b><span class="fn-sub">声明编码优先解码</span></div>
+    <div class="fnode"><b>原始 HTML</b><span class="fn-sub">声明编码优先的解码层</span></div>
     <div class="farrow">▼</div>
-    <div class="fnode"><b>拒识判定</b><span class="fn-sub">空壳 / 列表页 / photo_set 图集 → 拒识记录（dev 4/4）</span></div>
+    <div class="fnode"><b>拒识判定</b><span class="fn-sub">空壳页 / 列表页 / 图集页 → 输出拒识记录（dev 负例 4/4）</span></div>
     <div class="farrow">▼</div>
     <div class="fbranch">
-      <div class="fnode accent"><b>站点规则库</b><span class="fn-sub">3 站 · 可 final 裁决空</span></div>
-      <div class="fnode accent"><b>元数据层</b><span class="fn-sub">meta / json-ld / og:</span></div>
-      <div class="fnode accent"><b>trafilatura</b><span class="fn-sub">通用正文引擎</span></div>
+      <div class="fnode accent"><b>站点规则库</b><span class="fn-sub">3 个高价值站点 · 可作出规则层终判</span></div>
+      <div class="fnode accent"><b>元数据层</b><span class="fn-sub">meta 标签 / JSON-LD / Open Graph</span></div>
+      <div class="fnode accent"><b>trafilatura</b><span class="fn-sub">开源通用正文抽取引擎</span></div>
     </div>
     <div class="farrow">▼</div>
-    <div class="fnode"><b>字段级融合与后处理</b><span class="fn-sub">规则 &gt; final &gt; 元数据 &gt; traf &gt; DOM 回退链 · 品牌后缀剥离 · 署名过滤 · CMS 容器先验 · 时分精化</span></div>
+    <div class="fnode"><b>字段级融合与后处理</b><span class="fn-sub">规则 &gt; 终判 &gt; 元数据 &gt; trafilatura &gt; DOM 回退链 · 品牌后缀剥离 · 署名过滤 · CMS 容器先验 · 时分精度补全</span></div>
     <div class="farrow">▼</div>
-    <div class="fnode model"><b>模型兜底臂（门控）</b><span class="fn-sub">title 弱 / authors 空 / publish 空才触发 · Qwen2.5-7B 单页单次 · format=json · T=0</span></div>
+    <div class="fnode model"><b>模型补全层（触发门控）</b><span class="fn-sub">标题弱 / 作者空 / 发布时间空时方触发 · 本地 Qwen2.5-7B · 单页单次调用 · JSON 格式输出 · 温度为 0</span></div>
     <div class="farrow">▼</div>
-    <div class="fnode model"><b>三重核验链</b><span class="fn-sub">① 值须页内出现（规范化子串） ② 署名须独立署名行 + 三分过滤 ③ 时间须可解析 + 日期两级佐证<br>不通过即弃用，回退规则结果——模型只做「定位/摘录」，不做「生成」</span></div>
+    <div class="fnode model"><b>三重输出核验</b><span class="fn-sub">① 值须在页面文本中实际出现（规范化子串匹配） ② 署名须位于独立署名行并通过三分过滤 ③ 时间须可解析且日期有页内两级佐证<br>核验不通过即弃用并回退规则结果——模型只「定位与摘录」，不「生成」</span></div>
     <div class="farrow">▼</div>
-    <div class="fnode"><b>结构化记录 + provenance</b><span class="fn-sub">每个字段带出处标记，审计可溯</span></div>
+    <div class="fnode"><b>结构化记录 + 来源溯源</b><span class="fn-sub">每个字段携带出处标记，审计可溯</span></div>
   </div>
 
   <h3>最终指标</h3>
+  <p class="muted" style="font-size:13px">带虚线下划线的数值存在标注口径差异，悬浮（或键盘聚焦）可查看具体原因。指标公式定义见 §04。</p>
   <div class="tblwrap">
     <table>
-      <thead><tr><th>数据集</th><th class="num">title</th><th class="num">authors</th><th class="num">publish</th><th class="num">update</th><th class="num">content</th><th class="num">拒识</th><th>说明</th></tr></thead>
+      <thead><tr><th>数据集</th><th class="num">标题</th><th class="num">作者</th><th class="num">发布时间</th><th class="num">更新时间</th><th class="num">正文</th><th class="num">拒识</th><th>说明</th></tr></thead>
       <tbody>
-        <tr><td><b>dev</b> 85+4 页</td><td class="num">0.962</td><td class="num">0.971</td><td class="num">0.892</td><td class="num">1.000</td><td class="num">0.982</td><td class="num">1.000</td><td>残余 = gold 挂起项，非策略错误</td></tr>
-        <tr><td><b>ISPRAS</b> 160 页</td><td class="num">0.806</td><td class="num">0.334</td><td class="num">0.544</td><td class="num">0.017</td><td class="num">0.761</td><td class="num">—</td><td>authors/update 受口径差异压制（§06）</td></tr>
-        <tr><td><b>test</b> 28 页（一次性）</td><td class="num">0.550</td><td class="num">0.529</td><td class="num">0.467</td><td class="num">0.273</td><td class="num">0.696</td><td class="num"><span class="negv">0.125</span></td><td>false_fill 三项全 0；拒识缺口已登记</td></tr>
+        <tr>
+          <td><b>dev</b> 85+4 页</td>
+          <td class="num">0.962</td><td class="num">0.971</td><td class="num">0.892</td><td class="num">1.000</td><td class="num">0.982</td><td class="num">1.000</td>
+          <td>残余失分 = 口径挂起项，非策略错误</td>
+        </tr>
+        <tr>
+          <td><b>ISPRAS</b> 160 页</td>
+          <td class="num"><span class="tip" tabindex="0" data-tip="标题残余失分中约 17 页为英文门户首页：ISPRAS 将其列为抽取对象，而本系统按列表页规范执行拒识（不产出字段）。属任务定义分歧，非抽取错误。">0.806</span></td>
+          <td class="num"><span class="tip" tabindex="0" data-tip="双向口径差异：ISPRAS 标注对页面可见的机构署名（News Team、Citizen Reporter）照标，却又不标部分页面真实可见的人名（如 RG Cruz）。本系统按「可见署名即真值」统一口径抽取，两类页面均产生不可调和失分；且误填与漏填同权计罚，进一步压低绝对分。">0.334</span></td>
+          <td class="num"><span class="tip" tabindex="0" data-tip="发布时间残余失分三类：①14 页标注为空但页面存在可见日期——填入即构成误填（有先例），本方案选择不填；②时区标注与 12 小时制写法差异；③个别页面存在多个日期实例的歧义。">0.544</span></td>
+          <td class="num"><span class="tip" tabindex="0" data-tip="口径不一致：ISPRAS 标注普遍不标注 update_time——抽样 50 页中多数页面元数据含 dateModified，但标注为空。本系统依据页面证据抽取该字段，被基准系统性判为误填；dev 集口径恰好相反（恒为满分）。两套口径对齐之前，抽取与不抽取都会在一侧失分。">0.017</span></td>
+          <td class="num"><span class="tip" tabindex="0" data-tip="正文残余主要为段落级取舍问题：个别页面正文碎为逐段独立段落元素、不存在可选的单一容器（v13 实验已证容器级方法无解）。该问题划归分类头信息抽取模型的适用场景，见 §06 训练方案路线 A。">0.761</span></td>
+          <td class="num">—</td>
+          <td>作者与更新时间受口径差异压制（悬浮查看）</td>
+        </tr>
+        <tr>
+          <td><b>test</b> 28 页（一次性）</td>
+          <td class="num">0.550</td><td class="num">0.529</td>
+          <td class="num">0.467</td>
+          <td class="num"><span class="tip" tabindex="0" data-tip="test 为模板隔离预留集，按评测纪律仅做一次性聚合评测、不逐页归因。更新时间的失分主要来自新模板族的时间写法差异与标注口径差异。">0.273</span></td>
+          <td class="num">0.696</td>
+          <td class="num"><span class="tip" class="negv" tabindex="0" data-tip="拒识泛化缺口：8 个应拒识的图集页仅正确拒识 1 页。v9 的拒识标定集由 chinadaily/sina/people 模板合成，未覆盖 test 的 gmw 模板族。按评测纪律（不读取 test 页面细节、不做回调），如实登记为评测集覆盖不足。">0.125</span></td>
+          <td>误填三项全部为 0；拒识缺口已登记</td>
+        </tr>
       </tbody>
     </table>
   </div>
@@ -355,53 +417,68 @@ footer{margin-top:72px; border-top:1px solid var(--hair); padding-top:16px; font
   <h3>成本与资源</h3>
   <div class="tblwrap">
     <table>
-      <thead><tr><th>配置</th><th class="num">dev 吞吐</th><th class="num">ISPRAS 吞吐</th><th>资源依赖</th><th>适用</th></tr></thead>
+      <thead><tr><th>配置</th><th class="num">dev 吞吐</th><th class="num">ISPRAS 吞吐</th><th>资源依赖</th><th>适用场景</th></tr></thead>
       <tbody>
-        <tr><td>纯规则（默认）</td><td class="num pos">~700 页/分</td><td class="num pos">~485 页/分</td><td>仅 CPU · RSS ~190MB</td><td>高吞吐批量回填</td></tr>
-        <tr><td>规则+模型兜底</td><td class="num">266 页/分</td><td class="num">74 页/分</td><td>ollama 常驻 12GB 统一内存 · 零 API 费</td><td>增量精品库（质量优先）</td></tr>
-        <tr><td>— 其中模型单计</td><td class="num" colspan="2">~51 页/分（~2s/触发页）</td><td>Q4_K_M · 100% GPU（统一内存）</td><td>仅触发页承担</td></tr>
+        <tr><td>纯规则管线（默认）</td><td class="num pos">约 700 页/分</td><td class="num pos">约 485 页/分</td><td>仅 CPU · 内存峰值约 190MB</td><td>高吞吐批量回填</td></tr>
+        <tr><td>规则 + 门控模型补全</td><td class="num">266 页/分</td><td class="num">74 页/分</td><td>ollama 常驻 12GB 统一内存 · 无 API 费用</td><td>增量精品库（质量优先）</td></tr>
+        <tr><td>— 其中模型部分单计</td><td class="num" colspan="2">约 51 页/分（约 2 秒/触发页）</td><td>Q4_K_M 量化 · 100% GPU（统一内存）</td><td>仅触发页承担</td></tr>
       </tbody>
     </table>
   </div>
-  <div class="callout good"><b>模型臂的增量收益（ISPRAS）：</b>publish +0.19、authors +0.05；dev 零变化——dev 规则已近饱和，门控正确地不触发。成本与收益的落点一致，这是门控设计的核心价值。</div>
+  <div class="callout good"><b>模型补全层的增量收益（ISPRAS）：</b>发布时间 +0.19、作者 +0.05；dev 集零变化——dev 上规则已近饱和，触发门控正确地不启用模型。成本与收益的落点一致，这是门控设计的核心价值。</div>
 </section>
 
 <!-- ================= 评测与指标 ================= -->
 <section id="eval">
   <div class="eyebrow">04 · Evaluation & Metrics</div>
-  <h2>评测设计与指标设计</h2>
+  <h2>评测设计与指标定义</h2>
   <div class="cols">
     <div class="panel">
       <h4>数据集分工</h4>
       <ul>
-        <li><b>dev fixed 30</b>：3 个规则站×10 —— 规则库回归基准</li>
-        <li><b>dev generic 55</b>：11 个通用站×5 —— 调优唯一依据</li>
-        <li><b>dev negative 4</b>：频道列表页 —— 拒识负例</li>
-        <li><b>test 28</b>：模板隔离预留（gmw 族，含 8 个应拒识页）—— 交付时一次性、只读聚合</li>
-        <li><b>ISPRAS 160</b>：80 英文站 —— 跨语言泛化验证，非调优集</li>
+        <li><b>dev 固定子集 30 页</b>：3 个规则站点各 10 页——规则库回归基准</li>
+        <li><b>dev 通用子集 55 页</b>：11 个通用站点各 5 页——策略调优的唯一依据</li>
+        <li><b>dev 拒识负例 4 页</b>：频道列表页——拒识判定的负例</li>
+        <li><b>test 预留集 28 页</b>：模板隔离（gmw 站点族，含 8 个应拒识图集页）——交付时一次性评测，只读聚合结果</li>
+        <li><b>ISPRAS 外部基准 160 页</b>：80 个英文站点——跨语言泛化验证，不参与调优</li>
       </ul>
     </div>
     <div class="panel">
       <h4>评测纪律（全程未破）</h4>
       <ul>
-        <li>调优只看 dev；test 全程仅交付时跑一次聚合</li>
-        <li>评分器 score_v2 冻结（49 项单测护住口径）</li>
-        <li>gold 不为分数回改——边界分歧挂起登记（cnblogs×11 项）</li>
-        <li>每轮全量重跑 + 逐页回归 diff；回归即修复或回滚</li>
-        <li>模型输出必须页内可核验——杜绝幻觉通道</li>
+        <li>调优只看 dev；test 全程仅在交付时做一次聚合评测</li>
+        <li>评分器冻结（49 项单元测试护住口径，任何修改即失败）</li>
+        <li>标注答案不为分数回改——边界争议登记为口径挂起项（cnblogs 共 11 项）</li>
+        <li>每轮全量重评 + 逐页差异比对；出现回归即修复或整体回滚</li>
+        <li>模型输出必须页内可核验——从机制上杜绝编造通道</li>
       </ul>
     </div>
   </div>
-  <div class="panel" style="margin-top:18px">
-    <h4>指标口径（v2 冻结）</h4>
-    <ul>
-      <li><b>逐页宏平均</b>；失败永不离开分母（correct_empty 除外）——空 annotation 页猜空得分、猜错扣分</li>
-      <li><b>authors</b>：集合 F1 + false_fill/miss 分解——false_fill 当头等事故（生产上填错作者比漏填更伤信任）</li>
-      <li><b>time</b>：按 gold 精度比较（gold 到日则只比日）+ publish/update 混淆矩阵 + 时区三态</li>
-      <li><b>content</b>：字符 3-gram 多重集 F1 + lcs_f1/dup_ratio/num_f1/para_ratio 四个诊断量</li>
-      <li><b>拒识</b>：互斥分母——应拒识页与正常页分开计</li>
-    </ul>
-  </div>
+
+  <h3>指标公式定义</h3>
+  <p>设评测页集 <i>𝒫</i> = {p₁, …, p<sub>N</sub>}，单页得分 s(p) ∈ [0,1]，主指标均为宏平均：</p>
+  <span class="formula">S = (1/N) · Σ<sub>p∈𝒫</sub> s(p)</span>
+  <p class="fnote">除「正确判空」外，失败样本永不离开分母：标注为空的页面，系统同样答空方得 1 分，答错记 0 分——防止「空页面一律留空」或「一律猜值」两类投机。</p>
+
+  <p class="fdef">① 标题（精确匹配率）</p>
+  <span class="formula">s<sub>title</sub>(p) = 1[ ν(t̂) = ν(t*) ]</span>
+  <p class="fnote">t̂ 为系统输出，t* 为标注答案；ν 为规范化函数（去除空白、大小写折叠、全半角归一化）。另有诊断量 title_sim（归一化编辑相似度）用于区分「完全不符」与「后缀型偏差」，仅作分析、不计入总分。</p>
+
+  <p class="fdef">② 作者（集合 F1）</p>
+  <span class="formula">P = |Â ∩ A*| / |Â|&nbsp;&nbsp;&nbsp;&nbsp;R = |Â ∩ A*| / |A*|&nbsp;&nbsp;&nbsp;&nbsp;s<sub>authors</sub>(p) = 2PR / (P + R)</span>
+  <p class="fnote">A* 为标注作者集合，Â 为预测集合；A* 为空且 Â 为空时记 1 分。配套分解指标：误填率（标注为空而预测非空的页面占比）与漏填率（反之）——本方案将误填视为头等事故，生产环境中填错作者比漏填更损害可信度。</p>
+
+  <p class="fdef">③ 时间（按标注精度截断比较）</p>
+  <span class="formula">s<sub>time</sub>(p) = 1[ trunc(t̂, g) = trunc(t*, g) ],&nbsp;&nbsp;g ∈ {年, 月, 日, 时, 分, 秒}</span>
+  <p class="fnote">g 取标注答案自身的精度：标注精确到日则只比较日期部分，避免「系统多给了时分」反而失分。发布时间与更新时间分别计分，另维护两者的混淆矩阵与时区三态（一致 / 缺失 / 冲突）作为诊断。</p>
+
+  <p class="fdef">④ 正文（字符 3-gram 多重集 F1）</p>
+  <span class="formula">P = Σ<sub>k</sub> min(M̂<sub>k</sub>, M*<sub>k</sub>) / Σ<sub>k</sub> M̂<sub>k</sub>&nbsp;&nbsp;&nbsp;&nbsp;R = Σ<sub>k</sub> min(M̂<sub>k</sub>, M*<sub>k</sub>) / Σ<sub>k</sub> M*<sub>k</sub>&nbsp;&nbsp;&nbsp;&nbsp;s<sub>content</sub>(p) = 2PR / (P + R)</span>
+  <p class="fnote">M̂、M* 分别为预测与标注正文的字符 3-gram 多重集（保留重复计数，对「同一句复制两遍」敏感）。诊断量：LCS-F1（保序程度）、dup_ratio（重复率）、num_f1（数字保真度）、para_ratio（段落结构比）。</p>
+
+  <p class="fdef">⑤ 拒识（互斥分母的拒识准确率）</p>
+  <span class="formula">Acc⁺ = |{p ∈ 𝒫⁺ : 系统拒识 p}| / |𝒫⁺|</span>
+  <p class="fnote">𝒫⁺ 为应拒识页面集（图集、列表页等），正常页面集 𝒫⁻ 的误拒率以 𝒫⁻ 为分母另计——两类分母互斥，防止「全部拒识」或「全部接受」抬高单项数字。</p>
 </section>
 
 <!-- ================= 环路设计 ================= -->
@@ -409,80 +486,80 @@ footer{margin-top:72px; border-top:1px solid var(--hair); padding-top:16px; font
   <div class="eyebrow">05 · The Loop</div>
   <h2>自进化环路设计</h2>
   <div class="loop">
-    <div class="lstep"><b><span class="n">①</span>评估</b>run_iteration.py 全量重跑，score_v2 冻结评分，JSONL 追加</div>
-    <div class="lstep"><b><span class="n">②</span>过程定位</b>probe_*.py 失分页证据 dump：gold/pred/页面上下文/过滤链逐环值</div>
-    <div class="lstep"><b><span class="n">③</span>问题发现</b>按失分形态聚类成簇，找最大可修复簇</div>
-    <div class="lstep"><b><span class="n">④</span>策略制定</b>规则优先（零成本）→ 模型兜底（有核验）→ 口径问题挂起</div>
-    <div class="lstep"><b><span class="n">⑤</span>实现+标定</b>单元对抗用例（gold 121 作者名碰撞核查）+ 合成样本标定</div>
-    <div class="lstep"><b><span class="n">⑥</span>版本管理</b>git commit（指标入 message）+ versions/ 快照 + 迭代日志</div>
-    <div class="lstep"><b><span class="n">⑦</span>回归验证</b>dev 逐页 diff=0 才允许保留；ISPRAS 对照泛化；回归即回滚</div>
-    <div class="lstep" style="border-left-color:var(--model)"><b><span class="n">◆</span>停滞判定</b>边际收益 &lt; 噪声 且残余簇全落入不可继续区 → 终测+梳理</div>
+    <div class="lstep"><b><span class="n">①</span>评估</b>迭代脚本全量重跑，冻结评分器评分，指标追加至机器可读日志</div>
+    <div class="lstep"><b><span class="n">②</span>过程定位</b>探针脚本导出失分页证据：标注 / 预测 / 页面上下文 / 过滤链逐环取值</div>
+    <div class="lstep"><b><span class="n">③</span>问题发现</b>按失分形态聚类成簇，定位规模最大的可修复簇</div>
+    <div class="lstep"><b><span class="n">④</span>策略制定</b>规则优先（零成本）→ 模型补全（有核验）→ 口径问题登记挂起</div>
+    <div class="lstep"><b><span class="n">⑤</span>实现与标定</b>单元对抗用例（如标注中 121 个作者名的误伤碰撞核查）+ 合成样本标定</div>
+    <div class="lstep"><b><span class="n">⑥</span>版本管理</b>git 提交（指标写入提交信息）+ 版本快照 + 迭代日志</div>
+    <div class="lstep"><b><span class="n">⑦</span>回归验证</b>dev 逐页差异为零方可保留；ISPRAS 对照验证泛化；回归即回滚</div>
+    <div class="lstep" style="border-left-color:var(--model)"><b><span class="n">◆</span>停滞判定</b>边际收益低于噪声、且残余失分簇全部落入不可继续区 → 终测与梳理</div>
   </div>
-  <div class="callout"><b>停滞判据（v15 止）：</b>v12 +0.013、v13 零（回滚）、v14 +0.044、v15 +0.025；残余簇全部落入四类不可继续区——①任务定义差异（17 页拒识口径）②gold 口径差异（update dateModified 50 页不标）③false_fill 风险区（14 页 gold 空但有可见日期）④段落级正文取舍 = 分类头模型适用场景（只设计不训练）。</div>
+  <div class="callout"><b>停滞判据（v15 终止）：</b>v12 +0.013、v13 零（回滚）、v14 +0.044、v15 +0.025；残余失分簇全部落入四类不可继续区——①任务定义差异（17 页拒识口径分歧）②标注口径差异（更新时间 50 页元数据含 dateModified 而不标）③误填风险区（14 页标注为空但页面有可见日期）④段落级正文取舍，属分类头模型适用场景（按任务要求仅设计训练方案、不实际训练）。</div>
 </section>
 
 <!-- ================= 训练方案 ================= -->
 <section id="training">
   <div class="eyebrow">06 · Training Plans (Design Only)</div>
-  <h2>训练方案设计（只设计、不训练）</h2>
+  <h2>训练方案设计（仅设计，不实际训练）</h2>
   <div class="cols">
     <div class="panel">
-      <h4>路线 A：分类头 IE 模型<span class="tag model">优先 · 速度导向</span></h4>
+      <h4>路线 A：分类头信息抽取模型<span class="tag model">优先 · 速度导向</span></h4>
       <ul>
-        <li><b>问题定位</b>：规则/LLM 都不擅长的「逐块二分类」——①正文段落级取舍（oup 15K 字壳，正文碎成逐段 &lt;p&gt;，容器级无解，v13 已证）②署名/时间块语义确认</li>
-        <li><b>数据构造</b>：117 页 gold + ISPRAS 160 页为源，DOM 块银标（3-gram 重合度 &gt;0.5 正 / &lt;0.05 负），中间带人工复核约 10%（3-5 万块）；按站点族模板隔离切分；难负例（导航/推荐/页脚）过采样</li>
-        <li><b>架构</b>：mDeBERTa-v3-base（~300MB，CPU 可推理）+ 结构特征拼接（标签深度/链接密度/块序/字号 class 等 ~16 维）→ 二分类头；三任务（正文/署名/时间）共享 encoder 多头</li>
-        <li><b>流程</b>：银标预训练 2-3 epoch → 复核子集微调 → 站点族 k-fold → 块级 F1 与页级 content F1 双门槛验收</li>
-        <li><b>预期收益</b>：oup 类壳页 0.09→0.9+；ISPRAS content→估 0.85+；推理 ~5ms/页（CPU），比 LLM 快 ~400 倍，可全量开启替代门控</li>
+        <li><b>问题定位</b>：规则与大模型都不擅长的「逐块二分类」——①正文段落级取舍（个别页面正文碎为逐段独立元素，容器级选择无解，v13 已证）②署名与时间块的语义确认（区分署名行与分享按钮、推荐位）</li>
+        <li><b>数据构造</b>：以本项目 117 页标注与 ISPRAS 160 页为源，按 DOM 块自动银标——块文本与标注正文的 3-gram 重合度高于 0.5 为正例、低于 0.05 为负例，中间带人工复核约 10%（预计 3–5 万块）；按站点族做模板隔离切分；对导航、推荐位、页脚等难负例过采样</li>
+        <li><b>模型架构</b>：多语小型编码器（mDeBERTa-v3-base，约 300MB，CPU 可推理）；输入为块文本（截断 256 token）与约 16 维结构特征（标签深度、链接密度、块序位置、样式类名信号等）拼接；输出二分类头，正文 / 署名 / 时间三任务共享编码器多头训练</li>
+        <li><b>训练流程</b>：银标预训练 2–3 轮 → 人工复核子集微调 → 按站点族 k 折验证 → 块级 F1 与页级正文 F1 双指标验收（页级不低于现有方案方允许替换）</li>
+        <li><b>预期收益</b>：碎正文壳页从 0.09 提升至 0.9 以上；ISPRAS 正文预计升至 0.85 以上；推理约 5 毫秒/页（CPU 批推理），较大模型方案快约 400 倍，可全量开启、取代触发门控</li>
       </ul>
     </div>
     <div class="panel">
-      <h4>路线 B：小型 LLM 蒸馏<span class="tag rule">备选 · 通用性导向</span></h4>
+      <h4>路线 B：小型大模型蒸馏<span class="tag rule">备选 · 通用性导向</span></h4>
       <ul>
-        <li><b>问题定位</b>：7B 零样本够用但 2s/页 + 12GB 常驻是边缘部署瓶颈；裁决类判断与标注口径不一致（v14 负结果）——零样本模型不懂本任务口径</li>
-        <li><b>数据构造</b>：v10-v15 全部模型调用日志（经核验链通过的正确输出，天然带可核验标签，2000+ 条）+ gold 挂起项按口径文档转指令样本 + 各轮误填案例构造拒答负样本</li>
-        <li><b>架构</b>：Qwen2.5-3B LoRA（秩 16，统一内存可训），输出保持 JSON schema</li>
-        <li><b>流程</b>：训练后仍过 v10 同款核验链——核验链是架构的一部分，不随模型替换取消</li>
-        <li><b>预期收益</b>：兜底延迟 2s→0.5s/页、内存 12GB→3GB；口径对齐后裁决类场景可重新启用（估 title +0.02~0.04）</li>
+        <li><b>问题定位</b>：7B 模型零样本已够用，但 2 秒/页与 12GB 常驻内存构成边缘部署瓶颈；且候选裁决类判断（两个候选标题二选一）与标注口径不一致（v14 负结果）——零样本模型不了解本任务的标注口径</li>
+        <li><b>数据构造</b>：v10–v15 全部模型调用日志中经核验链通过的正确输出（天然附带「页内可核验」标签，2000 余条）+ 口径挂起项按明确口径文档转为指令样本 + 各轮误填案例构造拒答负样本</li>
+        <li><b>模型架构</b>：Qwen2.5-3B + LoRA 微调（秩 16，统一内存可训练），输出保持 JSON 格式约定</li>
+        <li><b>训练流程</b>：训练后仍须通过与 v10 相同的输出核验链——核验链是架构的组成部分，不随模型替换而取消</li>
+        <li><b>预期收益</b>：补全延迟 2 秒→0.5 秒/页、常驻内存 12GB→3GB；口径对齐后裁决类场景可重新启用（预计标题 +0.02~0.04）</li>
       </ul>
     </div>
   </div>
-  <div class="callout"><b>两路线关系：</b>A 解决「块级取舍」（当前完全无解的场景，补盲）；B 解决「成本与口径」（LLM 已有效但贵，优化）。A 优先。</div>
+  <div class="callout"><b>两路线的关系：</b>路线 A 解决「块级取舍」——当前完全无解的场景，属于补盲；路线 B 解决「成本与口径」——大模型已有效但昂贵，属于优化。优先实施路线 A。</div>
 </section>
 
 <!-- ================= 残留与不足 ================= -->
 <section id="residual">
-  <div class="eyebrow">07 · Residual Badcases & Shortcomings</div>
-  <h2>残留 badcase、优化方向与整体不足</h2>
+  <div class="eyebrow">07 · Residual Cases & Shortcomings</div>
+  <h2>残留失分案例、优化方向与整体不足</h2>
   <div class="tblwrap">
     <table>
-      <thead><tr><th>类别</th><th>实例</th><th>现状</th><th>方向</th></tr></thead>
+      <thead><tr><th>类别</th><th>实例</th><th>现状</th><th>优化方向</th></tr></thead>
       <tbody>
-        <tr><td><b>test 拒识 0.125</b></td><td>gmw photo_set×8 仅拒 1</td><td>v9 合成标定壳未覆盖 gmw 模板族；纪律禁止读 test 调优，如实登记</td><td>拒识标定模板族扩充；信号向「正文文本熵」泛化</td></tr>
-        <tr><td>任务定义差异</td><td>ISPRAS 17 页英文门户首页；president_go_kr 真图集</td><td>我方判列表页拒识，ISPRAS 计为抽取目标——口径分歧非错误</td><td>交付声明口径；或拒识+best-effort 双轨输出</td></tr>
-        <tr><td>gold 口径差异</td><td>update 50 页 dateModified 不标；真实人名 false_fill；时区/12 小时制</td><td>与 dev gold 口径不一致，无法同时满足</td><td>统一口径文档；按下游用途声明采用哪套</td></tr>
-        <tr><td>false_fill 风险区</td><td>14 页 gold 空但页面有可见日期</td><td>填则制造 false_fill（gov_cn/qstheory 先例），保持不填</td><td>下游需要时开「宽松模式」开关</td></tr>
-        <tr><td>段落级正文取舍</td><td>oup 15K 字壳、thenewshawks 漏抓</td><td>容器级方法无解（v13 负结果）</td><td>训练方案路线 A（分类头块级模型）</td></tr>
-        <tr><td>dev gold 挂起项</td><td>cnblogs 标题×3 / #post-date×7 / 用户名×1</td><td>边界分歧，登记未动</td><td>与标注方对齐后一次性解除</td></tr>
+        <tr><td><b>test 拒识 0.125</b></td><td>gmw 图集页 8 页仅正确拒识 1 页</td><td>v9 合成标定样本未覆盖 gmw 模板族；评测纪律禁止读取 test 调优，如实登记</td><td>扩充拒识标定的模板族覆盖；拒识信号从「图说性」向「正文文本熵」泛化</td></tr>
+        <tr><td>任务定义差异</td><td>ISPRAS 17 页英文门户首页；president_go_kr 真图集页</td><td>本系统按列表页规范拒识，ISPRAS 计为抽取对象——口径分歧而非错误</td><td>交付时声明口径；或拒识同时输出尽力而为的字段（双轨）</td></tr>
+        <tr><td>标注口径差异</td><td>更新时间 50 页元数据含 dateModified 而不标；真实人名误填；时区与 12 小时制</td><td>与 dev 标注口径不一致，无法同时满足</td><td>制定统一口径文档；按下游用途声明采用口径</td></tr>
+        <tr><td>误填风险区</td><td>14 页标注为空但页面有可见日期</td><td>填入即构成误填（gov_cn、qstheory 已有先例），保持不填</td><td>下游确有需要时提供「宽松模式」开关</td></tr>
+        <tr><td>段落级正文取舍</td><td>oup 页面 15K 字碎正文壳、thenewshawks 正文漏抓</td><td>容器级方法无解（v13 负结果）</td><td>训练方案路线 A（分类头块级模型）</td></tr>
+        <tr><td>dev 口径挂起项</td><td>cnblogs 标题 3 页、时间字段 7 页、用户名 1 页</td><td>边界分歧，登记未动</td><td>与标注方对齐口径后一次性解除</td></tr>
       </tbody>
     </table>
   </div>
 
   <h3>整体不足（诚实清单）</h3>
   <ol class="tight">
-    <li><b>评测</b>：test 仅 28 页且站点族单一（拒识缺口直到终测才暴露）；ISPRAS 与自建 gold 口径差异无正式对齐文档；缺人工主观质量抽检。</li>
-    <li><b>指标</b>：false_fill 与 miss 同权，生产上前者代价通常更高；title 精确匹配对大小写/标点过苛；content 3-gram F1 无法区分「样板混入」与「同义改写」。</li>
-    <li><b>数据</b>：dev 中文门户偏重、英文/小语种偏薄——v11-v15 的英文策略增量实际由 ISPRAS 驱动发现，dev 无法独立发现它们。</li>
-    <li><b>策略</b>：CMS 签名库存在腐化周期需维护；content 依赖 trafilatura 黑盒；拒识对「正文极短的真新闻」存在理论误拒面。</li>
-    <li><b>迭代闭环</b>：模型臂全量重跑 2-5 分钟成为后半段节奏瓶颈；合成标定可被模板覆盖骗过（标定集本身也需版本化）；探针脚本一次性，未沉淀为通用分析台。</li>
-    <li><b>人工参与</b>：仅出现在 gold 标注与挂起登记；缺「按不确定性采样送人工」的常态化抽检队列——核验链能防幻觉，不能判断口径。</li>
-    <li><b>上下游</b>：未考虑渲染（needs_render 空壳页无 headless 臂）、反爬与增量抓取；下游字段消费者契约未定义——它反过来决定 false_fill/miss 的真实代价权重。</li>
+    <li><b>评测</b>：test 仅 28 页且站点族单一（拒识缺口直到终测才暴露）；ISPRAS 与自建标注的口径差异无正式对齐文档，外部基准上的绝对分受口径压制；缺少人工主观质量抽检环节（指标全对不代表可读）。</li>
+    <li><b>指标</b>：误填与漏填同权计分，而生产上前者代价通常更高；标题精确匹配对大小写、标点变体过苛（title_sim 仅作诊断不计分）；正文 3-gram F1 对「多一句少一句」敏感，无法区分「模板噪声混入」与「同义改写」。</li>
+    <li><b>数据</b>：dev 通用子集偏重中文门户，英文、小语种与政府站点偏薄——v11–v15 的英文策略增量实际由 ISPRAS 驱动发现，dev 无法独立暴露这些问题；口径挂起机制依赖人工登记，已累积 11 项未解。</li>
+    <li><b>策略</b>：规则库的内容管理系统签名（容器先验、媒体名表）随模板演进而腐化，需要维护周期；正文字段依赖 trafilatura 黑盒；拒识判定对「正文极短的真实新闻」存在理论上的误拒面。</li>
+    <li><b>迭代闭环</b>：模型补全层参与的全量重评需 2–5 分钟，迭代后半段成为节奏瓶颈；合成标定（v9）被证明可被模板覆盖不足骗过——标定集本身也需要版本化与扩充流程；探针脚本为一次性产物，未沉淀为通用的失分分析台。</li>
+    <li><b>人工参与</b>：人工仅出现在标注与口径挂起登记两处；缺少「按不确定性采样送人工复核」的常态化队列——输出核验链能防止编造，但不能判断口径正误。</li>
+    <li><b>上下游</b>：上游未覆盖渲染（空壳页已标记 needs_render 但无无头浏览器渲染环节）、反爬与增量抓取；下游未定义字段消费者契约（作者角色粒度、更新时间的业务语义、拒识页的双轨输出）——这些契约反过来决定误填与漏填的真实代价权重。</li>
   </ol>
 </section>
 
 <footer>
   <span>项目 <span class="mono">html-extract</span> · 分支 main</span>
-  <span>版本链 <span class="mono">fcf7965 → b74d34f → 34a7dca → c90df58 → f17f341 → ca97da4 → 8a0bd30 → 804d641 → a7083bd → cb1b29b → 6b1bb29 → 3d1cb5e → 33cecd0</span></span>
+  <span>版本链 <span class="mono">fcf7965 → b74d34f → 34a7dca → c90df58 → f17f341 → ca97da4 → 8a0bd30 → 804d641 → a7083bd → cb1b29b → 6b1bb29 → 3d1cb5e → 33cecd0 → ce8244f</span></span>
   <span>配套文档 docs/final_report.md · loop/iteration_log.md · loop/metrics_history.jsonl</span>
 </footer>
 
@@ -496,25 +573,25 @@ footer{margin-top:72px; border-top:1px solid var(--hair); padding-top:16px; font
 
   var DEV_LABELS = ["v4","v5","v6","v7","v8","v9","v10","v11","v12","v13","v14","v15"];
   var dev = {
-    title:   [0.886,0.886,0.886,0.962,0.962,0.962,0.962,0.962,0.962,0.962,0.962,0.962],
-    authors: [0.760,0.760,0.971,0.971,0.971,0.971,0.971,0.971,0.971,0.971,0.971,0.971],
-    publish: [0.892,0.892,0.892,0.892,0.892,0.892,0.892,0.892,0.892,0.892,0.892,0.892],
-    update:  [1.000,1.000,1.000,1.000,1.000,1.000,1.000,1.000,1.000,1.000,1.000,1.000],
-    content: [0.929,0.929,0.929,0.931,0.982,0.982,0.982,0.982,0.982,0.982,0.982,0.982]
+    "标题":   [0.886,0.886,0.886,0.962,0.962,0.962,0.962,0.962,0.962,0.962,0.962,0.962],
+    "作者":   [0.760,0.760,0.971,0.971,0.971,0.971,0.971,0.971,0.971,0.971,0.971,0.971],
+    "发布时间": [0.892,0.892,0.892,0.892,0.892,0.892,0.892,0.892,0.892,0.892,0.892,0.892],
+    "更新时间": [1.000,1.000,1.000,1.000,1.000,1.000,1.000,1.000,1.000,1.000,1.000,1.000],
+    "正文":   [0.929,0.929,0.929,0.931,0.982,0.982,0.982,0.982,0.982,0.982,0.982,0.982]
   };
   var ISP_LABELS = ["v4","v9","v10","v11","v12","v13↩","v14","v15"];
   var isp = {
-    title:   [0.638,0.637,0.637,0.762,0.762,0.762,0.806,0.806],
-    authors: [0.268,0.280,0.319,0.319,0.334,0.334,0.334,0.334],
-    publish: [0.292,0.292,0.506,0.506,0.519,0.519,0.519,0.544],
-    update:  [0.017,0.017,0.017,0.017,0.017,0.017,0.017,0.017],
-    content: [0.761,0.760,0.760,0.761,0.761,0.761,0.761,0.761]
+    "标题":   [0.638,0.637,0.637,0.762,0.762,0.762,0.806,0.806],
+    "作者":   [0.268,0.280,0.319,0.319,0.334,0.334,0.334,0.334],
+    "发布时间": [0.292,0.292,0.506,0.506,0.519,0.519,0.519,0.544],
+    "更新时间": [0.017,0.017,0.017,0.017,0.017,0.017,0.017,0.017],
+    "正文":   [0.761,0.760,0.760,0.761,0.761,0.761,0.761,0.761]
   };
 
   function lineChart(id, labels, series, ymin){
     var ink = css("--ink"), muted = css("--muted"), hair = css("--hair");
-    var colors = {title: css("--rule"), authors: css("--model"), publish: css("--good"),
-                  update: css("--bad"), content: muted};
+    var colors = {"标题": css("--rule"), "作者": css("--model"), "发布时间": css("--good"),
+                  "更新时间": css("--bad"), "正文": muted};
     var ds = Object.keys(series).map(function(k){
       return {label:k, data:series[k], borderColor:colors[k], backgroundColor:colors[k],
               borderWidth:2, pointRadius:2.5, pointHoverRadius:5, tension:0.15};
@@ -543,10 +620,10 @@ footer{margin-top:72px; border-top:1px solid var(--hair); padding-top:16px; font
     return new Chart(document.getElementById("chCost"), {
       type:"bar",
       data:{
-        labels:["dev 集（89 页）","ISPRAS（160 页）","模型单计（触发页）"],
+        labels:["dev 集（89 页）","ISPRAS（160 页）","模型部分单计（触发页）"],
         datasets:[
-          {label:"纯规则", data:[700,485,null], backgroundColor: css("--rule"), borderRadius:3},
-          {label:"规则+模型兜底（端到端）", data:[266,74,51], backgroundColor: css("--model"), borderRadius:3}
+          {label:"纯规则管线", data:[700,485,null], backgroundColor: css("--rule"), borderRadius:3},
+          {label:"规则+门控模型补全（端到端）", data:[266,74,51], backgroundColor: css("--model"), borderRadius:3}
         ]
       },
       options:{
@@ -554,8 +631,8 @@ footer{margin-top:72px; border-top:1px solid var(--hair); padding-top:16px; font
         responsive:true, maintainAspectRatio:true,
         plugins:{
           legend:{labels:{color:ink, font:{family:"'IBM Plex Mono',monospace", size:11}, boxWidth:12}},
-          tooltip:{callbacks:{label:function(c){ return c.dataset.label + ": " + c.parsed.y + " 页/分"; },
-            titleFont:{family:"'IBM Plex Mono',monospace"}, bodyFont:{family:"'IBM Plex Mono',monospace"}}}
+          tooltip:{callbacks:{label:function(c){ return c.dataset.label + ": " + c.parsed.y + " 页/分"; }},
+            titleFont:{family:"'IBM Plex Mono',monospace"}, bodyFont:{family:"'IBM Plex Mono',monospace"}}
         },
         scales:{
           x:{ticks:{color:muted, font:{size:11.5}}, grid:{display:false}},
@@ -573,9 +650,39 @@ footer{margin-top:72px; border-top:1px solid var(--hair); padding-top:16px; font
     charts.push(costChart());
   }
 
+  /* ---- floating tooltips (position:fixed, 避免表格滚动容器裁剪) ---- */
+  var tipEl = null, tipSrc = null;
+  function hideTip(){ if (tipEl){ tipEl.remove(); tipEl = null; tipSrc = null; } }
+  function showTip(src){
+    hideTip();
+    var text = src.getAttribute("data-tip");
+    if (!text) return;
+    tipEl = document.createElement("div");
+    tipEl.className = "floattip";
+    tipEl.textContent = text;
+    tipEl.style.visibility = "hidden";
+    document.body.appendChild(tipEl);
+    var r = src.getBoundingClientRect();
+    var tw = tipEl.offsetWidth, th = tipEl.offsetHeight;
+    var left = Math.min(Math.max(12, r.left + r.width/2 - tw/2), window.innerWidth - tw - 12);
+    var top = r.top - th - 8;
+    if (top < 8) top = r.bottom + 8;
+    tipEl.style.left = left + "px";
+    tipEl.style.top = top + "px";
+    tipEl.style.visibility = "";
+    tipSrc = src;
+  }
+  document.querySelectorAll(".tip").forEach(function(el){
+    el.addEventListener("mouseenter", function(){ showTip(el); });
+    el.addEventListener("mouseleave", hideTip);
+    el.addEventListener("focus", function(){ showTip(el); });
+    el.addEventListener("blur", hideTip);
+  });
+  window.addEventListener("scroll", hideTip, {passive:true});
+
   if (typeof Chart === "undefined") {
     document.querySelectorAll(".chartbox canvas").forEach(function(c){
-      c.insertAdjacentHTML("afterend","<p class='muted' style='font-size:12.5px'>图表库加载失败（离线环境）；数据见 docs/final_report.md §4。</p>");
+      c.insertAdjacentHTML("afterend","<p class='muted' style='font-size:12.5px'>图表库加载失败（离线环境）；全部数据见 docs/final_report.md 第 4 节。</p>");
     });
     return;
   }
