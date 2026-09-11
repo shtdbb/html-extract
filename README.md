@@ -1,12 +1,29 @@
 # 离线库 HTML 结构化提取 — baseline 复现与迭代评测
 
+> ## ⭐ 最新状态（自进化迭代已完成）
+>
+> **最终方案：v15 —— 规则管线优先 + 门控模型补全**（git `3d1cb5e`；本 README 其余部分为任务一 baseline 选型（v1–v4）的原始记录）
+>
+> | 入口 | 地址 |
+> |---|---|
+> | 📊 **可视化报告（GitHub Pages）** | https://shtdbb.github.io/html-extract/ |
+> | 📄 最终报告 | `docs/final_report.md` |
+> | 🧭 逐轮迭代日志（v5–v15） | `loop/iteration_log.md` |
+> | 📈 机器可读指标流 | `loop/metrics_history.jsonl` |
+>
+> **运行提取**：
+> ```bash
+> venv/bin/python extract.py --file <html路径>          # 纯规则，约 85ms/页
+> EXTRACT_MODEL=1 venv/bin/python extract.py --file <html路径>   # 规则+模型补全（需本地 ollama qwen2.5-7b）
+> ```
+
 ## 产物地图
 
 | 路径 | 内容 |
 |---|---|
 | `baseline_selection.md` | 任务一：五路线比较 + 官方文档核查 + dev5 实测 + baseline/对照/门控结论 |
 | `results/dev5_validation.json` | dev5 冒烟原始输出（安装/API/四字段映射/耗时/GBK bytes 行为） |
-| `extract.py` | **最终 baseline 提取器（= v4 冻结快照）** |
+| `extract.py` | **最终方案提取器（v15）**；v4 冻结快照见 `versions/extract_v4.py` |
 | `versions/extract_v1..v4.py` | 迭代留档：v1 trafilatura only → v2 +元数据层 → v3 +站点规则+拒识 → v4 +后缀剥离/署名扫描/时间补全/图片占位符 |
 | `site_rules.py` / `extract_time.py` | fixed 三站规则库（选择器整理自 gold provenance）/ 共享时间解析 |
 | `run_readability.py` | readability-lxml 对照臂 |
