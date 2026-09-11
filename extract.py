@@ -1211,8 +1211,24 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--index", default="dataset_index.jsonl")
     ap.add_argument("--groups", default="fixed,generic,negative")
-    ap.add_argument("--out", required=True)
+    ap.add_argument("--out")
+    ap.add_argument("--file", help="单文件模式：直接解析一个 HTML 文件")
+    ap.add_argument("--site", default="",
+                    help="单文件模式的站点名（命中 SITE_RULES 时启用站点规则库）")
     args = ap.parse_args()
+
+    if args.file:
+        raw = Path(args.file).read_bytes()
+        rec = extract_page(raw, args.site)
+        json.dump(rec, sys.stdout, ensure_ascii=False, indent=2)
+        sys.stdout.write("\n")
+        if _MODEL_ENABLED:
+            from loop.ollama_client import stats
+            s = stats()
+            if s["calls"]:
+                print(f"[model] {s['calls']} 次调用 / {s['total_seconds']:.1f}s",
+                      file=sys.stderr)
+        return
 
     groups = set(args.groups.split(","))
     rows = [json.loads(l) for l in open(ROOT / args.index, encoding="utf-8")]
