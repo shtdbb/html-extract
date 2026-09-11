@@ -151,6 +151,44 @@ td .negv{color:var(--bad); font-weight:600;}
 .lstep b{display:block; font-size:13.5px; margin-bottom:2px;}
 .lstep .n{font-family:"IBM Plex Mono",monospace; color:var(--model); font-weight:600; margin-right:6px;}
 
+/* ---- tabs & case gallery ---- */
+.tabs{display:flex; flex-wrap:wrap; gap:8px; margin-top:14px;}
+.tabbtn{
+  font-family:"Noto Sans SC",sans-serif; font-size:13px; font-weight:500;
+  background:var(--surface); color:var(--ink); border:1px solid var(--hair-strong);
+  border-radius:4px; padding:6px 14px; cursor:pointer;
+}
+.tabbtn:hover{border-color:var(--ink);}
+.tabbtn:focus-visible{outline:2px solid var(--rule); outline-offset:2px;}
+.tabbtn.active{background:var(--ink); color:var(--bg); border-color:var(--ink); font-weight:700;}
+.tabbtn .dot{display:inline-block; width:8px; height:8px; border-radius:50%; margin-right:7px; vertical-align:1px;}
+.tabbtn .dot.g{background:var(--good);}
+.tabbtn .dot.b{background:var(--bad);}
+.tabpanel{margin-top:16px;}
+.case-head{display:flex; flex-wrap:wrap; align-items:center; gap:8px 14px; margin-bottom:10px;}
+.case-head .cid{font-family:"IBM Plex Mono",monospace; font-size:13px; font-weight:600;}
+.case-head .cfrom{font-size:12px; color:var(--muted);}
+.verdict{font-size:11.5px; font-weight:700; letter-spacing:.05em; padding:2px 9px; border-radius:3px;}
+.verdict.g{background:color-mix(in srgb,var(--good) 14%,transparent); color:var(--good);}
+.verdict.b{background:color-mix(in srgb,var(--bad) 13%,transparent); color:var(--bad);}
+.io{display:grid; grid-template-columns:1fr 30px 1fr; gap:10px; align-items:stretch;}
+@media (max-width:720px){.io{grid-template-columns:1fr;} .ioarrow{transform:rotate(90deg); justify-self:center;}}
+.ioarrow{align-self:center; text-align:center; color:var(--muted); font-size:18px;}
+.iobox{border:1px solid var(--hair); border-radius:6px; overflow:hidden; background:var(--surface);}
+.iolabel{font-size:11.5px; font-weight:700; letter-spacing:.08em; color:var(--muted); padding:7px 12px; border-bottom:1px solid var(--hair); background:var(--chip);}
+.iobox pre{
+  margin:0; padding:12px 14px; font-family:"IBM Plex Mono",monospace;
+  font-size:12px; line-height:1.7; overflow:auto; max-height:290px;
+  white-space:pre; color:var(--ink);
+}
+.iobox pre .cm{color:var(--muted);}
+.case-scores{display:flex; flex-wrap:wrap; gap:6px 8px; margin-top:12px;}
+.sc{font-family:"IBM Plex Mono",monospace; font-size:12px; font-weight:600; padding:2px 9px; border-radius:3px; background:var(--chip); color:var(--muted);}
+.sc.ok{color:var(--good);}
+.sc.bad{color:var(--bad);}
+.case-note{font-size:13.5px; color:var(--muted); margin-top:10px;}
+.case-note b{color:var(--ink);}
+
 /* ---- misc blocks ---- */
 .callout{background:var(--surface); border:1px solid var(--hair); border-left:3px solid var(--model); border-radius:4px; padding:12px 18px; margin:14px 0; font-size:14px;}
 .callout.warn{border-left-color:var(--bad);}
@@ -348,7 +386,7 @@ footer{margin-top:72px; border-top:1px solid var(--hair); padding-top:16px; font
       <div>
         <h5>test 预留集一次性评测<span class="tag rule">纪律</span></h5>
         <div class="aim"><b>结果：</b>标题 0.550 / 作者 0.529 / 发布时间 0.467 / 更新时间 0.273 / 正文 0.696 / 拒识 0.125；误填三项全部为 0。拒识缺口（gmw 模板族）如实登记为残留失分案例，不做任何回调。</div>
-        <span class="delta flat">模板迁移差距 + 拒识泛化缺口，详见 §07</span>
+        <span class="delta flat">模板迁移差距 + 拒识泛化缺口，详见 §09</span>
       </div>
     </div>
   </div>
@@ -397,7 +435,7 @@ footer{margin-top:72px; border-top:1px solid var(--hair); padding-top:16px; font
           <td class="num"><span class="tip" tabindex="0" data-tip="双向口径差异：ISPRAS 标注对页面可见的机构署名（News Team、Citizen Reporter）照标，却又不标部分页面真实可见的人名（如 RG Cruz）。本系统按「可见署名即真值」统一口径抽取，两类页面均产生不可调和失分；且误填与漏填同权计罚，进一步压低绝对分。">0.334</span></td>
           <td class="num"><span class="tip" tabindex="0" data-tip="发布时间残余失分三类：①14 页标注为空但页面存在可见日期——填入即构成误填（有先例），本方案选择不填；②时区标注与 12 小时制写法差异；③个别页面存在多个日期实例的歧义。">0.544</span></td>
           <td class="num"><span class="tip" tabindex="0" data-tip="口径不一致：ISPRAS 标注普遍不标注 update_time——抽样 50 页中多数页面元数据含 dateModified，但标注为空。本系统依据页面证据抽取该字段，被基准系统性判为误填；dev 集口径恰好相反（恒为满分）。两套口径对齐之前，抽取与不抽取都会在一侧失分。">0.017</span></td>
-          <td class="num"><span class="tip" tabindex="0" data-tip="正文残余主要为段落级取舍问题：个别页面正文碎为逐段独立段落元素、不存在可选的单一容器（v13 实验已证容器级方法无解）。该问题划归分类头信息抽取模型的适用场景，见 §06 训练方案路线 A。">0.761</span></td>
+          <td class="num"><span class="tip" tabindex="0" data-tip="正文残余主要为段落级取舍问题：个别页面正文碎为逐段独立段落元素、不存在可选的单一容器（v13 实验已证容器级方法无解）。该问题划归分类头信息抽取模型的适用场景，见 §08 训练方案路线 A。">0.761</span></td>
           <td class="num">—</td>
           <td>作者与更新时间受口径差异压制（悬浮查看）</td>
         </tr>
@@ -428,9 +466,327 @@ footer{margin-top:72px; border-top:1px solid var(--hair); padding-top:16px; font
   <div class="callout good"><b>模型补全层的增量收益（ISPRAS）：</b>发布时间 +0.19、作者 +0.05；dev 集零变化——dev 上规则已近饱和，触发门控正确地不启用模型。成本与收益的落点一致，这是门控设计的核心价值。</div>
 </section>
 
+<!-- ================= 样例库 ================= -->
+<section id="cases">
+  <div class="eyebrow">04 · Case Gallery</div>
+  <h2>输入输出样例库</h2>
+  <p>六个真实页面案例（输入 HTML 为原文摘录，输出为 v15 实际产出的 JSON 节选）：三个满分案例分别覆盖规则链路、模型补全层与拒识判定；三个失分案例对应当前残留的三类不可继续区。字段打分口径见 §06。</p>
+
+  <div class="tabs" role="tablist" aria-label="输入输出样例">
+    <button class="tabbtn active" role="tab" aria-selected="true" data-panel="ex1"><span class="dot g"></span>规则链路 · 满分页</button>
+    <button class="tabbtn" role="tab" aria-selected="false" data-panel="ex2"><span class="dot g"></span>模型补全 · 满分页</button>
+    <button class="tabbtn" role="tab" aria-selected="false" data-panel="ex3"><span class="dot g"></span>拒识判定 · 满分页</button>
+    <button class="tabbtn" role="tab" aria-selected="false" data-panel="ex4"><span class="dot b"></span>失分 · 碎正文壳</button>
+    <button class="tabbtn" role="tab" aria-selected="false" data-panel="ex5"><span class="dot b"></span>失分 · 任务定义分歧</button>
+    <button class="tabbtn" role="tab" aria-selected="false" data-panel="ex6"><span class="dot b"></span>失分 · 口径挂起项</button>
+  </div>
+
+  <div class="tabpanel" id="ex1" role="tabpanel">
+    <div class="case-head">
+      <span class="cid">news_cn__01</span>
+      <span class="cfrom">dev 集 · 新华社 · 命中站点规则库，未触发模型补全层（单页约 85ms）</span>
+      <span class="verdict g">满分案例</span>
+    </div>
+    <div class="io">
+      <div class="iobox">
+        <div class="iolabel">输入 HTML（摘录）</div>
+<pre>&lt;meta name="publishdate" content="2025-12-29"&gt;
+&lt;div class="header-time left"&gt;
+  &lt;span class="time"&gt;08:06:55&lt;/span&gt;
+  &lt;span class="source"&gt;来源：新华网&lt;/span&gt;
+&lt;/div&gt;
+&lt;div class="info"&gt;
+  2025-12-29 08:06:55
+&lt;/div&gt;
+&lt;span class="editor"&gt;【责任编辑:王萌萌】&lt;/span&gt;
+&lt;div id="detail"&gt;
+  &lt;p&gt;新华社北京12月29日电 新华社评出2025年
+     国内十大新闻（按事件发生时间先后为序）&lt;/p&gt;
+  <span class="cm">…（正文 3,237 字，含 12 张带图说图片）</span>
+&lt;/div&gt;</pre>
+      </div>
+      <div class="ioarrow">→</div>
+      <div class="iobox">
+        <div class="iolabel">输出 JSON（节选）</div>
+<pre>{
+  "id": "news_cn__01",
+  "title": "新华社评出2025年国内十大新闻",
+  "authors": ["许丛军（摄影）", "王海洲（摄影）",
+              <span class="cm">…共 12 人，含责任编辑</span>],
+  "publish_time": {
+    "value": "2025-12-29 08:06:55",
+    "utc_offset": "+08:00",
+    "utc_offset_source": "inferred_site_locale"
+  },
+  "update_time": null,
+  "content_text": "新华社北京12月29日电 …",
+  "provenance": {
+    "title": "dom://h1[1]",
+    "authors": "span.editor 责任编辑 + 图说摄影署名",
+    "publish_time": "dom://div.info 文本行",
+    "content_text": "dom://div#detail"
+  }
+}</pre>
+      </div>
+    </div>
+    <div class="case-scores">
+      <span class="sc ok">标题 1.00</span><span class="sc ok">作者 1.00</span>
+      <span class="sc ok">发布时间 1.00</span><span class="sc">更新时间 正确判空</span>
+      <span class="sc ok">正文 1.00</span>
+    </div>
+    <p class="case-note"><b>点评：</b>规则站点的理想路径——标题走 h1、时间行与责任编辑由站点规则精确命中，12 位图说摄影署名由署名扫描合并，时区按站点地区推断标注来源。全程无模型调用。</p>
+  </div>
+
+  <div class="tabpanel" id="ex2" role="tabpanel" hidden>
+    <div class="case-head">
+      <span class="cid">ispras__akipress_com__ae4f7a3c</span>
+      <span class="cfrom">ISPRAS · akipress.com（吉尔吉斯斯坦通讯社）· 触发模型补全层（约 2s）</span>
+      <span class="verdict g">满分案例</span>
+    </div>
+    <div class="io">
+      <div class="iobox">
+        <div class="iolabel">输入 HTML（摘录）</div>
+<pre>&lt;meta property="og:title" content="Check into messages
+  with threats sent from prison by man to his former
+  wife mutilated by him ongoing"&gt;
+<span class="cm">&lt;!-- 元数据无发布时间、无作者；页面无独立署名行 → 触发门控 --&gt;</span>
+&lt;div class="addinfo"&gt;
+  &lt;span&gt;&lt;a href="/reg:4/"&gt;Kyrgyzstan&lt;/a&gt;&lt;/span&gt; |
+  &lt;span&gt;&lt;a href="/cat:3/"&gt;justice &amp;amp; crime&lt;/a&gt;&lt;/span&gt; |
+  &lt;span&gt;July 16, 2024 / 11:58 AM&lt;/span&gt;
+&lt;/div&gt;
+&lt;p&gt;AKIPRESS.COM - The special prosecutor's office
+   continues check into messages …<span class="cm">（247 字短讯）</span>&lt;/p&gt;</pre>
+      </div>
+      <div class="ioarrow">→</div>
+      <div class="iobox">
+        <div class="iolabel">输出 JSON（节选）</div>
+<pre>{
+  "id": "ispras__akipress_com__ae4f7a3c",
+  "title": "Check into messages with threats sent
+            from prison by man to his former wife …",
+  "authors": null,
+  "publish_time": {
+    "value": "2024-07-16 11:58:00",
+    "utc_offset": null,
+    "utc_offset_source": null
+  },
+  "update_time": null,
+  "content_text": "AKIPRESS.COM - The special …",
+  "provenance": {
+    "title": "meta:og:title",
+    "publish_time": "model:qwen2.5-7b(verified:
+        parseable | July 16, 2024 / 11:58 AM)"
+  }
+}</pre>
+      </div>
+    </div>
+    <div class="case-scores">
+      <span class="sc ok">标题 1.00</span><span class="sc">作者 正确判空</span>
+      <span class="sc ok">发布时间 1.00</span><span class="sc">更新时间 正确判空</span>
+      <span class="sc ok">正文 0.69</span>
+    </div>
+    <p class="case-note"><b>点评：</b>规则管线缺发布时间，模型补全层摘录「July 16, 2024 / 11:58 AM」——通过「可解析 + 日期页内佐证」双重核验后采纳，v15 的同日时分精度补全将结果提升到时分精度。作者字段页面无署名，模型同样无可核验输出，保持判空（正确）。247 字为真实短讯：v13 已证此类页面不可按「过短」扩写。</p>
+  </div>
+
+  <div class="tabpanel" id="ex3" role="tabpanel" hidden>
+    <div class="case-head">
+      <span class="cid">gmw__04</span>
+      <span class="cfrom">test 预留集 · 光明网 · 图集页（photo_set）</span>
+      <span class="verdict g">满分案例（拒识）</span>
+    </div>
+    <div class="io">
+      <div class="iobox">
+        <div class="iolabel">输入 HTML（摘录）</div>
+<pre>&lt;img src="//img.gmw.cn/pic/gmwLogo_share.jpg" …&gt;
+点击右上角&lt;img src="…/iconshare.png"&gt;微信好友
+&lt;img src="…/pengyouquan.png"&gt;朋友圈
+&lt;p class="m-tipShare"&gt;&lt;img src="…/layershare.png"&gt;&lt;/p&gt;
+<span class="cm">&lt;!-- 全页 23 张内容图、18 张带短图说（人均 69 字），
+     无连续正文段落 → 图集页结构特征 --&gt;</span></pre>
+      </div>
+      <div class="ioarrow">→</div>
+      <div class="iobox">
+        <div class="iolabel">输出 JSON</div>
+<pre>{
+  "id": "gmw__04",
+  "rejected": true,
+  "title": null,
+  "authors": null,
+  "publish_time": null,
+  "update_time": null,
+  "content_text": null,
+  "provenance": {
+    "refusal": "photo_set:content_imgs=18/23,
+                text_per_img=69"
+  }
+}</pre>
+      </div>
+    </div>
+    <div class="case-scores">
+      <span class="sc ok">拒识 ✓ 正确</span>
+      <span class="sc">test 集终测仅聚合口径，逐页分不可得</span>
+    </div>
+    <p class="case-note"><b>点评：</b>图集页双路径识别（内容图占比 18/23 + 图说性判定）判为 photo_set——无正文可抽，直接拒识，避免输出垃圾字段。该页是 test 集 8 个应拒识页面中唯一被正确拒识的一页（其余 7 页同属 gmw 模板族，标定集未覆盖，见 §09）。</p>
+  </div>
+
+  <div class="tabpanel" id="ex4" role="tabpanel" hidden>
+    <div class="case-head">
+      <span class="cid">ispras__oup_com__427c9d0e</span>
+      <span class="cfrom">ISPRAS · academic.oup.com（牛津学术书评页）</span>
+      <span class="verdict b">失分案例</span>
+    </div>
+    <div class="io">
+      <div class="iobox">
+        <div class="iolabel">输入 HTML（摘录）</div>
+<pre>&lt;script type="application/ld+json"&gt;
+  {"@type": "ScholarlyArticle",
+   "name": "Serena Forlati, Review of Freya Baetens …"}
+&lt;/script&gt;
+&lt;meta property="og:title" content="Serena Forlati, …"&gt;
+<span class="cm">&lt;!-- 正文无单一容器：每段是独立的
+     &lt;p class="chapter-para"&gt;，与评审信息、站点壳并列 --&gt;</span>
+&lt;p class="chapter-para"&gt;It is difficult to condense
+   the contents of Freya Baetens' edited collection …&lt;/p&gt;
+&lt;p class="chapter-para"&gt;…&lt;/p&gt;</pre>
+      </div>
+      <div class="ioarrow">→</div>
+      <div class="iobox">
+        <div class="iolabel">输出 JSON（节选）与标注对照</div>
+<pre>{
+  "title": "Serena Forlati, Review of Freya Baetens
+      (ed.), Identity and Diversity …",   <span class="cm">✓ 与标注一致</span>
+  "authors": ["Forlati", "Serena"],     <span class="cm">✗ 标注 ["Serena Forlati"]</span>
+  "publish_time": {"value": "2024-03-11 XX:XX:XX"},  <span class="cm">✓</span>
+  "content_text": "…15,668 字……"        <span class="cm">✗ 正文之外的评审
+       信息与站点壳被一并装入（重复率 0.76）</span>
+}</pre>
+      </div>
+    </div>
+    <div class="case-scores">
+      <span class="sc ok">标题 1.00</span><span class="sc bad">作者 0.00</span>
+      <span class="sc ok">发布时间 1.00</span><span class="sc bad">正文 0.15</span>
+    </div>
+    <p class="case-note"><b>点评：</b>正文碎为逐段独立段落元素，不存在可选的单一容器——容器级方法无解（v13 实验已证模型选容器同样无效）；作者姓名被引擎拆分为两个字并倒序。此形态正是训练方案路线 A（分类头模型逐块判定）的目标场景，见 §08。</p>
+  </div>
+
+  <div class="tabpanel" id="ex5" role="tabpanel" hidden>
+    <div class="case-head">
+      <span class="cid">ispras__crisisgroup_org__66e7f28b</span>
+      <span class="cfrom">ISPRAS · crisisgroup.org · 专题聚合页</span>
+      <span class="verdict b">失分案例（口径分歧）</span>
+    </div>
+    <div class="io">
+      <div class="iobox">
+        <div class="iolabel">输入 HTML（摘录）</div>
+<pre>&lt;title&gt;Coups, Conflicts, and a New Era in Africa
+       | Crisis Group&lt;/title&gt;
+&lt;link rel="canonical" href="https://www.crisisgroup.org/
+      africa/coups-conflicts-and-new-era-africa"&gt;
+<span class="cm">&lt;!-- 页面主体为专题磁贴列表：
+     225 个链接，长链接文本占比 0.57 --&gt;</span>
+&lt;a href="…/latest-updates/event-recording"
+   class="u-tile"&gt;Event Recordings&lt;/a&gt;
+&lt;a href="…/united-states/ripple-effect"
+   class="u-tile"&gt;Ripple Effect&lt;/a&gt;</pre>
+      </div>
+      <div class="ioarrow">→</div>
+      <div class="iobox">
+        <div class="iolabel">输出 JSON 与标注对照</div>
+<pre>{
+  "rejected": true,
+  "provenance": {
+    "refusal": "list_page:long_link_share=0.57, n=225"
+  }
+}
+
+<span class="cm">ISPRAS 标注（计为抽取对象）：</span>
+{
+  "title": "Coups, Conflicts, and a New Era in Africa",
+  "authors": ["Alan Boswell"],
+  "publish_time": {"value": "2023-09-22 XX:XX:XX"},
+  "content_text": "In this episode of The Horn,
+      Alan hosts a roundtable …"
+}</pre>
+      </div>
+    </div>
+    <div class="case-scores">
+      <span class="sc bad">标题 0.00（漏抽）</span><span class="sc bad">作者 0.00</span>
+      <span class="sc bad">发布时间 0.00</span><span class="sc bad">正文 0.00</span>
+    </div>
+    <p class="case-note"><b>点评：</b>按我方规范，链接密度高的聚合页判为列表页并拒识；ISPRAS 将其列为抽取对象并标注了完整字段（实为播客圆桌实录页）。任务定义分歧而非抽取错误——17 页同类页面构成 ISPRAS 标题残余失分的主体，见 §09。</p>
+  </div>
+
+  <div class="tabpanel" id="ex6" role="tabpanel" hidden>
+    <div class="case-head">
+      <span class="cid">cnblogs__01</span>
+      <span class="cfrom">dev 集 · 博客园 · 站点公告页</span>
+      <span class="verdict b">失分案例（口径挂起）</span>
+    </div>
+    <div class="io">
+      <div class="iobox">
+        <div class="iolabel">输入 HTML（摘录）</div>
+<pre>&lt;title&gt;感谢艾思科蓝成为博客园赞助商
+       - 博客园团队 - 博客园&lt;/title&gt;
+&lt;span id="post-date"
+      data-date-updated="2026-01-08 18:00"&gt;
+  2025-12-09 08:56
+&lt;/span&gt;</pre>
+      </div>
+      <div class="ioarrow">→</div>
+      <div class="iobox">
+        <div class="iolabel">输出 JSON（节选）与标注对照</div>
+<pre>{
+  "title": "感谢艾思科蓝成为博客园赞助商",
+          <span class="cm">✓ 后缀「- 博客园团队 - 博客园」已剥离</span>
+  "authors": ["博客园团队"],          <span class="cm">✓</span>
+  "publish_time": {"value": "2025-12-09 08:56:XX"},
+          <span class="cm">✗ 标注为 null → 记误填（口径挂起）</span>
+  "content_text": "…（1,038 字）"      <span class="cm">✓</span>
+}</pre>
+      </div>
+    </div>
+    <div class="case-scores">
+      <span class="sc ok">标题 1.00</span><span class="sc ok">作者 1.00</span>
+      <span class="sc bad">发布时间 0.00（误填 · 挂起）</span><span class="sc ok">正文 1.00</span>
+    </div>
+    <p class="case-note"><b>点评：</b>页面存在可见的 #post-date 时间，系统按「页面可见即抽取」填入；标注对该站公告页不标时间（同型共 7 页）。争议点在标注规范本身——已登记为口径挂起项：不修标注凑分，也不为此改策略。</p>
+  </div>
+</section>
+
+<!-- ================= 字段契约 ================= -->
+<section id="contract">
+  <div class="eyebrow">05 · Field Contract</div>
+  <h2>字段契约：下游使用说明</h2>
+  <p>输出为逐页一条 JSON 记录。下表为字段类型与语义约定；其后的使用要点面向接入方——哪些断言可以依赖、哪些需要自己裁决。</p>
+  <div class="tblwrap">
+    <table>
+      <thead><tr><th>字段</th><th>类型</th><th>语义与约定</th><th>空值语义</th></tr></thead>
+      <tbody>
+        <tr><td class="mono">title</td><td class="mono">string | null</td><td>文章真实标题；站点后缀、栏目链已剥离（中文 -- 链 / 英文品牌段）</td><td>null = 未检出</td></tr>
+        <tr><td class="mono">authors</td><td class="mono">string[] | null</td><td>署名作者（含机构署名），多人按页面出现顺序；已过媒体名 / 社媒词 / 敬称 / 机构角色过滤</td><td>null = 页面无署名或未检出</td></tr>
+        <tr><td class="mono">publish_time<br>update_time</td><td class="mono">object | null</td><td><code>{value, utc_offset, utc_offset_source}</code>；value 固定 <code>YYYY-MM-DD HH:MM:SS</code> 形，<b>未知位以 XX 占位</b>（如 <code>2024-03-11 XX:XX:XX</code> 表示仅知日期）</td><td>null = 未检出或规则层终判本站无此字段</td></tr>
+        <tr><td class="mono">content_text</td><td class="mono">string</td><td>纯文本正文；图片以 <code>[[IMG_n]]</code> 占位，与 <code>images[n]</code> 一一对应（图说在 <code>images[n].caption</code>）；Markdown 形态见 <code>content_md</code></td><td>拒识页为 null</td></tr>
+        <tr><td class="mono">rejected</td><td class="mono">boolean</td><td>true = 系统判定该页无可抽取正文（列表页 / 图集 / 空壳），<b>全部字段为空</b>，原因见 <code>provenance.refusal</code></td><td>—</td></tr>
+        <tr><td class="mono">provenance</td><td class="mono">object</td><td>逐字段出处标记：<code>dom://…</code> 站点规则、<code>meta:</code>/<code>json-ld:</code> 元数据、<code>trafilatura:…</code> 通用引擎、<code>model:qwen2.5-7b(verified:…)</code> 模型补全（已通过页内核验）、<code>refusal</code> 拒识理由</td><td>—</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h3>接入要点</h3>
+  <ol class="tight">
+    <li><b>空值语义不区分「页面确实没有」与「系统没抽到」</b>。需要区分时查 provenance：带规则层终判标记的字段属于前者；其余 null 视为「低置信留空」。</li>
+    <li><b>时间比较按公共精度截断</b>：value 中的 XX 为未知位，下游做相等性判断或排序时应按非 XX 前缀截断（与评分口径一致）。utc_offset 可能为 null（页面未给时区）；<code>utc_offset_source = inferred_site_locale</code> 表示时区按站点地区推断、并非页面显式给出——跨时区聚合时需留意。</li>
+    <li><b>全方案按「宁缺勿滥」调校</b>：test 集误填三项全部为 0。字段为 null 更可能是「谨慎不答」而非「漏看」；若下游宁可多不可缺，可在重标定后开启宽松模式（涉及拒识与时间字段的判定阈值）。</li>
+    <li><b>拒识记录应跳过或走双轨</b>：rejected=true 不产出任何字段。注意任务定义分歧——部分上游（如 ISPRAS）把专题聚合页列为抽取对象；如下游需要，可改为「拒识标记 + 尽力而为字段」双轨输出。</li>
+    <li><b>模型产出可识别、可剥离</b>：provenance 以 <code>model:</code> 前缀标记模型补全层产出（均已通过页内核验链）。对来源敏感的下游可按来源过滤——只采信规则与元数据来源的字段，退化为纯规则方案。</li>
+    <li><b>作者为署名原文</b>：保留「（摄影）」「（责任编辑）」等角色后缀与机构署名原文；角色结构化（摄影 / 执笔 / 责编分列）属于下游归一化的职责，本层不做。</li>
+  </ol>
+</section>
+
 <!-- ================= 评测与指标 ================= -->
 <section id="eval">
-  <div class="eyebrow">04 · Evaluation & Metrics</div>
+  <div class="eyebrow">06 · Evaluation & Metrics</div>
   <h2>评测设计与指标定义</h2>
   <div class="cols">
     <div class="panel">
@@ -483,7 +839,7 @@ footer{margin-top:72px; border-top:1px solid var(--hair); padding-top:16px; font
 
 <!-- ================= 环路设计 ================= -->
 <section id="loop">
-  <div class="eyebrow">05 · The Loop</div>
+  <div class="eyebrow">07 · The Loop</div>
   <h2>自进化环路设计</h2>
   <div class="loop">
     <div class="lstep"><b><span class="n">①</span>评估</b>迭代脚本全量重跑，冻结评分器评分，指标追加至机器可读日志</div>
@@ -500,7 +856,7 @@ footer{margin-top:72px; border-top:1px solid var(--hair); padding-top:16px; font
 
 <!-- ================= 训练方案 ================= -->
 <section id="training">
-  <div class="eyebrow">06 · Training Plans (Design Only)</div>
+  <div class="eyebrow">08 · Training Plans (Design Only)</div>
   <h2>训练方案设计（仅设计，不实际训练）</h2>
   <div class="cols">
     <div class="panel">
@@ -529,7 +885,7 @@ footer{margin-top:72px; border-top:1px solid var(--hair); padding-top:16px; font
 
 <!-- ================= 残留与不足 ================= -->
 <section id="residual">
-  <div class="eyebrow">07 · Residual Cases & Shortcomings</div>
+  <div class="eyebrow">09 · Residual Cases & Shortcomings</div>
   <h2>残留失分案例、优化方向与整体不足</h2>
   <div class="tblwrap">
     <table>
@@ -649,6 +1005,20 @@ footer{margin-top:72px; border-top:1px solid var(--hair); padding-top:16px; font
     charts.push(lineChart("chIspras", ISP_LABELS, isp, 0.0));
     charts.push(costChart());
   }
+
+  /* ---- tabs ---- */
+  document.querySelectorAll(".tabbtn").forEach(function(b){
+    b.addEventListener("click", function(){
+      document.querySelectorAll(".tabbtn").forEach(function(x){
+        x.classList.remove("active"); x.setAttribute("aria-selected","false");
+      });
+      b.classList.add("active"); b.setAttribute("aria-selected","true");
+      document.querySelectorAll(".tabpanel").forEach(function(p){ p.hidden = true; });
+      var panel = document.getElementById(b.getAttribute("data-panel"));
+      if (panel) panel.hidden = false;
+      hideTip();
+    });
+  });
 
   /* ---- floating tooltips (position:fixed, 避免表格滚动容器裁剪) ---- */
   var tipEl = null, tipSrc = null;
